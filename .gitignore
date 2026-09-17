@@ -1,0 +1,53 @@
+## Visual Studio / .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## NuGet
+*.nupkg
+*.nupkg.metadata
+*.cache
+packages/
+*.nupkg.props
+*.nupkg.targets
+
+## Test / cache
+.vstest/
+testresults/
+[Tt]est[Rr]esult*/
+*.iTrace
+[Dd]ebugPS/
+[Rr]eleasePS/
+
+## ClickOnce publish
+publish/
+*.publish.xml
+
+## Signing keys
+*.pfx
+
+## Misc
+*.log
+*.tmp
+*.temp
+.gitignore.local
+.vscode/
+
+## Ignore folder uji coba
+.gittest/

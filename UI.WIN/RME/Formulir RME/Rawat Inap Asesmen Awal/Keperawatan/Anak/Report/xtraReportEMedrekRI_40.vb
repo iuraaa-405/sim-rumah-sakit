@@ -1,0 +1,156 @@
+﻿Public Class xtraReportEMedrekRI_40
+    Private Sub GroupFooter1_BeforePrint(sender As Object, e As Printing.PrintEventArgs) Handles GroupFooter1.BeforePrint
+        Dim cek416 As Boolean = Report.GetCurrentColumnValue("ASESMEN_416")
+        Dim cek417 As Boolean = Report.GetCurrentColumnValue("ASESMEN_417")
+        Dim cek418 As Boolean = Report.GetCurrentColumnValue("ASESMEN_418")
+        Dim cek419 As Boolean = Report.GetCurrentColumnValue("ASESMEN_419")
+        Dim cek420 As Boolean = Report.GetCurrentColumnValue("ASESMEN_420")
+        Dim cek421 As Boolean = Report.GetCurrentColumnValue("ASESMEN_421")
+        Dim cek422 As Boolean = Report.GetCurrentColumnValue("ASESMEN_422")
+        Dim cek423 As Boolean = Report.GetCurrentColumnValue("ASESMEN_423")
+        Dim cek424 As Boolean = Report.GetCurrentColumnValue("ASESMEN_424")
+        Dim cek425 As Boolean = Report.GetCurrentColumnValue("ASESMEN_425")
+        Dim cek426 As Boolean = Report.GetCurrentColumnValue("ASESMEN_426")
+        Dim cek427 As Boolean = Report.GetCurrentColumnValue("ASESMEN_427")
+        Dim cek428 As Boolean = Report.GetCurrentColumnValue("ASESMEN_428")
+        Dim cek429 As Boolean = Report.GetCurrentColumnValue("ASESMEN_429")
+        Dim cek430 As Boolean = Report.GetCurrentColumnValue("ASESMEN_430")
+        Dim cek431 As Boolean = Report.GetCurrentColumnValue("ASESMEN_431")
+        Dim cek432 As Boolean = Report.GetCurrentColumnValue("ASESMEN_432")
+        Dim cek433 As Boolean = Report.GetCurrentColumnValue("ASESMEN_433")
+        Dim cek434 As Boolean = Report.GetCurrentColumnValue("ASESMEN_434")
+        Dim cek435 As Boolean = Report.GetCurrentColumnValue("ASESMEN_435")
+        Dim cek436 As Boolean = Report.GetCurrentColumnValue("ASESMEN_436")
+        Dim cek437 As Boolean = Report.GetCurrentColumnValue("ASESMEN_437")
+        Dim cek438 As Boolean = Report.GetCurrentColumnValue("ASESMEN_438")
+        Dim cek439 As String = Report.GetCurrentColumnValue("ASESMEN_439")
+
+
+        If cek416 = false And
+           cek417 = false And
+           cek418 = false And
+           cek419 = false And
+           cek420 = false And
+           cek421 = false And
+           cek422 = false And
+           cek423 = false And
+           cek424 = false And
+           cek425 = false And
+           cek426 = false And
+           cek427 = false And
+           cek428 = false And
+           cek429 = false And
+           cek430 = false And
+           cek431 = false And
+           cek432 = false And
+           cek433 = false And
+           cek434 = false And
+           cek435 = false And
+           cek436 = false And
+           cek437 = false And
+           cek438 = false And
+           cek439 = "" Then
+            GroupFooter1.Visible = False
+        Else
+            GroupFooter1.Visible = True
+        End If
+    End Sub
+
+    Private Sub GroupFooter2_BeforePrint(sender As Object, e As Printing.PrintEventArgs) Handles GroupFooter2.BeforePrint
+        Dim cek1 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_1")
+        Dim cek2 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_2")
+        Dim cek3 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_3")
+        Dim cek4 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_4")
+        Dim cek5 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_5")
+        Dim cek6 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_6")
+        Dim cek7 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_7")
+        Dim cek8 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_8")
+        Dim cek9 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_9")
+        Dim cek10 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_10")
+        Dim cek11 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_11")
+        Dim cek12 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_12")
+        Dim cek13 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_13")
+        Dim cek14 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_14")
+        Dim cek15 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_15")
+        Dim cek16 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_16")
+        Dim cek17 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_17")
+        Dim cek18 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_18")
+        Dim cek19 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_19")
+        Dim cek20 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_20")
+        Dim cek21 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_21")
+        Dim cek22 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_22")
+        Dim cek23 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_23")
+        Dim cek24 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_24")
+        Dim cek25 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_25")
+        Dim cek26 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_26")
+        Dim cek27 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_27")
+        Dim cek28 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_28")
+        Dim cek29 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_29")
+        Dim cek30 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_30")
+        Dim cek31 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_31")
+        Dim cek32 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_32")
+        Dim cek33 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_33")
+        Dim cek34 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_34")
+        Dim cek35 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_35")
+        Dim cek36 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_36")
+        Dim cek37 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_37")
+        Dim cek38 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_38")
+        Dim cek39 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_39")
+        Dim cek40 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_40")
+        Dim cek41 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_41")
+        Dim cek42 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_42")
+        Dim cek43 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_43")
+        Dim cek44 As Boolean = Report.GetCurrentColumnValue("MASALAHKEP_44")
+        Dim cektext As String = Report.GetCurrentColumnValue("MASALAHKEP_44_TEXT")
+
+        If cek1 = false And
+            cek2 = false And
+            cek3 = false And
+            cek4 = false And
+            cek5 = false And
+            cek6 = false And
+            cek7 = false And
+            cek8 = false And
+            cek9 = false And
+            cek10 = false And
+            cek11 = false And
+            cek12 = false And
+            cek13 = false And
+            cek14 = false And
+            cek15 = false And
+            cek16 = false And
+            cek17 = false And
+            cek18 = false And
+            cek19 = false And
+            cek20 = false And
+            cek21 = false And
+            cek22 = false And
+            cek23 = false And
+            cek24 = false And
+            cek25 = false And
+            cek26 = false And
+            cek27 = false And
+            cek28 = false And
+            cek29 = false And
+            cek30 = false And
+            cek31 = false And
+            cek32 = false And
+            cek33 = false And
+            cek34 = false And
+            cek35 = false And
+            cek36 = false And
+            cek37 = false And
+            cek38 = false And
+            cek39 = false And
+            cek40 = false And
+            cek41 = false And
+            cek42 = false And
+            cek43 = false And
+            cek44 = false And
+            cektext = "" Then
+            GroupFooter2.Visible = False
+        Else
+            GroupFooter2.Visible = True
+        End If
+    End Sub
+End Class

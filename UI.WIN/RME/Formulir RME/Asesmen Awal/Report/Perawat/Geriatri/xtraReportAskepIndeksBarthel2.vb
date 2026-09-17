@@ -1,0 +1,3 @@
+﻿Public Class xtraReportAskepIndeksBarthel2
+
+End Class
