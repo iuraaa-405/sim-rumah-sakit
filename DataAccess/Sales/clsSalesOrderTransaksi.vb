@@ -779,6 +779,7 @@
                 Dim dsTelaahObat1 = oConnection.db.S_SO_TRANSAKSI_H_TELAAHOBAT1s.Where(Function(x) x.KDSOTRANSAKSI = sKDSOTRANSAKSI)
                 Dim dsTelaahObat2 = oConnection.db.S_SO_TRANSAKSI_H_TELAAHOBAT2s.Where(Function(x) x.KDSOTRANSAKSI = sKDSOTRANSAKSI)
                 Dim dsRadiologi = oConnection.db.S_SO_TRANSAKSI_D_HASIL_LABORATORIUMs.Where(Function(x) x.KDSOTRANSAKSI = sKDSOTRANSAKSI)
+                Dim dspacs = oConnection.db.S_SO_TRANSAKSI_PACSSIMPANs.Where(Function(x) x.KDSOTRANSAKSI = sKDSOTRANSAKSI)
 
                 Dim oSalesOrderTransaksiHapus As New Sales.clsSalesOrderTransaksi
 
@@ -854,6 +855,9 @@
                     End If
                     If dsRadiologi.Count > 0 Then
                         oConnection.db.S_SO_TRANSAKSI_D_HASIL_LABORATORIUMs.DeleteAllOnSubmit(dsRadiologi)
+                    End If
+                    If dspacs.Count > 0 Then
+                        oConnection.db.S_SO_TRANSAKSI_PACSSIMPANs.DeleteAllOnSubmit(dspacs)
                     End If
                 Catch ex As Exception
                     oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)

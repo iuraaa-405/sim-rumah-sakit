@@ -232,12 +232,15 @@ Namespace Order
                 Dim ds = oConnection.dbRME.R_ORDERs.FirstOrDefault(Function(x) x.KDORDER = sKDORDER)
                 Dim dsLainnya = oConnection.dbRME.R_ORDER_LAINNYAs.FirstOrDefault(Function(x) x.KDORDER = sKDORDER)
                 Dim dsDetail = oConnection.dbRME.R_ORDER_NONRACIKANs.Where(Function(x) x.KDORDER = sKDORDER)
+                Dim dsDetailAntrian = oConnection.dbRME.R_ORDER_ANTRIANFARMASIs.Where(Function(x) x.KDORDER = sKDORDER)
 
                 Try
                     oConnection.dbRME.R_ORDERs.DeleteOnSubmit(ds)
                     oConnection.dbRME.R_ORDER_LAINNYAs.DeleteOnSubmit(dsLainnya)
                     oConnection.dbRME.R_ORDER_NONRACIKANs.DeleteAllOnSubmit(dsDetail)
-
+                    If dsDetailAntrian.Count > 0 Then
+                        oConnection.dbRME.R_ORDER_ANTRIANFARMASIs.DeleteAllOnSubmit(dsDetailAntrian)
+                    End If
                 Catch ex As Exception
                     'oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
                     Throw ex

@@ -172,34 +172,35 @@ Partial Class frmSalesOrderTanpaResep
         Me.layoutControl.Controls.Add(Me.txtKDSOTRANPARESEP)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1231, 208, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(790, 549)
+        Me.layoutControl.Size = New System.Drawing.Size(1185, 799)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
         'txtTUSLAH
         '
-        Me.txtTUSLAH.EnterMoveNextControl = true
-        Me.txtTUSLAH.Location = New System.Drawing.Point(630, 445)
+        Me.txtTUSLAH.EnterMoveNextControl = True
+        Me.txtTUSLAH.Location = New System.Drawing.Point(893, 659)
         Me.txtTUSLAH.MenuManager = Me.barManager
         Me.txtTUSLAH.Name = "txtTUSLAH"
-        Me.txtTUSLAH.Properties.Appearance.Options.UseTextOptions = true
+        Me.txtTUSLAH.Properties.Appearance.Options.UseTextOptions = True
         Me.txtTUSLAH.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.txtTUSLAH.Properties.Mask.EditMask = "n2"
         Me.txtTUSLAH.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.txtTUSLAH.Properties.Mask.UseMaskAsDisplayFormat = true
+        Me.txtTUSLAH.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.txtTUSLAH.Properties.NullText = "0.00"
-        Me.txtTUSLAH.Properties.ReadOnly = true
-        Me.txtTUSLAH.Size = New System.Drawing.Size(148, 20)
+        Me.txtTUSLAH.Properties.ReadOnly = True
+        Me.txtTUSLAH.Size = New System.Drawing.Size(274, 26)
         Me.txtTUSLAH.StyleController = Me.layoutControl
         Me.txtTUSLAH.TabIndex = 38
-        Me.txtTUSLAH.TabStop = false
+        Me.txtTUSLAH.TabStop = False
         '
         'barManager
         '
-        Me.barManager.AllowQuickCustomization = false
+        Me.barManager.AllowQuickCustomization = False
         Me.barManager.Bars.AddRange(New DevExpress.XtraBars.Bar() {Me.barTop})
         Me.barManager.DockControls.Add(Me.barDockControlTop)
         Me.barManager.DockControls.Add(Me.barDockControlBottom)
@@ -218,9 +219,9 @@ Partial Class frmSalesOrderTanpaResep
         Me.barTop.DockRow = 0
         Me.barTop.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom
         Me.barTop.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.btnSaveNew), New DevExpress.XtraBars.LinkPersistInfo(Me.btnSaveClose), New DevExpress.XtraBars.LinkPersistInfo(Me.btnClose)})
-        Me.barTop.OptionsBar.DrawDragBorder = false
-        Me.barTop.OptionsBar.MultiLine = true
-        Me.barTop.OptionsBar.UseWholeRow = true
+        Me.barTop.OptionsBar.DrawDragBorder = False
+        Me.barTop.OptionsBar.MultiLine = True
+        Me.barTop.OptionsBar.UseWholeRow = True
         Me.barTop.Text = "Main menu"
         '
         'btnSaveNew
@@ -243,54 +244,58 @@ Partial Class frmSalesOrderTanpaResep
         '
         'barDockControlTop
         '
-        Me.barDockControlTop.CausesValidation = false
+        Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(790, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1185, 0)
         '
         'barDockControlBottom
         '
-        Me.barDockControlBottom.CausesValidation = false
+        Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 549)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(790, 22)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 799)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1185, 36)
         '
         'barDockControlLeft
         '
-        Me.barDockControlLeft.CausesValidation = false
+        Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 549)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 799)
         '
         'barDockControlRight
         '
-        Me.barDockControlRight.CausesValidation = false
+        Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(790, 0)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 549)
+        Me.barDockControlRight.Location = New System.Drawing.Point(1185, 0)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 799)
         '
         'progressBarSave
         '
         Me.progressBarSave.Name = "progressBarSave"
-        Me.progressBarSave.Stopped = true
+        Me.progressBarSave.Stopped = True
         '
         'progressSave
         '
         Me.progressSave.Name = "progressSave"
-        Me.progressSave.Paused = true
+        Me.progressSave.Paused = True
         '
         'grdKDWAREHOUSE
         '
         Me.grdKDWAREHOUSE.EditValue = ""
-        Me.grdKDWAREHOUSE.EnterMoveNextControl = true
-        Me.grdKDWAREHOUSE.Location = New System.Drawing.Point(512, 12)
+        Me.grdKDWAREHOUSE.EnterMoveNextControl = True
+        Me.grdKDWAREHOUSE.Location = New System.Drawing.Point(715, 18)
         Me.grdKDWAREHOUSE.MenuManager = Me.barManager
         Me.grdKDWAREHOUSE.Name = "grdKDWAREHOUSE"
         Me.grdKDWAREHOUSE.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDWAREHOUSE.Properties.NullText = ""
         Me.grdKDWAREHOUSE.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDWAREHOUSE.Properties.View = Me.GridView2
-        Me.grdKDWAREHOUSE.Size = New System.Drawing.Size(266, 20)
+        Me.grdKDWAREHOUSE.Size = New System.Drawing.Size(452, 26)
         Me.grdKDWAREHOUSE.StyleController = Me.layoutControl
         Me.grdKDWAREHOUSE.TabIndex = 25
         '
@@ -299,129 +304,129 @@ Partial Class frmSalesOrderTanpaResep
         Me.GridView2.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn11})
         Me.GridView2.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView2.Name = "GridView2"
-        Me.GridView2.OptionsSelection.EnableAppearanceFocusedCell = false
-        Me.GridView2.OptionsView.ShowAutoFilterRow = true
-        Me.GridView2.OptionsView.ShowGroupPanel = false
+        Me.GridView2.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.GridView2.OptionsView.ShowAutoFilterRow = True
+        Me.GridView2.OptionsView.ShowGroupPanel = False
         '
         'GridColumn11
         '
         Me.GridColumn11.Caption = "Name Display"
         Me.GridColumn11.FieldName = "NAME_DISPLAY"
         Me.GridColumn11.Name = "GridColumn11"
-        Me.GridColumn11.Visible = true
+        Me.GridColumn11.Visible = True
         Me.GridColumn11.VisibleIndex = 0
         '
         'txtNOMORTELEPON
         '
-        Me.txtNOMORTELEPON.Location = New System.Drawing.Point(117, 84)
+        Me.txtNOMORTELEPON.Location = New System.Drawing.Point(123, 114)
         Me.txtNOMORTELEPON.MenuManager = Me.barManager
         Me.txtNOMORTELEPON.Name = "txtNOMORTELEPON"
-        Me.txtNOMORTELEPON.Size = New System.Drawing.Size(286, 20)
+        Me.txtNOMORTELEPON.Size = New System.Drawing.Size(481, 26)
         Me.txtNOMORTELEPON.StyleController = Me.layoutControl
         Me.txtNOMORTELEPON.TabIndex = 47
         '
         'txtNAMAPASIEN
         '
-        Me.txtNAMAPASIEN.Location = New System.Drawing.Point(117, 60)
+        Me.txtNAMAPASIEN.Location = New System.Drawing.Point(123, 82)
         Me.txtNAMAPASIEN.MenuManager = Me.barManager
         Me.txtNAMAPASIEN.Name = "txtNAMAPASIEN"
-        Me.txtNAMAPASIEN.Size = New System.Drawing.Size(286, 20)
+        Me.txtNAMAPASIEN.Size = New System.Drawing.Size(481, 26)
         Me.txtNAMAPASIEN.StyleController = Me.layoutControl
         Me.txtNAMAPASIEN.TabIndex = 47
         '
         'txtGRANDTOTAL
         '
-        Me.txtGRANDTOTAL.EnterMoveNextControl = true
-        Me.txtGRANDTOTAL.Location = New System.Drawing.Point(630, 517)
+        Me.txtGRANDTOTAL.EnterMoveNextControl = True
+        Me.txtGRANDTOTAL.Location = New System.Drawing.Point(893, 755)
         Me.txtGRANDTOTAL.MenuManager = Me.barManager
         Me.txtGRANDTOTAL.Name = "txtGRANDTOTAL"
-        Me.txtGRANDTOTAL.Properties.Appearance.Options.UseTextOptions = true
+        Me.txtGRANDTOTAL.Properties.Appearance.Options.UseTextOptions = True
         Me.txtGRANDTOTAL.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.txtGRANDTOTAL.Properties.Mask.EditMask = "n2"
         Me.txtGRANDTOTAL.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.txtGRANDTOTAL.Properties.Mask.UseMaskAsDisplayFormat = true
+        Me.txtGRANDTOTAL.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.txtGRANDTOTAL.Properties.NullText = "0.00"
-        Me.txtGRANDTOTAL.Properties.ReadOnly = true
-        Me.txtGRANDTOTAL.Size = New System.Drawing.Size(148, 20)
+        Me.txtGRANDTOTAL.Properties.ReadOnly = True
+        Me.txtGRANDTOTAL.Size = New System.Drawing.Size(274, 26)
         Me.txtGRANDTOTAL.StyleController = Me.layoutControl
         Me.txtGRANDTOTAL.TabIndex = 36
-        Me.txtGRANDTOTAL.TabStop = false
+        Me.txtGRANDTOTAL.TabStop = False
         '
         'txtTAX
         '
-        Me.txtTAX.EnterMoveNextControl = true
-        Me.txtTAX.Location = New System.Drawing.Point(630, 493)
+        Me.txtTAX.EnterMoveNextControl = True
+        Me.txtTAX.Location = New System.Drawing.Point(893, 723)
         Me.txtTAX.MenuManager = Me.barManager
         Me.txtTAX.Name = "txtTAX"
-        Me.txtTAX.Properties.Appearance.Options.UseTextOptions = true
+        Me.txtTAX.Properties.Appearance.Options.UseTextOptions = True
         Me.txtTAX.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.txtTAX.Properties.Mask.EditMask = "n2"
         Me.txtTAX.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.txtTAX.Properties.Mask.UseMaskAsDisplayFormat = true
+        Me.txtTAX.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.txtTAX.Properties.NullText = "0.00"
-        Me.txtTAX.Properties.ReadOnly = true
-        Me.txtTAX.Size = New System.Drawing.Size(148, 20)
+        Me.txtTAX.Properties.ReadOnly = True
+        Me.txtTAX.Size = New System.Drawing.Size(274, 26)
         Me.txtTAX.StyleController = Me.layoutControl
         Me.txtTAX.TabIndex = 36
-        Me.txtTAX.TabStop = false
+        Me.txtTAX.TabStop = False
         '
         'txtDISCOUNT
         '
-        Me.txtDISCOUNT.EnterMoveNextControl = true
-        Me.txtDISCOUNT.Location = New System.Drawing.Point(630, 469)
+        Me.txtDISCOUNT.EnterMoveNextControl = True
+        Me.txtDISCOUNT.Location = New System.Drawing.Point(893, 691)
         Me.txtDISCOUNT.MenuManager = Me.barManager
         Me.txtDISCOUNT.Name = "txtDISCOUNT"
-        Me.txtDISCOUNT.Properties.Appearance.Options.UseTextOptions = true
+        Me.txtDISCOUNT.Properties.Appearance.Options.UseTextOptions = True
         Me.txtDISCOUNT.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.txtDISCOUNT.Properties.Mask.EditMask = "n2"
         Me.txtDISCOUNT.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.txtDISCOUNT.Properties.Mask.UseMaskAsDisplayFormat = true
+        Me.txtDISCOUNT.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.txtDISCOUNT.Properties.NullText = "0.00"
-        Me.txtDISCOUNT.Properties.ReadOnly = true
-        Me.txtDISCOUNT.Size = New System.Drawing.Size(148, 20)
+        Me.txtDISCOUNT.Properties.ReadOnly = True
+        Me.txtDISCOUNT.Size = New System.Drawing.Size(274, 26)
         Me.txtDISCOUNT.StyleController = Me.layoutControl
         Me.txtDISCOUNT.TabIndex = 36
-        Me.txtDISCOUNT.TabStop = false
+        Me.txtDISCOUNT.TabStop = False
         '
         'txtSUBTOTAL
         '
-        Me.txtSUBTOTAL.EnterMoveNextControl = true
-        Me.txtSUBTOTAL.Location = New System.Drawing.Point(630, 421)
+        Me.txtSUBTOTAL.EnterMoveNextControl = True
+        Me.txtSUBTOTAL.Location = New System.Drawing.Point(893, 627)
         Me.txtSUBTOTAL.MenuManager = Me.barManager
         Me.txtSUBTOTAL.Name = "txtSUBTOTAL"
-        Me.txtSUBTOTAL.Properties.Appearance.Options.UseTextOptions = true
+        Me.txtSUBTOTAL.Properties.Appearance.Options.UseTextOptions = True
         Me.txtSUBTOTAL.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.txtSUBTOTAL.Properties.Mask.EditMask = "n2"
         Me.txtSUBTOTAL.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.txtSUBTOTAL.Properties.Mask.UseMaskAsDisplayFormat = true
+        Me.txtSUBTOTAL.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.txtSUBTOTAL.Properties.NullText = "0.00"
-        Me.txtSUBTOTAL.Properties.ReadOnly = true
-        Me.txtSUBTOTAL.Size = New System.Drawing.Size(148, 20)
+        Me.txtSUBTOTAL.Properties.ReadOnly = True
+        Me.txtSUBTOTAL.Size = New System.Drawing.Size(274, 26)
         Me.txtSUBTOTAL.StyleController = Me.layoutControl
         Me.txtSUBTOTAL.TabIndex = 36
-        Me.txtSUBTOTAL.TabStop = false
+        Me.txtSUBTOTAL.TabStop = False
         '
         'deDATE
         '
         Me.deDATE.EditValue = Nothing
-        Me.deDATE.EnterMoveNextControl = true
-        Me.deDATE.Location = New System.Drawing.Point(117, 36)
+        Me.deDATE.EnterMoveNextControl = True
+        Me.deDATE.Location = New System.Drawing.Point(123, 50)
         Me.deDATE.MenuManager = Me.barManager
         Me.deDATE.Name = "deDATE"
         Me.deDATE.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATE.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deDATE.Properties.Mask.EditMask = "dd/MM/yyyy"
-        Me.deDATE.Properties.Mask.UseMaskAsDisplayFormat = true
-        Me.deDATE.Size = New System.Drawing.Size(286, 20)
+        Me.deDATE.Properties.Mask.UseMaskAsDisplayFormat = True
+        Me.deDATE.Size = New System.Drawing.Size(481, 26)
         Me.deDATE.StyleController = Me.layoutControl
         Me.deDATE.TabIndex = 20
         '
         'tabControl
         '
-        Me.tabControl.Location = New System.Drawing.Point(12, 108)
+        Me.tabControl.Location = New System.Drawing.Point(18, 146)
         Me.tabControl.Name = "tabControl"
         Me.tabControl.SelectedTabPage = Me.tab1
-        Me.tabControl.Size = New System.Drawing.Size(766, 309)
+        Me.tabControl.Size = New System.Drawing.Size(1149, 475)
         Me.tabControl.TabIndex = 18
         Me.tabControl.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.tab1, Me.tab2})
         '
@@ -429,7 +434,7 @@ Partial Class frmSalesOrderTanpaResep
         '
         Me.tab1.Controls.Add(Me.grdDetail)
         Me.tab1.Name = "tab1"
-        Me.tab1.Size = New System.Drawing.Size(760, 281)
+        Me.tab1.Size = New System.Drawing.Size(1139, 433)
         Me.tab1.Text = "Detail Information"
         '
         'grdDetail
@@ -442,20 +447,21 @@ Partial Class frmSalesOrderTanpaResep
         Me.grdDetail.MenuManager = Me.barManager
         Me.grdDetail.Name = "grdDetail"
         Me.grdDetail.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.grdKDITEM, Me.grdKDUOM, Me.txtREMARKS, Me.grdKDDOCTOR, Me.grdKDDEPARTMENT, Me.grdKDSIGNA, Me.chkISRACIK})
-        Me.grdDetail.Size = New System.Drawing.Size(760, 281)
+        Me.grdDetail.Size = New System.Drawing.Size(1139, 433)
         Me.grdDetail.TabIndex = 18
         Me.grdDetail.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvDetail})
         '
         'mnuStrip
         '
+        Me.mnuStrip.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.mnuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteToolStripMenuItem})
         Me.mnuStrip.Name = "mnuStrip"
-        Me.mnuStrip.Size = New System.Drawing.Size(108, 26)
+        Me.mnuStrip.Size = New System.Drawing.Size(135, 34)
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(134, 30)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'bindingSource
@@ -467,24 +473,24 @@ Partial Class frmSalesOrderTanpaResep
         Me.grvDetail.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colKDITEM, Me.colQTY, Me.colISRACIK, Me.colKDUOM, Me.colKDSIGNA, Me.colPRICE, Me.colSUBTOTAL, Me.colDISCOUNT, Me.colGRANDTOTAL, Me.colREMARKS})
         Me.grvDetail.GridControl = Me.grdDetail
         Me.grvDetail.Name = "grvDetail"
-        Me.grvDetail.OptionsCustomization.AllowColumnMoving = false
-        Me.grvDetail.OptionsCustomization.AllowFilter = false
-        Me.grvDetail.OptionsCustomization.AllowGroup = false
-        Me.grvDetail.OptionsCustomization.AllowQuickHideColumns = false
-        Me.grvDetail.OptionsCustomization.AllowSort = false
-        Me.grvDetail.OptionsDetail.EnableMasterViewMode = false
-        Me.grvDetail.OptionsFind.AllowFindPanel = false
-        Me.grvDetail.OptionsLayout.StoreAllOptions = true
-        Me.grvDetail.OptionsLayout.StoreAppearance = true
-        Me.grvDetail.OptionsMenu.EnableColumnMenu = false
-        Me.grvDetail.OptionsNavigation.AutoFocusNewRow = true
-        Me.grvDetail.OptionsNavigation.EnterMoveNextColumn = true
-        Me.grvDetail.OptionsView.EnableAppearanceEvenRow = true
-        Me.grvDetail.OptionsView.EnableAppearanceOddRow = true
+        Me.grvDetail.OptionsCustomization.AllowColumnMoving = False
+        Me.grvDetail.OptionsCustomization.AllowFilter = False
+        Me.grvDetail.OptionsCustomization.AllowGroup = False
+        Me.grvDetail.OptionsCustomization.AllowQuickHideColumns = False
+        Me.grvDetail.OptionsCustomization.AllowSort = False
+        Me.grvDetail.OptionsDetail.EnableMasterViewMode = False
+        Me.grvDetail.OptionsFind.AllowFindPanel = False
+        Me.grvDetail.OptionsLayout.StoreAllOptions = True
+        Me.grvDetail.OptionsLayout.StoreAppearance = True
+        Me.grvDetail.OptionsMenu.EnableColumnMenu = False
+        Me.grvDetail.OptionsNavigation.AutoFocusNewRow = True
+        Me.grvDetail.OptionsNavigation.EnterMoveNextColumn = True
+        Me.grvDetail.OptionsView.EnableAppearanceEvenRow = True
+        Me.grvDetail.OptionsView.EnableAppearanceOddRow = True
         Me.grvDetail.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom
         Me.grvDetail.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never
-        Me.grvDetail.OptionsView.ShowFooter = true
-        Me.grvDetail.OptionsView.ShowGroupPanel = false
+        Me.grvDetail.OptionsView.ShowFooter = True
+        Me.grvDetail.OptionsView.ShowGroupPanel = False
         '
         'colKDITEM
         '
@@ -492,12 +498,12 @@ Partial Class frmSalesOrderTanpaResep
         Me.colKDITEM.ColumnEdit = Me.grdKDITEM
         Me.colKDITEM.FieldName = "KDITEM"
         Me.colKDITEM.Name = "colKDITEM"
-        Me.colKDITEM.Visible = true
+        Me.colKDITEM.Visible = True
         Me.colKDITEM.VisibleIndex = 0
         '
         'grdKDITEM
         '
-        Me.grdKDITEM.AutoHeight = false
+        Me.grdKDITEM.AutoHeight = False
         Me.grdKDITEM.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDITEM.Name = "grdKDITEM"
         Me.grdKDITEM.NullText = ""
@@ -509,16 +515,16 @@ Partial Class frmSalesOrderTanpaResep
         Me.grvKDITEM.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn2, Me.colSTOK})
         Me.grvKDITEM.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.grvKDITEM.Name = "grvKDITEM"
-        Me.grvKDITEM.OptionsSelection.EnableAppearanceFocusedCell = false
-        Me.grvKDITEM.OptionsView.ShowAutoFilterRow = true
-        Me.grvKDITEM.OptionsView.ShowGroupPanel = false
+        Me.grvKDITEM.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.grvKDITEM.OptionsView.ShowAutoFilterRow = True
+        Me.grvKDITEM.OptionsView.ShowGroupPanel = False
         '
         'GridColumn2
         '
         Me.GridColumn2.Caption = "Item Name #2"
         Me.GridColumn2.FieldName = "NMITEM2"
         Me.GridColumn2.Name = "GridColumn2"
-        Me.GridColumn2.Visible = true
+        Me.GridColumn2.Visible = True
         Me.GridColumn2.VisibleIndex = 0
         '
         'colSTOK
@@ -528,19 +534,19 @@ Partial Class frmSalesOrderTanpaResep
         Me.colSTOK.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colSTOK.FieldName = "STOK"
         Me.colSTOK.Name = "colSTOK"
-        Me.colSTOK.Visible = true
+        Me.colSTOK.Visible = True
         Me.colSTOK.VisibleIndex = 1
         '
         'colQTY
         '
-        Me.colQTY.AppearanceCell.Options.UseTextOptions = true
+        Me.colQTY.AppearanceCell.Options.UseTextOptions = True
         Me.colQTY.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.colQTY.Caption = "Qty"
         Me.colQTY.DisplayFormat.FormatString = "{0:n2}"
         Me.colQTY.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colQTY.FieldName = "QTY"
         Me.colQTY.Name = "colQTY"
-        Me.colQTY.Visible = true
+        Me.colQTY.Visible = True
         Me.colQTY.VisibleIndex = 1
         '
         'colISRACIK
@@ -549,12 +555,12 @@ Partial Class frmSalesOrderTanpaResep
         Me.colISRACIK.ColumnEdit = Me.chkISRACIK
         Me.colISRACIK.FieldName = "ISRACIK"
         Me.colISRACIK.Name = "colISRACIK"
-        Me.colISRACIK.Visible = true
+        Me.colISRACIK.Visible = True
         Me.colISRACIK.VisibleIndex = 2
         '
         'chkISRACIK
         '
-        Me.chkISRACIK.AutoHeight = false
+        Me.chkISRACIK.AutoHeight = False
         Me.chkISRACIK.Name = "chkISRACIK"
         Me.chkISRACIK.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         '
@@ -564,13 +570,13 @@ Partial Class frmSalesOrderTanpaResep
         Me.colKDUOM.ColumnEdit = Me.grdKDUOM
         Me.colKDUOM.FieldName = "KDUOM"
         Me.colKDUOM.Name = "colKDUOM"
-        Me.colKDUOM.OptionsColumn.TabStop = false
-        Me.colKDUOM.Visible = true
+        Me.colKDUOM.OptionsColumn.TabStop = False
+        Me.colKDUOM.Visible = True
         Me.colKDUOM.VisibleIndex = 3
         '
         'grdKDUOM
         '
-        Me.grdKDUOM.AutoHeight = false
+        Me.grdKDUOM.AutoHeight = False
         Me.grdKDUOM.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDUOM.Name = "grdKDUOM"
         Me.grdKDUOM.NullText = ""
@@ -582,16 +588,16 @@ Partial Class frmSalesOrderTanpaResep
         Me.grvKDUOM.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn4})
         Me.grvKDUOM.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.grvKDUOM.Name = "grvKDUOM"
-        Me.grvKDUOM.OptionsSelection.EnableAppearanceFocusedCell = false
-        Me.grvKDUOM.OptionsView.ShowAutoFilterRow = true
-        Me.grvKDUOM.OptionsView.ShowGroupPanel = false
+        Me.grvKDUOM.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.grvKDUOM.OptionsView.ShowAutoFilterRow = True
+        Me.grvKDUOM.OptionsView.ShowGroupPanel = False
         '
         'GridColumn4
         '
         Me.GridColumn4.Caption = "Memo"
         Me.GridColumn4.FieldName = "MEMO"
         Me.GridColumn4.Name = "GridColumn4"
-        Me.GridColumn4.Visible = true
+        Me.GridColumn4.Visible = True
         Me.GridColumn4.VisibleIndex = 0
         '
         'colKDSIGNA
@@ -603,7 +609,7 @@ Partial Class frmSalesOrderTanpaResep
         '
         'grdKDSIGNA
         '
-        Me.grdKDSIGNA.AutoHeight = false
+        Me.grdKDSIGNA.AutoHeight = False
         Me.grdKDSIGNA.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDSIGNA.Name = "grdKDSIGNA"
         Me.grdKDSIGNA.NullText = ""
@@ -614,14 +620,14 @@ Partial Class frmSalesOrderTanpaResep
         Me.grvKDSIGNA.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.MEMO})
         Me.grvKDSIGNA.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.grvKDSIGNA.Name = "grvKDSIGNA"
-        Me.grvKDSIGNA.OptionsSelection.EnableAppearanceFocusedCell = false
-        Me.grvKDSIGNA.OptionsView.ShowGroupPanel = false
+        Me.grvKDSIGNA.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.grvKDSIGNA.OptionsView.ShowGroupPanel = False
         '
         'MEMO
         '
         Me.MEMO.Caption = "Memo"
         Me.MEMO.Name = "MEMO"
-        Me.MEMO.Visible = true
+        Me.MEMO.Visible = True
         Me.MEMO.VisibleIndex = 0
         '
         'colPRICE
@@ -631,7 +637,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.colPRICE.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colPRICE.FieldName = "PRICE"
         Me.colPRICE.Name = "colPRICE"
-        Me.colPRICE.Visible = true
+        Me.colPRICE.Visible = True
         Me.colPRICE.VisibleIndex = 4
         '
         'colSUBTOTAL
@@ -641,7 +647,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.colSUBTOTAL.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colSUBTOTAL.FieldName = "SUBTOTAL"
         Me.colSUBTOTAL.Name = "colSUBTOTAL"
-        Me.colSUBTOTAL.Visible = true
+        Me.colSUBTOTAL.Visible = True
         Me.colSUBTOTAL.VisibleIndex = 5
         '
         'colDISCOUNT
@@ -651,7 +657,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.colDISCOUNT.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colDISCOUNT.FieldName = "DISCOUNT"
         Me.colDISCOUNT.Name = "colDISCOUNT"
-        Me.colDISCOUNT.Visible = true
+        Me.colDISCOUNT.Visible = True
         Me.colDISCOUNT.VisibleIndex = 6
         '
         'colGRANDTOTAL
@@ -661,29 +667,29 @@ Partial Class frmSalesOrderTanpaResep
         Me.colGRANDTOTAL.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colGRANDTOTAL.FieldName = "GRANDTOTAL"
         Me.colGRANDTOTAL.Name = "colGRANDTOTAL"
-        Me.colGRANDTOTAL.Visible = true
+        Me.colGRANDTOTAL.Visible = True
         Me.colGRANDTOTAL.VisibleIndex = 7
         '
         'colREMARKS
         '
-        Me.colREMARKS.AppearanceCell.Options.UseTextOptions = true
+        Me.colREMARKS.AppearanceCell.Options.UseTextOptions = True
         Me.colREMARKS.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.colREMARKS.Caption = "Remarks"
         Me.colREMARKS.ColumnEdit = Me.txtREMARKS
         Me.colREMARKS.FieldName = "REMARKS"
         Me.colREMARKS.Name = "colREMARKS"
-        Me.colREMARKS.Visible = true
+        Me.colREMARKS.Visible = True
         Me.colREMARKS.VisibleIndex = 8
         '
         'txtREMARKS
         '
-        Me.txtREMARKS.AutoHeight = false
+        Me.txtREMARKS.AutoHeight = False
         Me.txtREMARKS.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.txtREMARKS.Name = "txtREMARKS"
         '
         'grdKDDOCTOR
         '
-        Me.grdKDDOCTOR.AutoHeight = false
+        Me.grdKDDOCTOR.AutoHeight = False
         Me.grdKDDOCTOR.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDDOCTOR.Name = "grdKDDOCTOR"
         Me.grdKDDOCTOR.NullText = ""
@@ -694,20 +700,20 @@ Partial Class frmSalesOrderTanpaResep
         Me.grvKDDOCTOR.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn7})
         Me.grvKDDOCTOR.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.grvKDDOCTOR.Name = "grvKDDOCTOR"
-        Me.grvKDDOCTOR.OptionsSelection.EnableAppearanceFocusedCell = false
-        Me.grvKDDOCTOR.OptionsView.ShowGroupPanel = false
+        Me.grvKDDOCTOR.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.grvKDDOCTOR.OptionsView.ShowGroupPanel = False
         '
         'GridColumn7
         '
         Me.GridColumn7.Caption = "Name Display"
         Me.GridColumn7.FieldName = "NAME_DISPLAY"
         Me.GridColumn7.Name = "GridColumn7"
-        Me.GridColumn7.Visible = true
+        Me.GridColumn7.Visible = True
         Me.GridColumn7.VisibleIndex = 0
         '
         'grdKDDEPARTMENT
         '
-        Me.grdKDDEPARTMENT.AutoHeight = false
+        Me.grdKDDEPARTMENT.AutoHeight = False
         Me.grdKDDEPARTMENT.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDDEPARTMENT.Name = "grdKDDEPARTMENT"
         Me.grdKDDEPARTMENT.NullText = ""
@@ -718,22 +724,22 @@ Partial Class frmSalesOrderTanpaResep
         Me.grvKDDEPARTMENT.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn8})
         Me.grvKDDEPARTMENT.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.grvKDDEPARTMENT.Name = "grvKDDEPARTMENT"
-        Me.grvKDDEPARTMENT.OptionsSelection.EnableAppearanceFocusedCell = false
-        Me.grvKDDEPARTMENT.OptionsView.ShowGroupPanel = false
+        Me.grvKDDEPARTMENT.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.grvKDDEPARTMENT.OptionsView.ShowGroupPanel = False
         '
         'GridColumn8
         '
         Me.GridColumn8.Caption = "Name Display"
         Me.GridColumn8.FieldName = "NAME_DISPLAY"
         Me.GridColumn8.Name = "GridColumn8"
-        Me.GridColumn8.Visible = true
+        Me.GridColumn8.Visible = True
         Me.GridColumn8.VisibleIndex = 0
         '
         'tab2
         '
         Me.tab2.Controls.Add(Me.LayoutControl1)
         Me.tab2.Name = "tab2"
-        Me.tab2.Size = New System.Drawing.Size(760, 281)
+        Me.tab2.Size = New System.Drawing.Size(744, 183)
         Me.tab2.Text = "Memo Information"
         '
         'LayoutControl1
@@ -743,17 +749,17 @@ Partial Class frmSalesOrderTanpaResep
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.s
-        Me.LayoutControl1.Size = New System.Drawing.Size(760, 281)
+        Me.LayoutControl1.Size = New System.Drawing.Size(744, 183)
         Me.LayoutControl1.TabIndex = 0
         Me.LayoutControl1.Text = "LayoutControl1"
         '
         'txtMEMO
         '
-        Me.txtMEMO.EnterMoveNextControl = true
-        Me.txtMEMO.Location = New System.Drawing.Point(12, 12)
+        Me.txtMEMO.EnterMoveNextControl = True
+        Me.txtMEMO.Location = New System.Drawing.Point(18, 18)
         Me.txtMEMO.MenuManager = Me.barManager
         Me.txtMEMO.Name = "txtMEMO"
-        Me.txtMEMO.Size = New System.Drawing.Size(736, 257)
+        Me.txtMEMO.Size = New System.Drawing.Size(708, 147)
         Me.txtMEMO.StyleController = Me.LayoutControl1
         Me.txtMEMO.TabIndex = 4
         '
@@ -761,12 +767,12 @@ Partial Class frmSalesOrderTanpaResep
         '
         Me.s.CustomizationFormText = "s"
         Me.s.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
-        Me.s.GroupBordersVisible = false
+        Me.s.GroupBordersVisible = False
         Me.s.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem7})
         Me.s.Location = New System.Drawing.Point(0, 0)
         Me.s.Name = "s"
-        Me.s.Size = New System.Drawing.Size(760, 281)
-        Me.s.TextVisible = false
+        Me.s.Size = New System.Drawing.Size(744, 183)
+        Me.s.TextVisible = False
         '
         'LayoutControlItem7
         '
@@ -774,42 +780,42 @@ Partial Class frmSalesOrderTanpaResep
         Me.LayoutControlItem7.CustomizationFormText = "LayoutControlItem7"
         Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(740, 261)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(714, 153)
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem7.TextVisible = false
+        Me.LayoutControlItem7.TextVisible = False
         '
         'txtKDSOTRANPARESEP
         '
         Me.txtKDSOTRANPARESEP.EditValue = ""
-        Me.txtKDSOTRANPARESEP.EnterMoveNextControl = true
-        Me.txtKDSOTRANPARESEP.Location = New System.Drawing.Point(117, 12)
+        Me.txtKDSOTRANPARESEP.EnterMoveNextControl = True
+        Me.txtKDSOTRANPARESEP.Location = New System.Drawing.Point(123, 18)
         Me.txtKDSOTRANPARESEP.Name = "txtKDSOTRANPARESEP"
-        Me.txtKDSOTRANPARESEP.Properties.ReadOnly = true
-        Me.txtKDSOTRANPARESEP.Size = New System.Drawing.Size(286, 20)
+        Me.txtKDSOTRANPARESEP.Properties.ReadOnly = True
+        Me.txtKDSOTRANPARESEP.Size = New System.Drawing.Size(481, 26)
         Me.txtKDSOTRANPARESEP.StyleController = Me.layoutControl
         Me.txtKDSOTRANPARESEP.TabIndex = 9
-        Me.txtKDSOTRANPARESEP.TabStop = false
+        Me.txtKDSOTRANPARESEP.TabStop = False
         '
         'LayoutControlGroup1
         '
         Me.LayoutControlGroup1.CustomizationFormText = "LayoutControlGroup1"
         Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LayoutControlGroup1.GroupBordersVisible = false
+        Me.LayoutControlGroup1.GroupBordersVisible = False
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lKDSOTANPARESEP, Me.LayoutControlItem5, Me.lDATE, Me.lTAX, Me.lGRANDTOTAL, Me.lDISCOUNT, Me.lSUBTOTAL, Me.EmptySpaceItem2, Me.lNAMAPASIEN, Me.LNOMORTELEPON, Me.EmptySpaceItem1, Me.lKDWAREHOUSE, Me.lTUSLAH})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(790, 549)
-        Me.LayoutControlGroup1.TextVisible = false
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1185, 799)
+        Me.LayoutControlGroup1.TextVisible = False
         '
         'lKDSOTANPARESEP
         '
-        Me.lKDSOTANPARESEP.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lKDSOTANPARESEP.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKDSOTANPARESEP.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKDSOTANPARESEP.Control = Me.txtKDSOTRANPARESEP
         Me.lKDSOTANPARESEP.CustomizationFormText = "Display Name * :"
         Me.lKDSOTANPARESEP.Location = New System.Drawing.Point(0, 0)
         Me.lKDSOTANPARESEP.Name = "lKDSOTANPARESEP"
-        Me.lKDSOTANPARESEP.Size = New System.Drawing.Size(395, 24)
+        Me.lKDSOTANPARESEP.Size = New System.Drawing.Size(592, 32)
         Me.lKDSOTANPARESEP.Text = "Number * :"
         Me.lKDSOTANPARESEP.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDSOTANPARESEP.TextSize = New System.Drawing.Size(100, 20)
@@ -819,21 +825,21 @@ Partial Class frmSalesOrderTanpaResep
         '
         Me.LayoutControlItem5.Control = Me.tabControl
         Me.LayoutControlItem5.CustomizationFormText = "LayoutControlItem5"
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 96)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 128)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(770, 313)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(1155, 481)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem5.TextVisible = false
+        Me.LayoutControlItem5.TextVisible = False
         '
         'lDATE
         '
-        Me.lDATE.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lDATE.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lDATE.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lDATE.Control = Me.deDATE
         Me.lDATE.CustomizationFormText = "Date :"
-        Me.lDATE.Location = New System.Drawing.Point(0, 24)
+        Me.lDATE.Location = New System.Drawing.Point(0, 32)
         Me.lDATE.Name = "lDATE"
-        Me.lDATE.Size = New System.Drawing.Size(395, 24)
+        Me.lDATE.Size = New System.Drawing.Size(592, 32)
         Me.lDATE.Text = "Date :"
         Me.lDATE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDATE.TextSize = New System.Drawing.Size(100, 20)
@@ -841,112 +847,112 @@ Partial Class frmSalesOrderTanpaResep
         '
         'lTAX
         '
-        Me.lTAX.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lTAX.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lTAX.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lTAX.Control = Me.txtTAX
-        Me.lTAX.Location = New System.Drawing.Point(513, 481)
+        Me.lTAX.Location = New System.Drawing.Point(770, 705)
         Me.lTAX.Name = "lTAX"
-        Me.lTAX.Size = New System.Drawing.Size(257, 24)
+        Me.lTAX.Size = New System.Drawing.Size(385, 32)
         Me.lTAX.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lTAX.TextSize = New System.Drawing.Size(100, 20)
         Me.lTAX.TextToControlDistance = 5
         '
         'lGRANDTOTAL
         '
-        Me.lGRANDTOTAL.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lGRANDTOTAL.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lGRANDTOTAL.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lGRANDTOTAL.Control = Me.txtGRANDTOTAL
-        Me.lGRANDTOTAL.Location = New System.Drawing.Point(513, 505)
+        Me.lGRANDTOTAL.Location = New System.Drawing.Point(770, 737)
         Me.lGRANDTOTAL.Name = "lGRANDTOTAL"
-        Me.lGRANDTOTAL.Size = New System.Drawing.Size(257, 24)
+        Me.lGRANDTOTAL.Size = New System.Drawing.Size(385, 32)
         Me.lGRANDTOTAL.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lGRANDTOTAL.TextSize = New System.Drawing.Size(100, 20)
         Me.lGRANDTOTAL.TextToControlDistance = 5
         '
         'lDISCOUNT
         '
-        Me.lDISCOUNT.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lDISCOUNT.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lDISCOUNT.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lDISCOUNT.Control = Me.txtDISCOUNT
-        Me.lDISCOUNT.Location = New System.Drawing.Point(513, 457)
+        Me.lDISCOUNT.Location = New System.Drawing.Point(770, 673)
         Me.lDISCOUNT.Name = "lDISCOUNT"
-        Me.lDISCOUNT.Size = New System.Drawing.Size(257, 24)
+        Me.lDISCOUNT.Size = New System.Drawing.Size(385, 32)
         Me.lDISCOUNT.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDISCOUNT.TextSize = New System.Drawing.Size(100, 20)
         Me.lDISCOUNT.TextToControlDistance = 5
         '
         'lSUBTOTAL
         '
-        Me.lSUBTOTAL.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lSUBTOTAL.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lSUBTOTAL.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lSUBTOTAL.Control = Me.txtSUBTOTAL
-        Me.lSUBTOTAL.Location = New System.Drawing.Point(513, 409)
+        Me.lSUBTOTAL.Location = New System.Drawing.Point(770, 609)
         Me.lSUBTOTAL.Name = "lSUBTOTAL"
-        Me.lSUBTOTAL.Size = New System.Drawing.Size(257, 24)
+        Me.lSUBTOTAL.Size = New System.Drawing.Size(385, 32)
         Me.lSUBTOTAL.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lSUBTOTAL.TextSize = New System.Drawing.Size(100, 20)
         Me.lSUBTOTAL.TextToControlDistance = 5
         '
         'EmptySpaceItem2
         '
-        Me.EmptySpaceItem2.AllowHotTrack = false
-        Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 409)
+        Me.EmptySpaceItem2.AllowHotTrack = False
+        Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 609)
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Size = New System.Drawing.Size(513, 120)
+        Me.EmptySpaceItem2.Size = New System.Drawing.Size(770, 160)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
         '
         'lNAMAPASIEN
         '
-        Me.lNAMAPASIEN.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lNAMAPASIEN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lNAMAPASIEN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lNAMAPASIEN.Control = Me.txtNAMAPASIEN
-        Me.lNAMAPASIEN.Location = New System.Drawing.Point(0, 48)
+        Me.lNAMAPASIEN.Location = New System.Drawing.Point(0, 64)
         Me.lNAMAPASIEN.Name = "lNAMAPASIEN"
-        Me.lNAMAPASIEN.Size = New System.Drawing.Size(395, 24)
+        Me.lNAMAPASIEN.Size = New System.Drawing.Size(592, 32)
         Me.lNAMAPASIEN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lNAMAPASIEN.TextSize = New System.Drawing.Size(100, 20)
         Me.lNAMAPASIEN.TextToControlDistance = 5
         '
         'LNOMORTELEPON
         '
-        Me.LNOMORTELEPON.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.LNOMORTELEPON.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LNOMORTELEPON.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LNOMORTELEPON.Control = Me.txtNOMORTELEPON
-        Me.LNOMORTELEPON.Location = New System.Drawing.Point(0, 72)
+        Me.LNOMORTELEPON.Location = New System.Drawing.Point(0, 96)
         Me.LNOMORTELEPON.Name = "LNOMORTELEPON"
-        Me.LNOMORTELEPON.Size = New System.Drawing.Size(395, 24)
+        Me.LNOMORTELEPON.Size = New System.Drawing.Size(592, 32)
         Me.LNOMORTELEPON.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LNOMORTELEPON.TextSize = New System.Drawing.Size(100, 20)
         Me.LNOMORTELEPON.TextToControlDistance = 5
         '
         'EmptySpaceItem1
         '
-        Me.EmptySpaceItem1.AllowHotTrack = false
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(395, 48)
+        Me.EmptySpaceItem1.AllowHotTrack = False
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(592, 64)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(375, 48)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(563, 64)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'lKDWAREHOUSE
         '
-        Me.lKDWAREHOUSE.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lKDWAREHOUSE.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKDWAREHOUSE.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKDWAREHOUSE.Control = Me.grdKDWAREHOUSE
-        Me.lKDWAREHOUSE.Location = New System.Drawing.Point(395, 0)
+        Me.lKDWAREHOUSE.Location = New System.Drawing.Point(592, 0)
         Me.lKDWAREHOUSE.Name = "lKDWAREHOUSE"
-        Me.lKDWAREHOUSE.Size = New System.Drawing.Size(375, 48)
+        Me.lKDWAREHOUSE.Size = New System.Drawing.Size(563, 64)
         Me.lKDWAREHOUSE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDWAREHOUSE.TextSize = New System.Drawing.Size(100, 20)
         Me.lKDWAREHOUSE.TextToControlDistance = 5
         '
         'lTUSLAH
         '
-        Me.lTUSLAH.AppearanceItemCaption.Options.UseTextOptions = true
+        Me.lTUSLAH.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lTUSLAH.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lTUSLAH.Control = Me.txtTUSLAH
-        Me.lTUSLAH.Location = New System.Drawing.Point(513, 433)
+        Me.lTUSLAH.Location = New System.Drawing.Point(770, 641)
         Me.lTUSLAH.Name = "lTUSLAH"
-        Me.lTUSLAH.Size = New System.Drawing.Size(257, 24)
+        Me.lTUSLAH.Size = New System.Drawing.Size(385, 32)
         Me.lTUSLAH.Text = "Total Tuslah :"
         Me.lTUSLAH.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lTUSLAH.TextSize = New System.Drawing.Size(100, 20)
@@ -957,23 +963,24 @@ Partial Class frmSalesOrderTanpaResep
         Me.GridColumn6.Caption = "Number"
         Me.GridColumn6.FieldName = "KDSO"
         Me.GridColumn6.Name = "GridColumn6"
-        Me.GridColumn6.Visible = true
+        Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 0
         '
         'frmSalesOrderTanpaResep
         '
-        Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235,Byte),Integer), CType(CType(236,Byte),Integer), CType(CType(239,Byte),Integer))
-        Me.Appearance.Options.UseBackColor = true
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
+        Me.Appearance.Options.UseBackColor = True
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(790, 571)
+        Me.ClientSize = New System.Drawing.Size(1185, 835)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
         Me.Controls.Add(Me.barDockControlBottom)
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
-        Me.KeyPreview = true
+        Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmSalesOrderTanpaResep"
         Me.ShowIcon = false
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

@@ -23,6 +23,8 @@ Public Class frmReportSetor
         cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_01)
         cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_02)
         cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_03)
+        cboTYPE.Properties.Items.Add("Rekap Penerimaan")
+
         'cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_04)
         cboTYPE.SelectedIndex = 0
 
@@ -48,6 +50,8 @@ Public Class frmReportSetor
             cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_01)
             cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_02)
             cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_03)
+            cboTYPE.Properties.Items.Add("Rekap Penerimaan")
+
             'cboTYPE.Properties.Items.Add(Report.FILTER_TYPE_04)
 
             If cboTYPE.SelectedIndex = 3 Then
@@ -123,7 +127,8 @@ Public Class frmReportSetor
             grv1.OptionsView.GroupFooterShowMode = DevExpress.XtraGrid.Views.Grid.GroupFooterShowMode.VisibleAlways
 
             If cboTYPE.SelectedIndex = 3 Then
-                fn_LoadDataAll()
+                'fn_LoadDataAll()
+                fn_LoadDataRekap()
             Else
                 fn_LoadData()
             End If
@@ -290,6 +295,60 @@ Public Class frmReportSetor
         Catch oErr As Exception
 
         End Try
+    End Sub
+    Private Sub fn_LoadDataRekap()
+        Try
+            Dim oConn As New SqlConnection
+            Dim oComm As New SqlCommand
+            Dim da As SqlDataAdapter
+            Dim ds As New DataSet
+            Dim SQL As String
+
+            Dim sConn As String = Decrypt(My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\SIMRS\SW\", "Database", "").ToString())
+
+            oConn = New SqlConnection(sConn)
+            If oConn.State = ConnectionState.Closed Then
+                oConn.Open()
+            End If
+
+
+            SQL = "EXEC R_PEMBAYARAN @DARI = '" & deDATEFrom.DateTime.ToString("yyyyMMdd") & "', @SAMPAI = '" & deDATETo.DateTime.ToString("yyyyMMdd") & "' "
+
+            oComm.Connection = oConn
+            oComm.CommandText = SQL
+            oComm.CommandTimeout = 120
+            oComm.CommandType = CommandType.Text
+
+            da = New SqlDataAdapter(oComm)
+            da.Fill(ds, "ALL")
+
+            grd.MainView = grv
+            grd.DataSource = ds.Tables("ALL")
+            grd.ForceInitialize()
+
+            fn_LoadFormatDataRekap()
+        Catch oErr As Exception
+            MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
+        End Try
+    End Sub
+    Public Sub fn_LoadFormatDataRekap()
+        'Try
+        '    grv.Columns("KDCASHIN").Caption = CashIn.KDCASHIN
+        '    grv.Columns("DATE").Caption = CashIn.TANGGAL
+        '    grv.Columns("CATEGORY").Caption = CashIn.CATEGORY
+        '    grv.Columns("SHIFT").Caption = CashIn.SHIFT
+        '    grv.Columns("MEMO").Caption = CashIn.MEMO
+        '    grv.Columns("KDUSER").Caption = Caption.User
+
+        '    grv.Columns("NOINVOICE").Caption = CashIn.DETAIL_NOINVOICE
+        '    grv.Columns("AMOUNTPAYMENT").Caption = CashIn.DETAIL_AMOUNTPAYMENT
+        '    grv.Columns("REMARKS").Caption = CashIn.DETAIL_REMARKS
+
+        '    MasterColumnChooserToolStripMenuItem.Text = Caption.ColumnChooserMaster
+        '    DetailColumnChooserToolStripMenuItem.Text = Caption.ColumnChooserDetail
+        'Catch oErr As Exception
+
+        'End Try
     End Sub
 #End Region
 #Region "All"

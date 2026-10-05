@@ -30,7 +30,7 @@ Public Class frmMain
     Private Sub fn_LoadLogin()
         frmLogin.ShowDialog()
 
-        statusKDUSER.Caption = Caption.User & " : " & sUserID & " Versi " & 107
+        statusKDUSER.Caption = Caption.User & " : " & sUserID & " Versi " & 109
         statusDATE.Caption = Caption.Tanggal & " : " & Now.ToString("dd/MM/yyyy")
 
         fn_LoadNameModuel()
@@ -1704,6 +1704,12 @@ Public Class frmMain
     Private Sub mnuInstalasiFarmasiTanpaResep_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles mnuInstalasiFarmasiTanpaResep.ItemClick
         For Each iLoop In Me.MdiChildren
             If iLoop.Name = frmSalesOrderTanpaResepList.Name Then
+                iLoop.Close()
+            End If
+        Next
+
+        For Each iLoop In Me.MdiChildren
+            If iLoop.Name = frmSalesOrderTanpaResepList.Name Then
                 iLoop.Activate()
                 Exit Sub
             End If
@@ -2870,6 +2876,24 @@ Public Class frmMain
         frmSalesOrderTransaksiList.MdiParent = Me
         frmSalesOrderTransaksiList.LoadMe(5)
         frmSalesOrderTransaksiList.Show()
+    End Sub
+    Private Sub mnuKasirPembayaranPenjualan_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles mnuKasirPembayaranPenjualan.ItemClick
+        For Each iLoop In Me.MdiChildren
+            If iLoop.Name = frmSalesOrderTanpaResepList.Name Then
+                iLoop.Close()
+            End If
+        Next
+
+        For Each iLoop In Me.MdiChildren
+            If iLoop.Name = frmSalesOrderTanpaResepList.Name Then
+                iLoop.Activate()
+                Exit Sub
+            End If
+        Next
+
+        frmSalesOrderTanpaResepList.MdiParent = Me
+        frmSalesOrderTanpaResepList.fnVisiblePembayaran(True)
+        frmSalesOrderTanpaResepList.Show()
     End Sub
 #End Region
 End Class

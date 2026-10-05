@@ -30,8 +30,8 @@
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>\\100.20.10.5\Aplikasi\</UpdateUrl>
-    <MinimumRequiredVersion>2026.1.1.107</MinimumRequiredVersion>
-    <ApplicationRevision>108</ApplicationRevision>
+    <MinimumRequiredVersion>2026.1.1.108</MinimumRequiredVersion>
+    <ApplicationRevision>109</ApplicationRevision>
     <ApplicationVersion>2026.1.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -73,10 +73,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D10D480EE05A93E8E58F96E7DC044255E5AC6F54</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>C6A1506610F5C7E50FAC8F459768651DC0815637</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>UI.WIN_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>UI.WIN_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -133,10 +133,10 @@
     </Reference>
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\BACKUP\WORK\DLL\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+      <HintPath>..\..\..\Source\dll\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\RS DUSTIRA DESKTOP\iPOS\bin\Debug\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\Source\dll\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -147,7 +147,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="QRCoder">
-      <HintPath>..\packages\QRCoder.1.4.1\lib\net40\QRCoder.dll</HintPath>
+      <HintPath>..\..\..\Source\dll\QRCoder.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -7353,7 +7353,7 @@
     <None Include="My Project\DataSources\DataAccess.S_SO_TRANSAKSI_D_PCR.datasource" />
     <None Include="My Project\DataSources\DataAccess.S_SO_TRANSAKSI_H1.datasource" />
     <None Include="packages.config" />
-    <None Include="UI.WIN_TemporaryKey.pfx" />
+    <None Include="UI.WIN_1_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -378,5 +378,26 @@
                 Throw ex
             End Try
         End Function
+        Public Function UpdatePayamount(ByVal kdsotanparesep As String) As Boolean
+            Try
+                If Not oConnection.GetConnection Then
+                    UpdatePayamount = False
+                    Exit Function
+                End If
+
+                UpdatePayamount = True
+
+                Dim ds = oConnection.db.S_SO_TANPARESEP_Hs.FirstOrDefault(Function(x) x.KDSOTANPARESEP = kdsotanparesep)
+
+                If ds IsNot Nothing Then
+                    ds.PAYAMOUNT = ds.GRANDTOTAL
+                    oConnection.db.SubmitChanges()
+                End If
+
+            Catch ex As Exception
+                UpdatePayamount = False
+                Throw ex
+            End Try
+        End Function
     End Class
 End Namespace

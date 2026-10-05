@@ -1589,6 +1589,27 @@ Public Class frmAsesmenAwalMedisIGD2
                 Catch ex As Exception
                     .USERDELETE = ""
                 End Try
+
+                Try
+                    .GOALOFTREATMENT = oGrouperDataCppt.GetData(sNoid).GOALOFTREATMENT
+                Catch ex As Exception
+                    .GOALOFTREATMENT = ""
+                End Try
+                Try
+                    .TINDAKANREHAB = oGrouperDataCppt.GetData(sNoid).TINDAKANREHAB
+                Catch ex As Exception
+                    .TINDAKANREHAB = ""
+                End Try
+                Try
+                    .EDUKASI = oGrouperDataCppt.GetData(sNoid).EDUKASI
+                Catch ex As Exception
+                    .EDUKASI = ""
+                End Try
+                Try
+                    .FREKUENSIKUNJUNGAN = oGrouperDataCppt.GetData(sNoid).FREKUENSIKUNJUNGAN
+                Catch ex As Exception
+                    .FREKUENSIKUNJUNGAN = ""
+                End Try
             End With
 
             ' ***** DETIL *****

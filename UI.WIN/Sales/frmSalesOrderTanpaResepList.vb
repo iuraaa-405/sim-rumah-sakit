@@ -8,8 +8,12 @@ Public Class frmSalesOrderTanpaResepList
 
     Private oFormMode As FORM_MODE = FORM_MODE.FORM_MODE_VIEW
     Private oSalesOrderTanpaResep As New Sales.clsSalesOrderTanpaResep
+    Private sparamater As Boolean = False
 
 #Region "Function"
+    Public Sub fnVisiblePembayaran(ByVal parameter As Boolean)
+        sparamater = parameter
+    End Sub
     Private Sub Me_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Me.Text = "Penjualan - List"
         deDATEFrom.DateTime = Now
@@ -32,6 +36,9 @@ Public Class frmSalesOrderTanpaResepList
     End Sub
     Private Sub fn_LoadSecurity()
         Try
+            picPembayaran.Visible = sparamater
+            LabelControl2.Visible = sparamater
+
             Dim oOtority As New Setting.clsOtority
             Dim oUser As New Setting.clsUser
 
@@ -41,6 +48,19 @@ Public Class frmSalesOrderTanpaResepList
                       Where x.MODUL = "SOTANPARESEP" _
                       And y.KDUSER = sUserID
                       Select x.ISADD, x.ISDELETE, x.ISUPDATE, x.ISPRINT, x.ISVIEW).FirstOrDefault
+
+            Dim dsP = (From x In oOtority.GetDataDetail
+                       Join y In oUser.GetData
+                      On x.KDOTORITY Equals y.KDOTORITY
+                       Where x.MODUL = "SOTANPARESEPPEMBAYARAN" _
+                      And y.KDUSER = sUserID
+                       Select x.ISADD, x.ISDELETE, x.ISUPDATE, x.ISPRINT, x.ISVIEW).FirstOrDefault
+
+            Try
+                picPembayaran.Enabled = ds.ISADD
+            Catch ex As Exception
+                picPembayaran.Enabled = False
+            End Try
 
             Try
                 picAdd.Enabled = ds.ISADD
@@ -304,6 +324,15 @@ Public Class frmSalesOrderTanpaResepList
             MsgBox("Sudah Bayar", MsgBoxStyle.Exclamation, Me.Text)
             Exit Sub
         End If
+
+        Dim ds = oSalesOrderTanpaResep.GetData(grv.GetFocusedRowCellValue("KDSOTANPARESEP"))
+        If ds IsNot Nothing Then
+            If ds.PAYAMOUNT > 0 Then
+                MsgBox("Sudah Bayar", MsgBoxStyle.Exclamation, Me.Text)
+                Exit Sub
+            End If
+        End If
+
         Dim frmSalesOrderTanpaResep As New frmSalesOrderTanpaResep
         Try
             frmSalesOrderTanpaResep.LoadMe(FORM_MODE.FORM_MODE_EDIT, grv.GetFocusedRowCellValue("KDSOTANPARESEP"))
@@ -480,6 +509,24 @@ Public Class frmSalesOrderTanpaResepList
     End Sub
     Private Sub picRefresh_Click() Handles picRefresh.Click
         fn_LoadSecurity()
+    End Sub
+    Private Sub picPembayaran_Click(sender As Object, e As EventArgs) Handles picPembayaran.Click
+        If grv.GetFocusedRowCellValue("KDSOTANPARESEP") Is Nothing Then
+            Exit Sub
+        End If
+        If CBool(grv.GetFocusedRowCellValue("Bayar")) = True Then
+            MsgBox("Sudah Bayar", MsgBoxStyle.Exclamation, Me.Text)
+            Exit Sub
+        End If
+
+        If MsgBox("Apakah yakin ada pembayaran?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, Me.Text) = MsgBoxResult.No Then Exit Sub
+
+        If oSalesOrderTanpaResep.UpdatePayamount(grv.GetFocusedRowCellValue("KDSOTANPARESEP")) = True Then
+            MsgBox("Berhasil Pembayaran", MsgBoxStyle.Information, Me.Text)
+            fn_LoadSecurity()
+        Else
+            MsgBox("Gagal Pembayaran", MsgBoxStyle.Exclamation, Me.Text)
+        End If
     End Sub
 #End Region
 End Class

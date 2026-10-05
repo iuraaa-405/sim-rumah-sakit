@@ -1159,6 +1159,7 @@ Public Class frmRingkasanKeluar
         DateEdit4.DateTime = deTANGGALMASUK.DateTime
         'fn_HitungTanggal()
     End Sub
+
     Private Sub ComboBoxEdit1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxEdit1.SelectedIndexChanged
         fn_HitungTanggal()
     End Sub
@@ -1576,6 +1577,46 @@ Public Class frmRingkasanKeluar
         Catch oErr As Exception
             MsgBox("Load List Data : " & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
+    End Sub
+    Private Sub chkKEADAANSAATKELUAR_1_CheckedChanged(sender As Object, e As EventArgs) Handles chkKEADAANSAATKELUAR_1.CheckedChanged
+        If chkKEADAANSAATKELUAR_1.Checked = True Then
+            chkKEADAANSAATKELUAR_3.Checked = False
+            chkKEADAANSAATKELUAR_5.Checked = False
+            chkKEADAANSAATKELUAR_2.Checked = False
+            chkKEADAANSAATKELUAR_4.Checked = False
+        End If
+    End Sub
+    Private Sub chkKEADAANSAATKELUAR_3_CheckedChanged(sender As Object, e As EventArgs) Handles chkKEADAANSAATKELUAR_3.CheckedChanged
+        If chkKEADAANSAATKELUAR_3.Checked = True Then
+            chkKEADAANSAATKELUAR_1.Checked = False
+            chkKEADAANSAATKELUAR_5.Checked = False
+            chkKEADAANSAATKELUAR_2.Checked = False
+            chkKEADAANSAATKELUAR_4.Checked = False
+        End If
+    End Sub
+    Private Sub chkKEADAANSAATKELUAR_5_CheckedChanged(sender As Object, e As EventArgs) Handles chkKEADAANSAATKELUAR_5.CheckedChanged
+        If chkKEADAANSAATKELUAR_5.Checked = True Then
+            chkKEADAANSAATKELUAR_3.Checked = False
+            chkKEADAANSAATKELUAR_1.Checked = False
+            chkKEADAANSAATKELUAR_2.Checked = False
+            chkKEADAANSAATKELUAR_4.Checked = False
+        End If
+    End Sub
+    Private Sub chkKEADAANSAATKELUAR_2_CheckedChanged(sender As Object, e As EventArgs) Handles chkKEADAANSAATKELUAR_2.CheckedChanged
+        If chkKEADAANSAATKELUAR_2.Checked = True Then
+            chkKEADAANSAATKELUAR_3.Checked = False
+            chkKEADAANSAATKELUAR_5.Checked = False
+            chkKEADAANSAATKELUAR_1.Checked = False
+            chkKEADAANSAATKELUAR_4.Checked = False
+        End If
+    End Sub
+    Private Sub chkKEADAANSAATKELUAR_4_CheckedChanged(sender As Object, e As EventArgs) Handles chkKEADAANSAATKELUAR_4.CheckedChanged
+        If chkKEADAANSAATKELUAR_4.Checked = True Then
+            chkKEADAANSAATKELUAR_3.Checked = False
+            chkKEADAANSAATKELUAR_5.Checked = False
+            chkKEADAANSAATKELUAR_2.Checked = False
+            chkKEADAANSAATKELUAR_1.Checked = False
+        End If
     End Sub
 #End Region
 End Class

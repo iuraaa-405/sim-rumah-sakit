@@ -647,6 +647,11 @@ Public Class frmSalesOrderTransaksiList
                         MsgBox(Statement.DeleteFail, MsgBoxStyle.Exclamation, Me.Text)
                         Exit Sub
                     End If
+                ElseIf dsOrder.STATUS = "PANGGIL" Then
+                    If fn_DeleteData(grv.GetFocusedRowCellValue("KDSOTRANSAKSI")) = False Then
+                        MsgBox(Statement.DeleteFail, MsgBoxStyle.Exclamation, Me.Text)
+                        Exit Sub
+                    End If
                 ElseIf dsOrder.STATUS = "HASIL" Then
                     MsgBox("Hasil Sudah di Input Tidak Dapat di Hapus/Rubah", MsgBoxStyle.Exclamation, Me.Text)
                 ElseIf dsOrder.STATUS = "KIRIM" Then
