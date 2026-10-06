@@ -16,35 +16,41 @@ Public Class xtraRingkasanKeluarRawatInap
 
             If value2 IsNot Nothing Then
                 If value2.ToString() <> "" Then
-                    Dim ds = oDoctor.GetData(value2.ToString())
-                    If ds IsNot Nothing Then
-                        lblDokter2.Text = ds.NAME_DISPLAY
-                    End If
+                    'Dim ds = oDoctor.GetData(value2.ToString())
+                    'If ds IsNot Nothing Then
+                    '    lblDokter2.Text = ds.NAME_DISPLAY
+                    'End If
+
+                    lblDokter2.Text = value2.ToString()
                 End If
             End If
             If value3 IsNot Nothing Then
                 If value3.ToString() <> "" Then
-                    Dim ds = oDoctor.GetData(value3.ToString())
-                    If ds IsNot Nothing Then
-                        lblDokter3.Text = ds.NAME_DISPLAY
-                    End If
+                    'Dim ds = oDoctor.GetData(value3.ToString())
+                    'If ds IsNot Nothing Then
+                    '    lblDokter3.Text = ds.NAME_DISPLAY
+                    'End If
+                    lblDokter3.Text = value3.ToString()
                 End If
             End If
             If value4 IsNot Nothing Then
-                If value4.ToString() <> "" Then
-                    Dim ds = oDoctor.GetData(value4.ToString())
-                    If ds IsNot Nothing Then
-                        lblDokter4.Text = ds.NAME_DISPLAY
-                    End If
-                End If
+                'If value4.ToString() <> "" Then
+                '    Dim ds = oDoctor.GetData(value4.ToString())
+                '    If ds IsNot Nothing Then
+                '        lblDokter4.Text = ds.NAME_DISPLAY
+                '    End If
+                'End If
+                lblDokter4.Text = value4.ToString()
             End If
             If value5 IsNot Nothing Then
-                If value5.ToString() <> "" Then
-                    Dim ds = oDoctor.GetData(value5.ToString())
-                    If ds IsNot Nothing Then
-                        lblDokter5.Text = ds.NAME_DISPLAY
-                    End If
-                End If
+                'If value5.ToString() <> "" Then
+                '    Dim ds = oDoctor.GetData(value5.ToString())
+                '    If ds IsNot Nothing Then
+                '        lblDokter5.Text = ds.NAME_DISPLAY
+                '    End If
+                'End If
+
+                lblDokter5.Text = value5.ToString()
             End If
 
         Catch ex As Exception

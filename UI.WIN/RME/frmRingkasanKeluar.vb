@@ -36,7 +36,7 @@ Public Class frmRingkasanKeluar
             sNAMAPASIEN = dsAdmisi.M_CUSTOMER.NAME_DISPLAY
             sJENISKELAMIN = IIf(dsAdmisi.M_CUSTOMER.KDJENISKELAMIN = 1, "Laki-laki", "Perempuan")
             sTANGGALLAHIR = dsAdmisi.M_CUSTOMER.TANGGALLAHIR
-            deTANGGALMASUK.DateTime = dsAdmisi.DATE
+            'deTANGGALMASUK.DateTime = dsAdmisi.DATE
             deTANGGALPULANG.DateTime = dsAdmisi.DATE
             grdDPJP.Text = dsAdmisi.KDDOCTOR
             grdKDDEPARTMENT.Text = dsAdmisi.KDDEPARTMENT

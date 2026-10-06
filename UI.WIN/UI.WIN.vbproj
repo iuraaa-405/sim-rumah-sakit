@@ -30,7 +30,7 @@
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>\\100.20.10.5\Aplikasi\</UpdateUrl>
-    <MinimumRequiredVersion>2026.1.1.108</MinimumRequiredVersion>
+    <MinimumRequiredVersion>2026.1.1.109</MinimumRequiredVersion>
     <ApplicationRevision>109</ApplicationRevision>
     <ApplicationVersion>2026.1.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>

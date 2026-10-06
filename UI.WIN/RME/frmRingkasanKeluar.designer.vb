@@ -355,7 +355,7 @@ Partial Class frmRingkasanKeluar
         'btnLoadData
         '
         Me.btnLoadData.Location = New System.Drawing.Point(12, 10)
-        Me.btnLoadData.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnLoadData.Margin = New System.Windows.Forms.Padding(4)
         Me.btnLoadData.Name = "btnLoadData"
         Me.btnLoadData.Size = New System.Drawing.Size(90, 32)
         Me.btnLoadData.TabIndex = 58
@@ -364,7 +364,7 @@ Partial Class frmRingkasanKeluar
         'btnSaveAs
         '
         Me.btnSaveAs.Location = New System.Drawing.Point(166, 10)
-        Me.btnSaveAs.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSaveAs.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSaveAs.Name = "btnSaveAs"
         Me.btnSaveAs.Size = New System.Drawing.Size(75, 32)
         Me.btnSaveAs.TabIndex = 60
@@ -373,7 +373,7 @@ Partial Class frmRingkasanKeluar
         'btnSave
         '
         Me.btnSave.Location = New System.Drawing.Point(108, 10)
-        Me.btnSave.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(52, 32)
         Me.btnSave.TabIndex = 59
@@ -388,7 +388,7 @@ Partial Class frmRingkasanKeluar
         Me.Panel1.Controls.Add(Me.btnSave)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1170, 58)
         Me.Panel1.TabIndex = 56
@@ -396,7 +396,7 @@ Partial Class frmRingkasanKeluar
         'SimpleButton1
         '
         Me.SimpleButton1.Location = New System.Drawing.Point(434, 10)
-        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(242, 32)
         Me.SimpleButton1.TabIndex = 62
@@ -405,7 +405,7 @@ Partial Class frmRingkasanKeluar
         'btnDischargePlanning
         '
         Me.btnDischargePlanning.Location = New System.Drawing.Point(248, 10)
-        Me.btnDischargePlanning.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnDischargePlanning.Margin = New System.Windows.Forms.Padding(4)
         Me.btnDischargePlanning.Name = "btnDischargePlanning"
         Me.btnDischargePlanning.Size = New System.Drawing.Size(177, 32)
         Me.btnDischargePlanning.TabIndex = 61
@@ -454,7 +454,7 @@ Partial Class frmRingkasanKeluar
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlTop.Size = New System.Drawing.Size(1170, 0)
         '
         'barDockControlBottom
@@ -462,7 +462,7 @@ Partial Class frmRingkasanKeluar
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.barDockControlBottom.Location = New System.Drawing.Point(0, 778)
-        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlBottom.Size = New System.Drawing.Size(1170, 36)
         '
         'barDockControlLeft
@@ -470,7 +470,7 @@ Partial Class frmRingkasanKeluar
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlLeft.Size = New System.Drawing.Size(0, 778)
         '
         'barDockControlRight
@@ -478,7 +478,7 @@ Partial Class frmRingkasanKeluar
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
         Me.barDockControlRight.Location = New System.Drawing.Point(1170, 0)
-        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlRight.Size = New System.Drawing.Size(0, 778)
         '
         'btnSaveNew
@@ -516,7 +516,7 @@ Partial Class frmRingkasanKeluar
         Me.Panel9.Controls.Add(Me.PanelControl28)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel9.Location = New System.Drawing.Point(0, 58)
-        Me.Panel9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(1170, 720)
         Me.Panel9.TabIndex = 244
@@ -535,7 +535,7 @@ Partial Class frmRingkasanKeluar
         Me.PanelControl36.Controls.Add(Me.GroupBox2)
         Me.PanelControl36.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl36.Location = New System.Drawing.Point(0, 184)
-        Me.PanelControl36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelControl36.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelControl36.Name = "PanelControl36"
         Me.PanelControl36.Size = New System.Drawing.Size(1144, 3405)
         Me.PanelControl36.TabIndex = 2
@@ -547,7 +547,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl5.Controls.Add(Me.GroupControl6)
         Me.GroupControl5.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl5.Location = New System.Drawing.Point(3, 2645)
-        Me.GroupControl5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl5.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl5.Name = "GroupControl5"
         Me.GroupControl5.Size = New System.Drawing.Size(1138, 731)
         Me.GroupControl5.TabIndex = 255
@@ -558,7 +558,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl8.Controls.Add(Me.txtEdukasidanIntruksi)
         Me.GroupControl8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl8.Location = New System.Drawing.Point(3, 505)
-        Me.GroupControl8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl8.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl8.Name = "GroupControl8"
         Me.GroupControl8.Size = New System.Drawing.Size(1132, 223)
         Me.GroupControl8.TabIndex = 2
@@ -568,7 +568,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtEdukasidanIntruksi.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtEdukasidanIntruksi.Location = New System.Drawing.Point(3, 30)
-        Me.txtEdukasidanIntruksi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtEdukasidanIntruksi.Margin = New System.Windows.Forms.Padding(4)
         Me.txtEdukasidanIntruksi.Name = "txtEdukasidanIntruksi"
         Me.txtEdukasidanIntruksi.Size = New System.Drawing.Size(1126, 190)
         Me.txtEdukasidanIntruksi.TabIndex = 241
@@ -579,7 +579,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl7.Controls.Add(Me.PanelControl24)
         Me.GroupControl7.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl7.Location = New System.Drawing.Point(3, 226)
-        Me.GroupControl7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl7.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl7.Name = "GroupControl7"
         Me.GroupControl7.Size = New System.Drawing.Size(1132, 279)
         Me.GroupControl7.TabIndex = 1
@@ -589,7 +589,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtObatPulang.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtObatPulang.Location = New System.Drawing.Point(3, 140)
-        Me.txtObatPulang.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtObatPulang.Margin = New System.Windows.Forms.Padding(4)
         Me.txtObatPulang.Name = "txtObatPulang"
         Me.txtObatPulang.Size = New System.Drawing.Size(1126, 136)
         Me.txtObatPulang.TabIndex = 240
@@ -601,7 +601,7 @@ Partial Class frmRingkasanKeluar
         Me.PanelControl24.Controls.Add(Me.CheckEdit31)
         Me.PanelControl24.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl24.Location = New System.Drawing.Point(3, 30)
-        Me.PanelControl24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelControl24.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelControl24.Name = "PanelControl24"
         Me.PanelControl24.Size = New System.Drawing.Size(1126, 110)
         Me.PanelControl24.TabIndex = 244
@@ -609,7 +609,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit25
         '
         Me.CheckEdit25.Location = New System.Drawing.Point(9, 7)
-        Me.CheckEdit25.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit25.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit25.Name = "CheckEdit25"
         Me.CheckEdit25.Properties.Caption = "Tidak Ada"
         Me.CheckEdit25.Size = New System.Drawing.Size(248, 23)
@@ -618,7 +618,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit32
         '
         Me.CheckEdit32.Location = New System.Drawing.Point(9, 72)
-        Me.CheckEdit32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit32.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit32.Name = "CheckEdit32"
         Me.CheckEdit32.Properties.Caption = "Dengan Obat :"
         Me.CheckEdit32.Size = New System.Drawing.Size(248, 23)
@@ -627,7 +627,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit31
         '
         Me.CheckEdit31.Location = New System.Drawing.Point(9, 41)
-        Me.CheckEdit31.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit31.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit31.Name = "CheckEdit31"
         Me.CheckEdit31.Properties.Caption = "Obat Oral dilanjutkan"
         Me.CheckEdit31.Size = New System.Drawing.Size(248, 23)
@@ -647,7 +647,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl6.Controls.Add(Me.CheckEdit23)
         Me.GroupControl6.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl6.Location = New System.Drawing.Point(3, 30)
-        Me.GroupControl6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl6.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl6.Name = "GroupControl6"
         Me.GroupControl6.Size = New System.Drawing.Size(1132, 196)
         Me.GroupControl6.TabIndex = 0
@@ -657,7 +657,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.TextBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox23.Location = New System.Drawing.Point(208, 107)
-        Me.TextBox23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox23.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(760, 27)
         Me.TextBox23.TabIndex = 4
@@ -676,7 +676,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.ComboBoxEdit1.EditValue = "0"
         Me.ComboBoxEdit1.Location = New System.Drawing.Point(300, 32)
-        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60"})
@@ -697,7 +697,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit22
         '
         Me.CheckEdit22.Location = New System.Drawing.Point(189, 34)
-        Me.CheckEdit22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit22.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit22.Name = "CheckEdit22"
         Me.CheckEdit22.Properties.Caption = "Hari :"
         Me.CheckEdit22.Size = New System.Drawing.Size(88, 23)
@@ -707,7 +707,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox24.Location = New System.Drawing.Point(208, 146)
-        Me.TextBox24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox24.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(760, 27)
         Me.TextBox24.TabIndex = 4
@@ -717,7 +717,7 @@ Partial Class frmRingkasanKeluar
         Me.DateEdit4.EditValue = Nothing
         Me.DateEdit4.EnterMoveNextControl = True
         Me.DateEdit4.Location = New System.Drawing.Point(459, 32)
-        Me.DateEdit4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateEdit4.Margin = New System.Windows.Forms.Padding(4)
         Me.DateEdit4.Name = "DateEdit4"
         Me.DateEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit4.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
@@ -729,7 +729,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit24
         '
         Me.CheckEdit24.Location = New System.Drawing.Point(189, 70)
-        Me.CheckEdit24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit24.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit24.Name = "CheckEdit24"
         Me.CheckEdit24.Properties.Caption = "Tidak Perlu Kontrol"
         Me.CheckEdit24.Size = New System.Drawing.Size(291, 23)
@@ -738,7 +738,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit21
         '
         Me.CheckEdit21.Location = New System.Drawing.Point(20, 34)
-        Me.CheckEdit21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit21.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit21.Name = "CheckEdit21"
         Me.CheckEdit21.Properties.Caption = "3 Hari"
         Me.CheckEdit21.Size = New System.Drawing.Size(124, 23)
@@ -747,7 +747,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit23
         '
         Me.CheckEdit23.Location = New System.Drawing.Point(20, 66)
-        Me.CheckEdit23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit23.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit23.Name = "CheckEdit23"
         Me.CheckEdit23.Properties.Caption = "1 Minggu"
         Me.CheckEdit23.Size = New System.Drawing.Size(124, 23)
@@ -762,9 +762,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox10.Controls.Add(Me.PanelControl29)
         Me.GroupBox10.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox10.Location = New System.Drawing.Point(3, 1714)
-        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox10.Size = New System.Drawing.Size(1138, 931)
         Me.GroupBox10.TabIndex = 254
         Me.GroupBox10.TabStop = False
@@ -779,7 +779,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl4.Controls.Add(Me.CheckEdit29)
         Me.GroupControl4.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl4.Location = New System.Drawing.Point(4, 776)
-        Me.GroupControl4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl4.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl4.Name = "GroupControl4"
         Me.GroupControl4.Size = New System.Drawing.Size(1130, 146)
         Me.GroupControl4.TabIndex = 34
@@ -788,7 +788,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit26
         '
         Me.CheckEdit26.Location = New System.Drawing.Point(18, 34)
-        Me.CheckEdit26.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit26.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit26.Name = "CheckEdit26"
         Me.CheckEdit26.Properties.Caption = "Atas persetujuan"
         Me.CheckEdit26.Size = New System.Drawing.Size(262, 23)
@@ -797,7 +797,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit27
         '
         Me.CheckEdit27.Location = New System.Drawing.Point(340, 34)
-        Me.CheckEdit27.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit27.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit27.Name = "CheckEdit27"
         Me.CheckEdit27.Properties.Caption = "Pindah ke RS lain"
         Me.CheckEdit27.Size = New System.Drawing.Size(262, 23)
@@ -806,7 +806,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit30
         '
         Me.CheckEdit30.Location = New System.Drawing.Point(18, 107)
-        Me.CheckEdit30.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit30.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit30.Name = "CheckEdit30"
         Me.CheckEdit30.Properties.Caption = "Dirujuk"
         Me.CheckEdit30.Size = New System.Drawing.Size(262, 23)
@@ -815,7 +815,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit28
         '
         Me.CheckEdit28.Location = New System.Drawing.Point(18, 70)
-        Me.CheckEdit28.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit28.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit28.Name = "CheckEdit28"
         Me.CheckEdit28.Properties.Caption = "Pulang paksa"
         Me.CheckEdit28.Size = New System.Drawing.Size(262, 23)
@@ -824,7 +824,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit29
         '
         Me.CheckEdit29.Location = New System.Drawing.Point(340, 70)
-        Me.CheckEdit29.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit29.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit29.Name = "CheckEdit29"
         Me.CheckEdit29.Properties.Caption = "Lain"
         Me.CheckEdit29.Size = New System.Drawing.Size(262, 23)
@@ -839,7 +839,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl3.Controls.Add(Me.chkKEADAANSAATKELUAR_4)
         Me.GroupControl3.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl3.Location = New System.Drawing.Point(4, 630)
-        Me.GroupControl3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl3.Name = "GroupControl3"
         Me.GroupControl3.Size = New System.Drawing.Size(1130, 146)
         Me.GroupControl3.TabIndex = 33
@@ -848,7 +848,7 @@ Partial Class frmRingkasanKeluar
         'chkKEADAANSAATKELUAR_1
         '
         Me.chkKEADAANSAATKELUAR_1.Location = New System.Drawing.Point(18, 34)
-        Me.chkKEADAANSAATKELUAR_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkKEADAANSAATKELUAR_1.Margin = New System.Windows.Forms.Padding(4)
         Me.chkKEADAANSAATKELUAR_1.Name = "chkKEADAANSAATKELUAR_1"
         Me.chkKEADAANSAATKELUAR_1.Properties.Caption = "Sembuh"
         Me.chkKEADAANSAATKELUAR_1.Size = New System.Drawing.Size(262, 23)
@@ -857,7 +857,7 @@ Partial Class frmRingkasanKeluar
         'chkKEADAANSAATKELUAR_2
         '
         Me.chkKEADAANSAATKELUAR_2.Location = New System.Drawing.Point(340, 34)
-        Me.chkKEADAANSAATKELUAR_2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkKEADAANSAATKELUAR_2.Margin = New System.Windows.Forms.Padding(4)
         Me.chkKEADAANSAATKELUAR_2.Name = "chkKEADAANSAATKELUAR_2"
         Me.chkKEADAANSAATKELUAR_2.Properties.Caption = "Perbaikan"
         Me.chkKEADAANSAATKELUAR_2.Size = New System.Drawing.Size(262, 23)
@@ -866,7 +866,7 @@ Partial Class frmRingkasanKeluar
         'chkKEADAANSAATKELUAR_5
         '
         Me.chkKEADAANSAATKELUAR_5.Location = New System.Drawing.Point(18, 107)
-        Me.chkKEADAANSAATKELUAR_5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkKEADAANSAATKELUAR_5.Margin = New System.Windows.Forms.Padding(4)
         Me.chkKEADAANSAATKELUAR_5.Name = "chkKEADAANSAATKELUAR_5"
         Me.chkKEADAANSAATKELUAR_5.Properties.Caption = "Meninggal Sesudah 48 jam"
         Me.chkKEADAANSAATKELUAR_5.Size = New System.Drawing.Size(262, 23)
@@ -875,7 +875,7 @@ Partial Class frmRingkasanKeluar
         'chkKEADAANSAATKELUAR_3
         '
         Me.chkKEADAANSAATKELUAR_3.Location = New System.Drawing.Point(18, 70)
-        Me.chkKEADAANSAATKELUAR_3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkKEADAANSAATKELUAR_3.Margin = New System.Windows.Forms.Padding(4)
         Me.chkKEADAANSAATKELUAR_3.Name = "chkKEADAANSAATKELUAR_3"
         Me.chkKEADAANSAATKELUAR_3.Properties.Caption = "Meninggal Sebelum 48 jam"
         Me.chkKEADAANSAATKELUAR_3.Size = New System.Drawing.Size(262, 23)
@@ -884,7 +884,7 @@ Partial Class frmRingkasanKeluar
         'chkKEADAANSAATKELUAR_4
         '
         Me.chkKEADAANSAATKELUAR_4.Location = New System.Drawing.Point(340, 70)
-        Me.chkKEADAANSAATKELUAR_4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkKEADAANSAATKELUAR_4.Margin = New System.Windows.Forms.Padding(4)
         Me.chkKEADAANSAATKELUAR_4.Name = "chkKEADAANSAATKELUAR_4"
         Me.chkKEADAANSAATKELUAR_4.Properties.Caption = "Tidak Ada Perbaikan"
         Me.chkKEADAANSAATKELUAR_4.Size = New System.Drawing.Size(262, 23)
@@ -895,7 +895,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl2.Controls.Add(Me.txtSebabKematian)
         Me.GroupControl2.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl2.Location = New System.Drawing.Point(4, 484)
-        Me.GroupControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl2.Name = "GroupControl2"
         Me.GroupControl2.Size = New System.Drawing.Size(1130, 146)
         Me.GroupControl2.TabIndex = 32
@@ -905,7 +905,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtSebabKematian.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtSebabKematian.Location = New System.Drawing.Point(3, 30)
-        Me.txtSebabKematian.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtSebabKematian.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSebabKematian.Name = "txtSebabKematian"
         Me.txtSebabKematian.Size = New System.Drawing.Size(1124, 113)
         Me.txtSebabKematian.TabIndex = 238
@@ -915,7 +915,7 @@ Partial Class frmRingkasanKeluar
         Me.GroupControl1.Controls.Add(Me.txtCatatanPenting)
         Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl1.Location = New System.Drawing.Point(4, 338)
-        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(1130, 146)
         Me.GroupControl1.TabIndex = 31
@@ -925,7 +925,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtCatatanPenting.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtCatatanPenting.Location = New System.Drawing.Point(3, 30)
-        Me.txtCatatanPenting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCatatanPenting.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCatatanPenting.Name = "txtCatatanPenting"
         Me.txtCatatanPenting.Size = New System.Drawing.Size(1124, 113)
         Me.txtCatatanPenting.TabIndex = 239
@@ -969,7 +969,7 @@ Partial Class frmRingkasanKeluar
         Me.PanelControl29.Controls.Add(Me.Label12)
         Me.PanelControl29.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl29.Location = New System.Drawing.Point(4, 24)
-        Me.PanelControl29.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelControl29.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelControl29.Name = "PanelControl29"
         Me.PanelControl29.Size = New System.Drawing.Size(1130, 314)
         Me.PanelControl29.TabIndex = 29
@@ -977,7 +977,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit36
         '
         Me.CheckEdit36.Location = New System.Drawing.Point(578, 64)
-        Me.CheckEdit36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit36.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit36.Name = "CheckEdit36"
         Me.CheckEdit36.Properties.Caption = "Koma"
         Me.CheckEdit36.Size = New System.Drawing.Size(112, 23)
@@ -986,7 +986,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit37
         '
         Me.CheckEdit37.Location = New System.Drawing.Point(454, 66)
-        Me.CheckEdit37.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit37.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit37.Name = "CheckEdit37"
         Me.CheckEdit37.Properties.Caption = "Sopor"
         Me.CheckEdit37.Size = New System.Drawing.Size(112, 23)
@@ -995,7 +995,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit38
         '
         Me.CheckEdit38.Location = New System.Drawing.Point(332, 67)
-        Me.CheckEdit38.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit38.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit38.Name = "CheckEdit38"
         Me.CheckEdit38.Properties.Caption = "Somnolen"
         Me.CheckEdit38.Size = New System.Drawing.Size(112, 23)
@@ -1004,7 +1004,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit53
         '
         Me.CheckEdit53.Location = New System.Drawing.Point(159, 64)
-        Me.CheckEdit53.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit53.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit53.Name = "CheckEdit53"
         Me.CheckEdit53.Properties.Caption = "Compos Mentis"
         Me.CheckEdit53.Size = New System.Drawing.Size(164, 23)
@@ -1013,7 +1013,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit33
         '
         Me.CheckEdit33.Location = New System.Drawing.Point(400, 20)
-        Me.CheckEdit33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit33.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit33.Name = "CheckEdit33"
         Me.CheckEdit33.Properties.Caption = "Berat"
         Me.CheckEdit33.Size = New System.Drawing.Size(112, 23)
@@ -1022,7 +1022,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit34
         '
         Me.CheckEdit34.Location = New System.Drawing.Point(279, 20)
-        Me.CheckEdit34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit34.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit34.Name = "CheckEdit34"
         Me.CheckEdit34.Properties.Caption = "Sedang"
         Me.CheckEdit34.Size = New System.Drawing.Size(112, 23)
@@ -1031,7 +1031,7 @@ Partial Class frmRingkasanKeluar
         'CheckEdit35
         '
         Me.CheckEdit35.Location = New System.Drawing.Point(158, 20)
-        Me.CheckEdit35.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckEdit35.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckEdit35.Name = "CheckEdit35"
         Me.CheckEdit35.Properties.Caption = "Ringan"
         Me.CheckEdit35.Size = New System.Drawing.Size(112, 23)
@@ -1041,7 +1041,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtBeratBadan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtBeratBadan.Location = New System.Drawing.Point(501, 259)
-        Me.txtBeratBadan.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtBeratBadan.Margin = New System.Windows.Forms.Padding(4)
         Me.txtBeratBadan.Name = "txtBeratBadan"
         Me.txtBeratBadan.Size = New System.Drawing.Size(82, 27)
         Me.txtBeratBadan.TabIndex = 6
@@ -1052,7 +1052,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtSaturasi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSaturasi.Location = New System.Drawing.Point(159, 259)
-        Me.txtSaturasi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtSaturasi.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSaturasi.Name = "txtSaturasi"
         Me.txtSaturasi.Size = New System.Drawing.Size(82, 27)
         Me.txtSaturasi.TabIndex = 4
@@ -1071,7 +1071,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtKeadaanUmum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtKeadaanUmum.Location = New System.Drawing.Point(522, 22)
-        Me.txtKeadaanUmum.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtKeadaanUmum.Margin = New System.Windows.Forms.Padding(4)
         Me.txtKeadaanUmum.Name = "txtKeadaanUmum"
         Me.txtKeadaanUmum.Size = New System.Drawing.Size(336, 27)
         Me.txtKeadaanUmum.TabIndex = 5
@@ -1092,7 +1092,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtNadi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNadi.Location = New System.Drawing.Point(159, 219)
-        Me.txtNadi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtNadi.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNadi.Name = "txtNadi"
         Me.txtNadi.Size = New System.Drawing.Size(82, 27)
         Me.txtNadi.TabIndex = 4
@@ -1161,7 +1161,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtFrekuensi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrekuensi.Location = New System.Drawing.Point(501, 175)
-        Me.txtFrekuensi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtFrekuensi.Margin = New System.Windows.Forms.Padding(4)
         Me.txtFrekuensi.Name = "txtFrekuensi"
         Me.txtFrekuensi.Size = New System.Drawing.Size(84, 27)
         Me.txtFrekuensi.TabIndex = 4
@@ -1170,7 +1170,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtSistole.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSistole.Location = New System.Drawing.Point(159, 140)
-        Me.txtSistole.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtSistole.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSistole.Name = "txtSistole"
         Me.txtSistole.Size = New System.Drawing.Size(82, 27)
         Me.txtSistole.TabIndex = 4
@@ -1205,7 +1205,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtGCS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGCS.Location = New System.Drawing.Point(501, 219)
-        Me.txtGCS.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtGCS.Margin = New System.Windows.Forms.Padding(4)
         Me.txtGCS.Name = "txtGCS"
         Me.txtGCS.Size = New System.Drawing.Size(166, 27)
         Me.txtGCS.TabIndex = 4
@@ -1214,7 +1214,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtKesadaran.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtKesadaran.Location = New System.Drawing.Point(699, 66)
-        Me.txtKesadaran.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtKesadaran.Margin = New System.Windows.Forms.Padding(4)
         Me.txtKesadaran.Name = "txtKesadaran"
         Me.txtKesadaran.Size = New System.Drawing.Size(160, 27)
         Me.txtKesadaran.TabIndex = 4
@@ -1259,7 +1259,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtSuhu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSuhu.Location = New System.Drawing.Point(501, 133)
-        Me.txtSuhu.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtSuhu.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSuhu.Name = "txtSuhu"
         Me.txtSuhu.Size = New System.Drawing.Size(84, 27)
         Me.txtSuhu.TabIndex = 4
@@ -1312,7 +1312,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtDiastole.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDiastole.Location = New System.Drawing.Point(159, 180)
-        Me.txtDiastole.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtDiastole.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDiastole.Name = "txtDiastole"
         Me.txtDiastole.Size = New System.Drawing.Size(82, 27)
         Me.txtDiastole.TabIndex = 4
@@ -1346,9 +1346,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox9.Controls.Add(Me.txtTerapi)
         Me.GroupBox9.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox9.Location = New System.Drawing.Point(3, 1568)
-        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox9.Size = New System.Drawing.Size(1138, 146)
         Me.GroupBox9.TabIndex = 253
         Me.GroupBox9.TabStop = False
@@ -1358,7 +1358,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtTerapi.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtTerapi.Location = New System.Drawing.Point(4, 24)
-        Me.txtTerapi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtTerapi.Margin = New System.Windows.Forms.Padding(4)
         Me.txtTerapi.Name = "txtTerapi"
         Me.txtTerapi.Size = New System.Drawing.Size(1130, 118)
         Me.txtTerapi.TabIndex = 237
@@ -1371,9 +1371,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox8.Controls.Add(Me.TableLayoutPanel4)
         Me.GroupBox8.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox8.Location = New System.Drawing.Point(3, 1023)
-        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox8.Size = New System.Drawing.Size(1138, 545)
         Me.GroupBox8.TabIndex = 252
         Me.GroupBox8.TabStop = False
@@ -1384,10 +1384,10 @@ Partial Class frmRingkasanKeluar
         Me.grdPROSEDUR.ContextMenuStrip = Me.mnuStripProsedur
         Me.grdPROSEDUR.DataSource = Me.BindingSourceProsedur
         Me.grdPROSEDUR.Dock = System.Windows.Forms.DockStyle.Top
-        Me.grdPROSEDUR.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdPROSEDUR.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
         Me.grdPROSEDUR.Location = New System.Drawing.Point(4, 319)
         Me.grdPROSEDUR.MainView = Me.grvPROSEDUR
-        Me.grdPROSEDUR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdPROSEDUR.Margin = New System.Windows.Forms.Padding(4)
         Me.grdPROSEDUR.Name = "grdPROSEDUR"
         Me.grdPROSEDUR.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemSearchLookUpEdit10, Me.RepositoryItemGridLookUpEdit4, Me.RepositoryItemCheckEdit5, Me.RepositoryItemSearchLookUpEdit11, Me.RepositoryItemMemoEdit5, Me.RepositoryItemSearchLookUpEdit12, Me.RepositoryItemComboBox4})
         Me.grdPROSEDUR.Size = New System.Drawing.Size(1130, 219)
@@ -1567,7 +1567,7 @@ Partial Class frmRingkasanKeluar
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox10, 1, 0)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top
         Me.TableLayoutPanel5.Location = New System.Drawing.Point(4, 281)
-        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 1
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -1579,7 +1579,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.Button9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button9.Location = New System.Drawing.Point(4, 4)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(218, 30)
         Me.Button9.TabIndex = 3
@@ -1591,7 +1591,7 @@ Partial Class frmRingkasanKeluar
         Me.GridLookUpEdit2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GridLookUpEdit2.EditValue = ""
         Me.GridLookUpEdit2.Location = New System.Drawing.Point(569, 4)
-        Me.GridLookUpEdit2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GridLookUpEdit2.Margin = New System.Windows.Forms.Padding(4)
         Me.GridLookUpEdit2.Name = "GridLookUpEdit2"
         Me.GridLookUpEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.GridLookUpEdit2.Properties.NullText = ""
@@ -1631,7 +1631,7 @@ Partial Class frmRingkasanKeluar
         Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TextBox10.Location = New System.Drawing.Point(230, 4)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(331, 27)
         Me.TextBox10.TabIndex = 4
@@ -1641,10 +1641,10 @@ Partial Class frmRingkasanKeluar
         Me.grdDiagnosa.ContextMenuStrip = Me.mnuStripDiagnosa
         Me.grdDiagnosa.DataSource = Me.BindingSourceDiagnosa
         Me.grdDiagnosa.Dock = System.Windows.Forms.DockStyle.Top
-        Me.grdDiagnosa.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDiagnosa.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
         Me.grdDiagnosa.Location = New System.Drawing.Point(4, 62)
         Me.grdDiagnosa.MainView = Me.grvDiagnosa
-        Me.grdDiagnosa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDiagnosa.Margin = New System.Windows.Forms.Padding(4)
         Me.grdDiagnosa.Name = "grdDiagnosa"
         Me.grdDiagnosa.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemSearchLookUpEdit1, Me.RepositoryItemGridLookUpEdit1, Me.RepositoryItemCheckEdit4, Me.RepositoryItemSearchLookUpEdit2, Me.RepositoryItemMemoEdit4, Me.RepositoryItemSearchLookUpEdit3, Me.RepositoryItemComboBox3})
         Me.grdDiagnosa.Size = New System.Drawing.Size(1130, 219)
@@ -1837,7 +1837,7 @@ Partial Class frmRingkasanKeluar
         Me.TableLayoutPanel4.Controls.Add(Me.txtCariDiagnosa, 1, 0)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.TableLayoutPanel4.Location = New System.Drawing.Point(4, 24)
-        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -1848,7 +1848,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.btnCariDiagnosa.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnCariDiagnosa.Location = New System.Drawing.Point(4, 4)
-        Me.btnCariDiagnosa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCariDiagnosa.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCariDiagnosa.Name = "btnCariDiagnosa"
         Me.btnCariDiagnosa.Size = New System.Drawing.Size(218, 30)
         Me.btnCariDiagnosa.TabIndex = 3
@@ -1860,7 +1860,7 @@ Partial Class frmRingkasanKeluar
         Me.grdCariDiagnosa.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grdCariDiagnosa.EditValue = ""
         Me.grdCariDiagnosa.Location = New System.Drawing.Point(569, 4)
-        Me.grdCariDiagnosa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdCariDiagnosa.Margin = New System.Windows.Forms.Padding(4)
         Me.grdCariDiagnosa.Name = "grdCariDiagnosa"
         Me.grdCariDiagnosa.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdCariDiagnosa.Properties.NullText = ""
@@ -1900,7 +1900,7 @@ Partial Class frmRingkasanKeluar
         Me.txtCariDiagnosa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCariDiagnosa.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtCariDiagnosa.Location = New System.Drawing.Point(230, 4)
-        Me.txtCariDiagnosa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCariDiagnosa.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCariDiagnosa.Name = "txtCariDiagnosa"
         Me.txtCariDiagnosa.Size = New System.Drawing.Size(331, 27)
         Me.txtCariDiagnosa.TabIndex = 4
@@ -1910,9 +1910,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox6.Controls.Add(Me.txtIndikasiRawat)
         Me.GroupBox6.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox6.Location = New System.Drawing.Point(3, 877)
-        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox6.Size = New System.Drawing.Size(1138, 146)
         Me.GroupBox6.TabIndex = 251
         Me.GroupBox6.TabStop = False
@@ -1922,7 +1922,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtIndikasiRawat.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtIndikasiRawat.Location = New System.Drawing.Point(4, 24)
-        Me.txtIndikasiRawat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtIndikasiRawat.Margin = New System.Windows.Forms.Padding(4)
         Me.txtIndikasiRawat.Name = "txtIndikasiRawat"
         Me.txtIndikasiRawat.Size = New System.Drawing.Size(1130, 118)
         Me.txtIndikasiRawat.TabIndex = 236
@@ -1932,9 +1932,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox7.Controls.Add(Me.txtHasilPemeriksaan)
         Me.GroupBox7.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox7.Location = New System.Drawing.Point(3, 731)
-        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox7.Size = New System.Drawing.Size(1138, 146)
         Me.GroupBox7.TabIndex = 250
         Me.GroupBox7.TabStop = False
@@ -1944,7 +1944,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtHasilPemeriksaan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtHasilPemeriksaan.Location = New System.Drawing.Point(4, 24)
-        Me.txtHasilPemeriksaan.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtHasilPemeriksaan.Margin = New System.Windows.Forms.Padding(4)
         Me.txtHasilPemeriksaan.Name = "txtHasilPemeriksaan"
         Me.txtHasilPemeriksaan.Size = New System.Drawing.Size(1130, 118)
         Me.txtHasilPemeriksaan.TabIndex = 235
@@ -1954,9 +1954,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox5.Controls.Add(Me.txtPemeriksaanFisik)
         Me.GroupBox5.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox5.Location = New System.Drawing.Point(3, 447)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox5.Size = New System.Drawing.Size(1138, 284)
         Me.GroupBox5.TabIndex = 250
         Me.GroupBox5.TabStop = False
@@ -1966,7 +1966,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtPemeriksaanFisik.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtPemeriksaanFisik.Location = New System.Drawing.Point(4, 24)
-        Me.txtPemeriksaanFisik.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtPemeriksaanFisik.Margin = New System.Windows.Forms.Padding(4)
         Me.txtPemeriksaanFisik.Name = "txtPemeriksaanFisik"
         Me.txtPemeriksaanFisik.Size = New System.Drawing.Size(1130, 256)
         Me.txtPemeriksaanFisik.TabIndex = 234
@@ -1976,9 +1976,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox4.Controls.Add(Me.txtKomorbiditasLain)
         Me.GroupBox4.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox4.Location = New System.Drawing.Point(3, 301)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Size = New System.Drawing.Size(1138, 146)
         Me.GroupBox4.TabIndex = 249
         Me.GroupBox4.TabStop = False
@@ -1988,7 +1988,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtKomorbiditasLain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtKomorbiditasLain.Location = New System.Drawing.Point(4, 24)
-        Me.txtKomorbiditasLain.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtKomorbiditasLain.Margin = New System.Windows.Forms.Padding(4)
         Me.txtKomorbiditasLain.Name = "txtKomorbiditasLain"
         Me.txtKomorbiditasLain.Size = New System.Drawing.Size(1130, 118)
         Me.txtKomorbiditasLain.TabIndex = 233
@@ -1998,9 +1998,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox3.Controls.Add(Me.txtAnamnesa)
         Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox3.Location = New System.Drawing.Point(3, 82)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Size = New System.Drawing.Size(1138, 219)
         Me.GroupBox3.TabIndex = 248
         Me.GroupBox3.TabStop = False
@@ -2010,7 +2010,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtAnamnesa.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtAnamnesa.Location = New System.Drawing.Point(4, 24)
-        Me.txtAnamnesa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtAnamnesa.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAnamnesa.Name = "txtAnamnesa"
         Me.txtAnamnesa.Size = New System.Drawing.Size(1130, 191)
         Me.txtAnamnesa.TabIndex = 232
@@ -2020,9 +2020,9 @@ Partial Class frmRingkasanKeluar
         Me.GroupBox2.Controls.Add(Me.txtKeluhanUtama)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox2.Location = New System.Drawing.Point(3, 3)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Size = New System.Drawing.Size(1138, 79)
         Me.GroupBox2.TabIndex = 247
         Me.GroupBox2.TabStop = False
@@ -2032,7 +2032,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.txtKeluhanUtama.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtKeluhanUtama.Location = New System.Drawing.Point(4, 24)
-        Me.txtKeluhanUtama.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtKeluhanUtama.Margin = New System.Windows.Forms.Padding(4)
         Me.txtKeluhanUtama.Name = "txtKeluhanUtama"
         Me.txtKeluhanUtama.Size = New System.Drawing.Size(1130, 51)
         Me.txtKeluhanUtama.TabIndex = 231
@@ -2042,7 +2042,7 @@ Partial Class frmRingkasanKeluar
         Me.PanelControl28.Controls.Add(Me.Panel6)
         Me.PanelControl28.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl28.Location = New System.Drawing.Point(0, 0)
-        Me.PanelControl28.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelControl28.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelControl28.Name = "PanelControl28"
         Me.PanelControl28.Size = New System.Drawing.Size(1144, 184)
         Me.PanelControl28.TabIndex = 1
@@ -2054,7 +2054,7 @@ Partial Class frmRingkasanKeluar
         Me.Panel6.Controls.Add(Me.TableLayoutPanel3)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.Location = New System.Drawing.Point(3, 3)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(1138, 178)
         Me.Panel6.TabIndex = 0
@@ -2085,7 +2085,7 @@ Partial Class frmRingkasanKeluar
         Me.TableLayoutPanel3.Controls.Add(Me.LabelControl3, 2, 3)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 4
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
@@ -2100,7 +2100,7 @@ Partial Class frmRingkasanKeluar
         Me.grdDokter5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grdDokter5.EnterMoveNextControl = True
         Me.grdDokter5.Location = New System.Drawing.Point(856, 136)
-        Me.grdDokter5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDokter5.Margin = New System.Windows.Forms.Padding(4)
         Me.grdDokter5.Name = "grdDokter5"
         Me.grdDokter5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdDokter5.Properties.NullText = ""
@@ -2131,7 +2131,7 @@ Partial Class frmRingkasanKeluar
         Me.grdDokter4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grdDokter4.EnterMoveNextControl = True
         Me.grdDokter4.Location = New System.Drawing.Point(856, 92)
-        Me.grdDokter4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDokter4.Margin = New System.Windows.Forms.Padding(4)
         Me.grdDokter4.Name = "grdDokter4"
         Me.grdDokter4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdDokter4.Properties.NullText = ""
@@ -2162,7 +2162,7 @@ Partial Class frmRingkasanKeluar
         Me.grdDokter3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grdDokter3.EnterMoveNextControl = True
         Me.grdDokter3.Location = New System.Drawing.Point(856, 48)
-        Me.grdDokter3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDokter3.Margin = New System.Windows.Forms.Padding(4)
         Me.grdDokter3.Name = "grdDokter3"
         Me.grdDokter3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdDokter3.Properties.NullText = ""
@@ -2194,7 +2194,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl4.Location = New System.Drawing.Point(572, 92)
-        Me.LabelControl4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl4.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl4.TabIndex = 253
@@ -2206,7 +2206,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl2.Location = New System.Drawing.Point(572, 48)
-        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl2.TabIndex = 251
@@ -2218,7 +2218,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl1.Location = New System.Drawing.Point(572, 4)
-        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl1.TabIndex = 250
@@ -2229,7 +2229,7 @@ Partial Class frmRingkasanKeluar
         Me.grdDokter2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grdDokter2.EnterMoveNextControl = True
         Me.grdDokter2.Location = New System.Drawing.Point(856, 4)
-        Me.grdDokter2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDokter2.Margin = New System.Windows.Forms.Padding(4)
         Me.grdDokter2.Name = "grdDokter2"
         Me.grdDokter2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdDokter2.Properties.NullText = ""
@@ -2258,7 +2258,7 @@ Partial Class frmRingkasanKeluar
         'grdKDDEPARTMENT
         '
         Me.grdKDDEPARTMENT.Location = New System.Drawing.Point(288, 136)
-        Me.grdKDDEPARTMENT.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdKDDEPARTMENT.Margin = New System.Windows.Forms.Padding(4)
         Me.grdKDDEPARTMENT.MenuManager = Me.barManager
         Me.grdKDDEPARTMENT.Name = "grdKDDEPARTMENT"
         Me.grdKDDEPARTMENT.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2298,7 +2298,7 @@ Partial Class frmRingkasanKeluar
         '
         Me.grdDPJP.EnterMoveNextControl = True
         Me.grdDPJP.Location = New System.Drawing.Point(288, 92)
-        Me.grdDPJP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDPJP.Margin = New System.Windows.Forms.Padding(4)
         Me.grdDPJP.Name = "grdDPJP"
         Me.grdDPJP.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdDPJP.Properties.NullText = ""
@@ -2331,7 +2331,7 @@ Partial Class frmRingkasanKeluar
         Me.deTANGGALPULANG.EditValue = Nothing
         Me.deTANGGALPULANG.EnterMoveNextControl = True
         Me.deTANGGALPULANG.Location = New System.Drawing.Point(288, 48)
-        Me.deTANGGALPULANG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.deTANGGALPULANG.Margin = New System.Windows.Forms.Padding(4)
         Me.deTANGGALPULANG.Name = "deTANGGALPULANG"
         Me.deTANGGALPULANG.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deTANGGALPULANG.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
@@ -2346,7 +2346,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl21.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl21.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl21.Location = New System.Drawing.Point(4, 4)
-        Me.LabelControl21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl21.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl21.Name = "LabelControl21"
         Me.LabelControl21.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl21.TabIndex = 219
@@ -2358,7 +2358,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl25.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl25.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl25.Location = New System.Drawing.Point(4, 48)
-        Me.LabelControl25.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl25.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl25.Name = "LabelControl25"
         Me.LabelControl25.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl25.TabIndex = 220
@@ -2370,7 +2370,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl27.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl27.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl27.Location = New System.Drawing.Point(4, 92)
-        Me.LabelControl27.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl27.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl27.Name = "LabelControl27"
         Me.LabelControl27.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl27.TabIndex = 220
@@ -2382,7 +2382,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl26.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl26.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl26.Location = New System.Drawing.Point(4, 136)
-        Me.LabelControl26.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl26.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl26.Name = "LabelControl26"
         Me.LabelControl26.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl26.TabIndex = 229
@@ -2394,7 +2394,7 @@ Partial Class frmRingkasanKeluar
         Me.deTANGGALMASUK.EditValue = Nothing
         Me.deTANGGALMASUK.EnterMoveNextControl = True
         Me.deTANGGALMASUK.Location = New System.Drawing.Point(288, 4)
-        Me.deTANGGALMASUK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.deTANGGALMASUK.Margin = New System.Windows.Forms.Padding(4)
         Me.deTANGGALMASUK.Name = "deTANGGALMASUK"
         Me.deTANGGALMASUK.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deTANGGALMASUK.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
@@ -2410,7 +2410,7 @@ Partial Class frmRingkasanKeluar
         Me.LabelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelControl3.Location = New System.Drawing.Point(572, 136)
-        Me.LabelControl3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl3.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(276, 36)
         Me.LabelControl3.TabIndex = 252
@@ -2431,7 +2431,7 @@ Partial Class frmRingkasanKeluar
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmRingkasanKeluar"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
