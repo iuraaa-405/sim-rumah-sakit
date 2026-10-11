@@ -104,7 +104,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.grd.EmbeddedNavigator.Buttons.Edit.Visible = False
         Me.grd.EmbeddedNavigator.Buttons.EndEdit.Visible = False
         Me.grd.EmbeddedNavigator.Buttons.Remove.Visible = False
-        Me.grd.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grd.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
         GridLevelNode1.LevelTemplate = Me.grv1
         GridLevelNode1.RelationName = "Level1"
         Me.grd.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode1})
@@ -193,7 +193,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.PanelControl1.Controls.Add(Me.picPrint)
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
-        Me.PanelControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(1188, 210)
         Me.PanelControl1.TabIndex = 1
@@ -203,7 +203,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.lblTelaah.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblTelaah.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lblTelaah.Location = New System.Drawing.Point(832, 88)
-        Me.lblTelaah.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lblTelaah.Margin = New System.Windows.Forms.Padding(4)
         Me.lblTelaah.Name = "lblTelaah"
         Me.lblTelaah.Size = New System.Drawing.Size(113, 21)
         Me.lblTelaah.TabIndex = 27
@@ -215,7 +215,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.picTelaah.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.picTelaah.EditValue = CType(resources.GetObject("picTelaah.EditValue"), Object)
         Me.picTelaah.Location = New System.Drawing.Point(852, 15)
-        Me.picTelaah.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picTelaah.Margin = New System.Windows.Forms.Padding(4)
         Me.picTelaah.Name = "picTelaah"
         Me.picTelaah.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picTelaah.Properties.Appearance.Options.UseBackColor = True
@@ -230,7 +230,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.lblCetakResep.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCetakResep.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lblCetakResep.Location = New System.Drawing.Point(954, 88)
-        Me.lblCetakResep.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lblCetakResep.Margin = New System.Windows.Forms.Padding(4)
         Me.lblCetakResep.Name = "lblCetakResep"
         Me.lblCetakResep.Size = New System.Drawing.Size(105, 21)
         Me.lblCetakResep.TabIndex = 25
@@ -242,7 +242,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.picCetakResep.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.picCetakResep.EditValue = CType(resources.GetObject("picCetakResep.EditValue"), Object)
         Me.picCetakResep.Location = New System.Drawing.Point(968, 15)
-        Me.picCetakResep.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picCetakResep.Margin = New System.Windows.Forms.Padding(4)
         Me.picCetakResep.Name = "picCetakResep"
         Me.picCetakResep.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picCetakResep.Properties.Appearance.Options.UseBackColor = True
@@ -257,7 +257,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.lCetakEtiket.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lCetakEtiket.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lCetakEtiket.Location = New System.Drawing.Point(1070, 88)
-        Me.lCetakEtiket.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lCetakEtiket.Margin = New System.Windows.Forms.Padding(4)
         Me.lCetakEtiket.Name = "lCetakEtiket"
         Me.lCetakEtiket.Size = New System.Drawing.Size(102, 21)
         Me.lCetakEtiket.TabIndex = 23
@@ -269,7 +269,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.picCetakEtiket.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.picCetakEtiket.EditValue = CType(resources.GetObject("picCetakEtiket.EditValue"), Object)
         Me.picCetakEtiket.Location = New System.Drawing.Point(1083, 15)
-        Me.picCetakEtiket.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picCetakEtiket.Margin = New System.Windows.Forms.Padding(4)
         Me.picCetakEtiket.Name = "picCetakEtiket"
         Me.picCetakEtiket.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picCetakEtiket.Properties.Appearance.Options.UseBackColor = True
@@ -283,7 +283,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl2.Location = New System.Drawing.Point(435, 88)
-        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(118, 21)
         Me.LabelControl2.TabIndex = 21
@@ -294,7 +294,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.picDiagnosa.EditValue = CType(resources.GetObject("picDiagnosa.EditValue"), Object)
         Me.picDiagnosa.Location = New System.Drawing.Point(453, 15)
-        Me.picDiagnosa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picDiagnosa.Margin = New System.Windows.Forms.Padding(4)
         Me.picDiagnosa.Name = "picDiagnosa"
         Me.picDiagnosa.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picDiagnosa.Properties.Appearance.Options.UseBackColor = True
@@ -309,7 +309,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.deDATETo.EditValue = Nothing
         Me.deDATETo.EnterMoveNextControl = True
         Me.deDATETo.Location = New System.Drawing.Point(172, 164)
-        Me.deDATETo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.deDATETo.Margin = New System.Windows.Forms.Padding(4)
         Me.deDATETo.Name = "deDATETo"
         Me.deDATETo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATETo.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
@@ -322,7 +322,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl6.Location = New System.Drawing.Point(354, 88)
-        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(66, 21)
         Me.LabelControl6.TabIndex = 13
@@ -342,7 +342,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.picAdd.EditValue = CType(resources.GetObject("picAdd.EditValue"), Object)
         Me.picAdd.Location = New System.Drawing.Point(27, 15)
-        Me.picAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picAdd.Margin = New System.Windows.Forms.Padding(4)
         Me.picAdd.Name = "picAdd"
         Me.picAdd.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picAdd.Properties.Appearance.Options.UseBackColor = True
@@ -365,7 +365,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl7.Location = New System.Drawing.Point(286, 88)
-        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(41, 21)
         Me.LabelControl7.TabIndex = 10
@@ -376,7 +376,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.deDATEFrom.EditValue = Nothing
         Me.deDATEFrom.EnterMoveNextControl = True
         Me.deDATEFrom.Location = New System.Drawing.Point(172, 129)
-        Me.deDATEFrom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.deDATEFrom.Margin = New System.Windows.Forms.Padding(4)
         Me.deDATEFrom.Name = "deDATEFrom"
         Me.deDATEFrom.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATEFrom.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
@@ -389,7 +389,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.picRefresh.EditValue = CType(resources.GetObject("picRefresh.EditValue"), Object)
         Me.picRefresh.Location = New System.Drawing.Point(351, 15)
-        Me.picRefresh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picRefresh.Margin = New System.Windows.Forms.Padding(4)
         Me.picRefresh.Name = "picRefresh"
         Me.picRefresh.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picRefresh.Properties.Appearance.Options.UseBackColor = True
@@ -402,7 +402,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.LabelControl4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl4.Location = New System.Drawing.Point(198, 88)
-        Me.LabelControl4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl4.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(55, 21)
         Me.LabelControl4.TabIndex = 11
@@ -412,7 +412,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.picUpdate.EditValue = CType(resources.GetObject("picUpdate.EditValue"), Object)
         Me.picUpdate.Location = New System.Drawing.Point(108, 15)
-        Me.picUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picUpdate.Margin = New System.Windows.Forms.Padding(4)
         Me.picUpdate.Name = "picUpdate"
         Me.picUpdate.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picUpdate.Properties.Appearance.Options.UseBackColor = True
@@ -425,7 +425,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl3.Location = New System.Drawing.Point(129, 88)
-        Me.LabelControl3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl3.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(33, 21)
         Me.LabelControl3.TabIndex = 9
@@ -435,7 +435,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.picDelete.EditValue = CType(resources.GetObject("picDelete.EditValue"), Object)
         Me.picDelete.Location = New System.Drawing.Point(189, 15)
-        Me.picDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picDelete.Margin = New System.Windows.Forms.Padding(4)
         Me.picDelete.Name = "picDelete"
         Me.picDelete.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picDelete.Properties.Appearance.Options.UseBackColor = True
@@ -448,7 +448,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl1.Location = New System.Drawing.Point(46, 88)
-        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(34, 21)
         Me.LabelControl1.TabIndex = 5
@@ -458,7 +458,7 @@ Partial Class frmSalesOrderTransaksiList
         '
         Me.picPrint.EditValue = CType(resources.GetObject("picPrint.EditValue"), Object)
         Me.picPrint.Location = New System.Drawing.Point(270, 15)
-        Me.picPrint.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picPrint.Margin = New System.Windows.Forms.Padding(4)
         Me.picPrint.Name = "picPrint"
         Me.picPrint.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picPrint.Properties.Appearance.Options.UseBackColor = True
@@ -490,7 +490,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.LayoutControl1.Controls.Add(Me.grd)
         Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 210)
-        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
         Me.LayoutControl1.Size = New System.Drawing.Size(1188, 627)
@@ -544,7 +544,7 @@ Partial Class frmSalesOrderTransaksiList
         Me.Controls.Add(Me.LayoutControl1)
         Me.Controls.Add(Me.PanelControl1)
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmSalesOrderTransaksiList"
         Me.ShowIcon = False
         CType(Me.grv1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -172,7 +172,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.layoutControl.Controls.Add(Me.txtKDSOTRANPARESEP)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
-        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1231, 208, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
@@ -247,7 +247,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlTop.Size = New System.Drawing.Size(1185, 0)
         '
         'barDockControlBottom
@@ -255,7 +255,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.barDockControlBottom.Location = New System.Drawing.Point(0, 799)
-        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlBottom.Size = New System.Drawing.Size(1185, 36)
         '
         'barDockControlLeft
@@ -263,7 +263,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlLeft.Size = New System.Drawing.Size(0, 799)
         '
         'barDockControlRight
@@ -271,7 +271,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
         Me.barDockControlRight.Location = New System.Drawing.Point(1185, 0)
-        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlRight.Size = New System.Drawing.Size(0, 799)
         '
         'progressBarSave
@@ -739,7 +739,7 @@ Partial Class frmSalesOrderTanpaResep
         '
         Me.tab2.Controls.Add(Me.LayoutControl1)
         Me.tab2.Name = "tab2"
-        Me.tab2.Size = New System.Drawing.Size(744, 183)
+        Me.tab2.Size = New System.Drawing.Size(1139, 433)
         Me.tab2.Text = "Memo Information"
         '
         'LayoutControl1
@@ -749,7 +749,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.s
-        Me.LayoutControl1.Size = New System.Drawing.Size(744, 183)
+        Me.LayoutControl1.Size = New System.Drawing.Size(1139, 433)
         Me.LayoutControl1.TabIndex = 0
         Me.LayoutControl1.Text = "LayoutControl1"
         '
@@ -759,7 +759,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.txtMEMO.Location = New System.Drawing.Point(18, 18)
         Me.txtMEMO.MenuManager = Me.barManager
         Me.txtMEMO.Name = "txtMEMO"
-        Me.txtMEMO.Size = New System.Drawing.Size(708, 147)
+        Me.txtMEMO.Size = New System.Drawing.Size(1103, 397)
         Me.txtMEMO.StyleController = Me.LayoutControl1
         Me.txtMEMO.TabIndex = 4
         '
@@ -771,7 +771,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.s.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem7})
         Me.s.Location = New System.Drawing.Point(0, 0)
         Me.s.Name = "s"
-        Me.s.Size = New System.Drawing.Size(744, 183)
+        Me.s.Size = New System.Drawing.Size(1139, 433)
         Me.s.TextVisible = False
         '
         'LayoutControlItem7
@@ -780,7 +780,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.LayoutControlItem7.CustomizationFormText = "LayoutControlItem7"
         Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(714, 153)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(1109, 403)
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem7.TextVisible = False
         '
@@ -980,7 +980,7 @@ Partial Class frmSalesOrderTanpaResep
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmSalesOrderTanpaResep"
         Me.ShowIcon = false
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

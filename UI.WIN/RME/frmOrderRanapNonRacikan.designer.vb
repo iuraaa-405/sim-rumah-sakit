@@ -167,21 +167,22 @@ Partial Class frmOrderRanapNonRacikan
         Me.layoutControl.Controls.Add(Me.txtKDORDER)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(652, 156, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(790, 549)
+        Me.layoutControl.Size = New System.Drawing.Size(1185, 799)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
         'chkResepPulang
         '
-        Me.chkResepPulang.Location = New System.Drawing.Point(400, 12)
+        Me.chkResepPulang.Location = New System.Drawing.Point(600, 18)
         Me.chkResepPulang.MenuManager = Me.barManager
         Me.chkResepPulang.Name = "chkResepPulang"
         Me.chkResepPulang.Properties.Caption = "Resep Pulang"
         Me.chkResepPulang.Properties.ReadOnly = True
-        Me.chkResepPulang.Size = New System.Drawing.Size(92, 19)
+        Me.chkResepPulang.Size = New System.Drawing.Size(138, 23)
         Me.chkResepPulang.StyleController = Me.layoutControl
         Me.chkResepPulang.TabIndex = 25
         '
@@ -234,28 +235,32 @@ Partial Class frmOrderRanapNonRacikan
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(790, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1185, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 549)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(790, 22)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 799)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1185, 36)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 549)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 799)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(790, 0)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 549)
+        Me.barDockControlRight.Location = New System.Drawing.Point(1185, 0)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 799)
         '
         'progressBarSave
         '
@@ -269,37 +274,37 @@ Partial Class frmOrderRanapNonRacikan
         '
         'txtMEMO1
         '
-        Me.txtMEMO1.Location = New System.Drawing.Point(167, 60)
+        Me.txtMEMO1.Location = New System.Drawing.Point(173, 82)
         Me.txtMEMO1.MenuManager = Me.barManager
         Me.txtMEMO1.Name = "txtMEMO1"
-        Me.txtMEMO1.Size = New System.Drawing.Size(325, 20)
+        Me.txtMEMO1.Size = New System.Drawing.Size(565, 26)
         Me.txtMEMO1.StyleController = Me.layoutControl
         Me.txtMEMO1.TabIndex = 23
         '
         'txtBERATBADAN
         '
-        Me.txtBERATBADAN.Location = New System.Drawing.Point(167, 108)
+        Me.txtBERATBADAN.Location = New System.Drawing.Point(173, 146)
         Me.txtBERATBADAN.MenuManager = Me.barManager
         Me.txtBERATBADAN.Name = "txtBERATBADAN"
-        Me.txtBERATBADAN.Size = New System.Drawing.Size(325, 20)
+        Me.txtBERATBADAN.Size = New System.Drawing.Size(565, 26)
         Me.txtBERATBADAN.StyleController = Me.layoutControl
         Me.txtBERATBADAN.TabIndex = 24
         '
         'txtTINGGIBADAN
         '
-        Me.txtTINGGIBADAN.Location = New System.Drawing.Point(167, 84)
+        Me.txtTINGGIBADAN.Location = New System.Drawing.Point(173, 114)
         Me.txtTINGGIBADAN.MenuManager = Me.barManager
         Me.txtTINGGIBADAN.Name = "txtTINGGIBADAN"
-        Me.txtTINGGIBADAN.Size = New System.Drawing.Size(325, 20)
+        Me.txtTINGGIBADAN.Size = New System.Drawing.Size(565, 26)
         Me.txtTINGGIBADAN.StyleController = Me.layoutControl
         Me.txtTINGGIBADAN.TabIndex = 23
         '
         'txtINDIKASI
         '
-        Me.txtINDIKASI.Location = New System.Drawing.Point(167, 132)
+        Me.txtINDIKASI.Location = New System.Drawing.Point(173, 178)
         Me.txtINDIKASI.MenuManager = Me.barManager
         Me.txtINDIKASI.Name = "txtINDIKASI"
-        Me.txtINDIKASI.Size = New System.Drawing.Size(325, 20)
+        Me.txtINDIKASI.Size = New System.Drawing.Size(565, 26)
         Me.txtINDIKASI.StyleController = Me.layoutControl
         Me.txtINDIKASI.TabIndex = 22
         '
@@ -310,10 +315,10 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControl5.Controls.Add(Me.SimpleButton4)
         Me.LayoutControl5.Controls.Add(Me.SimpleButton7)
         Me.LayoutControl5.Controls.Add(Me.btnRiwayatPemberianResep)
-        Me.LayoutControl5.Location = New System.Drawing.Point(496, 12)
+        Me.LayoutControl5.Location = New System.Drawing.Point(744, 18)
         Me.LayoutControl5.Name = "LayoutControl5"
         Me.LayoutControl5.Root = Me.LayoutControlGroup5
-        Me.LayoutControl5.Size = New System.Drawing.Size(282, 140)
+        Me.LayoutControl5.Size = New System.Drawing.Size(423, 204)
         Me.LayoutControl5.TabIndex = 21
         Me.LayoutControl5.Text = "LayoutControl5"
         '
@@ -325,9 +330,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.btnBuatTemplate.Appearance.Options.UseBorderColor = True
         Me.btnBuatTemplate.Appearance.Options.UseFont = True
         Me.btnBuatTemplate.Appearance.Options.UseForeColor = True
-        Me.btnBuatTemplate.Location = New System.Drawing.Point(2, 89)
+        Me.btnBuatTemplate.Location = New System.Drawing.Point(3, 132)
         Me.btnBuatTemplate.Name = "btnBuatTemplate"
-        Me.btnBuatTemplate.Size = New System.Drawing.Size(278, 25)
+        Me.btnBuatTemplate.Size = New System.Drawing.Size(417, 37)
         Me.btnBuatTemplate.StyleController = Me.LayoutControl5
         Me.btnBuatTemplate.TabIndex = 73
         Me.btnBuatTemplate.Text = "Buat Template"
@@ -335,13 +340,13 @@ Partial Class frmOrderRanapNonRacikan
         'grdTEMPLATE
         '
         Me.grdTEMPLATE.EnterMoveNextControl = True
-        Me.grdTEMPLATE.Location = New System.Drawing.Point(2, 118)
+        Me.grdTEMPLATE.Location = New System.Drawing.Point(3, 175)
         Me.grdTEMPLATE.Name = "grdTEMPLATE"
         Me.grdTEMPLATE.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdTEMPLATE.Properties.NullText = ""
         Me.grdTEMPLATE.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdTEMPLATE.Properties.View = Me.grvWAREHOUSE
-        Me.grdTEMPLATE.Size = New System.Drawing.Size(278, 20)
+        Me.grdTEMPLATE.Size = New System.Drawing.Size(417, 26)
         Me.grdTEMPLATE.StyleController = Me.LayoutControl5
         Me.grdTEMPLATE.TabIndex = 36
         '
@@ -370,9 +375,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.SimpleButton4.Appearance.Options.UseBorderColor = True
         Me.SimpleButton4.Appearance.Options.UseFont = True
         Me.SimpleButton4.Appearance.Options.UseForeColor = True
-        Me.SimpleButton4.Location = New System.Drawing.Point(2, 60)
+        Me.SimpleButton4.Location = New System.Drawing.Point(3, 89)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(278, 25)
+        Me.SimpleButton4.Size = New System.Drawing.Size(417, 37)
         Me.SimpleButton4.StyleController = Me.LayoutControl5
         Me.SimpleButton4.TabIndex = 72
         Me.SimpleButton4.Text = "Riwayat Pemberian Obat"
@@ -385,9 +390,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.SimpleButton7.Appearance.Options.UseBorderColor = True
         Me.SimpleButton7.Appearance.Options.UseFont = True
         Me.SimpleButton7.Appearance.Options.UseForeColor = True
-        Me.SimpleButton7.Location = New System.Drawing.Point(2, 2)
+        Me.SimpleButton7.Location = New System.Drawing.Point(3, 3)
         Me.SimpleButton7.Name = "SimpleButton7"
-        Me.SimpleButton7.Size = New System.Drawing.Size(278, 25)
+        Me.SimpleButton7.Size = New System.Drawing.Size(417, 37)
         Me.SimpleButton7.StyleController = Me.LayoutControl5
         Me.SimpleButton7.TabIndex = 73
         Me.SimpleButton7.Text = "Resep Terakhir"
@@ -400,9 +405,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.btnRiwayatPemberianResep.Appearance.Options.UseBorderColor = True
         Me.btnRiwayatPemberianResep.Appearance.Options.UseFont = True
         Me.btnRiwayatPemberianResep.Appearance.Options.UseForeColor = True
-        Me.btnRiwayatPemberianResep.Location = New System.Drawing.Point(2, 31)
+        Me.btnRiwayatPemberianResep.Location = New System.Drawing.Point(3, 46)
         Me.btnRiwayatPemberianResep.Name = "btnRiwayatPemberianResep"
-        Me.btnRiwayatPemberianResep.Size = New System.Drawing.Size(278, 25)
+        Me.btnRiwayatPemberianResep.Size = New System.Drawing.Size(417, 37)
         Me.btnRiwayatPemberianResep.StyleController = Me.LayoutControl5
         Me.btnRiwayatPemberianResep.TabIndex = 71
         Me.btnRiwayatPemberianResep.Text = "Riwayat Pemberian Resep"
@@ -416,7 +421,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
         Me.LayoutControlGroup5.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(282, 140)
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(423, 204)
         Me.LayoutControlGroup5.TextVisible = False
         '
         'LayoutControlItem7
@@ -424,43 +429,43 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControlItem7.Control = Me.SimpleButton7
         Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(282, 29)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(423, 43)
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem7.TextVisible = False
         '
         'LayoutControlItem8
         '
         Me.LayoutControlItem8.Control = Me.btnRiwayatPemberianResep
-        Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 29)
+        Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 43)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(282, 29)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(423, 43)
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem8.TextVisible = False
         '
         'LayoutControlItem9
         '
         Me.LayoutControlItem9.Control = Me.SimpleButton4
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 58)
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 86)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(282, 29)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(423, 43)
         Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem9.TextVisible = False
         '
         'LayoutControlItem10
         '
         Me.LayoutControlItem10.Control = Me.grdTEMPLATE
-        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 116)
+        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 172)
         Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(282, 24)
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(423, 32)
         Me.LayoutControlItem10.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem10.TextVisible = False
         '
         'LayoutControlItem11
         '
         Me.LayoutControlItem11.Control = Me.btnBuatTemplate
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(0, 87)
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(0, 129)
         Me.LayoutControlItem11.Name = "LayoutControlItem11"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(282, 29)
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(423, 43)
         Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem11.TextVisible = False
         '
@@ -468,23 +473,23 @@ Partial Class frmOrderRanapNonRacikan
         '
         Me.deDATE.EditValue = Nothing
         Me.deDATE.EnterMoveNextControl = True
-        Me.deDATE.Location = New System.Drawing.Point(167, 36)
+        Me.deDATE.Location = New System.Drawing.Point(173, 50)
         Me.deDATE.MenuManager = Me.barManager
         Me.deDATE.Name = "deDATE"
         Me.deDATE.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATE.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deDATE.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.deDATE.Properties.Mask.UseMaskAsDisplayFormat = True
-        Me.deDATE.Size = New System.Drawing.Size(325, 20)
+        Me.deDATE.Size = New System.Drawing.Size(565, 26)
         Me.deDATE.StyleController = Me.layoutControl
         Me.deDATE.TabIndex = 20
         '
         'tabControl
         '
-        Me.tabControl.Location = New System.Drawing.Point(12, 156)
+        Me.tabControl.Location = New System.Drawing.Point(18, 228)
         Me.tabControl.Name = "tabControl"
         Me.tabControl.SelectedTabPage = Me.tab1
-        Me.tabControl.Size = New System.Drawing.Size(766, 357)
+        Me.tabControl.Size = New System.Drawing.Size(1149, 518)
         Me.tabControl.TabIndex = 18
         Me.tabControl.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.tab1})
         '
@@ -492,7 +497,7 @@ Partial Class frmOrderRanapNonRacikan
         '
         Me.tab1.Controls.Add(Me.grdDetailResep)
         Me.tab1.Name = "tab1"
-        Me.tab1.Size = New System.Drawing.Size(760, 329)
+        Me.tab1.Size = New System.Drawing.Size(1139, 476)
         Me.tab1.Text = "Detail Information"
         '
         'grdDetailResep
@@ -504,20 +509,21 @@ Partial Class frmOrderRanapNonRacikan
         Me.grdDetailResep.MainView = Me.grvDetailResep
         Me.grdDetailResep.Name = "grdDetailResep"
         Me.grdDetailResep.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.grdCARAPAKAI, Me.grdUOM, Me.chk, Me.grdKDSIGNA, Me.txtREMARKS, Me.grdKDITEM, Me.cboIntoleransi})
-        Me.grdDetailResep.Size = New System.Drawing.Size(760, 329)
+        Me.grdDetailResep.Size = New System.Drawing.Size(1139, 476)
         Me.grdDetailResep.TabIndex = 1
         Me.grdDetailResep.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvDetailResep})
         '
         'mnuStrip
         '
+        Me.mnuStrip.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.mnuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteToolStripMenuItem})
         Me.mnuStrip.Name = "mnuStrip"
-        Me.mnuStrip.Size = New System.Drawing.Size(108, 26)
+        Me.mnuStrip.Size = New System.Drawing.Size(135, 34)
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(134, 30)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'bindingSource
@@ -799,10 +805,10 @@ Partial Class frmOrderRanapNonRacikan
         '
         Me.txtKDORDER.EditValue = ""
         Me.txtKDORDER.EnterMoveNextControl = True
-        Me.txtKDORDER.Location = New System.Drawing.Point(167, 12)
+        Me.txtKDORDER.Location = New System.Drawing.Point(173, 18)
         Me.txtKDORDER.Name = "txtKDORDER"
         Me.txtKDORDER.Properties.ReadOnly = True
-        Me.txtKDORDER.Size = New System.Drawing.Size(229, 20)
+        Me.txtKDORDER.Size = New System.Drawing.Size(421, 26)
         Me.txtKDORDER.StyleController = Me.layoutControl
         Me.txtKDORDER.TabIndex = 9
         Me.txtKDORDER.TabStop = False
@@ -815,7 +821,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lKDADJUSTMENT, Me.LayoutControlItem5, Me.lDATE, Me.LayoutControlItem3, Me.EmptySpaceItem2, Me.LayoutControlItem1, Me.LayoutControlItem2, Me.LayoutControlItem4, Me.LayoutControlItem6, Me.lResepPulang})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(790, 549)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1185, 799)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'lKDADJUSTMENT
@@ -826,7 +832,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.lKDADJUSTMENT.CustomizationFormText = "Display Name * :"
         Me.lKDADJUSTMENT.Location = New System.Drawing.Point(0, 0)
         Me.lKDADJUSTMENT.Name = "lKDADJUSTMENT"
-        Me.lKDADJUSTMENT.Size = New System.Drawing.Size(388, 24)
+        Me.lKDADJUSTMENT.Size = New System.Drawing.Size(582, 32)
         Me.lKDADJUSTMENT.Text = "Number * :"
         Me.lKDADJUSTMENT.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDADJUSTMENT.TextSize = New System.Drawing.Size(150, 20)
@@ -836,9 +842,9 @@ Partial Class frmOrderRanapNonRacikan
         '
         Me.LayoutControlItem5.Control = Me.tabControl
         Me.LayoutControlItem5.CustomizationFormText = "LayoutControlItem5"
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 144)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 210)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(770, 361)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(1155, 524)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
         '
@@ -848,9 +854,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.lDATE.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lDATE.Control = Me.deDATE
         Me.lDATE.CustomizationFormText = "Date :"
-        Me.lDATE.Location = New System.Drawing.Point(0, 24)
+        Me.lDATE.Location = New System.Drawing.Point(0, 32)
         Me.lDATE.Name = "lDATE"
-        Me.lDATE.Size = New System.Drawing.Size(484, 24)
+        Me.lDATE.Size = New System.Drawing.Size(726, 32)
         Me.lDATE.Text = "Date :"
         Me.lDATE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDATE.TextSize = New System.Drawing.Size(150, 20)
@@ -860,9 +866,9 @@ Partial Class frmOrderRanapNonRacikan
         '
         Me.LayoutControlItem3.Control = Me.LayoutControl5
         Me.LayoutControlItem3.CustomizationFormText = "LayoutControlItem3"
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(484, 0)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(726, 0)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(286, 144)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(429, 210)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
@@ -870,9 +876,9 @@ Partial Class frmOrderRanapNonRacikan
         '
         Me.EmptySpaceItem2.AllowHotTrack = False
         Me.EmptySpaceItem2.CustomizationFormText = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 505)
+        Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 734)
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Size = New System.Drawing.Size(770, 24)
+        Me.EmptySpaceItem2.Size = New System.Drawing.Size(1155, 35)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem1
@@ -880,9 +886,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControlItem1.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem1.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem1.Control = Me.txtINDIKASI
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 120)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 160)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(484, 24)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(726, 50)
         Me.LayoutControlItem1.Text = "Indikasi Pemeriksaan :"
         Me.LayoutControlItem1.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(150, 20)
@@ -893,9 +899,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControlItem2.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem2.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem2.Control = Me.txtTINGGIBADAN
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 72)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 96)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(484, 24)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(726, 32)
         Me.LayoutControlItem2.Text = "Tinggi Badan * :"
         Me.LayoutControlItem2.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(150, 20)
@@ -906,9 +912,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControlItem4.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem4.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem4.Control = Me.txtBERATBADAN
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 96)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 128)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(484, 24)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(726, 32)
         Me.LayoutControlItem4.Text = "Berat Badan * :"
         Me.LayoutControlItem4.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(150, 20)
@@ -919,9 +925,9 @@ Partial Class frmOrderRanapNonRacikan
         Me.LayoutControlItem6.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem6.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem6.Control = Me.txtMEMO1
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 48)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 64)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(484, 24)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(726, 32)
         Me.LayoutControlItem6.Text = "Diagnosa * :"
         Me.LayoutControlItem6.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(150, 20)
@@ -930,9 +936,9 @@ Partial Class frmOrderRanapNonRacikan
         'lResepPulang
         '
         Me.lResepPulang.Control = Me.chkResepPulang
-        Me.lResepPulang.Location = New System.Drawing.Point(388, 0)
+        Me.lResepPulang.Location = New System.Drawing.Point(582, 0)
         Me.lResepPulang.Name = "lResepPulang"
-        Me.lResepPulang.Size = New System.Drawing.Size(96, 24)
+        Me.lResepPulang.Size = New System.Drawing.Size(144, 32)
         Me.lResepPulang.TextSize = New System.Drawing.Size(0, 0)
         Me.lResepPulang.TextVisible = False
         '
@@ -948,9 +954,9 @@ Partial Class frmOrderRanapNonRacikan
         '
         Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
         Me.Appearance.Options.UseBackColor = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(790, 571)
+        Me.ClientSize = New System.Drawing.Size(1185, 835)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
@@ -958,6 +964,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmOrderRanapNonRacikan"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

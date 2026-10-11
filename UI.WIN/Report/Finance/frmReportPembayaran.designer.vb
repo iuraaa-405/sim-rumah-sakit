@@ -154,13 +154,13 @@ Partial Class frmReportPembayaran
         '
         Me.grd.ContextMenuStrip = Me.mnuStrip
         Me.grd.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grd.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grd.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
         GridLevelNode1.LevelTemplate = Me.grv1
         GridLevelNode1.RelationName = "Level1"
         Me.grd.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode1})
         Me.grd.Location = New System.Drawing.Point(3, 30)
         Me.grd.MainView = Me.grv
-        Me.grd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grd.Margin = New System.Windows.Forms.Padding(4)
         Me.grd.Name = "grd"
         Me.grd.ShowOnlyPredefinedDetails = True
         Me.grd.Size = New System.Drawing.Size(960, 501)
@@ -286,7 +286,7 @@ Partial Class frmReportPembayaran
         Me.LayoutControl1.Controls.Add(Me.deDATETo)
         Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl1.Location = New System.Drawing.Point(3, 30)
-        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
         Me.LayoutControl1.Size = New System.Drawing.Size(960, 139)
@@ -404,7 +404,7 @@ Partial Class frmReportPembayaran
         Me.GroupControl1.Controls.Add(Me.grd)
         Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl1.Location = New System.Drawing.Point(0, 302)
-        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(966, 534)
         Me.GroupControl1.TabIndex = 4
@@ -421,7 +421,7 @@ Partial Class frmReportPembayaran
         Me.panelMenu.Controls.Add(Me.picPrint)
         Me.panelMenu.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelMenu.Location = New System.Drawing.Point(0, 0)
-        Me.panelMenu.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.panelMenu.Margin = New System.Windows.Forms.Padding(4)
         Me.panelMenu.Name = "panelMenu"
         Me.panelMenu.Size = New System.Drawing.Size(966, 130)
         Me.panelMenu.TabIndex = 7
@@ -430,7 +430,7 @@ Partial Class frmReportPembayaran
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl6.Location = New System.Drawing.Point(102, 91)
-        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(66, 21)
         Me.LabelControl6.TabIndex = 17
@@ -440,7 +440,7 @@ Partial Class frmReportPembayaran
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl7.Location = New System.Drawing.Point(34, 91)
-        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(4)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(41, 21)
         Me.LabelControl7.TabIndex = 15
@@ -450,7 +450,7 @@ Partial Class frmReportPembayaran
         '
         Me.picRefresh.EditValue = CType(resources.GetObject("picRefresh.EditValue"), Object)
         Me.picRefresh.Location = New System.Drawing.Point(99, 18)
-        Me.picRefresh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picRefresh.Margin = New System.Windows.Forms.Padding(4)
         Me.picRefresh.Name = "picRefresh"
         Me.picRefresh.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picRefresh.Properties.Appearance.Options.UseBackColor = True
@@ -463,7 +463,7 @@ Partial Class frmReportPembayaran
         '
         Me.picPrint.EditValue = CType(resources.GetObject("picPrint.EditValue"), Object)
         Me.picPrint.Location = New System.Drawing.Point(18, 18)
-        Me.picPrint.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picPrint.Margin = New System.Windows.Forms.Padding(4)
         Me.picPrint.Name = "picPrint"
         Me.picPrint.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picPrint.Properties.Appearance.Options.UseBackColor = True
@@ -477,7 +477,7 @@ Partial Class frmReportPembayaran
         Me.GroupControl2.Controls.Add(Me.LayoutControl1)
         Me.GroupControl2.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl2.Location = New System.Drawing.Point(0, 130)
-        Me.GroupControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupControl2.Name = "GroupControl2"
         Me.GroupControl2.Size = New System.Drawing.Size(966, 172)
         Me.GroupControl2.TabIndex = 4
@@ -503,7 +503,7 @@ Partial Class frmReportPembayaran
         Me.Controls.Add(Me.panelMenu)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MinimizeBox = False
         Me.Name = "frmReportPembayaran"
         Me.ShowIcon = false

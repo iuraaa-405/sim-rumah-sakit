@@ -6159,10 +6159,19 @@ Public Class frmRawatInapList
                     cek = True
                 End If
 
-                If cek = False Then
-                    MsgBox("Dibutuhkan Cara Keluar Pasien", MsgBoxStyle.Exclamation, Me.Text)
-                    fn_ValidateRINGKASANKELUAR = False
-                    Exit Function
+                If chkKEADAANSAATKELUAR_3.Checked = True Then
+                    'meninggal sebelum 48
+                Else
+                    If chkKEADAANSAATKELUAR_5.Checked = True Then
+                        'meninggal sesudah 48
+                    Else
+
+                        If cek = False Then
+                            MsgBox("Dibutuhkan Cara Keluar Pasien", MsgBoxStyle.Exclamation, Me.Text)
+                            fn_ValidateRINGKASANKELUAR = False
+                            Exit Function
+                        End If
+                    End If
                 End If
 
                 Dim CekDiagnosa As Boolean = False
@@ -6451,7 +6460,7 @@ Public Class frmRawatInapList
             CheckEdit29.Checked = False
         End If
     End Sub
-    Private Sub CheckEdit21_CheckedChanged(sender As Object, e As EventArgs) Handles CheckEdit21.CheckedChanged, CheckEdit32.CheckedChanged, CheckEdit31.CheckedChanged, CheckEdit25.CheckedChanged
+    Private Sub CheckEdit21_CheckedChanged(sender As Object, e As EventArgs) Handles CheckEdit21.CheckedChanged
         If CheckEdit21.Checked = True Then
             CheckEdit22.Checked = False
             CheckEdit23.Checked = False
