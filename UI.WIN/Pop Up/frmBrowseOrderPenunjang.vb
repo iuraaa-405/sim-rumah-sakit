@@ -5,9 +5,11 @@ Imports System.Data.SqlClient
 
 Public Class frmBrowseOrderPenunjang
     Private sCategoryBilling As Integer = 0
+    Private sKDPENDAFTARAN As String = String.Empty
 
-    Public Sub LoadMe(ByVal CategoryBilling As Integer)
+    Public Sub LoadMe(ByVal CategoryBilling As Integer, ByVal kdpendafataran As String)
         sCategoryBilling = CategoryBilling
+        sKDPENDAFTARAN = kdpendafataran
     End Sub
     Private Sub Form_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         sFind1 = ""
@@ -126,6 +128,30 @@ Public Class frmBrowseOrderPenunjang
                 SQL &= ",B.jnsPelayanan "
                 SQL &= ",B.poli "
                 SQL &= ",B.ruangan "
+            ElseIf sCategoryBilling = 30 Then
+                'order lab
+                SQL = "SELECT "
+                SQL &= "KDCPPT = A.KDSOTRANSAKSI	"
+                SQL &= ",TANGGALSAMPLE = A.DATE	"
+                SQL &= ",KDITEM = ''	"
+                SQL &= ",JUDUL = ISNULL((SELECT STRING_AGG(AA.JUDUL,', ') FROM DATABASERS..M_HASILLAB_H AA INNER JOIN DATABASERS..S_SO_TRANSAKSI_D_HASIL_LABORATORIUM BB ON AA.KDHASILLAB = BB.KDITEM WHERE BB.KDSOTRANSAKSI = A.KDSOTRANSAKSI GROUP BY BB.KDSOTRANSAKSI), '')	"
+                SQL &= ",KDUSER = A.KDUSER	"
+                SQL &= "FROM DATABASERS..S_SO_TRANSAKSI_D_HASIL_LABORATORIUM A 	"
+                SQL &= "INNER JOIN DATABASERS..S_SO_TRANSAKSI_H B	"
+                SQL &= "ON A.KDSOTRANSAKSI = B.KDSOTRANSAKSI	"
+                SQL &= "INNER JOIN DATABASERS..S_PENDAFTARAN_KUNJUNGAN C	"
+                SQL &= "ON B.KDKUNJUNGAN = C.KDKUNJUNGAN	"
+                SQL &= "INNER JOIN DATABASERS..S_PENDAFTARAN_H D	"
+                SQL &= "ON C.KDPENDAFTARAN = D.KDPENDAFTARAN	"
+                SQL &= "INNER JOIN DATABASERME..R_ORDER E	"
+                SQL &= "ON B.KDORDER = E.KDORDER	"
+                SQL &= "WHERE C.KDPENDAFTARAN  = '" & sKDPENDAFTARAN & "'	"
+                'SQL &= "AND E.STATUS = 'KIRIM'	"
+                SQL &= "GROUP BY	"
+                SQL &= "A.KDSOTRANSAKSI	"
+                SQL &= ",A.DATE	"
+                SQL &= ",A.KDUSER	"
+                SQL &= "ORDER BY A.DATE DESC "
             Else
                 SQL = "SELECT "
                 SQL &= "Kategori = 'Non Racikan' "

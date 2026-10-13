@@ -10,6 +10,7 @@ Imports System.Net
 Imports Newtonsoft.Json.Linq
 Imports System.Text.RegularExpressions
 
+
 Public Class frmRawatInapList
     Private oRIdentitasGrouperData As New Grouper.clsR_Identitas_Grouper_Data
     Private oCPPT As New Transaksi.clsCPPT
@@ -18086,6 +18087,55 @@ Public Class frmRawatInapList
         'End If
 
         'picGAMBAR2.Focus()
+    End Sub
+    Private Sub btnHaisilLab_Click(sender As Object, e As EventArgs) Handles btnHaisilLab.Click
+        If lblRegister.Text = "" Then
+            MsgBox("Register Kosong", MsgBoxStyle.Exclamation, Me.Text)
+            Exit Sub
+        End If
+
+        sFind1 = ""
+
+        Dim frmBrowseOrderPenunjang As New frmBrowseOrderPenunjang
+        Try
+            frmBrowseOrderPenunjang.LoadMe(30, lblRegister.Text)
+            frmBrowseOrderPenunjang.ShowDialog(Me)
+
+            If sFind1 <> "" Then
+                Dim Catatan1 As String = txtHasilPemeriksaan.Text
+                'txtHasilPemeriksaan.Text = ""
+
+                Dim oLabb As New Grouper.clsHasiLab
+                Dim listPemeriksaan As New List(Of String)
+                Dim lastNamaPemeriksaan As String = ""
+
+                For Each xloop In oLabb.GetDataDetailTransaksi(sFind1)
+                    Dim namaPemeriksaan As String = xloop.NAMAPEMERIKSAAN.ToString()
+
+                    ' Tambahkan nama grup hanya sekali (saat berubah)
+                    If namaPemeriksaan <> lastNamaPemeriksaan Then
+                        listPemeriksaan.Add(namaPemeriksaan)
+                        lastNamaPemeriksaan = namaPemeriksaan
+                    End If
+
+                    ' Tambahkan detail pemeriksaan
+                    listPemeriksaan.Add(xloop.PEMERIKSAAN.ToString() & vbTab &
+                        xloop.HASIL.ToString() & vbTab &
+                        xloop.SATUAN.ToString())
+                Next
+
+                txtHasilPemeriksaan.Text = Catatan1 & vbCrLf & String.Join(vbCrLf, listPemeriksaan.ToArray)
+            End If
+
+            sFind1 = ""
+
+
+        Catch oErr As Exception
+            MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
+        Finally
+            If Not frmBrowseOrderPenunjang Is Nothing Then frmBrowseOrderPenunjang.Dispose()
+            frmBrowseOrderPenunjang = Nothing
+        End Try
     End Sub
 #End Region
 End Class
