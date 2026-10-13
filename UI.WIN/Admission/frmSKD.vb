@@ -113,6 +113,7 @@ Public Class frmSKD
         End If
 
         lDATE.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
+        lKuota.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
 
         If sAlasan = "" Then
             Me.Text = SKD.TITLE
@@ -145,6 +146,7 @@ Public Class frmSKD
                 lTINDAKLANJUT.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
                 lDESCRIPTION.Text = "Rencana Pemeriksaan Saat Kontrol Selanjutnya"
                 lDESCRIPTION.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
+                lKuota.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
             ElseIf sAlasan = "KONSUL INTERNAL" Then
                 Me.Text = "Konsul Internal - Edit Form"
                 lDESCRIPTION.Text = "Alasan di Konsul"
@@ -243,6 +245,12 @@ Public Class frmSKD
                 txtTINDAKLANJUT.Text = .TINDAKLANJUT
                 txtNomorSepaAtauKartu.Text = .NOMORSEP
                 cboSKDSPRI.SelectedIndex = IIf(.ISSKD = False, 0, 1)
+
+
+                If grdKDDOCTOR.Text <> "" And grdKDDEPARTMENT.Text <> "" Then
+                    fn_LoadKuota()
+                End If
+
             End With
         Catch oErr As Exception
             MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
@@ -1656,6 +1664,47 @@ Public Class frmSKD
         If sCopySEPdiSKD <> "" Then
             txtNoSEP2.Text = sCopySEPdiSKD
         End If
+    End Sub
+    Private Sub grdKDDOCTOR_EditValueChanged(sender As Object, e As EventArgs) Handles grdKDDOCTOR.EditValueChanged
+        If isLoad = True Then
+            If grdKDDOCTOR.Text <> "" And grdKDDEPARTMENT.Text <> "" Then
+                fn_LoadKuota()
+            End If
+        End If
+    End Sub
+    Private Sub fn_LoadKuota()
+        Try
+            Dim oDoctor As New Reference.clsDoctor
+            Dim oDepartment As New Reference.clsDepartment
+            Dim sHARI As String = String.Empty
+            Dim sKDDOCTOR_BPJS As String = String.Empty
+            Dim sKDDEPARTMENT_BPJS As String = oDepartment.GetData(grdKDDEPARTMENT.EditValue).VCLAIM_KODEPOLI
+
+            Select Case Weekday(deDATEKONTROL.DateTime)
+                Case 1
+                    sHARI = "Minggu"
+                Case 2
+                    sHARI = "Senin"
+                Case 3
+                    sHARI = "Selasa"
+                Case 4
+                    sHARI = "Rabu"
+                Case 5
+                    sHARI = "Kamis"
+                Case 6
+                    sHARI = "Jumat"
+                Case 7
+                    sHARI = "Sabtu"
+            End Select
+
+            Dim dsJawdwalDokter = oDoctor.GetDataDetailJadwalDokter(grdKDDOCTOR.EditValue, sHARI)
+
+            lblKuota.Text = "SISA KUOTA JKN : " & IIf(dsJawdwalDokter.KAPASITASPASIEN_JKN - oDoctor.GetDataMonitoringSisaJKN(sKDDEPARTMENT_BPJS, sKDDOCTOR_BPJS, deDATEKONTROL.DateTime) < 0, 0, dsJawdwalDokter.KAPASITASPASIEN_JKN - oDoctor.GetDataMonitoringSisaJKN(sKDDEPARTMENT_BPJS, sKDDOCTOR_BPJS, deDATEKONTROL.DateTime)) & " TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+
+        Catch oErr As Exception
+            MsgBox("Load Kuota" & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
+        End Try
+
     End Sub
 #End Region
 End Class

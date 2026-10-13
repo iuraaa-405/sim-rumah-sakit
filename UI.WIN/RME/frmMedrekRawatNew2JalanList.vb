@@ -9481,13 +9481,13 @@ Public Class frmMedrekRawatNew2JalanList
 
                                 ' Tampilkan form anak
                                 frmEMedrekRJ_38.fn_KeluarAuoto(False)
-                                frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_ADD, dsIdentitas.KDPENDAFTARAN, dsIdentitas.KDIDENTITAS)
+                                frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_ADD, dsIdentitas.KDPENDAFTARAN, dsIdentitas.KDIDENTITAS, "")
                                 frmEMedrekRJ_38.Show()
                             Else
                                 Dim frmEMedrekRJ_38 As New frmEMedrekRJ_38
                                 Try
                                     frmEMedrekRJ_38.fn_KeluarAuoto(True)
-                                    frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_ADD, dsIdentitas.KDPENDAFTARAN, dsIdentitas.KDIDENTITAS)
+                                    frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_ADD, dsIdentitas.KDPENDAFTARAN, dsIdentitas.KDIDENTITAS, "")
                                     frmEMedrekRJ_38.ShowDialog(Me)
                                 Catch oErr As Exception
                                     MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
@@ -9963,13 +9963,13 @@ Public Class frmMedrekRawatNew2JalanList
 
                     ' Tampilkan form anak
                     frmEMedrekRJ_38.fn_KeluarAuoto(False)
-                    frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_EDIT, dsDigital.KDKUNJUNGAN, dsDigital.KDIDENTITAS)
+                    frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_EDIT, dsDigital.KDKUNJUNGAN, dsDigital.KDIDENTITAS, dsDigital.KDKUNJUNGAN)
                     frmEMedrekRJ_38.Show()
                 Else
                     Dim frmEMedrekRJ_38 As New frmEMedrekRJ_38
                     Try
                         frmEMedrekRJ_38.fn_KeluarAuoto(True)
-                        frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_EDIT, dsDigital.KDKUNJUNGAN, dsDigital.KDIDENTITAS)
+                        frmEMedrekRJ_38.LoadMe(FORM_MODE.FORM_MODE_EDIT, dsDigital.KDKUNJUNGAN, dsDigital.KDIDENTITAS, dsDigital.KDKUNJUNGAN)
                         frmEMedrekRJ_38.ShowDialog(Me)
                     Catch oErr As Exception
                         MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)

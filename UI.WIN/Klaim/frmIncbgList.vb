@@ -36,6 +36,7 @@ Public Class frmIncbgList
     Private oExpertise As New Grouper.clsExpertise
     Private sLoad As Boolean
     Private sTab As Integer = 0
+    Private oPendaftaranGgabung As New Admission.clsPendaftaranGabung
 
     Private Sub Me_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Me.Text = "Incabg-List"
@@ -863,14 +864,25 @@ Public Class frmIncbgList
 
             Dim SQL As String = String.Empty
 
-            Dim oPendaftaran As New Admission.clsPendaftaran
+            'Dim oPendaftaran As New Admission.clsPendaftaran
             Dim oCashin As New Finance.clsCashIn
             Dim dsPendaftaran = oPendaftaran.GetData(norec)
             Dim TanggalPulang As DateTime = Now
+            Dim Listkdpendaftaran As New List(Of String)
 
             Dim sCekInvoice As Boolean = False
 
             If dsPendaftaran IsNot Nothing Then
+                Listkdpendaftaran.Add(dsPendaftaran.KDPENDAFTARAN)
+
+                If dsPendaftaran.KDPENDAFTARAN_AWAL <> "" Then
+                    Listkdpendaftaran.Add(dsPendaftaran.KDPENDAFTARAN_AWAL)
+                End If
+
+                For Each xloop In oPendaftaranGgabung.GetDataList(dsPendaftaran.KDPENDAFTARAN)
+                    Listkdpendaftaran.Add(xloop.SEQ)
+                Next
+
                 If dsPendaftaran.CATEGORY = 1 Then
                     Dim dsCekKwitansi = oCashin.GetDataBypendaftaran(dsPendaftaran.KDPENDAFTARAN)
                     If dsCekKwitansi IsNot Nothing Then
@@ -959,11 +971,20 @@ Public Class frmIncbgList
                 End If
 
                 SQL &= " WHERE  "
-                SQL &= " D.KDPENDAFTARAN = '" & dsPendaftaran.KDPENDAFTARAN & "' "
-                If dsPendaftaran.CATEGORY = 1 Then
-                    SQL &= " OR "
-                    SQL &= " D.KDPENDAFTARAN = '" & dsPendaftaran.KDPENDAFTARAN_AWAL & "' "
-                End If
+
+
+                'SQL &= " D.KDPENDAFTARAN = '" & dsPendaftaran.KDPENDAFTARAN & "' "
+                'If dsPendaftaran.CATEGORY = 1 Then
+                '    SQL &= " OR "
+                '    SQL &= " D.KDPENDAFTARAN = '" & dsPendaftaran.KDPENDAFTARAN_AWAL & "' "
+                'End If
+
+                Dim kodeList As String = String.Join("','", Listkdpendaftaran.ToArray())
+                kodeList = "'" & kodeList & "'"
+
+
+                SQL &= "D.KDPENDAFTARAN IN (" & kodeList & ") "
+
                 SQL &= " GROUP BY "
                 SQL &= " D.KDPENDAFTARAN "
                 SQL &= " ,D.KDDOCTOR "
@@ -1426,6 +1447,42 @@ Public Class frmIncbgList
                             End If
                         End If
                     Next
+
+                    For Each xyloop In oPendaftaranGgabung.GetDataList(dsPendaftaran.KDPENDAFTARAN)
+                        For Each xloop In oGrouperRawatJalan.GetDataGrouperPDFByKdPendaftaaranList(xyloop.SEQ)
+                            If xloop.ISCHEKED = True Then
+                                If xloop.ALAMAT_UPLOAD <> "" Then
+                                    If xloop.TYPEFILE.Contains(".pdf") Then
+                                        If FileIO.FileSystem.FileExists(xloop.ALAMAT_UPLOAD) Then
+                                            dataList.Add(File.ReadAllBytes(xloop.ALAMAT_UPLOAD))
+                                        End If
+                                    Else
+                                        Dim FolderSimpaGambar = "C:/SIMRS/UPLOADCASEMIX/"
+
+                                        Try
+                                            If Not Directory.Exists(FolderSimpaGambar) Then
+                                                Directory.CreateDirectory(FolderSimpaGambar)
+                                            Else
+                                                DeleteDirectory(FolderSimpaGambar)
+                                                Directory.CreateDirectory(FolderSimpaGambar)
+                                            End If
+                                        Catch ex As Exception
+
+                                        End Try
+
+                                        Dim Simpan As String = Now.ToString("yyyyMMddHHmmss") & "Uploadgabung.pdf"
+
+                                        ConvertImageToPDF(xloop.ALAMAT_UPLOAD, FolderSimpaGambar & Simpan)
+
+                                        If FileIO.FileSystem.FileExists(FolderSimpaGambar & Simpan) Then
+                                            dataList.Add(File.ReadAllBytes(FolderSimpaGambar & Simpan))
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        Next
+                    Next
+
 
                     If chkCPPT.Checked = True Then
                         If dsPendaftaran.CATEGORY = 0 Then
@@ -2774,7 +2831,7 @@ Public Class frmIncbgList
                 End If
             Else
                 Try
-                    Dim oPendaftaran As New Admission.clsPendaftaran
+                    'Dim oPendaftaran As New Admission.clsPendaftaran
                     Dim dsPendaftaran = oPendaftaran.GetData(norec)
                     Dim TanggalPulang As DateTime = Now
 

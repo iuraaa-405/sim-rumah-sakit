@@ -153,113 +153,117 @@ Partial Class frmSKD
         Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem19 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.XtraTabPage3 = New DevExpress.XtraTab.XtraTabPage()
-        CType(Me.layoutControl,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.layoutControl.SuspendLayout
-        CType(Me.cboSKDSPRI.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.barManager,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.progressBarSave,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.progressSave,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtNomorSepaAtauKartu.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtCODE.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtTINDAKLANJUT.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtNOMORRUJKAN.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.grdKDDOCTOR.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.grvKDDOCTOR,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.grdKDDEPARTMENT.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridView7,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.grdKDPENDAFTARAN.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridView1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.cboCARI.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtCARI.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.deDATEKONTROL.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.deDATEKONTROL.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.deDATE.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.deDATE.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtDESCRIPTION.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlGroup1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lDESCRIPTION,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem3,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem4,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lKDPENDAFATRAN,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lDATE,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lDATE_KONTROL,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lKDDEPARTMENT,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lKDDOCTOR,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lNOMORRUJUKAN,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lTINDAKLANJUT,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lKDSKD,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lSEPKARTU,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.lcategory,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.XtraTabControl1,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.XtraTabControl1.SuspendLayout
-        Me.XtraTabPage1.SuspendLayout
-        Me.XtraTabPage2.SuspendLayout
-        CType(Me.LayoutControl2,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.LayoutControl2.SuspendLayout
-        CType(Me.txtKartu2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.cboType2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtNoSEP2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.txtKode2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.grdKDDOCTOR2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridView5,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.grdKDDEPARTMENT2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridView6,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.deKontrol2.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.deKontrol2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlGroup3,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem25,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem26,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem27,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem31,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem34,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem32,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem20,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem21,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem22,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem23,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControl1,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.LayoutControl1.SuspendLayout
-        CType(Me.ComboBoxEdit1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.TextEdit1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.TextEdit2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.MemoEdit1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.MemoEdit2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.TextEdit3.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridLookUpEdit1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridView2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridLookUpEdit2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridView3,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridLookUpEdit3.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.GridView4,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.ComboBoxEdit2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.TextEdit4.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.DateEdit1.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.DateEdit1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.DateEdit2.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.DateEdit2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.MemoEdit3.Properties,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlGroup2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem5,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem6,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem7,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem8,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem9,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem10,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem11,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem12,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem13,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem14,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem15,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem16,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem17,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem18,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.LayoutControlItem19,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.XtraTabPage3.SuspendLayout
-        Me.SuspendLayout
+        Me.lblKuota = New DevExpress.XtraEditors.LabelControl()
+        Me.lKuota = New DevExpress.XtraLayout.LayoutControlItem()
+        CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.layoutControl.SuspendLayout()
+        CType(Me.cboSKDSPRI.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.barManager, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.progressBarSave, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.progressSave, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtNomorSepaAtauKartu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtCODE.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtTINDAKLANJUT.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtNOMORRUJKAN.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDDOCTOR.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grvKDDOCTOR, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDDEPARTMENT.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDPENDAFTARAN.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cboCARI.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtCARI.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.deDATEKONTROL.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.deDATEKONTROL.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.deDATE.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.deDATE.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtDESCRIPTION.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lDESCRIPTION, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lKDPENDAFATRAN, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lDATE, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lDATE_KONTROL, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lKDDEPARTMENT, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lKDDOCTOR, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lNOMORRUJUKAN, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lTINDAKLANJUT, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lKDSKD, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lSEPKARTU, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lcategory, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.XtraTabControl1.SuspendLayout()
+        Me.XtraTabPage1.SuspendLayout()
+        Me.XtraTabPage2.SuspendLayout()
+        CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.LayoutControl2.SuspendLayout()
+        CType(Me.txtKartu2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cboType2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtNoSEP2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtKode2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDDOCTOR2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDDEPARTMENT2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.deKontrol2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.deKontrol2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem27, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem32, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.LayoutControl1.SuspendLayout()
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemoEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemoEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridLookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridLookUpEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridLookUpEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemoEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.XtraTabPage3.SuspendLayout()
+        CType(Me.lKuota, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
         '
         'layoutControl
         '
+        Me.layoutControl.Controls.Add(Me.lblKuota)
         Me.layoutControl.Controls.Add(Me.cboSKDSPRI)
         Me.layoutControl.Controls.Add(Me.btnKunjungan)
         Me.layoutControl.Controls.Add(Me.txtNomorSepaAtauKartu)
@@ -276,7 +280,7 @@ Partial Class frmSKD
         Me.layoutControl.Controls.Add(Me.txtDESCRIPTION)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
-        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(774, 238, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
@@ -346,7 +350,7 @@ Partial Class frmSKD
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlTop.Size = New System.Drawing.Size(1212, 0)
         '
         'barDockControlBottom
@@ -354,7 +358,7 @@ Partial Class frmSKD
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.barDockControlBottom.Location = New System.Drawing.Point(0, 701)
-        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlBottom.Size = New System.Drawing.Size(1212, 36)
         '
         'barDockControlLeft
@@ -362,7 +366,7 @@ Partial Class frmSKD
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlLeft.Size = New System.Drawing.Size(0, 701)
         '
         'barDockControlRight
@@ -370,7 +374,7 @@ Partial Class frmSKD
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
         Me.barDockControlRight.Location = New System.Drawing.Point(1212, 0)
-        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlRight.Size = New System.Drawing.Size(0, 701)
         '
         'btnSaveNew
@@ -397,7 +401,7 @@ Partial Class frmSKD
         '
         'btnKunjungan
         '
-        Me.btnKunjungan.Location = New System.Drawing.Point(1054, 274)
+        Me.btnKunjungan.Location = New System.Drawing.Point(1054, 309)
         Me.btnKunjungan.Name = "btnKunjungan"
         Me.btnKunjungan.Size = New System.Drawing.Size(130, 32)
         Me.btnKunjungan.StyleController = Me.layoutControl
@@ -406,7 +410,7 @@ Partial Class frmSKD
         '
         'txtNomorSepaAtauKartu
         '
-        Me.txtNomorSepaAtauKartu.Location = New System.Drawing.Point(708, 274)
+        Me.txtNomorSepaAtauKartu.Location = New System.Drawing.Point(708, 309)
         Me.txtNomorSepaAtauKartu.MenuManager = Me.barManager
         Me.txtNomorSepaAtauKartu.Name = "txtNomorSepaAtauKartu"
         Me.txtNomorSepaAtauKartu.Size = New System.Drawing.Size(340, 26)
@@ -426,15 +430,15 @@ Partial Class frmSKD
         'txtTINDAKLANJUT
         '
         Me.txtTINDAKLANJUT.EditValue = ""
-        Me.txtTINDAKLANJUT.Location = New System.Drawing.Point(173, 312)
+        Me.txtTINDAKLANJUT.Location = New System.Drawing.Point(173, 347)
         Me.txtTINDAKLANJUT.Name = "txtTINDAKLANJUT"
-        Me.txtTINDAKLANJUT.Size = New System.Drawing.Size(1011, 221)
+        Me.txtTINDAKLANJUT.Size = New System.Drawing.Size(1011, 186)
         Me.txtTINDAKLANJUT.StyleController = Me.layoutControl
         Me.txtTINDAKLANJUT.TabIndex = 10
         '
         'txtNOMORRUJKAN
         '
-        Me.txtNOMORRUJKAN.Location = New System.Drawing.Point(173, 274)
+        Me.txtNOMORRUJKAN.Location = New System.Drawing.Point(173, 309)
         Me.txtNOMORRUJKAN.MenuManager = Me.barManager
         Me.txtNOMORRUJKAN.Name = "txtNOMORRUJKAN"
         Me.txtNOMORRUJKAN.Size = New System.Drawing.Size(424, 26)
@@ -658,7 +662,7 @@ Partial Class frmSKD
         Me.LayoutControlGroup1.CustomizationFormText = "LayoutControlGroup1"
         Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup1.GroupBordersVisible = False
-        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lDESCRIPTION, Me.LayoutControlItem3, Me.LayoutControlItem4, Me.lKDPENDAFATRAN, Me.lDATE, Me.lDATE_KONTROL, Me.lKDDEPARTMENT, Me.lKDDOCTOR, Me.lNOMORRUJUKAN, Me.lTINDAKLANJUT, Me.lKDSKD, Me.lSEPKARTU, Me.LayoutControlItem1, Me.lcategory})
+        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lDESCRIPTION, Me.LayoutControlItem3, Me.LayoutControlItem4, Me.lKDPENDAFATRAN, Me.lDATE, Me.lDATE_KONTROL, Me.lKDDEPARTMENT, Me.lKDDOCTOR, Me.lNOMORRUJUKAN, Me.lTINDAKLANJUT, Me.lKDSKD, Me.lSEPKARTU, Me.LayoutControlItem1, Me.lcategory, Me.lKuota})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
         Me.LayoutControlGroup1.Size = New System.Drawing.Size(1202, 659)
@@ -767,7 +771,7 @@ Partial Class frmSKD
         Me.lNOMORRUJUKAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lNOMORRUJUKAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lNOMORRUJUKAN.Control = Me.txtNOMORRUJKAN
-        Me.lNOMORRUJUKAN.Location = New System.Drawing.Point(0, 256)
+        Me.lNOMORRUJUKAN.Location = New System.Drawing.Point(0, 291)
         Me.lNOMORRUJUKAN.Name = "lNOMORRUJUKAN"
         Me.lNOMORRUJUKAN.Size = New System.Drawing.Size(585, 38)
         Me.lNOMORRUJUKAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
@@ -780,9 +784,9 @@ Partial Class frmSKD
         Me.lTINDAKLANJUT.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lTINDAKLANJUT.AppearanceItemCaption.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top
         Me.lTINDAKLANJUT.Control = Me.txtTINDAKLANJUT
-        Me.lTINDAKLANJUT.Location = New System.Drawing.Point(0, 294)
+        Me.lTINDAKLANJUT.Location = New System.Drawing.Point(0, 329)
         Me.lTINDAKLANJUT.Name = "lTINDAKLANJUT"
-        Me.lTINDAKLANJUT.Size = New System.Drawing.Size(1172, 227)
+        Me.lTINDAKLANJUT.Size = New System.Drawing.Size(1172, 192)
         Me.lTINDAKLANJUT.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lTINDAKLANJUT.TextSize = New System.Drawing.Size(150, 20)
         Me.lTINDAKLANJUT.TextToControlDistance = 5
@@ -804,7 +808,7 @@ Partial Class frmSKD
         Me.lSEPKARTU.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lSEPKARTU.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lSEPKARTU.Control = Me.txtNomorSepaAtauKartu
-        Me.lSEPKARTU.Location = New System.Drawing.Point(585, 256)
+        Me.lSEPKARTU.Location = New System.Drawing.Point(585, 291)
         Me.lSEPKARTU.Name = "lSEPKARTU"
         Me.lSEPKARTU.Size = New System.Drawing.Size(451, 38)
         Me.lSEPKARTU.Text = "Nomor SEP :"
@@ -815,7 +819,7 @@ Partial Class frmSKD
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.btnKunjungan
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(1036, 256)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(1036, 291)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
         Me.LayoutControlItem1.Size = New System.Drawing.Size(136, 38)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
@@ -839,7 +843,7 @@ Partial Class frmSKD
         '
         Me.XtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.XtraTabControl1.Location = New System.Drawing.Point(0, 0)
-        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
         Me.XtraTabControl1.Size = New System.Drawing.Size(1212, 701)
@@ -849,7 +853,7 @@ Partial Class frmSKD
         'XtraTabPage1
         '
         Me.XtraTabPage1.Controls.Add(Me.layoutControl)
-        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabPage1.Name = "XtraTabPage1"
         Me.XtraTabPage1.Size = New System.Drawing.Size(1202, 659)
         Me.XtraTabPage1.Text = "ADA REGITRASI DI SIMRS"
@@ -857,9 +861,9 @@ Partial Class frmSKD
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.LayoutControl2)
-        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(1202, 662)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(1202, 659)
         Me.XtraTabPage2.Text = "TIDAK ADA REGITRASI DI SIMRS"
         '
         'LayoutControl2
@@ -876,11 +880,11 @@ Partial Class frmSKD
         Me.LayoutControl2.Controls.Add(Me.deKontrol2)
         Me.LayoutControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl2.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LayoutControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.LayoutControl2.Name = "LayoutControl2"
         Me.LayoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(774, 238, 250, 350)
         Me.LayoutControl2.Root = Me.LayoutControlGroup3
-        Me.LayoutControl2.Size = New System.Drawing.Size(1202, 662)
+        Me.LayoutControl2.Size = New System.Drawing.Size(1202, 659)
         Me.LayoutControl2.TabIndex = 1
         Me.LayoutControl2.Text = "LayoutControl1"
         '
@@ -1048,7 +1052,7 @@ Partial Class frmSKD
         Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem25, Me.LayoutControlItem26, Me.LayoutControlItem27, Me.LayoutControlItem31, Me.LayoutControlItem34, Me.LayoutControlItem32, Me.LayoutControlItem20, Me.LayoutControlItem21, Me.LayoutControlItem22, Me.LayoutControlItem23})
         Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup3.Name = "Root"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(1202, 662)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(1202, 659)
         Me.LayoutControlGroup3.TextVisible = False
         '
         'LayoutControlItem25
@@ -1134,7 +1138,7 @@ Partial Class frmSKD
         Me.LayoutControlItem20.Control = Me.btnSimpan
         Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 230)
         Me.LayoutControlItem20.Name = "LayoutControlItem20"
-        Me.LayoutControlItem20.Size = New System.Drawing.Size(586, 402)
+        Me.LayoutControlItem20.Size = New System.Drawing.Size(586, 399)
         Me.LayoutControlItem20.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem20.TextVisible = False
         '
@@ -1156,7 +1160,7 @@ Partial Class frmSKD
         Me.LayoutControlItem22.Control = Me.btnUpdate
         Me.LayoutControlItem22.Location = New System.Drawing.Point(586, 230)
         Me.LayoutControlItem22.Name = "LayoutControlItem22"
-        Me.LayoutControlItem22.Size = New System.Drawing.Size(586, 402)
+        Me.LayoutControlItem22.Size = New System.Drawing.Size(586, 399)
         Me.LayoutControlItem22.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem22.TextVisible = False
         '
@@ -1670,6 +1674,27 @@ Partial Class frmSKD
         Me.XtraTabPage3.Name = "XtraTabPage3"
         Me.XtraTabPage3.Size = New System.Drawing.Size(0, 0)
         '
+        'lblKuota
+        '
+        Me.lblKuota.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblKuota.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.lblKuota.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.lblKuota.Location = New System.Drawing.Point(18, 274)
+        Me.lblKuota.Name = "lblKuota"
+        Me.lblKuota.Size = New System.Drawing.Size(1166, 29)
+        Me.lblKuota.StyleController = Me.layoutControl
+        Me.lblKuota.TabIndex = 50
+        Me.lblKuota.Text = "0"
+        '
+        'lKuota
+        '
+        Me.lKuota.Control = Me.lblKuota
+        Me.lKuota.Location = New System.Drawing.Point(0, 256)
+        Me.lKuota.Name = "lKuota"
+        Me.lKuota.Size = New System.Drawing.Size(1172, 35)
+        Me.lKuota.TextSize = New System.Drawing.Size(0, 0)
+        Me.lKuota.TextVisible = False
+        '
         'frmSKD
         '
         Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
@@ -1684,114 +1709,115 @@ Partial Class frmSKD
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmSKD"
-        Me.ShowIcon = false
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        CType(Me.layoutControl,System.ComponentModel.ISupportInitialize).EndInit
-        Me.layoutControl.ResumeLayout(false)
-        CType(Me.cboSKDSPRI.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.barManager,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.progressBarSave,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.progressSave,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtNomorSepaAtauKartu.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtCODE.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtTINDAKLANJUT.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtNOMORRUJKAN.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.grdKDDOCTOR.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.grvKDDOCTOR,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.grdKDDEPARTMENT.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridView7,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.grdKDPENDAFTARAN.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridView1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.cboCARI.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtCARI.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.deDATEKONTROL.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.deDATEKONTROL.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.deDATE.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.deDATE.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtDESCRIPTION.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlGroup1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lDESCRIPTION,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem3,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem4,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lKDPENDAFATRAN,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lDATE,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lDATE_KONTROL,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lKDDEPARTMENT,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lKDDOCTOR,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lNOMORRUJUKAN,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lTINDAKLANJUT,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lKDSKD,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lSEPKARTU,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.lcategory,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.XtraTabControl1,System.ComponentModel.ISupportInitialize).EndInit
-        Me.XtraTabControl1.ResumeLayout(false)
-        Me.XtraTabPage1.ResumeLayout(false)
-        Me.XtraTabPage2.ResumeLayout(false)
-        CType(Me.LayoutControl2,System.ComponentModel.ISupportInitialize).EndInit
-        Me.LayoutControl2.ResumeLayout(false)
-        CType(Me.txtKartu2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.cboType2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtNoSEP2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.txtKode2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.grdKDDOCTOR2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridView5,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.grdKDDEPARTMENT2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridView6,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.deKontrol2.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.deKontrol2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlGroup3,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem25,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem26,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem27,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem31,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem34,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem32,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem20,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem21,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem22,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem23,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControl1,System.ComponentModel.ISupportInitialize).EndInit
-        Me.LayoutControl1.ResumeLayout(false)
-        CType(Me.ComboBoxEdit1.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.TextEdit1.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.TextEdit2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.MemoEdit1.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.MemoEdit2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.TextEdit3.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridLookUpEdit1.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridView2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridLookUpEdit2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridView3,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridLookUpEdit3.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.GridView4,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.ComboBoxEdit2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.TextEdit4.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.DateEdit1.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.DateEdit1.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.DateEdit2.Properties.CalendarTimeProperties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.DateEdit2.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.MemoEdit3.Properties,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlGroup2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem5,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem6,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem7,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem8,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem9,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem10,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem11,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem12,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem13,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem14,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem15,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem16,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem17,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem18,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.LayoutControlItem19,System.ComponentModel.ISupportInitialize).EndInit
-        Me.XtraTabPage3.ResumeLayout(false)
-        Me.ResumeLayout(false)
+        CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.layoutControl.ResumeLayout(False)
+        CType(Me.cboSKDSPRI.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.barManager, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.progressBarSave, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.progressSave, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtNomorSepaAtauKartu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtCODE.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtTINDAKLANJUT.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtNOMORRUJKAN.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDDOCTOR.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grvKDDOCTOR, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDDEPARTMENT.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDPENDAFTARAN.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cboCARI.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtCARI.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.deDATEKONTROL.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.deDATEKONTROL.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.deDATE.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.deDATE.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtDESCRIPTION.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lDESCRIPTION, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lKDPENDAFATRAN, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lDATE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lDATE_KONTROL, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lKDDEPARTMENT, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lKDDOCTOR, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lNOMORRUJUKAN, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lTINDAKLANJUT, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lKDSKD, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lSEPKARTU, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lcategory, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.XtraTabControl1.ResumeLayout(False)
+        Me.XtraTabPage1.ResumeLayout(False)
+        Me.XtraTabPage2.ResumeLayout(False)
+        CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.LayoutControl2.ResumeLayout(False)
+        CType(Me.txtKartu2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cboType2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtNoSEP2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtKode2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDDOCTOR2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDDEPARTMENT2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.deKontrol2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.deKontrol2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem27, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem32, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.LayoutControl1.ResumeLayout(False)
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemoEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemoEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridLookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridLookUpEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridLookUpEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemoEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.XtraTabPage3.ResumeLayout(False)
+        CType(Me.lKuota, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
         Me.PerformLayout
 
 End Sub
@@ -1928,4 +1954,6 @@ End Sub
     Friend WithEvents LayoutControlItem22 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents LayoutControlItem23 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents lblKuota As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents lKuota As DevExpress.XtraLayout.LayoutControlItem
 End Class

@@ -48,7 +48,7 @@ Namespace Admission
                 GetDataList = Nothing
                 Exit Function
             End If
-            GetDataList = oConnection.db.S_PENDAFTARAN_GABUNGs.Where(Function(x) x.KDPENDAFTARAN = Parameter)
+            GetDataList = oConnection.db.S_PENDAFTARAN_GABUNGs.Where(Function(x) x.KDPENDAFTARAN = Parameter).ToList()
         End Function
         Public Function InsertData(ByVal entity As S_PENDAFTARAN_GABUNG) As Boolean
             Try

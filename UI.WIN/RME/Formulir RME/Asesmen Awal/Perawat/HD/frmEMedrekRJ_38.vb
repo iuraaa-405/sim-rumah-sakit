@@ -10,7 +10,7 @@ Public Class frmEMedrekRJ_38
     Private oS_DIGITAL_RJ_38 As New EMedrek.clsDigital_RJ_38
     Private down As Boolean = False
     'Private sIsOtority As Boolean = False
-    'Private sKoneksi As String = String.Empty
+    Private sNoid As String = String.Empty
     'Private sKoneksiOld As String = String.Empty
     Private sKDIENTITAS As Integer
     Private sKeluar As Boolean = False
@@ -19,8 +19,10 @@ Public Class frmEMedrekRJ_38
     Public Sub fn_KeluarAuoto(ByVal Paramater As Boolean)
         sKeluar = Paramater
     End Sub
-    Public Sub LoadMe(ByVal FormMode As Integer, ByVal KDREG As String, ByVal kdidentitas As Integer)
+    Public Sub LoadMe(ByVal FormMode As Integer, ByVal KDREG As String, ByVal kdidentitas As Integer, ByVal NoId As String)
         oFormMode = FormMode
+
+        sNoid = NoId
 
         Dim oPendaftaran As New Admission.clsPendaftaran
         Dim oRME2 As New RME.clsRME
@@ -536,7 +538,7 @@ Public Class frmEMedrekRJ_38
     Private Sub fn_LoadData()
         Try
             ' ***** HEADER *****
-            Dim ds = oS_DIGITAL_RJ_38.GetData(txtNOREG.Text)
+            Dim ds = oS_DIGITAL_RJ_38.GetData(sNoid)
 
             With ds
                 TextEdit48.Text = .SDIGITALRJ38_1
@@ -824,7 +826,7 @@ Public Class frmEMedrekRJ_38
 
                 deDATE.DateTime = .DATE
 
-                BindingSource1.DataSource = oS_DIGITAL_RJ_38.GetDataDetail(txtNOREG.Text)
+                BindingSource1.DataSource = oS_DIGITAL_RJ_38.GetDataDetail(sNoid)
                 grdDetail.DataSource = BindingSource1
 
             End With
@@ -857,10 +859,10 @@ Public Class frmEMedrekRJ_38
             ' ***** HEADER *****
             Dim ds = oS_DIGITAL_RJ_38.GetStructureHeader
             With ds
-                .KDKUNJUNGAN = txtNOREG.Text
+                .KDKUNJUNGAN = sNoid
                 .KDIDENTITAS = sKDIENTITAS
                 Try
-                    .DATECREATED = oS_DIGITAL_RJ_38.GetData(txtNOREG.Text).DATECREATED
+                    .DATECREATED = oS_DIGITAL_RJ_38.GetData(sNoid).DATECREATED
                 Catch ex As Exception
                     .DATECREATED = Now
                 End Try
@@ -869,7 +871,7 @@ Public Class frmEMedrekRJ_38
                 .DATE = deDATE.DateTime
                 .SDIGITALRJ38_1 = TextEdit48.Text
                 .SDIGITALRJ38_2 = TextEdit49.Text
-                .SDIGITALRJ38_3 = ""
+                .SDIGITALRJ38_3 = txtNOREG.Text
                 .SDIGITALRJ38_4 = ""
                 .SDIGITALRJ38_5 = ""
                 .SDIGITALRJ38_6 = TextEdit53.Text
@@ -1170,7 +1172,7 @@ Public Class frmEMedrekRJ_38
                 .DOKTER_NAMEDISPLAY = ""
 
                 Try
-                    .CETAK = oS_DIGITAL_RJ_38.GetData(txtNOREG.Text).CETAK
+                    .CETAK = oS_DIGITAL_RJ_38.GetData(sNoid).CETAK
                 Catch ex As Exception
                     .CETAK = 0
                 End Try

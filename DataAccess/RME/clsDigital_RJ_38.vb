@@ -79,30 +79,23 @@ Namespace EMedrek
                 sREFERENCE = entity.KDKUNJUNGAN
                 sSTATUS = "INSERT"
 
-                'Try
-                '    sLASTNUMBER = oCounter.GetLastNumber(sMODUL, entity.DATE)
-                '    If sLASTNUMBER = 0 Then
-                '        Try
-                '            oCounter.InsertData(sMODUL, entity.DATE)
-                '            sLASTNUMBER = oCounter.GetLastNumber(sMODUL, entity.DATE)
-                '        Catch ex As Exception
-                '            sLASTNUMBER = 0
-                '        End Try
-                '    End If
+                Try
+                    sLASTNUMBER = oCounter.GetLastNumber(sMODUL, entity.DATE)
+                    If sLASTNUMBER = 0 Then
+                        Try
+                            oCounter.InsertData(sMODUL, entity.DATE)
+                            sLASTNUMBER = oCounter.GetLastNumber(sMODUL, entity.DATE)
+                        Catch ex As Exception
+                            sLASTNUMBER = 0
+                        End Try
+                    End If
 
-                '    entity.KDKUNJUNGAN = AutoNumber(sMODUL, sLASTNUMBER + 1, entity.DATE)
+                    entity.KDKUNJUNGAN = AutoNumber(sMODUL, sLASTNUMBER + 1, entity.DATE)
 
-                'Catch ex As Exception
-                '    oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
-                '    Throw ex
-                'End Try
-
-                'Try
-                '    oCounter.UpdateData(sMODUL, sLASTNUMBER + 1, Month(entity.DATE), Year(entity.DATE))
-                'Catch ex As Exception
-                '    oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
-                '    Throw ex
-                'End Try
+                Catch ex As Exception
+                    oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
+                    Throw ex
+                End Try
 
                 Dim oData As New Grouper.clsR_Identitas_Grouper_Data
                 Dim WaktuServer As DateTime = oData.fn_LoadWaktuServer()
@@ -118,6 +111,13 @@ Namespace EMedrek
                 End Try
                 Try
                     oConnection.dbRME.SubmitChanges()
+                Catch ex As Exception
+                    oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
+                    Throw ex
+                End Try
+
+                Try
+                    oCounter.UpdateData(sMODUL, sLASTNUMBER + 1, Month(entity.DATE), Year(entity.DATE))
                 Catch ex As Exception
                     oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
                     Throw ex
