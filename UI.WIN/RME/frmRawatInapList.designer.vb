@@ -84,8 +84,11 @@ Partial Class frmRawatInapList
         Me.btnURL = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.LayoutControlGroup1 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.tabbedControlGroup1 = New DevExpress.XtraLayout.TabbedControlGroup()
-        Me.LayoutControlGroup34 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem96 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlGroup5 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem30 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.lLISTLABORATORIUM = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem68 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem4 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlGroup4 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlGroup11 = New DevExpress.XtraLayout.LayoutControlGroup()
@@ -95,11 +98,6 @@ Partial Class frmRawatInapList
         Me.lLitResume = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem67 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem2 = New DevExpress.XtraLayout.EmptySpaceItem()
-        Me.LayoutControlGroup5 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem30 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.lLISTLABORATORIUM = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem68 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem4 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlGroup9 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.lLISTRADIOLOGI = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem22 = New DevExpress.XtraLayout.LayoutControlItem()
@@ -145,6 +143,8 @@ Partial Class frmRawatInapList
         Me.lGrdLaporanOperasi = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem80 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem13 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlGroup34 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem96 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControl2 = New DevExpress.XtraLayout.LayoutControl()
         Me.lblUsia = New DevExpress.XtraEditors.LabelControl()
         Me.lblRuangan = New DevExpress.XtraEditors.TextEdit()
@@ -564,8 +564,20 @@ Partial Class frmRawatInapList
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.tabRingkasanPulang = New DevExpress.XtraTab.XtraTabPage()
+        Me.LayoutControl6 = New DevExpress.XtraLayout.LayoutControl()
+        Me.btnRencanaKontrol = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnFinishResume = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnSimpanResume = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnGrouperResume = New DevExpress.XtraEditors.SimpleButton()
+        Me.LayoutControlGroup8 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem10 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem38 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem5 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlItem45 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem75 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.PanelControl36 = New DevExpress.XtraEditors.PanelControl()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
         Me.GroupControl5 = New DevExpress.XtraEditors.GroupControl()
         Me.GroupControl8 = New DevExpress.XtraEditors.GroupControl()
         Me.TextBox27 = New System.Windows.Forms.TextBox()
@@ -592,7 +604,6 @@ Partial Class frmRawatInapList
         Me.CheckEdit24 = New DevExpress.XtraEditors.CheckEdit()
         Me.CheckEdit21 = New DevExpress.XtraEditors.CheckEdit()
         Me.CheckEdit23 = New DevExpress.XtraEditors.CheckEdit()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
         Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
         Me.CheckEdit26 = New DevExpress.XtraEditors.CheckEdit()
         Me.CheckEdit27 = New DevExpress.XtraEditors.CheckEdit()
@@ -702,6 +713,7 @@ Partial Class frmRawatInapList
         Me.Panel19 = New System.Windows.Forms.Panel()
         Me.SimpleButton10 = New DevExpress.XtraEditors.SimpleButton()
         Me.LayoutControl18 = New DevExpress.XtraLayout.LayoutControl()
+        Me.btnHaisilLab = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton8 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
         Me.txtHasilPemeriksaan = New DevExpress.XtraEditors.MemoEdit()
@@ -709,6 +721,7 @@ Partial Class frmRawatInapList
         Me.LayoutControlItem93 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem94 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem95 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem11 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.SimpleButton9 = New DevExpress.XtraEditors.SimpleButton()
         Me.GridLookUpEdit1 = New DevExpress.XtraEditors.SearchLookUpEdit()
         Me.GridView54 = New DevExpress.XtraGrid.Views.Grid.GridView()
@@ -741,17 +754,6 @@ Partial Class frmRawatInapList
         Me.LayoutControlItem89 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem88 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.Panel20 = New System.Windows.Forms.Panel()
-        Me.LayoutControl6 = New DevExpress.XtraLayout.LayoutControl()
-        Me.btnRencanaKontrol = New DevExpress.XtraEditors.SimpleButton()
-        Me.btnFinishResume = New DevExpress.XtraEditors.SimpleButton()
-        Me.btnSimpanResume = New DevExpress.XtraEditors.SimpleButton()
-        Me.btnGrouperResume = New DevExpress.XtraEditors.SimpleButton()
-        Me.LayoutControlGroup8 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem10 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem38 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem5 = New DevExpress.XtraLayout.EmptySpaceItem()
-        Me.LayoutControlItem45 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem75 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.PanelControl28 = New DevExpress.XtraEditors.PanelControl()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
@@ -1376,8 +1378,6 @@ Partial Class frmRawatInapList
         Me.LabelControl218 = New DevExpress.XtraEditors.LabelControl()
         Me.GridColumn19 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn23 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.btnHaisilLab = New DevExpress.XtraEditors.SimpleButton()
-        Me.LayoutControlItem11 = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.SplitContainerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainerControl1.SuspendLayout()
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1413,8 +1413,11 @@ Partial Class frmRawatInapList
         CType(Me.btnURL, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tabbedControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup34, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem96, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lLISTLABORATORIUM, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem68, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup11, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1424,11 +1427,6 @@ Partial Class frmRawatInapList
         CType(Me.lLitResume, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem67, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.lLISTLABORATORIUM, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem68, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lLISTRADIOLOGI, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem22, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1474,6 +1472,8 @@ Partial Class frmRawatInapList
         CType(Me.lGrdLaporanOperasi, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem80, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem96, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl2.SuspendLayout()
         CType(Me.lblRuangan.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1747,9 +1747,18 @@ Partial Class frmRawatInapList
         Me.Panel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.tabRingkasanPulang.SuspendLayout()
+        CType(Me.LayoutControl6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.LayoutControl6.SuspendLayout()
+        CType(Me.LayoutControlGroup8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem45, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem75, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel9.SuspendLayout()
         CType(Me.PanelControl36, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl36.SuspendLayout()
+        Me.GroupBox10.SuspendLayout()
         CType(Me.GroupControl5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl5.SuspendLayout()
         CType(Me.GroupControl8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1772,7 +1781,6 @@ Partial Class frmRawatInapList
         CType(Me.CheckEdit24.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CheckEdit21.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CheckEdit23.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox10.SuspendLayout()
         CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl4.SuspendLayout()
         CType(Me.CheckEdit26.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1847,6 +1855,7 @@ Partial Class frmRawatInapList
         CType(Me.LayoutControlItem93, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem94, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem95, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridLookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView54, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox6.SuspendLayout()
@@ -1873,14 +1882,6 @@ Partial Class frmRawatInapList
         CType(Me.LayoutControlGroup31, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem89, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem88, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControl6, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.LayoutControl6.SuspendLayout()
-        CType(Me.LayoutControlGroup8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem45, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem75, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl28, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl28.SuspendLayout()
         Me.Panel6.SuspendLayout()
@@ -2320,7 +2321,6 @@ Partial Class frmRawatInapList
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BarButtonItem1
@@ -2984,22 +2984,49 @@ Partial Class frmRawatInapList
         Me.tabbedControlGroup1.Text = "SBAR"
         Me.tabbedControlGroup1.TextLocation = DevExpress.Utils.Locations.[Default]
         '
-        'LayoutControlGroup34
+        'LayoutControlGroup5
         '
-        Me.LayoutControlGroup34.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem96})
-        Me.LayoutControlGroup34.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup34.Name = "LayoutControlGroup34"
-        Me.LayoutControlGroup34.Size = New System.Drawing.Size(684, 771)
-        Me.LayoutControlGroup34.Text = "PENGANTAR"
+        Me.LayoutControlGroup5.CustomizationFormText = "Tab2"
+        Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem30, Me.lLISTLABORATORIUM, Me.LayoutControlItem68, Me.EmptySpaceItem4})
+        Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(684, 771)
+        Me.LayoutControlGroup5.Text = "LABORATORIUM"
         '
-        'LayoutControlItem96
+        'LayoutControlItem30
         '
-        Me.LayoutControlItem96.Control = Me.LayoutControl19
-        Me.LayoutControlItem96.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem96.Name = "LayoutControlItem96"
-        Me.LayoutControlItem96.Size = New System.Drawing.Size(684, 771)
-        Me.LayoutControlItem96.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem96.TextVisible = False
+        Me.LayoutControlItem30.Control = Me.PdfViewerLaboratorium
+        Me.LayoutControlItem30.Location = New System.Drawing.Point(0, 216)
+        Me.LayoutControlItem30.Name = "LayoutControlItem30"
+        Me.LayoutControlItem30.Size = New System.Drawing.Size(684, 555)
+        Me.LayoutControlItem30.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem30.TextVisible = False
+        '
+        'lLISTLABORATORIUM
+        '
+        Me.lLISTLABORATORIUM.Control = Me.grdLaboratoium
+        Me.lLISTLABORATORIUM.Location = New System.Drawing.Point(0, 38)
+        Me.lLISTLABORATORIUM.Name = "lLISTLABORATORIUM"
+        Me.lLISTLABORATORIUM.Size = New System.Drawing.Size(684, 178)
+        Me.lLISTLABORATORIUM.TextSize = New System.Drawing.Size(0, 0)
+        Me.lLISTLABORATORIUM.TextVisible = False
+        '
+        'LayoutControlItem68
+        '
+        Me.LayoutControlItem68.Control = Me.btnTutupListLaboratorium
+        Me.LayoutControlItem68.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem68.Name = "LayoutControlItem68"
+        Me.LayoutControlItem68.Size = New System.Drawing.Size(105, 38)
+        Me.LayoutControlItem68.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem68.TextVisible = False
+        '
+        'EmptySpaceItem4
+        '
+        Me.EmptySpaceItem4.AllowHotTrack = False
+        Me.EmptySpaceItem4.Location = New System.Drawing.Point(105, 0)
+        Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
+        Me.EmptySpaceItem4.Size = New System.Drawing.Size(579, 38)
+        Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup4
         '
@@ -3078,50 +3105,6 @@ Partial Class frmRawatInapList
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
         Me.EmptySpaceItem2.Size = New System.Drawing.Size(579, 38)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
-        '
-        'LayoutControlGroup5
-        '
-        Me.LayoutControlGroup5.CustomizationFormText = "Tab2"
-        Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem30, Me.lLISTLABORATORIUM, Me.LayoutControlItem68, Me.EmptySpaceItem4})
-        Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(684, 771)
-        Me.LayoutControlGroup5.Text = "LABORATORIUM"
-        '
-        'LayoutControlItem30
-        '
-        Me.LayoutControlItem30.Control = Me.PdfViewerLaboratorium
-        Me.LayoutControlItem30.Location = New System.Drawing.Point(0, 216)
-        Me.LayoutControlItem30.Name = "LayoutControlItem30"
-        Me.LayoutControlItem30.Size = New System.Drawing.Size(684, 555)
-        Me.LayoutControlItem30.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem30.TextVisible = False
-        '
-        'lLISTLABORATORIUM
-        '
-        Me.lLISTLABORATORIUM.Control = Me.grdLaboratoium
-        Me.lLISTLABORATORIUM.Location = New System.Drawing.Point(0, 38)
-        Me.lLISTLABORATORIUM.Name = "lLISTLABORATORIUM"
-        Me.lLISTLABORATORIUM.Size = New System.Drawing.Size(684, 178)
-        Me.lLISTLABORATORIUM.TextSize = New System.Drawing.Size(0, 0)
-        Me.lLISTLABORATORIUM.TextVisible = False
-        '
-        'LayoutControlItem68
-        '
-        Me.LayoutControlItem68.Control = Me.btnTutupListLaboratorium
-        Me.LayoutControlItem68.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem68.Name = "LayoutControlItem68"
-        Me.LayoutControlItem68.Size = New System.Drawing.Size(105, 38)
-        Me.LayoutControlItem68.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem68.TextVisible = False
-        '
-        'EmptySpaceItem4
-        '
-        Me.EmptySpaceItem4.AllowHotTrack = False
-        Me.EmptySpaceItem4.Location = New System.Drawing.Point(105, 0)
-        Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
-        Me.EmptySpaceItem4.Size = New System.Drawing.Size(579, 38)
-        Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup9
         '
@@ -3511,6 +3494,23 @@ Partial Class frmRawatInapList
         Me.EmptySpaceItem13.Name = "EmptySpaceItem13"
         Me.EmptySpaceItem13.Size = New System.Drawing.Size(579, 38)
         Me.EmptySpaceItem13.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LayoutControlGroup34
+        '
+        Me.LayoutControlGroup34.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem96})
+        Me.LayoutControlGroup34.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup34.Name = "LayoutControlGroup34"
+        Me.LayoutControlGroup34.Size = New System.Drawing.Size(684, 771)
+        Me.LayoutControlGroup34.Text = "PENGANTAR"
+        '
+        'LayoutControlItem96
+        '
+        Me.LayoutControlItem96.Control = Me.LayoutControl19
+        Me.LayoutControlItem96.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem96.Name = "LayoutControlItem96"
+        Me.LayoutControlItem96.Size = New System.Drawing.Size(684, 771)
+        Me.LayoutControlItem96.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem96.TextVisible = False
         '
         'LayoutControl2
         '
@@ -7596,6 +7596,128 @@ Partial Class frmRawatInapList
         Me.tabRingkasanPulang.Size = New System.Drawing.Size(1317, 878)
         Me.tabRingkasanPulang.Text = "Resume Medis"
         '
+        'LayoutControl6
+        '
+        Me.LayoutControl6.Controls.Add(Me.btnRencanaKontrol)
+        Me.LayoutControl6.Controls.Add(Me.btnFinishResume)
+        Me.LayoutControl6.Controls.Add(Me.btnSimpanResume)
+        Me.LayoutControl6.Controls.Add(Me.btnGrouperResume)
+        Me.LayoutControl6.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.LayoutControl6.Location = New System.Drawing.Point(0, 829)
+        Me.LayoutControl6.Name = "LayoutControl6"
+        Me.LayoutControl6.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1299, 507, 250, 350)
+        Me.LayoutControl6.Root = Me.LayoutControlGroup8
+        Me.LayoutControl6.Size = New System.Drawing.Size(1317, 49)
+        Me.LayoutControl6.TabIndex = 244
+        Me.LayoutControl6.Text = "LayoutControl6"
+        '
+        'btnRencanaKontrol
+        '
+        Me.btnRencanaKontrol.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.btnRencanaKontrol.Appearance.ForeColor = System.Drawing.Color.Green
+        Me.btnRencanaKontrol.Appearance.Options.UseFont = True
+        Me.btnRencanaKontrol.Appearance.Options.UseForeColor = True
+        Me.btnRencanaKontrol.Location = New System.Drawing.Point(109, 3)
+        Me.btnRencanaKontrol.Name = "btnRencanaKontrol"
+        Me.btnRencanaKontrol.Size = New System.Drawing.Size(187, 33)
+        Me.btnRencanaKontrol.StyleController = Me.LayoutControl6
+        Me.btnRencanaKontrol.TabIndex = 243
+        Me.btnRencanaKontrol.Text = "Rencana Kontrol"
+        '
+        'btnFinishResume
+        '
+        Me.btnFinishResume.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.btnFinishResume.Appearance.ForeColor = System.Drawing.Color.Red
+        Me.btnFinishResume.Appearance.Options.UseFont = True
+        Me.btnFinishResume.Appearance.Options.UseForeColor = True
+        Me.btnFinishResume.Location = New System.Drawing.Point(490, 3)
+        Me.btnFinishResume.Name = "btnFinishResume"
+        Me.btnFinishResume.Size = New System.Drawing.Size(368, 33)
+        Me.btnFinishResume.StyleController = Me.LayoutControl6
+        Me.btnFinishResume.TabIndex = 242
+        Me.btnFinishResume.Text = "Simpan Resume dan Pulang Pasien"
+        '
+        'btnSimpanResume
+        '
+        Me.btnSimpanResume.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.btnSimpanResume.Appearance.ForeColor = System.Drawing.Color.Green
+        Me.btnSimpanResume.Appearance.Options.UseFont = True
+        Me.btnSimpanResume.Appearance.Options.UseForeColor = True
+        Me.btnSimpanResume.Location = New System.Drawing.Point(302, 3)
+        Me.btnSimpanResume.Name = "btnSimpanResume"
+        Me.btnSimpanResume.Size = New System.Drawing.Size(182, 33)
+        Me.btnSimpanResume.StyleController = Me.LayoutControl6
+        Me.btnSimpanResume.TabIndex = 8
+        Me.btnSimpanResume.Text = "Simpan Resume"
+        '
+        'btnGrouperResume
+        '
+        Me.btnGrouperResume.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.btnGrouperResume.Appearance.ForeColor = System.Drawing.Color.Green
+        Me.btnGrouperResume.Appearance.Options.UseFont = True
+        Me.btnGrouperResume.Appearance.Options.UseForeColor = True
+        Me.btnGrouperResume.Location = New System.Drawing.Point(3, 3)
+        Me.btnGrouperResume.Name = "btnGrouperResume"
+        Me.btnGrouperResume.Size = New System.Drawing.Size(100, 33)
+        Me.btnGrouperResume.StyleController = Me.LayoutControl6
+        Me.btnGrouperResume.TabIndex = 4
+        Me.btnGrouperResume.Text = "Grouper"
+        '
+        'LayoutControlGroup8
+        '
+        Me.LayoutControlGroup8.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LayoutControlGroup8.GroupBordersVisible = False
+        Me.LayoutControlGroup8.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem10, Me.LayoutControlItem38, Me.EmptySpaceItem5, Me.LayoutControlItem45, Me.LayoutControlItem75})
+        Me.LayoutControlGroup8.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup8.Name = "Root"
+        Me.LayoutControlGroup8.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
+        Me.LayoutControlGroup8.Size = New System.Drawing.Size(1317, 49)
+        Me.LayoutControlGroup8.TextVisible = False
+        '
+        'LayoutControlItem10
+        '
+        Me.LayoutControlItem10.Control = Me.btnGrouperResume
+        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem10.Name = "LayoutControlItem10"
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(106, 49)
+        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem10.TextVisible = False
+        '
+        'LayoutControlItem38
+        '
+        Me.LayoutControlItem38.Control = Me.btnSimpanResume
+        Me.LayoutControlItem38.Location = New System.Drawing.Point(299, 0)
+        Me.LayoutControlItem38.Name = "LayoutControlItem38"
+        Me.LayoutControlItem38.Size = New System.Drawing.Size(188, 49)
+        Me.LayoutControlItem38.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem38.TextVisible = False
+        '
+        'EmptySpaceItem5
+        '
+        Me.EmptySpaceItem5.AllowHotTrack = False
+        Me.EmptySpaceItem5.Location = New System.Drawing.Point(861, 0)
+        Me.EmptySpaceItem5.Name = "EmptySpaceItem5"
+        Me.EmptySpaceItem5.Size = New System.Drawing.Size(456, 49)
+        Me.EmptySpaceItem5.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LayoutControlItem45
+        '
+        Me.LayoutControlItem45.Control = Me.btnFinishResume
+        Me.LayoutControlItem45.Location = New System.Drawing.Point(487, 0)
+        Me.LayoutControlItem45.Name = "LayoutControlItem45"
+        Me.LayoutControlItem45.Size = New System.Drawing.Size(374, 49)
+        Me.LayoutControlItem45.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem45.TextVisible = False
+        '
+        'LayoutControlItem75
+        '
+        Me.LayoutControlItem75.Control = Me.btnRencanaKontrol
+        Me.LayoutControlItem75.Location = New System.Drawing.Point(106, 0)
+        Me.LayoutControlItem75.Name = "LayoutControlItem75"
+        Me.LayoutControlItem75.Size = New System.Drawing.Size(193, 49)
+        Me.LayoutControlItem75.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem75.TextVisible = False
+        '
         'Panel9
         '
         Me.Panel9.AutoScroll = True
@@ -7624,6 +7746,22 @@ Partial Class frmRawatInapList
         Me.PanelControl36.Name = "PanelControl36"
         Me.PanelControl36.Size = New System.Drawing.Size(1291, 2745)
         Me.PanelControl36.TabIndex = 2
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.Controls.Add(Me.GroupControl5)
+        Me.GroupBox10.Controls.Add(Me.GroupControl4)
+        Me.GroupBox10.Controls.Add(Me.GroupControl3)
+        Me.GroupBox10.Controls.Add(Me.GroupControl2)
+        Me.GroupBox10.Controls.Add(Me.GroupControl1)
+        Me.GroupBox10.Controls.Add(Me.PanelControl29)
+        Me.GroupBox10.Dock = System.Windows.Forms.DockStyle.Top
+        Me.GroupBox10.Location = New System.Drawing.Point(3, 1444)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(1285, 1295)
+        Me.GroupBox10.TabIndex = 254
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "KONDISI SAAT PULANG"
         '
         'GroupControl5
         '
@@ -7894,22 +8032,6 @@ Partial Class frmRawatInapList
         Me.CheckEdit23.Properties.Caption = "1 Minggu"
         Me.CheckEdit23.Size = New System.Drawing.Size(107, 23)
         Me.CheckEdit23.TabIndex = 243
-        '
-        'GroupBox10
-        '
-        Me.GroupBox10.Controls.Add(Me.GroupControl5)
-        Me.GroupBox10.Controls.Add(Me.GroupControl4)
-        Me.GroupBox10.Controls.Add(Me.GroupControl3)
-        Me.GroupBox10.Controls.Add(Me.GroupControl2)
-        Me.GroupBox10.Controls.Add(Me.GroupControl1)
-        Me.GroupBox10.Controls.Add(Me.PanelControl29)
-        Me.GroupBox10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupBox10.Location = New System.Drawing.Point(3, 1444)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(1285, 1295)
-        Me.GroupBox10.TabIndex = 254
-        Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "KONDISI SAAT PULANG"
         '
         'GroupControl4
         '
@@ -8935,6 +9057,15 @@ Partial Class frmRawatInapList
         Me.LayoutControl18.TabIndex = 236
         Me.LayoutControl18.Text = "LayoutControl18"
         '
+        'btnHaisilLab
+        '
+        Me.btnHaisilLab.Location = New System.Drawing.Point(1080, 94)
+        Me.btnHaisilLab.Name = "btnHaisilLab"
+        Me.btnHaisilLab.Size = New System.Drawing.Size(196, 32)
+        Me.btnHaisilLab.StyleController = Me.LayoutControl18
+        Me.btnHaisilLab.TabIndex = 237
+        Me.btnHaisilLab.Text = "Load Hasil Lab"
+        '
         'SimpleButton8
         '
         Me.SimpleButton8.Appearance.Options.UseTextOptions = True
@@ -9000,6 +9131,15 @@ Partial Class frmRawatInapList
         Me.LayoutControlItem95.Size = New System.Drawing.Size(202, 53)
         Me.LayoutControlItem95.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem95.TextVisible = False
+        '
+        'LayoutControlItem11
+        '
+        Me.LayoutControlItem11.Control = Me.btnHaisilLab
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(1077, 91)
+        Me.LayoutControlItem11.Name = "LayoutControlItem11"
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(202, 77)
+        Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem11.TextVisible = False
         '
         'SimpleButton9
         '
@@ -9313,128 +9453,6 @@ Partial Class frmRawatInapList
         Me.Panel20.Name = "Panel20"
         Me.Panel20.Size = New System.Drawing.Size(1273, 26)
         Me.Panel20.TabIndex = 2
-        '
-        'LayoutControl6
-        '
-        Me.LayoutControl6.Controls.Add(Me.btnRencanaKontrol)
-        Me.LayoutControl6.Controls.Add(Me.btnFinishResume)
-        Me.LayoutControl6.Controls.Add(Me.btnSimpanResume)
-        Me.LayoutControl6.Controls.Add(Me.btnGrouperResume)
-        Me.LayoutControl6.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.LayoutControl6.Location = New System.Drawing.Point(0, 829)
-        Me.LayoutControl6.Name = "LayoutControl6"
-        Me.LayoutControl6.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1299, 507, 250, 350)
-        Me.LayoutControl6.Root = Me.LayoutControlGroup8
-        Me.LayoutControl6.Size = New System.Drawing.Size(1317, 49)
-        Me.LayoutControl6.TabIndex = 244
-        Me.LayoutControl6.Text = "LayoutControl6"
-        '
-        'btnRencanaKontrol
-        '
-        Me.btnRencanaKontrol.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.btnRencanaKontrol.Appearance.ForeColor = System.Drawing.Color.Green
-        Me.btnRencanaKontrol.Appearance.Options.UseFont = True
-        Me.btnRencanaKontrol.Appearance.Options.UseForeColor = True
-        Me.btnRencanaKontrol.Location = New System.Drawing.Point(109, 3)
-        Me.btnRencanaKontrol.Name = "btnRencanaKontrol"
-        Me.btnRencanaKontrol.Size = New System.Drawing.Size(187, 33)
-        Me.btnRencanaKontrol.StyleController = Me.LayoutControl6
-        Me.btnRencanaKontrol.TabIndex = 243
-        Me.btnRencanaKontrol.Text = "Rencana Kontrol"
-        '
-        'btnFinishResume
-        '
-        Me.btnFinishResume.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.btnFinishResume.Appearance.ForeColor = System.Drawing.Color.Red
-        Me.btnFinishResume.Appearance.Options.UseFont = True
-        Me.btnFinishResume.Appearance.Options.UseForeColor = True
-        Me.btnFinishResume.Location = New System.Drawing.Point(490, 3)
-        Me.btnFinishResume.Name = "btnFinishResume"
-        Me.btnFinishResume.Size = New System.Drawing.Size(368, 33)
-        Me.btnFinishResume.StyleController = Me.LayoutControl6
-        Me.btnFinishResume.TabIndex = 242
-        Me.btnFinishResume.Text = "Simpan Resume dan Pulang Pasien"
-        '
-        'btnSimpanResume
-        '
-        Me.btnSimpanResume.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.btnSimpanResume.Appearance.ForeColor = System.Drawing.Color.Green
-        Me.btnSimpanResume.Appearance.Options.UseFont = True
-        Me.btnSimpanResume.Appearance.Options.UseForeColor = True
-        Me.btnSimpanResume.Location = New System.Drawing.Point(302, 3)
-        Me.btnSimpanResume.Name = "btnSimpanResume"
-        Me.btnSimpanResume.Size = New System.Drawing.Size(182, 33)
-        Me.btnSimpanResume.StyleController = Me.LayoutControl6
-        Me.btnSimpanResume.TabIndex = 8
-        Me.btnSimpanResume.Text = "Simpan Resume"
-        '
-        'btnGrouperResume
-        '
-        Me.btnGrouperResume.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.btnGrouperResume.Appearance.ForeColor = System.Drawing.Color.Green
-        Me.btnGrouperResume.Appearance.Options.UseFont = True
-        Me.btnGrouperResume.Appearance.Options.UseForeColor = True
-        Me.btnGrouperResume.Location = New System.Drawing.Point(3, 3)
-        Me.btnGrouperResume.Name = "btnGrouperResume"
-        Me.btnGrouperResume.Size = New System.Drawing.Size(100, 33)
-        Me.btnGrouperResume.StyleController = Me.LayoutControl6
-        Me.btnGrouperResume.TabIndex = 4
-        Me.btnGrouperResume.Text = "Grouper"
-        '
-        'LayoutControlGroup8
-        '
-        Me.LayoutControlGroup8.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LayoutControlGroup8.GroupBordersVisible = False
-        Me.LayoutControlGroup8.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem10, Me.LayoutControlItem38, Me.EmptySpaceItem5, Me.LayoutControlItem45, Me.LayoutControlItem75})
-        Me.LayoutControlGroup8.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup8.Name = "Root"
-        Me.LayoutControlGroup8.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-        Me.LayoutControlGroup8.Size = New System.Drawing.Size(1317, 49)
-        Me.LayoutControlGroup8.TextVisible = False
-        '
-        'LayoutControlItem10
-        '
-        Me.LayoutControlItem10.Control = Me.btnGrouperResume
-        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(106, 49)
-        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem10.TextVisible = False
-        '
-        'LayoutControlItem38
-        '
-        Me.LayoutControlItem38.Control = Me.btnSimpanResume
-        Me.LayoutControlItem38.Location = New System.Drawing.Point(299, 0)
-        Me.LayoutControlItem38.Name = "LayoutControlItem38"
-        Me.LayoutControlItem38.Size = New System.Drawing.Size(188, 49)
-        Me.LayoutControlItem38.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem38.TextVisible = False
-        '
-        'EmptySpaceItem5
-        '
-        Me.EmptySpaceItem5.AllowHotTrack = False
-        Me.EmptySpaceItem5.Location = New System.Drawing.Point(861, 0)
-        Me.EmptySpaceItem5.Name = "EmptySpaceItem5"
-        Me.EmptySpaceItem5.Size = New System.Drawing.Size(456, 49)
-        Me.EmptySpaceItem5.TextSize = New System.Drawing.Size(0, 0)
-        '
-        'LayoutControlItem45
-        '
-        Me.LayoutControlItem45.Control = Me.btnFinishResume
-        Me.LayoutControlItem45.Location = New System.Drawing.Point(487, 0)
-        Me.LayoutControlItem45.Name = "LayoutControlItem45"
-        Me.LayoutControlItem45.Size = New System.Drawing.Size(374, 49)
-        Me.LayoutControlItem45.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem45.TextVisible = False
-        '
-        'LayoutControlItem75
-        '
-        Me.LayoutControlItem75.Control = Me.btnRencanaKontrol
-        Me.LayoutControlItem75.Location = New System.Drawing.Point(106, 0)
-        Me.LayoutControlItem75.Name = "LayoutControlItem75"
-        Me.LayoutControlItem75.Size = New System.Drawing.Size(193, 49)
-        Me.LayoutControlItem75.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem75.TextVisible = False
         '
         'PanelControl28
         '
@@ -16140,24 +16158,6 @@ Partial Class frmRawatInapList
         Me.GridColumn23.VisibleIndex = 1
         Me.GridColumn23.Width = 143
         '
-        'btnHaisilLab
-        '
-        Me.btnHaisilLab.Location = New System.Drawing.Point(1080, 94)
-        Me.btnHaisilLab.Name = "btnHaisilLab"
-        Me.btnHaisilLab.Size = New System.Drawing.Size(196, 32)
-        Me.btnHaisilLab.StyleController = Me.LayoutControl18
-        Me.btnHaisilLab.TabIndex = 237
-        Me.btnHaisilLab.Text = "Load Hasil Lab"
-        '
-        'LayoutControlItem11
-        '
-        Me.LayoutControlItem11.Control = Me.btnHaisilLab
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(1077, 91)
-        Me.LayoutControlItem11.Name = "LayoutControlItem11"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(202, 77)
-        Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem11.TextVisible = False
-        '
         'frmRawatInapList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
@@ -16208,8 +16208,11 @@ Partial Class frmRawatInapList
         CType(Me.btnURL, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tabbedControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup34, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem96, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lLISTLABORATORIUM, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem68, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup11, System.ComponentModel.ISupportInitialize).EndInit()
@@ -16219,11 +16222,6 @@ Partial Class frmRawatInapList
         CType(Me.lLitResume, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem67, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.lLISTLABORATORIUM, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem68, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lLISTRADIOLOGI, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem22, System.ComponentModel.ISupportInitialize).EndInit()
@@ -16269,6 +16267,8 @@ Partial Class frmRawatInapList
         CType(Me.lGrdLaporanOperasi, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem80, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem96, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.LayoutControl2.ResumeLayout(False)
         CType(Me.lblRuangan.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -16546,9 +16546,18 @@ Partial Class frmRawatInapList
         Me.Panel3.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.tabRingkasanPulang.ResumeLayout(False)
+        CType(Me.LayoutControl6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.LayoutControl6.ResumeLayout(False)
+        CType(Me.LayoutControlGroup8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem45, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem75, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel9.ResumeLayout(False)
         CType(Me.PanelControl36, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl36.ResumeLayout(False)
+        Me.GroupBox10.ResumeLayout(False)
         CType(Me.GroupControl5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl5.ResumeLayout(False)
         CType(Me.GroupControl8, System.ComponentModel.ISupportInitialize).EndInit()
@@ -16573,7 +16582,6 @@ Partial Class frmRawatInapList
         CType(Me.CheckEdit24.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CheckEdit21.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CheckEdit23.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox10.ResumeLayout(False)
         CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl4.ResumeLayout(False)
         CType(Me.CheckEdit26.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -16649,6 +16657,7 @@ Partial Class frmRawatInapList
         CType(Me.LayoutControlItem93, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem94, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem95, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridLookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView54, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox6.ResumeLayout(False)
@@ -16675,14 +16684,6 @@ Partial Class frmRawatInapList
         CType(Me.LayoutControlGroup31, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem89, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem88, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControl6, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.LayoutControl6.ResumeLayout(False)
-        CType(Me.LayoutControlGroup8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem45, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem75, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl28, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl28.ResumeLayout(False)
         Me.Panel6.ResumeLayout(False)
@@ -17138,7 +17139,6 @@ Partial Class frmRawatInapList
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

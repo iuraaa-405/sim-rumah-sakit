@@ -66,6 +66,7 @@ Partial Class frmGrouperPDF
         Me.LayoutControlItem5 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colDATEUPDATED = New DevExpress.XtraGrid.Columns.GridColumn()
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.layoutControl.SuspendLayout()
         CType(Me.LayoutControl5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -99,19 +100,20 @@ Partial Class frmGrouperPDF
         Me.layoutControl.Controls.Add(Me.txtkodegrouper)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(652, 156, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(790, 549)
+        Me.layoutControl.Size = New System.Drawing.Size(1185, 799)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
         'LayoutControl5
         '
-        Me.LayoutControl5.Location = New System.Drawing.Point(496, 12)
+        Me.LayoutControl5.Location = New System.Drawing.Point(744, 18)
         Me.LayoutControl5.Name = "LayoutControl5"
         Me.LayoutControl5.Root = Me.LayoutControlGroup5
-        Me.LayoutControl5.Size = New System.Drawing.Size(282, 30)
+        Me.LayoutControl5.Size = New System.Drawing.Size(423, 40)
         Me.LayoutControl5.TabIndex = 21
         Me.LayoutControl5.Text = "LayoutControl5"
         '
@@ -123,7 +125,7 @@ Partial Class frmGrouperPDF
         Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.EmptySpaceItem1})
         Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(282, 30)
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(423, 40)
         Me.LayoutControlGroup5.TextVisible = False
         '
         'EmptySpaceItem1
@@ -132,15 +134,15 @@ Partial Class frmGrouperPDF
         Me.EmptySpaceItem1.CustomizationFormText = "EmptySpaceItem1"
         Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 0)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(262, 10)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(393, 10)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'tabControl
         '
-        Me.tabControl.Location = New System.Drawing.Point(12, 46)
+        Me.tabControl.Location = New System.Drawing.Point(18, 64)
         Me.tabControl.Name = "tabControl"
         Me.tabControl.SelectedTabPage = Me.tab1
-        Me.tabControl.Size = New System.Drawing.Size(766, 491)
+        Me.tabControl.Size = New System.Drawing.Size(1149, 717)
         Me.tabControl.TabIndex = 18
         Me.tabControl.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.tab1})
         '
@@ -148,7 +150,7 @@ Partial Class frmGrouperPDF
         '
         Me.tab1.Controls.Add(Me.grdDetail)
         Me.tab1.Name = "tab1"
-        Me.tab1.Size = New System.Drawing.Size(760, 463)
+        Me.tab1.Size = New System.Drawing.Size(1139, 675)
         Me.tab1.Text = "Detail Information"
         '
         'grdDetail
@@ -161,20 +163,21 @@ Partial Class frmGrouperPDF
         Me.grdDetail.MenuManager = Me.barManager
         Me.grdDetail.Name = "grdDetail"
         Me.grdDetail.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.btnBrowsePdf, Me.grdKDPDF, Me.btnUpload})
-        Me.grdDetail.Size = New System.Drawing.Size(760, 463)
+        Me.grdDetail.Size = New System.Drawing.Size(1139, 675)
         Me.grdDetail.TabIndex = 18
         Me.grdDetail.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvDetail})
         '
         'mnuStrip
         '
+        Me.mnuStrip.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.mnuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteToolStripMenuItem})
         Me.mnuStrip.Name = "mnuStrip"
-        Me.mnuStrip.Size = New System.Drawing.Size(108, 26)
+        Me.mnuStrip.Size = New System.Drawing.Size(135, 34)
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(134, 30)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'bindingSource
@@ -183,7 +186,7 @@ Partial Class frmGrouperPDF
         '
         'grvDetail
         '
-        Me.grvDetail.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colKDPDF, Me.colREMARKS, Me.colALAMAT_AWAL, Me.colALAMAT_UPLOAD, Me.colTYPEFILE, Me.colSIZE, Me.colAksi, Me.colISCHEKED, Me.colDATECREATED, Me.colPACS})
+        Me.grvDetail.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colDATEUPDATED, Me.colKDPDF, Me.colREMARKS, Me.colALAMAT_AWAL, Me.colALAMAT_UPLOAD, Me.colTYPEFILE, Me.colSIZE, Me.colAksi, Me.colISCHEKED, Me.colDATECREATED, Me.colPACS})
         Me.grvDetail.GridControl = Me.grdDetail
         Me.grvDetail.Name = "grvDetail"
         Me.grvDetail.OptionsCustomization.AllowColumnMoving = False
@@ -212,8 +215,8 @@ Partial Class frmGrouperPDF
         Me.colKDPDF.FieldName = "KDPDF"
         Me.colKDPDF.Name = "colKDPDF"
         Me.colKDPDF.Visible = True
-        Me.colKDPDF.VisibleIndex = 0
-        Me.colKDPDF.Width = 222
+        Me.colKDPDF.VisibleIndex = 1
+        Me.colKDPDF.Width = 250
         '
         'grdKDPDF
         '
@@ -245,8 +248,8 @@ Partial Class frmGrouperPDF
         Me.colREMARKS.FieldName = "REMARKS"
         Me.colREMARKS.Name = "colREMARKS"
         Me.colREMARKS.Visible = True
-        Me.colREMARKS.VisibleIndex = 1
-        Me.colREMARKS.Width = 139
+        Me.colREMARKS.VisibleIndex = 2
+        Me.colREMARKS.Width = 156
         '
         'colALAMAT_AWAL
         '
@@ -258,8 +261,8 @@ Partial Class frmGrouperPDF
         Me.colALAMAT_AWAL.OptionsColumn.ReadOnly = True
         Me.colALAMAT_AWAL.OptionsColumn.TabStop = False
         Me.colALAMAT_AWAL.Visible = True
-        Me.colALAMAT_AWAL.VisibleIndex = 2
-        Me.colALAMAT_AWAL.Width = 171
+        Me.colALAMAT_AWAL.VisibleIndex = 3
+        Me.colALAMAT_AWAL.Width = 193
         '
         'colALAMAT_UPLOAD
         '
@@ -271,8 +274,8 @@ Partial Class frmGrouperPDF
         Me.colALAMAT_UPLOAD.OptionsColumn.ReadOnly = True
         Me.colALAMAT_UPLOAD.OptionsColumn.TabStop = False
         Me.colALAMAT_UPLOAD.Visible = True
-        Me.colALAMAT_UPLOAD.VisibleIndex = 3
-        Me.colALAMAT_UPLOAD.Width = 154
+        Me.colALAMAT_UPLOAD.VisibleIndex = 4
+        Me.colALAMAT_UPLOAD.Width = 173
         '
         'colTYPEFILE
         '
@@ -284,7 +287,8 @@ Partial Class frmGrouperPDF
         Me.colTYPEFILE.OptionsColumn.ReadOnly = True
         Me.colTYPEFILE.OptionsColumn.TabStop = False
         Me.colTYPEFILE.Visible = True
-        Me.colTYPEFILE.VisibleIndex = 4
+        Me.colTYPEFILE.VisibleIndex = 5
+        Me.colTYPEFILE.Width = 84
         '
         'colSIZE
         '
@@ -296,8 +300,8 @@ Partial Class frmGrouperPDF
         Me.colSIZE.OptionsColumn.ReadOnly = True
         Me.colSIZE.OptionsColumn.TabStop = False
         Me.colSIZE.Visible = True
-        Me.colSIZE.VisibleIndex = 5
-        Me.colSIZE.Width = 53
+        Me.colSIZE.VisibleIndex = 6
+        Me.colSIZE.Width = 59
         '
         'colAksi
         '
@@ -305,8 +309,8 @@ Partial Class frmGrouperPDF
         Me.colAksi.ColumnEdit = Me.btnBrowsePdf
         Me.colAksi.Name = "colAksi"
         Me.colAksi.Visible = True
-        Me.colAksi.VisibleIndex = 6
-        Me.colAksi.Width = 37
+        Me.colAksi.VisibleIndex = 7
+        Me.colAksi.Width = 49
         '
         'btnBrowsePdf
         '
@@ -389,28 +393,32 @@ Partial Class frmGrouperPDF
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(790, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1185, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 549)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(790, 22)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 799)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1185, 36)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 549)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 799)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(790, 0)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 549)
+        Me.barDockControlRight.Location = New System.Drawing.Point(1185, 0)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 799)
         '
         'progressBarSave
         '
@@ -426,10 +434,10 @@ Partial Class frmGrouperPDF
         '
         Me.txtkodegrouper.EditValue = ""
         Me.txtkodegrouper.EnterMoveNextControl = True
-        Me.txtkodegrouper.Location = New System.Drawing.Point(117, 12)
+        Me.txtkodegrouper.Location = New System.Drawing.Point(123, 18)
         Me.txtkodegrouper.Name = "txtkodegrouper"
         Me.txtkodegrouper.Properties.ReadOnly = True
-        Me.txtkodegrouper.Size = New System.Drawing.Size(375, 20)
+        Me.txtkodegrouper.Size = New System.Drawing.Size(615, 26)
         Me.txtkodegrouper.StyleController = Me.layoutControl
         Me.txtkodegrouper.TabIndex = 9
         Me.txtkodegrouper.TabStop = False
@@ -442,7 +450,7 @@ Partial Class frmGrouperPDF
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lKDADJUSTMENT, Me.LayoutControlItem5, Me.LayoutControlItem3})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(790, 549)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1185, 799)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'lKDADJUSTMENT
@@ -453,7 +461,7 @@ Partial Class frmGrouperPDF
         Me.lKDADJUSTMENT.CustomizationFormText = "Display Name * :"
         Me.lKDADJUSTMENT.Location = New System.Drawing.Point(0, 0)
         Me.lKDADJUSTMENT.Name = "lKDADJUSTMENT"
-        Me.lKDADJUSTMENT.Size = New System.Drawing.Size(484, 34)
+        Me.lKDADJUSTMENT.Size = New System.Drawing.Size(726, 46)
         Me.lKDADJUSTMENT.Text = "Number * :"
         Me.lKDADJUSTMENT.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDADJUSTMENT.TextSize = New System.Drawing.Size(100, 20)
@@ -463,9 +471,9 @@ Partial Class frmGrouperPDF
         '
         Me.LayoutControlItem5.Control = Me.tabControl
         Me.LayoutControlItem5.CustomizationFormText = "LayoutControlItem5"
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 34)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 46)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(770, 495)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(1155, 723)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
         '
@@ -473,9 +481,9 @@ Partial Class frmGrouperPDF
         '
         Me.LayoutControlItem3.Control = Me.LayoutControl5
         Me.LayoutControlItem3.CustomizationFormText = "LayoutControlItem3"
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(484, 0)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(726, 0)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(286, 34)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(429, 46)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
@@ -487,13 +495,24 @@ Partial Class frmGrouperPDF
         Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 0
         '
+        'colDATEUPDATED
+        '
+        Me.colDATEUPDATED.Caption = "Tanggal"
+        Me.colDATEUPDATED.DisplayFormat.FormatString = "dd-MM-yyyy HH:mm"
+        Me.colDATEUPDATED.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime
+        Me.colDATEUPDATED.FieldName = "DATEUPDATED"
+        Me.colDATEUPDATED.Name = "colDATEUPDATED"
+        Me.colDATEUPDATED.Visible = True
+        Me.colDATEUPDATED.VisibleIndex = 0
+        Me.colDATEUPDATED.Width = 152
+        '
         'frmGrouperPDF
         '
         Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
         Me.Appearance.Options.UseBackColor = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(790, 571)
+        Me.ClientSize = New System.Drawing.Size(1185, 835)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
@@ -501,6 +520,7 @@ Partial Class frmGrouperPDF
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmGrouperPDF"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -575,4 +595,5 @@ Partial Class frmGrouperPDF
     Friend WithEvents colTYPEFILE As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colPACS As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents btnUpload As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Friend WithEvents colDATEUPDATED As DevExpress.XtraGrid.Columns.GridColumn
 End Class

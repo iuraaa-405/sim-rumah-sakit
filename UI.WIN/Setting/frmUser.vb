@@ -1,6 +1,7 @@
 ﻿Imports DataAccess
 Imports UI.WIN.MAIN.My.Resources
 Imports System.Linq
+Imports System.Text.RegularExpressions
 
 Public Class frmUser
 #Region "Declaration"
@@ -142,6 +143,41 @@ Public Class frmUser
                 txtNIK.ErrorText = Statement.ErrorPasswordRepeat
                 txtNIK.Focus()
                 fn_Validate = False
+                Exit Function
+            End If
+
+            Dim errors As New List(Of String)()
+
+            'If password Is Nothing Then password = ""
+
+            ' 1. Minimal 10 karakter
+            If txtPASSWORD1.Text.Length < 10 Then
+                errors.Add("Password minimal 10 karakter")
+            End If
+
+            ' 2. Mengandung huruf besar (A-Z)
+            If Not Regex.IsMatch(txtPASSWORD1.Text, "[A-Z]") Then
+                errors.Add("Password harus mengandung huruf besar (A-Z)")
+            End If
+
+            ' 3. Mengandung huruf kecil (a-z)
+            If Not Regex.IsMatch(txtPASSWORD1.Text, "[a-z]") Then
+                errors.Add("Password harus mengandung huruf kecil (a-z)")
+            End If
+
+            ' 4. Mengandung spesial karakter (!, @, #, %, ^, &, *)
+            If Not Regex.IsMatch(txtPASSWORD1.Text, "[!@#%^&*]") Then
+                errors.Add("Password harus mengandung spesial karakter (!, @, #, %, ^, &, *)")
+            End If
+
+            'Return (errors.Count > 0, errors)
+            If errors.Count > 0 Then
+                txtPASSWORD1.ErrorText = Statement.ErrorPasswordRepeat
+                txtPASSWORD1.Focus()
+                fn_Validate = False
+
+                MsgBox(Statement.ErrorStatement & vbCrLf & String.Join(vbCrLf, errors.ToArray), MsgBoxStyle.Exclamation, Me.Text)
+
                 Exit Function
             End If
         Catch oErr As Exception

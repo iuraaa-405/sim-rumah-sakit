@@ -1,5 +1,6 @@
 Imports DataAccess
 Imports UI.WIN.MAIN.My.Resources
+Imports System.Text.RegularExpressions
 
 Public Class frmChangePassword
 #Region "Function"
@@ -33,6 +34,41 @@ Public Class frmChangePassword
             MsgBox("Password New and Confirm Incorrect!", MsgBoxStyle.Exclamation, Me.Text)
             txtConfirm.Focus()
             Return False
+        End If
+
+        Dim errors As New List(Of String)()
+
+        'If password Is Nothing Then password = ""
+
+        ' 1. Minimal 10 karakter
+        If txtNew.Text.Length < 10 Then
+            errors.Add("Password minimal 10 karakter")
+        End If
+
+        ' 2. Mengandung huruf besar (A-Z)
+        If Not Regex.IsMatch(txtNew.Text, "[A-Z]") Then
+            errors.Add("Password harus mengandung huruf besar (A-Z)")
+        End If
+
+        ' 3. Mengandung huruf kecil (a-z)
+        If Not Regex.IsMatch(txtNew.Text, "[a-z]") Then
+            errors.Add("Password harus mengandung huruf kecil (a-z)")
+        End If
+
+        ' 4. Mengandung spesial karakter (!, @, #, %, ^, &, *)
+        If Not Regex.IsMatch(txtNew.Text, "[!@#%^&*]") Then
+            errors.Add("Password harus mengandung spesial karakter (!, @, #, %, ^, &, *)")
+        End If
+
+        'Return (errors.Count > 0, errors)
+        If errors.Count > 0 Then
+            txtNew.ErrorText = Statement.ErrorPasswordRepeat
+            txtNew.Focus()
+            fn_Validate = False
+
+            MsgBox(Statement.ErrorStatement & vbCrLf & String.Join(vbCrLf, errors.ToArray), MsgBoxStyle.Exclamation, Me.Text)
+
+            Exit Function
         End If
     End Function
     Public Function fn_Save() As Boolean

@@ -291,6 +291,7 @@ Public Class frmLogin
                             waktuTersisa = 30
                             btnLogin.Enabled = False
                             LabelControl1.Visible = True
+                            LabelControl1.Text = "Gagal Login " & sGagalLogin
                             MsgBox("Login dikunci sementara, Silahkan coba kembali dalam 30 detik", MsgBoxStyle.Exclamation, Me.Text)
                             txtUsername.Focus()
                             Timer1.Start()
@@ -311,6 +312,7 @@ Public Class frmLogin
                     waktuTersisa = 30
                     btnLogin.Enabled = False
                     LabelControl1.Visible = True
+                    LabelControl1.Text = "Gagal Login " & sGagalLogin
                     MsgBox("Login dikunci sementara, Silahkan coba kembali dalam 30 detik", MsgBoxStyle.Exclamation, Me.Text)
                     txtUsername.Focus()
                     Timer1.Start()

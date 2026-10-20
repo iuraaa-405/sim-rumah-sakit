@@ -171,6 +171,9 @@ Public Class frmLembarObservasi
                 .JENISKELAMIN = txtJENISKELAMIN.Text
                 .DESCRIPTION = txtMEMO.Text.Trim.ToUpper
                 .KDUSER = sUserID
+                .ISDELETE = False
+                .DATEDELETE = Now
+                .USERDELETE = ""
             End With
 
             ' ***** DETIL *****

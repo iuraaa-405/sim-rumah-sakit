@@ -128,6 +128,7 @@ Public Class frmSKD
             lKDDOCTOR.Text = SKD.KDDOCTOR
 
             lcategory.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
+            lKuota.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
         Else
             Me.Text = SKD.TITLE
             XtraTabPage2.PageVisible = False
@@ -1699,7 +1700,9 @@ Public Class frmSKD
 
             Dim dsJawdwalDokter = oDoctor.GetDataDetailJadwalDokter(grdKDDOCTOR.EditValue, sHARI)
 
-            lblKuota.Text = "SISA KUOTA JKN : " & IIf(dsJawdwalDokter.KAPASITASPASIEN_JKN - oDoctor.GetDataMonitoringSisaJKN(sKDDEPARTMENT_BPJS, sKDDOCTOR_BPJS, deDATEKONTROL.DateTime) < 0, 0, dsJawdwalDokter.KAPASITASPASIEN_JKN - oDoctor.GetDataMonitoringSisaJKN(sKDDEPARTMENT_BPJS, sKDDOCTOR_BPJS, deDATEKONTROL.DateTime)) & " TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+            If dsJawdwalDokter IsNot Nothing Then
+                lblKuota.Text = "SISA KUOTA JKN : " & IIf(dsJawdwalDokter.KAPASITASPASIEN_JKN - oDoctor.GetDataMonitoringSisaJKN(sKDDEPARTMENT_BPJS, sKDDOCTOR_BPJS, deDATEKONTROL.DateTime) < 0, 0, dsJawdwalDokter.KAPASITASPASIEN_JKN - oDoctor.GetDataMonitoringSisaJKN(sKDDEPARTMENT_BPJS, sKDDOCTOR_BPJS, deDATEKONTROL.DateTime)) & " TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+            End If
 
         Catch oErr As Exception
             MsgBox("Load Kuota" & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)

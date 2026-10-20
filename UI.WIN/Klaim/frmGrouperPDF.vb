@@ -133,7 +133,7 @@ Public Class frmGrouperPDF
                 Dim dsDetail = oPendaftaranPDF.GetStructureDetail
                 With dsDetail
                     .DATECREATED = IIf(String.IsNullOrEmpty(grvDetail.GetRowCellValue(i, colDATECREATED)), Now, grvDetail.GetRowCellValue(i, colDATECREATED))
-                    .DATEUPDATED = Now
+                    .DATEUPDATED = IIf(String.IsNullOrEmpty(grvDetail.GetRowCellValue(i, colDATEUPDATED)), Now, grvDetail.GetRowCellValue(i, colDATEUPDATED))
                     .KDPENDAFTARAN = txtkodegrouper.Text
                     .SEQ = i
                     .KDPDF = grvDetail.GetRowCellValue(i, colKDPDF)
@@ -206,6 +206,7 @@ Public Class frmGrouperPDF
             Try
                 If grvDetail.GetFocusedRowCellValue(colKDPDF) IsNot Nothing Then
                     grvDetail.SetFocusedRowCellValue(colDATECREATED, Now)
+                    grvDetail.SetFocusedRowCellValue(colDATEUPDATED, Now)
                     grvDetail.SetFocusedRowCellValue(colISCHEKED, True)
                 End If
             Catch oErr As Exception

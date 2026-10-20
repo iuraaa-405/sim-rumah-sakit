@@ -81,6 +81,8 @@ Partial Class frmUser
         Me.LayoutControlItem4 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem6 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
+        Me.LayoutControlItem7 = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.layoutControl.SuspendLayout()
         CType(Me.grdDPJP.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -109,6 +111,7 @@ Partial Class frmUser
         CType(Me.txtPASSWORD2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPASSWORD1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControl5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.LayoutControl5.SuspendLayout()
         CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtKDUSER.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -123,6 +126,7 @@ Partial Class frmUser
         CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'layoutControl
@@ -139,23 +143,24 @@ Partial Class frmUser
         Me.layoutControl.Controls.Add(Me.txtKDUSER)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(652, 156, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(684, 458)
+        Me.layoutControl.Size = New System.Drawing.Size(1151, 666)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
         'grdDPJP
         '
         Me.grdDPJP.EnterMoveNextControl = True
-        Me.grdDPJP.Location = New System.Drawing.Point(117, 132)
+        Me.grdDPJP.Location = New System.Drawing.Point(123, 178)
         Me.grdDPJP.MenuManager = Me.barManager
         Me.grdDPJP.Name = "grdDPJP"
         Me.grdDPJP.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdDPJP.Properties.NullText = ""
         Me.grdDPJP.Properties.View = Me.GridView1
-        Me.grdDPJP.Size = New System.Drawing.Size(239, 20)
+        Me.grdDPJP.Size = New System.Drawing.Size(443, 26)
         Me.grdDPJP.StyleController = Me.layoutControl
         Me.grdDPJP.TabIndex = 26
         '
@@ -208,28 +213,32 @@ Partial Class frmUser
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(684, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1151, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 458)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(684, 22)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 666)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1151, 36)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 458)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 666)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(684, 0)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 458)
+        Me.barDockControlRight.Location = New System.Drawing.Point(1151, 0)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 666)
         '
         'progressBarSave
         '
@@ -262,9 +271,9 @@ Partial Class frmUser
         '
         Me.txtNIK.EditValue = ""
         Me.txtNIK.EnterMoveNextControl = True
-        Me.txtNIK.Location = New System.Drawing.Point(117, 36)
+        Me.txtNIK.Location = New System.Drawing.Point(123, 50)
         Me.txtNIK.Name = "txtNIK"
-        Me.txtNIK.Size = New System.Drawing.Size(239, 20)
+        Me.txtNIK.Size = New System.Drawing.Size(443, 26)
         Me.txtNIK.StyleController = Me.layoutControl
         Me.txtNIK.TabIndex = 10
         '
@@ -272,12 +281,13 @@ Partial Class frmUser
         '
         Me.grdDetailItem.ContextMenuStrip = Me.mnuStrip_
         Me.grdDetailItem.DataSource = Me.BindingSourceiTEM
-        Me.grdDetailItem.Location = New System.Drawing.Point(344, 156)
+        Me.grdDetailItem.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDetailItem.Location = New System.Drawing.Point(578, 210)
         Me.grdDetailItem.MainView = Me.grvDetailItem
         Me.grdDetailItem.MenuManager = Me.barManager
         Me.grdDetailItem.Name = "grdDetailItem"
         Me.grdDetailItem.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.grdKDITEM, Me.gdrKDUOM})
-        Me.grdDetailItem.Size = New System.Drawing.Size(328, 290)
+        Me.grdDetailItem.Size = New System.Drawing.Size(555, 438)
         Me.grdDetailItem.TabIndex = 21
         Me.grdDetailItem.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvDetailItem})
         '
@@ -286,12 +296,12 @@ Partial Class frmUser
         Me.mnuStrip_.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.mnuStrip_.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1})
         Me.mnuStrip_.Name = "mnuStrip"
-        Me.mnuStrip_.Size = New System.Drawing.Size(108, 26)
+        Me.mnuStrip_.Size = New System.Drawing.Size(135, 34)
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(107, 22)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(134, 30)
         Me.ToolStripMenuItem1.Text = "Delete"
         '
         'BindingSourceiTEM
@@ -391,12 +401,13 @@ Partial Class frmUser
         '
         Me.grdDetail_WAREHOUSE.ContextMenuStrip = Me.mnuStrip
         Me.grdDetail_WAREHOUSE.DataSource = Me.BindingSource_WAREHOUSE
-        Me.grdDetail_WAREHOUSE.Location = New System.Drawing.Point(12, 156)
+        Me.grdDetail_WAREHOUSE.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grdDetail_WAREHOUSE.Location = New System.Drawing.Point(18, 210)
         Me.grdDetail_WAREHOUSE.MainView = Me.grvDetail_WAREHOUSE
         Me.grdDetail_WAREHOUSE.MenuManager = Me.barManager
         Me.grdDetail_WAREHOUSE.Name = "grdDetail_WAREHOUSE"
         Me.grdDetail_WAREHOUSE.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.grdKDWAREHOUSE})
-        Me.grdDetail_WAREHOUSE.Size = New System.Drawing.Size(328, 290)
+        Me.grdDetail_WAREHOUSE.Size = New System.Drawing.Size(554, 438)
         Me.grdDetail_WAREHOUSE.TabIndex = 20
         Me.grdDetail_WAREHOUSE.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvDetail_WAREHOUSE})
         '
@@ -405,12 +416,12 @@ Partial Class frmUser
         Me.mnuStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.mnuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteToolStripMenuItem})
         Me.mnuStrip.Name = "mnuStrip"
-        Me.mnuStrip.Size = New System.Drawing.Size(108, 26)
+        Me.mnuStrip.Size = New System.Drawing.Size(135, 34)
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(134, 30)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'BindingSource_WAREHOUSE
@@ -485,13 +496,13 @@ Partial Class frmUser
         'grdKDOTORITY
         '
         Me.grdKDOTORITY.EnterMoveNextControl = True
-        Me.grdKDOTORITY.Location = New System.Drawing.Point(117, 108)
+        Me.grdKDOTORITY.Location = New System.Drawing.Point(123, 146)
         Me.grdKDOTORITY.MenuManager = Me.barManager
         Me.grdKDOTORITY.Name = "grdKDOTORITY"
         Me.grdKDOTORITY.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDOTORITY.Properties.NullText = ""
         Me.grdKDOTORITY.Properties.View = Me.grvKDOTORITY
-        Me.grdKDOTORITY.Size = New System.Drawing.Size(239, 20)
+        Me.grdKDOTORITY.Size = New System.Drawing.Size(443, 26)
         Me.grdKDOTORITY.StyleController = Me.layoutControl
         Me.grdKDOTORITY.TabIndex = 25
         '
@@ -515,11 +526,11 @@ Partial Class frmUser
         'chkISACTIVE
         '
         Me.chkISACTIVE.EnterMoveNextControl = True
-        Me.chkISACTIVE.Location = New System.Drawing.Point(360, 12)
+        Me.chkISACTIVE.Location = New System.Drawing.Point(572, 18)
         Me.chkISACTIVE.MenuManager = Me.barManager
         Me.chkISACTIVE.Name = "chkISACTIVE"
         Me.chkISACTIVE.Properties.Caption = "Active?"
-        Me.chkISACTIVE.Size = New System.Drawing.Size(65, 19)
+        Me.chkISACTIVE.Size = New System.Drawing.Size(73, 23)
         Me.chkISACTIVE.StyleController = Me.layoutControl
         Me.chkISACTIVE.TabIndex = 24
         Me.chkISACTIVE.TabStop = False
@@ -527,31 +538,32 @@ Partial Class frmUser
         'txtPASSWORD2
         '
         Me.txtPASSWORD2.EnterMoveNextControl = True
-        Me.txtPASSWORD2.Location = New System.Drawing.Point(117, 84)
+        Me.txtPASSWORD2.Location = New System.Drawing.Point(123, 114)
         Me.txtPASSWORD2.MenuManager = Me.barManager
         Me.txtPASSWORD2.Name = "txtPASSWORD2"
         Me.txtPASSWORD2.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPASSWORD2.Size = New System.Drawing.Size(239, 20)
+        Me.txtPASSWORD2.Size = New System.Drawing.Size(443, 26)
         Me.txtPASSWORD2.StyleController = Me.layoutControl
         Me.txtPASSWORD2.TabIndex = 23
         '
         'txtPASSWORD1
         '
         Me.txtPASSWORD1.EnterMoveNextControl = True
-        Me.txtPASSWORD1.Location = New System.Drawing.Point(117, 60)
+        Me.txtPASSWORD1.Location = New System.Drawing.Point(123, 82)
         Me.txtPASSWORD1.MenuManager = Me.barManager
         Me.txtPASSWORD1.Name = "txtPASSWORD1"
         Me.txtPASSWORD1.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPASSWORD1.Size = New System.Drawing.Size(239, 20)
+        Me.txtPASSWORD1.Size = New System.Drawing.Size(443, 26)
         Me.txtPASSWORD1.StyleController = Me.layoutControl
         Me.txtPASSWORD1.TabIndex = 22
         '
         'LayoutControl5
         '
-        Me.LayoutControl5.Location = New System.Drawing.Point(429, 12)
+        Me.LayoutControl5.Controls.Add(Me.LabelControl2)
+        Me.LayoutControl5.Location = New System.Drawing.Point(651, 18)
         Me.LayoutControl5.Name = "LayoutControl5"
         Me.LayoutControl5.Root = Me.LayoutControlGroup5
-        Me.LayoutControl5.Size = New System.Drawing.Size(243, 140)
+        Me.LayoutControl5.Size = New System.Drawing.Size(482, 186)
         Me.LayoutControl5.TabIndex = 21
         Me.LayoutControl5.Text = "LayoutControl5"
         '
@@ -560,28 +572,28 @@ Partial Class frmUser
         Me.LayoutControlGroup5.CustomizationFormText = "LayoutControlGroup5"
         Me.LayoutControlGroup5.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup5.GroupBordersVisible = False
-        Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.EmptySpaceItem1})
+        Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.EmptySpaceItem1, Me.LayoutControlItem7})
         Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(243, 30)
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(482, 186)
         Me.LayoutControlGroup5.TextVisible = False
         '
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
         Me.EmptySpaceItem1.CustomizationFormText = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 0)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 82)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(223, 10)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(452, 74)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'txtKDUSER
         '
         Me.txtKDUSER.EditValue = ""
         Me.txtKDUSER.EnterMoveNextControl = True
-        Me.txtKDUSER.Location = New System.Drawing.Point(117, 12)
+        Me.txtKDUSER.Location = New System.Drawing.Point(123, 18)
         Me.txtKDUSER.Name = "txtKDUSER"
-        Me.txtKDUSER.Size = New System.Drawing.Size(239, 20)
+        Me.txtKDUSER.Size = New System.Drawing.Size(443, 26)
         Me.txtKDUSER.StyleController = Me.layoutControl
         Me.txtKDUSER.TabIndex = 9
         '
@@ -593,7 +605,7 @@ Partial Class frmUser
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lKDUSER, Me.LayoutControlItem3, Me.lPASSWORD1, Me.lPASSWORD2, Me.LayoutControlItem5, Me.lKDOTORITY, Me.LayoutControlItem1, Me.LayoutControlItem2, Me.LayoutControlItem4, Me.LayoutControlItem6})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(684, 458)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1151, 666)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'lKDUSER
@@ -604,7 +616,7 @@ Partial Class frmUser
         Me.lKDUSER.CustomizationFormText = "Display Name * :"
         Me.lKDUSER.Location = New System.Drawing.Point(0, 0)
         Me.lKDUSER.Name = "lKDUSER"
-        Me.lKDUSER.Size = New System.Drawing.Size(348, 24)
+        Me.lKDUSER.Size = New System.Drawing.Size(554, 32)
         Me.lKDUSER.Text = "User * :"
         Me.lKDUSER.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDUSER.TextSize = New System.Drawing.Size(100, 20)
@@ -614,9 +626,9 @@ Partial Class frmUser
         '
         Me.LayoutControlItem3.Control = Me.LayoutControl5
         Me.LayoutControlItem3.CustomizationFormText = "LayoutControlItem3"
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(417, 0)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(633, 0)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(247, 144)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(488, 192)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
@@ -626,9 +638,9 @@ Partial Class frmUser
         Me.lPASSWORD1.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPASSWORD1.Control = Me.txtPASSWORD1
         Me.lPASSWORD1.CustomizationFormText = "Password * :"
-        Me.lPASSWORD1.Location = New System.Drawing.Point(0, 48)
+        Me.lPASSWORD1.Location = New System.Drawing.Point(0, 64)
         Me.lPASSWORD1.Name = "lPASSWORD1"
-        Me.lPASSWORD1.Size = New System.Drawing.Size(348, 24)
+        Me.lPASSWORD1.Size = New System.Drawing.Size(554, 32)
         Me.lPASSWORD1.Text = "Password * :"
         Me.lPASSWORD1.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPASSWORD1.TextSize = New System.Drawing.Size(100, 20)
@@ -640,9 +652,9 @@ Partial Class frmUser
         Me.lPASSWORD2.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPASSWORD2.Control = Me.txtPASSWORD2
         Me.lPASSWORD2.CustomizationFormText = "Repeat * :"
-        Me.lPASSWORD2.Location = New System.Drawing.Point(0, 72)
+        Me.lPASSWORD2.Location = New System.Drawing.Point(0, 96)
         Me.lPASSWORD2.Name = "lPASSWORD2"
-        Me.lPASSWORD2.Size = New System.Drawing.Size(348, 24)
+        Me.lPASSWORD2.Size = New System.Drawing.Size(554, 32)
         Me.lPASSWORD2.Text = "Repeat * :"
         Me.lPASSWORD2.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPASSWORD2.TextSize = New System.Drawing.Size(100, 20)
@@ -652,9 +664,9 @@ Partial Class frmUser
         '
         Me.LayoutControlItem5.Control = Me.chkISACTIVE
         Me.LayoutControlItem5.CustomizationFormText = "LayoutControlItem5"
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(348, 0)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(554, 0)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(69, 144)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(79, 192)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
         '
@@ -664,9 +676,9 @@ Partial Class frmUser
         Me.lKDOTORITY.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKDOTORITY.Control = Me.grdKDOTORITY
         Me.lKDOTORITY.CustomizationFormText = "Otority * :"
-        Me.lKDOTORITY.Location = New System.Drawing.Point(0, 96)
+        Me.lKDOTORITY.Location = New System.Drawing.Point(0, 128)
         Me.lKDOTORITY.Name = "lKDOTORITY"
-        Me.lKDOTORITY.Size = New System.Drawing.Size(348, 24)
+        Me.lKDOTORITY.Size = New System.Drawing.Size(554, 32)
         Me.lKDOTORITY.Text = "Otority * :"
         Me.lKDOTORITY.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDOTORITY.TextSize = New System.Drawing.Size(100, 20)
@@ -675,18 +687,18 @@ Partial Class frmUser
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.grdDetail_WAREHOUSE
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 144)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 192)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(332, 294)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(560, 444)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
         'LayoutControlItem2
         '
         Me.LayoutControlItem2.Control = Me.grdDetailItem
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(332, 144)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(560, 192)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(332, 294)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(561, 444)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
@@ -695,9 +707,9 @@ Partial Class frmUser
         Me.LayoutControlItem4.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem4.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem4.Control = Me.txtNIK
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 24)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 32)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(348, 24)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(554, 32)
         Me.LayoutControlItem4.Text = "NIK * :"
         Me.LayoutControlItem4.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(100, 20)
@@ -708,9 +720,9 @@ Partial Class frmUser
         Me.LayoutControlItem6.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem6.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem6.Control = Me.grdDPJP
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 120)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 160)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(348, 24)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(554, 32)
         Me.LayoutControlItem6.Text = "Otoritas Dokter :"
         Me.LayoutControlItem6.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(100, 20)
@@ -724,13 +736,33 @@ Partial Class frmUser
         Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 0
         '
+        'LabelControl2
+        '
+        Me.LabelControl2.Location = New System.Drawing.Point(18, 18)
+        Me.LabelControl2.Name = "LabelControl2"
+        Me.LabelControl2.Size = New System.Drawing.Size(440, 76)
+        Me.LabelControl2.StyleController = Me.LayoutControl5
+        Me.LabelControl2.TabIndex = 6
+        Me.LabelControl2.Text = "- Password minimal 10 karakter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Password mengandung huruf besar (A-Z)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Passwo" &
+    "rd mengandung huruf kecil (a-z)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Password mengandung spesial karakter (!, @ , " &
+    "#, %, ^, &, *)"
+        '
+        'LayoutControlItem7
+        '
+        Me.LayoutControlItem7.Control = Me.LabelControl2
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem7.Name = "LayoutControlItem7"
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(452, 82)
+        Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem7.TextVisible = False
+        '
         'frmUser
         '
         Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
         Me.Appearance.Options.UseBackColor = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(684, 480)
+        Me.ClientSize = New System.Drawing.Size(1151, 702)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
@@ -738,6 +770,7 @@ Partial Class frmUser
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmUser"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -769,6 +802,7 @@ Partial Class frmUser
         CType(Me.txtPASSWORD2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPASSWORD1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControl5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.LayoutControl5.ResumeLayout(False)
         CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtKDUSER.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -783,6 +817,7 @@ Partial Class frmUser
         CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -848,4 +883,6 @@ Partial Class frmUser
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents GridColumn7 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents LayoutControlItem6 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LayoutControlItem7 As DevExpress.XtraLayout.LayoutControlItem
 End Class

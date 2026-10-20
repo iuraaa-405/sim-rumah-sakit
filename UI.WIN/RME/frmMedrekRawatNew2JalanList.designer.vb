@@ -1322,7 +1322,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grdAksiOrderLab.Location = New System.Drawing.Point(0, 75)
         Me.grdAksiOrderLab.MainView = Me.grvAksiOrderLab
         Me.grdAksiOrderLab.Name = "grdAksiOrderLab"
-        Me.grdAksiOrderLab.Size = New System.Drawing.Size(947, 627)
+        Me.grdAksiOrderLab.Size = New System.Drawing.Size(616, 627)
         Me.grdAksiOrderLab.TabIndex = 30
         Me.grdAksiOrderLab.UseEmbeddedNavigator = True
         Me.grdAksiOrderLab.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvAksiOrderLab, Me.GridView20})
@@ -1359,7 +1359,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grdAksiOrderRad.Location = New System.Drawing.Point(0, 75)
         Me.grdAksiOrderRad.MainView = Me.grvAksiOrderRad
         Me.grdAksiOrderRad.Name = "grdAksiOrderRad"
-        Me.grdAksiOrderRad.Size = New System.Drawing.Size(947, 627)
+        Me.grdAksiOrderRad.Size = New System.Drawing.Size(616, 627)
         Me.grdAksiOrderRad.TabIndex = 32
         Me.grdAksiOrderRad.UseEmbeddedNavigator = True
         Me.grdAksiOrderRad.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvAksiOrderRad, Me.GridView22})
@@ -1396,7 +1396,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grdAksiOrderResep.Location = New System.Drawing.Point(0, 75)
         Me.grdAksiOrderResep.MainView = Me.grvAksiOrderResep
         Me.grdAksiOrderResep.Name = "grdAksiOrderResep"
-        Me.grdAksiOrderResep.Size = New System.Drawing.Size(947, 627)
+        Me.grdAksiOrderResep.Size = New System.Drawing.Size(616, 627)
         Me.grdAksiOrderResep.TabIndex = 32
         Me.grdAksiOrderResep.UseEmbeddedNavigator = True
         Me.grdAksiOrderResep.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvAksiOrderResep, Me.GridView25})
@@ -2626,7 +2626,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tabControltab2.Controls.Add(Me.grdTindakanTerjadwal)
         Me.tabControltab2.Name = "tabControltab2"
         Me.tabControltab2.PageVisible = False
-        Me.tabControltab2.Size = New System.Drawing.Size(915, 170)
+        Me.tabControltab2.Size = New System.Drawing.Size(669, 170)
         Me.tabControltab2.Text = "Tindakan Terjadwal"
         '
         'grdTindakanTerjadwal
@@ -2638,7 +2638,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grdTindakanTerjadwal.MainView = Me.grvTindakanTerjadwal
         Me.grdTindakanTerjadwal.Name = "grdTindakanTerjadwal"
         Me.grdTindakanTerjadwal.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.grdKDITEMTindakanTerjadwal})
-        Me.grdTindakanTerjadwal.Size = New System.Drawing.Size(915, 170)
+        Me.grdTindakanTerjadwal.Size = New System.Drawing.Size(669, 170)
         Me.grdTindakanTerjadwal.TabIndex = 33
         Me.grdTindakanTerjadwal.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvTindakanTerjadwal})
         '
@@ -2744,7 +2744,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.tabControltab3.Controls.Add(Me.grdPenunjang)
         Me.tabControltab3.Name = "tabControltab3"
-        Me.tabControltab3.Size = New System.Drawing.Size(915, 170)
+        Me.tabControltab3.Size = New System.Drawing.Size(669, 170)
         Me.tabControltab3.Text = "Penunjang"
         '
         'grdPenunjang
@@ -2755,7 +2755,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grdPenunjang.MainView = Me.grvPenunjang
         Me.grdPenunjang.Name = "grdPenunjang"
         Me.grdPenunjang.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemSearchLookUpEdit25, Me.RepositoryItemGridLookUpEdit9, Me.RepositoryItemCheckEdit10, Me.RepositoryItemSearchLookUpEdit26, Me.RepositoryItemMemoEdit10, Me.RepositoryItemSearchLookUpEdit27, Me.RepositoryItemComboBox10})
-        Me.grdPenunjang.Size = New System.Drawing.Size(915, 170)
+        Me.grdPenunjang.Size = New System.Drawing.Size(669, 170)
         Me.grdPenunjang.TabIndex = 2228
         Me.grdPenunjang.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvPenunjang})
         '
@@ -3578,7 +3578,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.XtraTabPage2.Controls.Add(Me.LayoutControl16)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(903, 167)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(657, 167)
         Me.XtraTabPage2.Text = "Racikan"
         '
         'LayoutControl16
@@ -3591,15 +3591,15 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LayoutControl16.Name = "LayoutControl16"
         Me.LayoutControl16.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(844, 465, 250, 350)
         Me.LayoutControl16.Root = Me.LayoutControlGroup16
-        Me.LayoutControl16.Size = New System.Drawing.Size(903, 167)
+        Me.LayoutControl16.Size = New System.Drawing.Size(657, 167)
         Me.LayoutControl16.TabIndex = 2
         Me.LayoutControl16.Text = "LayoutControl16"
         '
         'btnTemplateRacikan
         '
-        Me.btnTemplateRacikan.Location = New System.Drawing.Point(659, 3)
+        Me.btnTemplateRacikan.Location = New System.Drawing.Point(480, 3)
         Me.btnTemplateRacikan.Name = "btnTemplateRacikan"
-        Me.btnTemplateRacikan.Size = New System.Drawing.Size(241, 32)
+        Me.btnTemplateRacikan.Size = New System.Drawing.Size(174, 32)
         Me.btnTemplateRacikan.StyleController = Me.LayoutControl16
         Me.btnTemplateRacikan.TabIndex = 37
         Me.btnTemplateRacikan.Text = "Buat Template Racikan"
@@ -3607,13 +3607,13 @@ Partial Class frmMedrekRawatNew2JalanList
         'grdTEMPLATERACIKAN
         '
         Me.grdTEMPLATERACIKAN.EnterMoveNextControl = True
-        Me.grdTEMPLATERACIKAN.Location = New System.Drawing.Point(482, 3)
+        Me.grdTEMPLATERACIKAN.Location = New System.Drawing.Point(380, 3)
         Me.grdTEMPLATERACIKAN.Name = "grdTEMPLATERACIKAN"
         Me.grdTEMPLATERACIKAN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdTEMPLATERACIKAN.Properties.NullText = ""
         Me.grdTEMPLATERACIKAN.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdTEMPLATERACIKAN.Properties.View = Me.GridView19
-        Me.grdTEMPLATERACIKAN.Size = New System.Drawing.Size(171, 26)
+        Me.grdTEMPLATERACIKAN.Size = New System.Drawing.Size(94, 26)
         Me.grdTEMPLATERACIKAN.StyleController = Me.LayoutControl16
         Me.grdTEMPLATERACIKAN.TabIndex = 36
         '
@@ -3642,7 +3642,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grdOBATRACIKAN.MainView = Me.grvOBATRACIKAN
         Me.grdOBATRACIKAN.Name = "grdOBATRACIKAN"
         Me.grdOBATRACIKAN.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemSearchLookUpEdit12, Me.grdKDUOMRACIKAN, Me.RepositoryItemCheckEdit4, Me.RepositoryItemSearchLookUpEdit11, Me.RepositoryItemMemoEdit4, Me.grdKDITEMOBATRACIKAN})
-        Me.grdOBATRACIKAN.Size = New System.Drawing.Size(897, 123)
+        Me.grdOBATRACIKAN.Size = New System.Drawing.Size(651, 123)
         Me.grdOBATRACIKAN.TabIndex = 1
         Me.grdOBATRACIKAN.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvOBATRACIKAN})
         '
@@ -3893,7 +3893,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LayoutControlGroup16.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup16.Name = "Root"
         Me.LayoutControlGroup16.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-        Me.LayoutControlGroup16.Size = New System.Drawing.Size(903, 167)
+        Me.LayoutControlGroup16.Size = New System.Drawing.Size(657, 167)
         Me.LayoutControlGroup16.TextVisible = False
         '
         'LayoutControlItem104
@@ -3901,7 +3901,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LayoutControlItem104.Control = Me.grdOBATRACIKAN
         Me.LayoutControlItem104.Location = New System.Drawing.Point(0, 38)
         Me.LayoutControlItem104.Name = "LayoutControlItem104"
-        Me.LayoutControlItem104.Size = New System.Drawing.Size(903, 129)
+        Me.LayoutControlItem104.Size = New System.Drawing.Size(657, 129)
         Me.LayoutControlItem104.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem104.TextVisible = False
         '
@@ -3910,9 +3910,9 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LayoutControlItem105.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem105.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem105.Control = Me.grdTEMPLATERACIKAN
-        Me.LayoutControlItem105.Location = New System.Drawing.Point(374, 0)
+        Me.LayoutControlItem105.Location = New System.Drawing.Point(272, 0)
         Me.LayoutControlItem105.Name = "LayoutControlItem105"
-        Me.LayoutControlItem105.Size = New System.Drawing.Size(282, 38)
+        Me.LayoutControlItem105.Size = New System.Drawing.Size(205, 38)
         Me.LayoutControlItem105.Text = "Template :"
         Me.LayoutControlItem105.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem105.TextSize = New System.Drawing.Size(100, 20)
@@ -3921,9 +3921,9 @@ Partial Class frmMedrekRawatNew2JalanList
         'LayoutControlItem106
         '
         Me.LayoutControlItem106.Control = Me.btnTemplateRacikan
-        Me.LayoutControlItem106.Location = New System.Drawing.Point(656, 0)
+        Me.LayoutControlItem106.Location = New System.Drawing.Point(477, 0)
         Me.LayoutControlItem106.Name = "LayoutControlItem106"
-        Me.LayoutControlItem106.Size = New System.Drawing.Size(247, 38)
+        Me.LayoutControlItem106.Size = New System.Drawing.Size(180, 38)
         Me.LayoutControlItem106.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem106.TextVisible = False
         '
@@ -3932,7 +3932,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.EmptySpaceItem11.AllowHotTrack = False
         Me.EmptySpaceItem11.Location = New System.Drawing.Point(0, 0)
         Me.EmptySpaceItem11.Name = "EmptySpaceItem11"
-        Me.EmptySpaceItem11.Size = New System.Drawing.Size(374, 38)
+        Me.EmptySpaceItem11.Size = New System.Drawing.Size(272, 38)
         Me.EmptySpaceItem11.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup3
@@ -6828,7 +6828,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tabDokumenAksiLab.Controls.Add(Me.PanelControl7)
         Me.tabDokumenAksiLab.Name = "tabDokumenAksiLab"
         Me.tabDokumenAksiLab.PageVisible = False
-        Me.tabDokumenAksiLab.Size = New System.Drawing.Size(947, 702)
+        Me.tabDokumenAksiLab.Size = New System.Drawing.Size(616, 702)
         Me.tabDokumenAksiLab.Text = "Order Laboratorium"
         '
         'PanelControl7
@@ -6844,7 +6844,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.PanelControl7.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl7.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl7.Name = "PanelControl7"
-        Me.PanelControl7.Size = New System.Drawing.Size(947, 75)
+        Me.PanelControl7.Size = New System.Drawing.Size(616, 75)
         Me.PanelControl7.TabIndex = 29
         '
         'picAksiOrderLab_Add
@@ -6939,7 +6939,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tabDokumenAksiRad.Controls.Add(Me.PanelControl8)
         Me.tabDokumenAksiRad.Name = "tabDokumenAksiRad"
         Me.tabDokumenAksiRad.PageVisible = False
-        Me.tabDokumenAksiRad.Size = New System.Drawing.Size(947, 702)
+        Me.tabDokumenAksiRad.Size = New System.Drawing.Size(616, 702)
         Me.tabDokumenAksiRad.Text = "Order Radiologi"
         '
         'PanelControl8
@@ -6955,7 +6955,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.PanelControl8.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl8.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl8.Name = "PanelControl8"
-        Me.PanelControl8.Size = New System.Drawing.Size(947, 75)
+        Me.PanelControl8.Size = New System.Drawing.Size(616, 75)
         Me.PanelControl8.TabIndex = 31
         '
         'picAksiOrderRad_Add
@@ -7050,7 +7050,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tabDokumenAksiResep.Controls.Add(Me.PanelControl9)
         Me.tabDokumenAksiResep.Name = "tabDokumenAksiResep"
         Me.tabDokumenAksiResep.PageVisible = False
-        Me.tabDokumenAksiResep.Size = New System.Drawing.Size(947, 702)
+        Me.tabDokumenAksiResep.Size = New System.Drawing.Size(616, 702)
         Me.tabDokumenAksiResep.Text = "Resep"
         '
         'PanelControl9
@@ -7066,7 +7066,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.PanelControl9.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl9.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl9.Name = "PanelControl9"
-        Me.PanelControl9.Size = New System.Drawing.Size(947, 75)
+        Me.PanelControl9.Size = New System.Drawing.Size(616, 75)
         Me.PanelControl9.TabIndex = 31
         '
         'picAksiOrderResep_Add
