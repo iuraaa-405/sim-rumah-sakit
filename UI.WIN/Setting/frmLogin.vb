@@ -5,6 +5,8 @@ Imports DevExpress.LookAndFeel
 Public Class frmLogin
     Private ID As String = String.Empty
     Private sPassword As String = String.Empty
+    Private sGagalLogin As Integer = 0
+    Private waktuTersisa As Integer = 0
 
     Private Sub frmLogin_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Dim oConnection As New Setting.clsConnectionUser
@@ -283,15 +285,44 @@ Public Class frmLogin
 
                         Exit Function
                     Else
-                        MsgBox(Statement.ErrorUserPassword, MsgBoxStyle.Information, Me.Text)
-                        txtUsername.Focus()
-                        Exit Function
+                        sGagalLogin += 1
+
+                        If sGagalLogin = 3 Then
+                            waktuTersisa = 30
+                            btnLogin.Enabled = False
+                            LabelControl1.Visible = True
+                            MsgBox("Login dikunci sementara, Silahkan coba kembali dalam 30 detik", MsgBoxStyle.Exclamation, Me.Text)
+                            txtUsername.Focus()
+                            Timer1.Start()
+                            Exit Function
+                        Else
+                            LabelControl1.Visible = True
+                            LabelControl1.Text = "Gagal Login " & sGagalLogin
+                            MsgBox(Statement.ErrorUserPassword, MsgBoxStyle.Information, Me.Text)
+                            txtUsername.Focus()
+                            Exit Function
+                        End If
                     End If
                 End With
             Else
-                MsgBox(Statement.ErrorUserPassword, MsgBoxStyle.Information, Me.Text)
-                txtUsername.Focus()
-                Exit Function
+                sGagalLogin += 1
+
+                If sGagalLogin = 3 Then
+                    waktuTersisa = 30
+                    btnLogin.Enabled = False
+                    LabelControl1.Visible = True
+                    MsgBox("Login dikunci sementara, Silahkan coba kembali dalam 30 detik", MsgBoxStyle.Exclamation, Me.Text)
+                    txtUsername.Focus()
+                    Timer1.Start()
+                    Exit Function
+                Else
+                    LabelControl1.Visible = True
+                    LabelControl1.Text = "Gagal Login " & sGagalLogin
+                    MsgBox(Statement.ErrorUserPassword, MsgBoxStyle.Information, Me.Text)
+                    txtUsername.Focus()
+                    Exit Function
+                End If
+
             End If
         Catch oErr As Exception
             MsgBox(Statement.ErrorUserPassword, MsgBoxStyle.Information, Me.Text)
@@ -319,6 +350,20 @@ Public Class frmLogin
         sANTRIAN = True
         If fn_Login() Then
             Me.Close()
+        End If
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        waktuTersisa -= 1
+        LabelControl1.Text = waktuTersisa.ToString() & " detik"
+
+        If waktuTersisa <= 0 Then
+            Timer1.Stop()
+            sGagalLogin = 0
+            LabelControl1.Visible = False
+            btnLogin.Enabled = True
+            'LabelControl1.Text = "Waktu habis!"
+            'MessageBox.Show("30 detik telah berlalu.", "Selesai")
         End If
     End Sub
 

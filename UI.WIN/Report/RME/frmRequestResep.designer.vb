@@ -186,36 +186,39 @@ Partial Class frmRequestResep
         '
         Me.grd.ContextMenuStrip = Me.mnuAntrianFarmasi
         Me.grd.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grd.Location = New System.Drawing.Point(2, 20)
+        Me.grd.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grd.Location = New System.Drawing.Point(3, 30)
         Me.grd.MainView = Me.grv
+        Me.grd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.grd.Name = "grd"
         Me.grd.ShowOnlyPredefinedDetails = True
-        Me.grd.Size = New System.Drawing.Size(640, 338)
+        Me.grd.Size = New System.Drawing.Size(960, 494)
         Me.grd.TabIndex = 3
         Me.grd.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grv, Me.grv1})
         '
         'mnuAntrianFarmasi
         '
+        Me.mnuAntrianFarmasi.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.mnuAntrianFarmasi.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AmbilAntrianToolStripMenuItem, Me.KirimApotekOnlineToolStripMenuItem, Me.ProgramRujukBalikPRBToolStripMenuItem})
         Me.mnuAntrianFarmasi.Name = "mnuAntrianFarmasi"
-        Me.mnuAntrianFarmasi.Size = New System.Drawing.Size(214, 70)
+        Me.mnuAntrianFarmasi.Size = New System.Drawing.Size(290, 94)
         '
         'AmbilAntrianToolStripMenuItem
         '
         Me.AmbilAntrianToolStripMenuItem.Name = "AmbilAntrianToolStripMenuItem"
-        Me.AmbilAntrianToolStripMenuItem.Size = New System.Drawing.Size(213, 22)
+        Me.AmbilAntrianToolStripMenuItem.Size = New System.Drawing.Size(289, 30)
         Me.AmbilAntrianToolStripMenuItem.Text = "Ambil Antrian"
         '
         'KirimApotekOnlineToolStripMenuItem
         '
         Me.KirimApotekOnlineToolStripMenuItem.Name = "KirimApotekOnlineToolStripMenuItem"
-        Me.KirimApotekOnlineToolStripMenuItem.Size = New System.Drawing.Size(213, 22)
+        Me.KirimApotekOnlineToolStripMenuItem.Size = New System.Drawing.Size(289, 30)
         Me.KirimApotekOnlineToolStripMenuItem.Text = "Kirim Apotek Online"
         '
         'ProgramRujukBalikPRBToolStripMenuItem
         '
         Me.ProgramRujukBalikPRBToolStripMenuItem.Name = "ProgramRujukBalikPRBToolStripMenuItem"
-        Me.ProgramRujukBalikPRBToolStripMenuItem.Size = New System.Drawing.Size(213, 22)
+        Me.ProgramRujukBalikPRBToolStripMenuItem.Size = New System.Drawing.Size(289, 30)
         Me.ProgramRujukBalikPRBToolStripMenuItem.Text = "Program Rujuk Balik (PRB)"
         '
         'grv
@@ -300,13 +303,13 @@ Partial Class frmRequestResep
         '
         Me.deDATEFrom.EditValue = Nothing
         Me.deDATEFrom.EnterMoveNextControl = True
-        Me.deDATEFrom.Location = New System.Drawing.Point(117, 36)
+        Me.deDATEFrom.Location = New System.Drawing.Point(123, 50)
         Me.deDATEFrom.Name = "deDATEFrom"
         Me.deDATEFrom.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATEFrom.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deDATEFrom.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.deDATEFrom.Properties.Mask.UseMaskAsDisplayFormat = True
-        Me.deDATEFrom.Size = New System.Drawing.Size(113, 20)
+        Me.deDATEFrom.Size = New System.Drawing.Size(222, 26)
         Me.deDATEFrom.StyleController = Me.LayoutControl1
         Me.deDATEFrom.TabIndex = 0
         '
@@ -317,20 +320,21 @@ Partial Class frmRequestResep
         Me.LayoutControl1.Controls.Add(Me.deDATEFrom)
         Me.LayoutControl1.Controls.Add(Me.deDATETo)
         Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LayoutControl1.Location = New System.Drawing.Point(2, 20)
+        Me.LayoutControl1.Location = New System.Drawing.Point(3, 30)
+        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(640, 96)
+        Me.LayoutControl1.Size = New System.Drawing.Size(960, 139)
         Me.LayoutControl1.TabIndex = 2
         Me.LayoutControl1.Text = "LayoutControl1"
         '
         'cboTYPE
         '
-        Me.cboTYPE.Location = New System.Drawing.Point(117, 12)
+        Me.cboTYPE.Location = New System.Drawing.Point(123, 18)
         Me.cboTYPE.Name = "cboTYPE"
         Me.cboTYPE.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboTYPE.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboTYPE.Size = New System.Drawing.Size(113, 20)
+        Me.cboTYPE.Size = New System.Drawing.Size(222, 26)
         Me.cboTYPE.StyleController = Me.LayoutControl1
         Me.cboTYPE.TabIndex = 5
         '
@@ -340,39 +344,39 @@ Partial Class frmRequestResep
         Me.LayoutControl2.Controls.Add(Me.Panel2)
         Me.LayoutControl2.Controls.Add(Me.Panel1)
         Me.LayoutControl2.Controls.Add(Me.chkAuto)
-        Me.LayoutControl2.Location = New System.Drawing.Point(234, 12)
+        Me.LayoutControl2.Location = New System.Drawing.Point(351, 18)
         Me.LayoutControl2.Name = "LayoutControl2"
         Me.LayoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1100, 2, 250, 350)
         Me.LayoutControl2.Root = Me.Root
-        Me.LayoutControl2.Size = New System.Drawing.Size(394, 72)
+        Me.LayoutControl2.Size = New System.Drawing.Size(591, 103)
         Me.LayoutControl2.TabIndex = 4
         Me.LayoutControl2.Text = "LayoutControl2"
         '
         'cboMEMO
         '
         Me.cboMEMO.EditValue = "IGD"
-        Me.cboMEMO.Location = New System.Drawing.Point(92, 12)
+        Me.cboMEMO.Location = New System.Drawing.Point(138, 18)
         Me.cboMEMO.Name = "cboMEMO"
         Me.cboMEMO.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboMEMO.Properties.Items.AddRange(New Object() {"IGD", "Rajal", "Rajal dan IGD", "Ranap", "Ranap dan IGD", "Rajal dan Ranap", "Semua"})
         Me.cboMEMO.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboMEMO.Size = New System.Drawing.Size(160, 20)
+        Me.cboMEMO.Size = New System.Drawing.Size(240, 26)
         Me.cboMEMO.StyleController = Me.LayoutControl2
         Me.cboMEMO.TabIndex = 8
         '
         'Panel2
         '
-        Me.Panel2.Location = New System.Drawing.Point(139, 36)
+        Me.Panel2.Location = New System.Drawing.Point(208, 50)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(113, 24)
+        Me.Panel2.Size = New System.Drawing.Size(170, 35)
         Me.Panel2.TabIndex = 7
         '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.lblCekOrder)
-        Me.Panel1.Location = New System.Drawing.Point(12, 36)
+        Me.Panel1.Location = New System.Drawing.Point(18, 50)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(123, 24)
+        Me.Panel1.Size = New System.Drawing.Size(184, 35)
         Me.Panel1.TabIndex = 6
         '
         'lblCekOrder
@@ -380,15 +384,15 @@ Partial Class frmRequestResep
         Me.lblCekOrder.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lblCekOrder.Location = New System.Drawing.Point(3, 3)
         Me.lblCekOrder.Name = "lblCekOrder"
-        Me.lblCekOrder.Size = New System.Drawing.Size(0, 13)
+        Me.lblCekOrder.Size = New System.Drawing.Size(0, 21)
         Me.lblCekOrder.TabIndex = 5
         '
         'chkAuto
         '
-        Me.chkAuto.Location = New System.Drawing.Point(12, 12)
+        Me.chkAuto.Location = New System.Drawing.Point(18, 18)
         Me.chkAuto.Name = "chkAuto"
         Me.chkAuto.Properties.Caption = "Cek Order?"
-        Me.chkAuto.Size = New System.Drawing.Size(76, 19)
+        Me.chkAuto.Size = New System.Drawing.Size(114, 23)
         Me.chkAuto.StyleController = Me.LayoutControl2
         Me.chkAuto.TabIndex = 4
         '
@@ -400,7 +404,7 @@ Partial Class frmRequestResep
         Me.Root.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlItem4, Me.LayoutControlItem2, Me.LayoutControlItem5, Me.EmptySpaceItem1})
         Me.Root.Location = New System.Drawing.Point(0, 0)
         Me.Root.Name = "Root"
-        Me.Root.Size = New System.Drawing.Size(394, 72)
+        Me.Root.Size = New System.Drawing.Size(591, 103)
         Me.Root.TextVisible = False
         '
         'LayoutControlItem1
@@ -408,56 +412,56 @@ Partial Class frmRequestResep
         Me.LayoutControlItem1.Control = Me.chkAuto
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(80, 24)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(120, 32)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
         'LayoutControlItem4
         '
         Me.LayoutControlItem4.Control = Me.Panel1
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 24)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 32)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(127, 28)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(190, 41)
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem4.TextVisible = False
         '
         'LayoutControlItem2
         '
         Me.LayoutControlItem2.Control = Me.Panel2
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(127, 24)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(190, 32)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(117, 28)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(176, 41)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
         'LayoutControlItem5
         '
         Me.LayoutControlItem5.Control = Me.cboMEMO
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(80, 0)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(120, 0)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(164, 24)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(246, 32)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
         '
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(244, 0)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(366, 0)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(130, 52)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(195, 73)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'deDATETo
         '
         Me.deDATETo.EditValue = Nothing
         Me.deDATETo.EnterMoveNextControl = True
-        Me.deDATETo.Location = New System.Drawing.Point(117, 60)
+        Me.deDATETo.Location = New System.Drawing.Point(123, 82)
         Me.deDATETo.Name = "deDATETo"
         Me.deDATETo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATETo.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deDATETo.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.deDATETo.Properties.Mask.UseMaskAsDisplayFormat = True
-        Me.deDATETo.Size = New System.Drawing.Size(113, 20)
+        Me.deDATETo.Size = New System.Drawing.Size(222, 26)
         Me.deDATETo.StyleController = Me.LayoutControl1
         Me.deDATETo.TabIndex = 1
         '
@@ -469,7 +473,7 @@ Partial Class frmRequestResep
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lDATEFROM, Me.lDATETO, Me.LayoutControlItem3, Me.lTYPE})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(640, 96)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(960, 139)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'lDATEFROM
@@ -478,9 +482,9 @@ Partial Class frmRequestResep
         Me.lDATEFROM.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lDATEFROM.Control = Me.deDATEFrom
         Me.lDATEFROM.CustomizationFormText = "From Date :"
-        Me.lDATEFROM.Location = New System.Drawing.Point(0, 24)
+        Me.lDATEFROM.Location = New System.Drawing.Point(0, 32)
         Me.lDATEFROM.Name = "lDATEFROM"
-        Me.lDATEFROM.Size = New System.Drawing.Size(222, 24)
+        Me.lDATEFROM.Size = New System.Drawing.Size(333, 32)
         Me.lDATEFROM.Text = "From Date :"
         Me.lDATEFROM.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDATEFROM.TextSize = New System.Drawing.Size(100, 20)
@@ -492,9 +496,9 @@ Partial Class frmRequestResep
         Me.lDATETO.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lDATETO.Control = Me.deDATETo
         Me.lDATETO.CustomizationFormText = "To Date :"
-        Me.lDATETO.Location = New System.Drawing.Point(0, 48)
+        Me.lDATETO.Location = New System.Drawing.Point(0, 64)
         Me.lDATETO.Name = "lDATETO"
-        Me.lDATETO.Size = New System.Drawing.Size(222, 28)
+        Me.lDATETO.Size = New System.Drawing.Size(333, 45)
         Me.lDATETO.Text = "To Date :"
         Me.lDATETO.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDATETO.TextSize = New System.Drawing.Size(100, 20)
@@ -504,9 +508,9 @@ Partial Class frmRequestResep
         '
         Me.LayoutControlItem3.Control = Me.LayoutControl2
         Me.LayoutControlItem3.CustomizationFormText = "LayoutControlItem3"
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(222, 0)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(333, 0)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(398, 76)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(597, 109)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
@@ -518,7 +522,7 @@ Partial Class frmRequestResep
         Me.lTYPE.CustomizationFormText = "Type :"
         Me.lTYPE.Location = New System.Drawing.Point(0, 0)
         Me.lTYPE.Name = "lTYPE"
-        Me.lTYPE.Size = New System.Drawing.Size(222, 24)
+        Me.lTYPE.Size = New System.Drawing.Size(333, 32)
         Me.lTYPE.Text = "Type :"
         Me.lTYPE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lTYPE.TextSize = New System.Drawing.Size(100, 20)
@@ -528,9 +532,10 @@ Partial Class frmRequestResep
         '
         Me.GroupControl1.Controls.Add(Me.grd)
         Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupControl1.Location = New System.Drawing.Point(0, 212)
+        Me.GroupControl1.Location = New System.Drawing.Point(0, 309)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(644, 360)
+        Me.GroupControl1.Size = New System.Drawing.Size(966, 527)
         Me.GroupControl1.TabIndex = 4
         Me.GroupControl1.Text = "Preview"
         '
@@ -553,46 +558,51 @@ Partial Class frmRequestResep
         Me.panelMenu.Controls.Add(Me.picPrint)
         Me.panelMenu.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelMenu.Location = New System.Drawing.Point(0, 0)
+        Me.panelMenu.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.panelMenu.Name = "panelMenu"
-        Me.panelMenu.Size = New System.Drawing.Size(644, 94)
+        Me.panelMenu.Size = New System.Drawing.Size(966, 137)
         Me.panelMenu.TabIndex = 7
         '
         'LabelControl2
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.LabelControl2.Location = New System.Drawing.Point(180, 62)
+        Me.LabelControl2.Location = New System.Drawing.Point(270, 91)
+        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(61, 26)
+        Me.LabelControl2.Size = New System.Drawing.Size(91, 42)
         Me.LabelControl2.TabIndex = 31
         Me.LabelControl2.Text = "Riwayat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Pemberian"
         '
         'picRiwayat
         '
         Me.picRiwayat.EditValue = CType(resources.GetObject("picRiwayat.EditValue"), Object)
-        Me.picRiwayat.Location = New System.Drawing.Point(184, 12)
+        Me.picRiwayat.Location = New System.Drawing.Point(276, 18)
+        Me.picRiwayat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picRiwayat.Name = "picRiwayat"
         Me.picRiwayat.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picRiwayat.Properties.Appearance.Options.UseBackColor = True
         Me.picRiwayat.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picRiwayat.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picRiwayat.Size = New System.Drawing.Size(48, 48)
+        Me.picRiwayat.Size = New System.Drawing.Size(72, 70)
         Me.picRiwayat.TabIndex = 30
         '
         'btnTerima
         '
-        Me.btnTerima.Location = New System.Drawing.Point(251, 12)
+        Me.btnTerima.Location = New System.Drawing.Point(376, 18)
+        Me.btnTerima.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnTerima.Name = "btnTerima"
-        Me.btnTerima.Size = New System.Drawing.Size(105, 33)
+        Me.btnTerima.Size = New System.Drawing.Size(158, 48)
         Me.btnTerima.TabIndex = 29
         Me.btnTerima.Text = "Terima Ulang"
         Me.btnTerima.Visible = False
         '
         'btnTelaah2
         '
-        Me.btnTelaah2.Location = New System.Drawing.Point(251, 51)
+        Me.btnTelaah2.Location = New System.Drawing.Point(376, 75)
+        Me.btnTelaah2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnTelaah2.Name = "btnTelaah2"
-        Me.btnTelaah2.Size = New System.Drawing.Size(105, 35)
+        Me.btnTelaah2.Size = New System.Drawing.Size(158, 51)
         Me.btnTelaah2.TabIndex = 28
         Me.btnTelaah2.Text = "Telaah Resep 2"
         Me.btnTelaah2.Visible = False
@@ -601,35 +611,38 @@ Partial Class frmRequestResep
         '
         Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.LabelControl1.Location = New System.Drawing.Point(14, 62)
+        Me.LabelControl1.Location = New System.Drawing.Point(21, 91)
+        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(42, 26)
+        Me.LabelControl1.Size = New System.Drawing.Size(62, 42)
         Me.LabelControl1.TabIndex = 27
         Me.LabelControl1.Text = "Apotek" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Online"
         '
         'picApotekOnline
         '
         Me.picApotekOnline.EditValue = CType(resources.GetObject("picApotekOnline.EditValue"), Object)
-        Me.picApotekOnline.Location = New System.Drawing.Point(12, 12)
+        Me.picApotekOnline.Location = New System.Drawing.Point(18, 18)
+        Me.picApotekOnline.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picApotekOnline.Name = "picApotekOnline"
         Me.picApotekOnline.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picApotekOnline.Properties.Appearance.Options.UseBackColor = True
         Me.picApotekOnline.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picApotekOnline.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picApotekOnline.Size = New System.Drawing.Size(48, 48)
+        Me.picApotekOnline.Size = New System.Drawing.Size(72, 70)
         Me.picApotekOnline.TabIndex = 26
         '
         'picPanggilDokterTaksId6
         '
         Me.picPanggilDokterTaksId6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.picPanggilDokterTaksId6.EditValue = CType(resources.GetObject("picPanggilDokterTaksId6.EditValue"), Object)
-        Me.picPanggilDokterTaksId6.Location = New System.Drawing.Point(569, 12)
+        Me.picPanggilDokterTaksId6.Location = New System.Drawing.Point(854, 18)
+        Me.picPanggilDokterTaksId6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picPanggilDokterTaksId6.Name = "picPanggilDokterTaksId6"
         Me.picPanggilDokterTaksId6.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picPanggilDokterTaksId6.Properties.Appearance.Options.UseBackColor = True
         Me.picPanggilDokterTaksId6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picPanggilDokterTaksId6.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picPanggilDokterTaksId6.Size = New System.Drawing.Size(48, 48)
+        Me.picPanggilDokterTaksId6.Size = New System.Drawing.Size(72, 70)
         Me.picPanggilDokterTaksId6.TabIndex = 24
         '
         'lpicPanggilDokterTaksId6
@@ -637,61 +650,67 @@ Partial Class frmRequestResep
         Me.lpicPanggilDokterTaksId6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lpicPanggilDokterTaksId6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lpicPanggilDokterTaksId6.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.lpicPanggilDokterTaksId6.Location = New System.Drawing.Point(557, 62)
+        Me.lpicPanggilDokterTaksId6.Location = New System.Drawing.Point(836, 91)
+        Me.lpicPanggilDokterTaksId6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lpicPanggilDokterTaksId6.Name = "lpicPanggilDokterTaksId6"
-        Me.lpicPanggilDokterTaksId6.Size = New System.Drawing.Size(78, 26)
+        Me.lpicPanggilDokterTaksId6.Size = New System.Drawing.Size(115, 42)
         Me.lpicPanggilDokterTaksId6.TabIndex = 25
         Me.lpicPanggilDokterTaksId6.Text = "Terima Resep " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Taks Id 6 RJ"
         '
         'LabelControl6
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl6.Location = New System.Drawing.Point(122, 62)
+        Me.LabelControl6.Location = New System.Drawing.Point(183, 91)
+        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl6.Name = "LabelControl6"
-        Me.LabelControl6.Size = New System.Drawing.Size(44, 13)
+        Me.LabelControl6.Size = New System.Drawing.Size(66, 21)
         Me.LabelControl6.TabIndex = 17
         Me.LabelControl6.Text = "&Refresh"
         '
         'LabelControl7
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl7.Location = New System.Drawing.Point(77, 62)
+        Me.LabelControl7.Location = New System.Drawing.Point(116, 91)
+        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(27, 13)
+        Me.LabelControl7.Size = New System.Drawing.Size(41, 21)
         Me.LabelControl7.TabIndex = 15
         Me.LabelControl7.Text = "&Print"
         '
         'picRefresh
         '
         Me.picRefresh.EditValue = CType(resources.GetObject("picRefresh.EditValue"), Object)
-        Me.picRefresh.Location = New System.Drawing.Point(120, 12)
+        Me.picRefresh.Location = New System.Drawing.Point(180, 18)
+        Me.picRefresh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picRefresh.Name = "picRefresh"
         Me.picRefresh.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picRefresh.Properties.Appearance.Options.UseBackColor = True
         Me.picRefresh.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picRefresh.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picRefresh.Size = New System.Drawing.Size(48, 48)
+        Me.picRefresh.Size = New System.Drawing.Size(72, 70)
         Me.picRefresh.TabIndex = 16
         '
         'picPrint
         '
         Me.picPrint.EditValue = CType(resources.GetObject("picPrint.EditValue"), Object)
-        Me.picPrint.Location = New System.Drawing.Point(66, 12)
+        Me.picPrint.Location = New System.Drawing.Point(99, 18)
+        Me.picPrint.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picPrint.Name = "picPrint"
         Me.picPrint.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picPrint.Properties.Appearance.Options.UseBackColor = True
         Me.picPrint.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picPrint.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picPrint.Size = New System.Drawing.Size(48, 48)
+        Me.picPrint.Size = New System.Drawing.Size(72, 70)
         Me.picPrint.TabIndex = 14
         '
         'GroupControl2
         '
         Me.GroupControl2.Controls.Add(Me.LayoutControl1)
         Me.GroupControl2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupControl2.Location = New System.Drawing.Point(0, 94)
+        Me.GroupControl2.Location = New System.Drawing.Point(0, 137)
+        Me.GroupControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(644, 118)
+        Me.GroupControl2.Size = New System.Drawing.Size(966, 172)
         Me.GroupControl2.TabIndex = 4
         Me.GroupControl2.Text = "Filter"
         '
@@ -714,14 +733,15 @@ Partial Class frmRequestResep
         '
         'frmRequestResep
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(644, 572)
+        Me.ClientSize = New System.Drawing.Size(966, 836)
         Me.Controls.Add(Me.GroupControl1)
         Me.Controls.Add(Me.GroupControl2)
         Me.Controls.Add(Me.panelMenu)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmRequestResep"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False

@@ -167,7 +167,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.layoutControl.Controls.Add(Me.txtKDORDER)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
-        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(652, 156, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
@@ -235,7 +235,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlTop.Size = New System.Drawing.Size(1185, 0)
         '
         'barDockControlBottom
@@ -243,7 +243,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.barDockControlBottom.Location = New System.Drawing.Point(0, 799)
-        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlBottom.Size = New System.Drawing.Size(1185, 36)
         '
         'barDockControlLeft
@@ -251,7 +251,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlLeft.Size = New System.Drawing.Size(0, 799)
         '
         'barDockControlRight
@@ -259,7 +259,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
         Me.barDockControlRight.Location = New System.Drawing.Point(1185, 0)
-        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4)
         Me.barDockControlRight.Size = New System.Drawing.Size(0, 799)
         '
         'progressBarSave
@@ -964,7 +964,7 @@ Partial Class frmOrderRanapNonRacikan
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmOrderRanapNonRacikan"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

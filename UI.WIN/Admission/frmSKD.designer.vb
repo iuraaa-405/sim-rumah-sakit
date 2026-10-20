@@ -21,6 +21,7 @@ Partial Class frmSKD
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.layoutControl = New DevExpress.XtraLayout.LayoutControl()
+        Me.lblKuota = New DevExpress.XtraEditors.LabelControl()
         Me.cboSKDSPRI = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.barManager = New DevExpress.XtraBars.BarManager(Me.components)
         Me.barTop = New DevExpress.XtraBars.Bar()
@@ -76,6 +77,7 @@ Partial Class frmSKD
         Me.lSEPKARTU = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.lcategory = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.lKuota = New DevExpress.XtraLayout.LayoutControlItem()
         Me.XtraTabControl1 = New DevExpress.XtraTab.XtraTabControl()
         Me.XtraTabPage1 = New DevExpress.XtraTab.XtraTabPage()
         Me.XtraTabPage2 = New DevExpress.XtraTab.XtraTabPage()
@@ -153,8 +155,6 @@ Partial Class frmSKD
         Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem19 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.XtraTabPage3 = New DevExpress.XtraTab.XtraTabPage()
-        Me.lblKuota = New DevExpress.XtraEditors.LabelControl()
-        Me.lKuota = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.layoutControl.SuspendLayout()
         CType(Me.cboSKDSPRI.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -193,6 +193,7 @@ Partial Class frmSKD
         CType(Me.lSEPKARTU, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lcategory, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lKuota, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -258,7 +259,6 @@ Partial Class frmSKD
         CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabPage3.SuspendLayout()
-        CType(Me.lKuota, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'layoutControl
@@ -287,6 +287,18 @@ Partial Class frmSKD
         Me.layoutControl.Size = New System.Drawing.Size(1202, 659)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
+        '
+        'lblKuota
+        '
+        Me.lblKuota.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblKuota.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.lblKuota.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.lblKuota.Location = New System.Drawing.Point(18, 274)
+        Me.lblKuota.Name = "lblKuota"
+        Me.lblKuota.Size = New System.Drawing.Size(1166, 29)
+        Me.lblKuota.StyleController = Me.layoutControl
+        Me.lblKuota.TabIndex = 50
+        Me.lblKuota.Text = "0"
         '
         'cboSKDSPRI
         '
@@ -838,6 +850,15 @@ Partial Class frmSKD
         Me.lcategory.TextSize = New System.Drawing.Size(150, 20)
         Me.lcategory.TextToControlDistance = 5
         Me.lcategory.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
+        '
+        'lKuota
+        '
+        Me.lKuota.Control = Me.lblKuota
+        Me.lKuota.Location = New System.Drawing.Point(0, 256)
+        Me.lKuota.Name = "lKuota"
+        Me.lKuota.Size = New System.Drawing.Size(1172, 35)
+        Me.lKuota.TextSize = New System.Drawing.Size(0, 0)
+        Me.lKuota.TextVisible = False
         '
         'XtraTabControl1
         '
@@ -1674,27 +1695,6 @@ Partial Class frmSKD
         Me.XtraTabPage3.Name = "XtraTabPage3"
         Me.XtraTabPage3.Size = New System.Drawing.Size(0, 0)
         '
-        'lblKuota
-        '
-        Me.lblKuota.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblKuota.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.lblKuota.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.lblKuota.Location = New System.Drawing.Point(18, 274)
-        Me.lblKuota.Name = "lblKuota"
-        Me.lblKuota.Size = New System.Drawing.Size(1166, 29)
-        Me.lblKuota.StyleController = Me.layoutControl
-        Me.lblKuota.TabIndex = 50
-        Me.lblKuota.Text = "0"
-        '
-        'lKuota
-        '
-        Me.lKuota.Control = Me.lblKuota
-        Me.lKuota.Location = New System.Drawing.Point(0, 256)
-        Me.lKuota.Name = "lKuota"
-        Me.lKuota.Size = New System.Drawing.Size(1172, 35)
-        Me.lKuota.TextSize = New System.Drawing.Size(0, 0)
-        Me.lKuota.TextVisible = False
-        '
         'frmSKD
         '
         Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
@@ -1751,6 +1751,7 @@ Partial Class frmSKD
         CType(Me.lSEPKARTU, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lcategory, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lKuota, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.XtraTabControl1.ResumeLayout(False)
         Me.XtraTabPage1.ResumeLayout(False)
@@ -1816,7 +1817,6 @@ Partial Class frmSKD
         CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).EndInit()
         Me.XtraTabPage3.ResumeLayout(False)
-        CType(Me.lKuota, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout
 

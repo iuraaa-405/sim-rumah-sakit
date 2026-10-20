@@ -149,48 +149,53 @@ Partial Class frmIncbgList
         '
         Me.deDATETo.EditValue = Nothing
         Me.deDATETo.EnterMoveNextControl = True
-        Me.deDATETo.Location = New System.Drawing.Point(121, 72)
+        Me.deDATETo.Location = New System.Drawing.Point(182, 105)
+        Me.deDATETo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.deDATETo.Name = "deDATETo"
         Me.deDATETo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATETo.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deDATETo.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.deDATETo.Properties.Mask.UseMaskAsDisplayFormat = True
-        Me.deDATETo.Size = New System.Drawing.Size(175, 20)
+        Me.deDATETo.Size = New System.Drawing.Size(262, 26)
         Me.deDATETo.TabIndex = 18
         '
         'deDATEFrom
         '
         Me.deDATEFrom.EditValue = Nothing
         Me.deDATEFrom.EnterMoveNextControl = True
-        Me.deDATEFrom.Location = New System.Drawing.Point(121, 47)
+        Me.deDATEFrom.Location = New System.Drawing.Point(182, 69)
+        Me.deDATEFrom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.deDATEFrom.Name = "deDATEFrom"
         Me.deDATEFrom.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATEFrom.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deDATEFrom.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.deDATEFrom.Properties.Mask.UseMaskAsDisplayFormat = True
-        Me.deDATEFrom.Size = New System.Drawing.Size(175, 20)
+        Me.deDATEFrom.Size = New System.Drawing.Size(262, 26)
         Me.deDATEFrom.TabIndex = 11
         '
         'cboTYPE
         '
         Me.cboTYPE.EditValue = "Rekap Rawat Jalan"
         Me.cboTYPE.EnterMoveNextControl = True
-        Me.cboTYPE.Location = New System.Drawing.Point(121, 23)
+        Me.cboTYPE.Location = New System.Drawing.Point(182, 34)
+        Me.cboTYPE.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboTYPE.Name = "cboTYPE"
         Me.cboTYPE.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboTYPE.Properties.Items.AddRange(New Object() {"Rekap Rawat Jalan", "Rekap Rawat Inap", "Rekap Rawat All", "Rawat Jalan Aplikasi JKN", "Rawat Inap Aplikasi JKN"})
         Me.cboTYPE.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboTYPE.Size = New System.Drawing.Size(175, 20)
+        Me.cboTYPE.Size = New System.Drawing.Size(262, 26)
         Me.cboTYPE.TabIndex = 5
         '
         'grd
         '
         Me.grd.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.grd.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.grd.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.grd.Location = New System.Drawing.Point(2, 20)
+        Me.grd.Location = New System.Drawing.Point(3, 30)
         Me.grd.MainView = Me.grv
+        Me.grd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.grd.Name = "grd"
-        Me.grd.Size = New System.Drawing.Size(525, 425)
+        Me.grd.Size = New System.Drawing.Size(787, 620)
         Me.grd.TabIndex = 4
         Me.grd.UseEmbeddedNavigator = True
         Me.grd.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grv, Me.grv1})
@@ -352,43 +357,47 @@ Partial Class frmIncbgList
         'LabelControl6
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl6.Location = New System.Drawing.Point(68, 55)
+        Me.LabelControl6.Location = New System.Drawing.Point(102, 80)
+        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl6.Name = "LabelControl6"
-        Me.LabelControl6.Size = New System.Drawing.Size(44, 13)
+        Me.LabelControl6.Size = New System.Drawing.Size(66, 21)
         Me.LabelControl6.TabIndex = 17
         Me.LabelControl6.Text = "&Refresh"
         '
         'LabelControl7
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl7.Location = New System.Drawing.Point(23, 55)
+        Me.LabelControl7.Location = New System.Drawing.Point(34, 80)
+        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(27, 13)
+        Me.LabelControl7.Size = New System.Drawing.Size(41, 21)
         Me.LabelControl7.TabIndex = 15
         Me.LabelControl7.Text = "&Print"
         '
         'picRefresh
         '
         Me.picRefresh.EditValue = CType(resources.GetObject("picRefresh.EditValue"), Object)
-        Me.picRefresh.Location = New System.Drawing.Point(66, 5)
+        Me.picRefresh.Location = New System.Drawing.Point(99, 7)
+        Me.picRefresh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picRefresh.Name = "picRefresh"
         Me.picRefresh.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picRefresh.Properties.Appearance.Options.UseBackColor = True
         Me.picRefresh.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picRefresh.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picRefresh.Size = New System.Drawing.Size(48, 48)
+        Me.picRefresh.Size = New System.Drawing.Size(72, 70)
         Me.picRefresh.TabIndex = 16
         '
         'picPrint
         '
         Me.picPrint.EditValue = CType(resources.GetObject("picPrint.EditValue"), Object)
-        Me.picPrint.Location = New System.Drawing.Point(12, 5)
+        Me.picPrint.Location = New System.Drawing.Point(18, 7)
+        Me.picPrint.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picPrint.Name = "picPrint"
         Me.picPrint.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picPrint.Properties.Appearance.Options.UseBackColor = True
         Me.picPrint.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picPrint.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picPrint.Size = New System.Drawing.Size(48, 48)
+        Me.picPrint.Size = New System.Drawing.Size(72, 70)
         Me.picPrint.TabIndex = 14
         '
         'printSystem
@@ -405,6 +414,7 @@ Partial Class frmIncbgList
         '
         Me.SplitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainerControl2.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainerControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.SplitContainerControl2.Name = "SplitContainerControl2"
         Me.SplitContainerControl2.Panel1.Controls.Add(Me.GroupControl4)
         Me.SplitContainerControl2.Panel1.Controls.Add(Me.GroupControl3)
@@ -412,7 +422,7 @@ Partial Class frmIncbgList
         Me.SplitContainerControl2.Panel1.Text = "Panel1"
         Me.SplitContainerControl2.Panel2.Controls.Add(Me.LayoutControl2)
         Me.SplitContainerControl2.Panel2.Text = "Panel2"
-        Me.SplitContainerControl2.Size = New System.Drawing.Size(1019, 631)
+        Me.SplitContainerControl2.Size = New System.Drawing.Size(1528, 922)
         Me.SplitContainerControl2.SplitterPosition = 529
         Me.SplitContainerControl2.TabIndex = 0
         Me.SplitContainerControl2.Text = "SplitContainerControl2"
@@ -421,9 +431,10 @@ Partial Class frmIncbgList
         '
         Me.GroupControl4.Controls.Add(Me.grd)
         Me.GroupControl4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupControl4.Location = New System.Drawing.Point(0, 184)
+        Me.GroupControl4.Location = New System.Drawing.Point(0, 269)
+        Me.GroupControl4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupControl4.Name = "GroupControl4"
-        Me.GroupControl4.Size = New System.Drawing.Size(529, 447)
+        Me.GroupControl4.Size = New System.Drawing.Size(793, 653)
         Me.GroupControl4.TabIndex = 2
         Me.GroupControl4.Text = "Preview"
         '
@@ -441,35 +452,39 @@ Partial Class frmIncbgList
         Me.GroupControl3.Controls.Add(Me.deDATEFrom)
         Me.GroupControl3.Controls.Add(Me.deDATETo)
         Me.GroupControl3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupControl3.Location = New System.Drawing.Point(0, 86)
+        Me.GroupControl3.Location = New System.Drawing.Point(0, 126)
+        Me.GroupControl3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupControl3.Name = "GroupControl3"
-        Me.GroupControl3.Size = New System.Drawing.Size(529, 98)
+        Me.GroupControl3.Size = New System.Drawing.Size(793, 143)
         Me.GroupControl3.TabIndex = 1
         Me.GroupControl3.Text = "Filter"
         '
         'chkCPPT
         '
-        Me.chkCPPT.Location = New System.Drawing.Point(303, 73)
+        Me.chkCPPT.Location = New System.Drawing.Point(454, 107)
+        Me.chkCPPT.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkCPPT.Name = "chkCPPT"
         Me.chkCPPT.Properties.Caption = "CPPT PDF ?"
-        Me.chkCPPT.Size = New System.Drawing.Size(75, 19)
+        Me.chkCPPT.Size = New System.Drawing.Size(112, 23)
         Me.chkCPPT.TabIndex = 24
         '
         'chkTampilkanResep
         '
-        Me.chkTampilkanResep.Location = New System.Drawing.Point(303, 24)
+        Me.chkTampilkanResep.Location = New System.Drawing.Point(454, 35)
+        Me.chkTampilkanResep.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkTampilkanResep.Name = "chkTampilkanResep"
         Me.chkTampilkanResep.Properties.Caption = "PDF Klaim Kronis ?"
-        Me.chkTampilkanResep.Size = New System.Drawing.Size(129, 19)
+        Me.chkTampilkanResep.Size = New System.Drawing.Size(194, 23)
         Me.chkTampilkanResep.TabIndex = 23
         '
         'lUpdateSEP
         '
         Me.lUpdateSEP.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lUpdateSEP.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.lUpdateSEP.Location = New System.Drawing.Point(443, 79)
+        Me.lUpdateSEP.Location = New System.Drawing.Point(663, 115)
+        Me.lUpdateSEP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lUpdateSEP.Name = "lUpdateSEP"
-        Me.lUpdateSEP.Size = New System.Drawing.Size(81, 13)
+        Me.lUpdateSEP.Size = New System.Drawing.Size(126, 21)
         Me.lUpdateSEP.TabIndex = 22
         Me.lUpdateSEP.Text = "Cari && Edit SEP"
         '
@@ -477,45 +492,50 @@ Partial Class frmIncbgList
         '
         Me.picUpdate.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.picUpdate.EditValue = CType(resources.GetObject("picUpdate.EditValue"), Object)
-        Me.picUpdate.Location = New System.Drawing.Point(460, 26)
+        Me.picUpdate.Location = New System.Drawing.Point(689, 38)
+        Me.picUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picUpdate.Name = "picUpdate"
         Me.picUpdate.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picUpdate.Properties.Appearance.Options.UseBackColor = True
         Me.picUpdate.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picUpdate.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picUpdate.Size = New System.Drawing.Size(48, 48)
+        Me.picUpdate.Size = New System.Drawing.Size(72, 70)
         Me.picUpdate.TabIndex = 21
         '
         'chknorec
         '
-        Me.chknorec.Location = New System.Drawing.Point(303, 47)
+        Me.chknorec.Location = New System.Drawing.Point(454, 69)
+        Me.chknorec.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chknorec.Name = "chknorec"
         Me.chknorec.Properties.Caption = "Norec?"
-        Me.chknorec.Size = New System.Drawing.Size(75, 19)
+        Me.chknorec.Size = New System.Drawing.Size(112, 23)
         Me.chknorec.TabIndex = 20
         Me.chknorec.Visible = False
         '
         'LabelControl4
         '
-        Me.LabelControl4.Location = New System.Drawing.Point(28, 76)
+        Me.LabelControl4.Location = New System.Drawing.Point(42, 111)
+        Me.LabelControl4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(76, 13)
+        Me.LabelControl4.Size = New System.Drawing.Size(116, 19)
         Me.LabelControl4.TabIndex = 19
         Me.LabelControl4.Text = "Sampai Tangal :"
         '
         'LabelControl3
         '
-        Me.LabelControl3.Location = New System.Drawing.Point(43, 50)
+        Me.LabelControl3.Location = New System.Drawing.Point(64, 73)
+        Me.LabelControl3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(61, 13)
+        Me.LabelControl3.Size = New System.Drawing.Size(93, 19)
         Me.LabelControl3.TabIndex = 19
         Me.LabelControl3.Text = "Dari Tangal :"
         '
         'LabelControl2
         '
-        Me.LabelControl2.Location = New System.Drawing.Point(73, 26)
+        Me.LabelControl2.Location = New System.Drawing.Point(110, 38)
+        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(31, 13)
+        Me.LabelControl2.Size = New System.Drawing.Size(46, 19)
         Me.LabelControl2.TabIndex = 19
         Me.LabelControl2.Text = "Type :"
         '
@@ -538,15 +558,17 @@ Partial Class frmIncbgList
         Me.PanelControl1.Controls.Add(Me.LabelControl7)
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(529, 86)
+        Me.PanelControl1.Size = New System.Drawing.Size(793, 126)
         Me.PanelControl1.TabIndex = 0
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(349, 13)
+        Me.SimpleButton1.Location = New System.Drawing.Point(524, 19)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(75, 23)
+        Me.SimpleButton1.Size = New System.Drawing.Size(112, 34)
         Me.SimpleButton1.TabIndex = 28
         Me.SimpleButton1.Text = "Coba IdRg"
         Me.SimpleButton1.Visible = False
@@ -556,9 +578,10 @@ Partial Class frmIncbgList
         Me.LabelControl9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LabelControl9.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl9.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.LabelControl9.Location = New System.Drawing.Point(478, 55)
+        Me.LabelControl9.Location = New System.Drawing.Point(716, 80)
+        Me.LabelControl9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl9.Name = "LabelControl9"
-        Me.LabelControl9.Size = New System.Drawing.Size(27, 26)
+        Me.LabelControl9.Size = New System.Drawing.Size(42, 42)
         Me.LabelControl9.TabIndex = 27
         Me.LabelControl9.Text = "Hasil" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Scan"
         '
@@ -566,79 +589,86 @@ Partial Class frmIncbgList
         '
         Me.picHasilScan.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.picHasilScan.EditValue = CType(resources.GetObject("picHasilScan.EditValue"), Object)
-        Me.picHasilScan.Location = New System.Drawing.Point(466, 5)
+        Me.picHasilScan.Location = New System.Drawing.Point(698, 7)
+        Me.picHasilScan.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picHasilScan.Name = "picHasilScan"
         Me.picHasilScan.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picHasilScan.Properties.Appearance.Options.UseBackColor = True
         Me.picHasilScan.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picHasilScan.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picHasilScan.Size = New System.Drawing.Size(48, 48)
+        Me.picHasilScan.Size = New System.Drawing.Size(72, 70)
         Me.picHasilScan.TabIndex = 26
         '
         'LabelControl8
         '
         Me.LabelControl8.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl8.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.LabelControl8.Location = New System.Drawing.Point(287, 55)
+        Me.LabelControl8.Location = New System.Drawing.Point(430, 80)
+        Me.LabelControl8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(42, 26)
+        Me.LabelControl8.Size = New System.Drawing.Size(64, 42)
         Me.LabelControl8.TabIndex = 25
         Me.LabelControl8.Text = "Simpan" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PDF"
         '
         'picSimpanPdf
         '
         Me.picSimpanPdf.EditValue = CType(resources.GetObject("picSimpanPdf.EditValue"), Object)
-        Me.picSimpanPdf.Location = New System.Drawing.Point(282, 5)
+        Me.picSimpanPdf.Location = New System.Drawing.Point(423, 7)
+        Me.picSimpanPdf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picSimpanPdf.Name = "picSimpanPdf"
         Me.picSimpanPdf.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picSimpanPdf.Properties.Appearance.Options.UseBackColor = True
         Me.picSimpanPdf.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picSimpanPdf.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picSimpanPdf.Size = New System.Drawing.Size(48, 48)
+        Me.picSimpanPdf.Size = New System.Drawing.Size(72, 70)
         Me.picSimpanPdf.TabIndex = 24
         '
         'LabelControl5
         '
         Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.LabelControl5.Location = New System.Drawing.Point(234, 55)
+        Me.LabelControl5.Location = New System.Drawing.Point(351, 80)
+        Me.LabelControl5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(35, 26)
+        Me.LabelControl5.Size = New System.Drawing.Size(55, 42)
         Me.LabelControl5.TabIndex = 23
         Me.LabelControl5.Text = "Kirim" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Online"
         '
         'picKirimOnline
         '
         Me.picKirimOnline.EditValue = CType(resources.GetObject("picKirimOnline.EditValue"), Object)
-        Me.picKirimOnline.Location = New System.Drawing.Point(228, 5)
+        Me.picKirimOnline.Location = New System.Drawing.Point(342, 7)
+        Me.picKirimOnline.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picKirimOnline.Name = "picKirimOnline"
         Me.picKirimOnline.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picKirimOnline.Properties.Appearance.Options.UseBackColor = True
         Me.picKirimOnline.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picKirimOnline.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picKirimOnline.Size = New System.Drawing.Size(48, 48)
+        Me.picKirimOnline.Size = New System.Drawing.Size(72, 70)
         Me.picKirimOnline.TabIndex = 22
         '
         'LabelControl1
         '
         Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.LabelControl1.Location = New System.Drawing.Point(175, 55)
+        Me.LabelControl1.Location = New System.Drawing.Point(262, 80)
+        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(46, 26)
+        Me.LabelControl1.Size = New System.Drawing.Size(70, 42)
         Me.LabelControl1.TabIndex = 21
         Me.LabelControl1.Text = "F5" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Grouper"
         '
         'picGrouper
         '
         Me.picGrouper.EditValue = CType(resources.GetObject("picGrouper.EditValue"), Object)
-        Me.picGrouper.Location = New System.Drawing.Point(174, 5)
+        Me.picGrouper.Location = New System.Drawing.Point(261, 7)
+        Me.picGrouper.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picGrouper.Name = "picGrouper"
         Me.picGrouper.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picGrouper.Properties.Appearance.Options.UseBackColor = True
         Me.picGrouper.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picGrouper.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picGrouper.Size = New System.Drawing.Size(48, 48)
+        Me.picGrouper.Size = New System.Drawing.Size(72, 70)
         Me.picGrouper.TabIndex = 20
         '
         'lblUpload
@@ -646,22 +676,24 @@ Partial Class frmIncbgList
         Me.lblUpload.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lblUpload.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblUpload.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
-        Me.lblUpload.Location = New System.Drawing.Point(126, 55)
+        Me.lblUpload.Location = New System.Drawing.Point(189, 80)
+        Me.lblUpload.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblUpload.Name = "lblUpload"
-        Me.lblUpload.Size = New System.Drawing.Size(39, 26)
+        Me.lblUpload.Size = New System.Drawing.Size(61, 42)
         Me.lblUpload.TabIndex = 19
         Me.lblUpload.Text = "Upload" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Daftar"
         '
         'picUpload
         '
         Me.picUpload.EditValue = CType(resources.GetObject("picUpload.EditValue"), Object)
-        Me.picUpload.Location = New System.Drawing.Point(120, 5)
+        Me.picUpload.Location = New System.Drawing.Point(180, 7)
+        Me.picUpload.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picUpload.Name = "picUpload"
         Me.picUpload.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picUpload.Properties.Appearance.Options.UseBackColor = True
         Me.picUpload.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picUpload.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.picUpload.Size = New System.Drawing.Size(48, 48)
+        Me.picUpload.Size = New System.Drawing.Size(72, 70)
         Me.picUpload.TabIndex = 18
         '
         'LayoutControl2
@@ -672,37 +704,38 @@ Partial Class frmIncbgList
         Me.LayoutControl2.Controls.Add(Me.btnCariPDFRincian)
         Me.LayoutControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl2.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControl2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LayoutControl2.Name = "LayoutControl2"
         Me.LayoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1415, 435, 250, 350)
         Me.LayoutControl2.Root = Me.LayoutControlGroup2
-        Me.LayoutControl2.Size = New System.Drawing.Size(485, 631)
+        Me.LayoutControl2.Size = New System.Drawing.Size(727, 922)
         Me.LayoutControl2.TabIndex = 2
         Me.LayoutControl2.Text = "LayoutControl2"
         '
         'chkCek
         '
-        Me.chkCek.Location = New System.Drawing.Point(134, 2)
+        Me.chkCek.Location = New System.Drawing.Point(201, 3)
         Me.chkCek.Name = "chkCek"
         Me.chkCek.Properties.Caption = "CPPT Tidak Include Data Lama"
-        Me.chkCek.Size = New System.Drawing.Size(167, 19)
+        Me.chkCek.Size = New System.Drawing.Size(250, 23)
         Me.chkCek.StyleController = Me.LayoutControl2
         Me.chkCek.TabIndex = 77
         '
         'chkCPPTDokter
         '
-        Me.chkCPPTDokter.Location = New System.Drawing.Point(2, 2)
+        Me.chkCPPTDokter.Location = New System.Drawing.Point(3, 3)
         Me.chkCPPTDokter.Name = "chkCPPTDokter"
         Me.chkCPPTDokter.Properties.Caption = "CPPT Include Perawat"
-        Me.chkCPPTDokter.Size = New System.Drawing.Size(128, 19)
+        Me.chkCPPTDokter.Size = New System.Drawing.Size(192, 23)
         Me.chkCPPTDokter.StyleController = Me.LayoutControl2
         Me.chkCPPTDokter.TabIndex = 78
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(2, 28)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(3, 41)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(481, 601)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(721, 878)
         Me.XtraTabControl1.TabIndex = 1
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2, Me.XtraTabPage3})
         '
@@ -710,7 +743,7 @@ Partial Class frmIncbgList
         '
         Me.XtraTabPage1.Controls.Add(Me.grdRincian)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(475, 573)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(711, 836)
         Me.XtraTabPage1.Text = "Rincian"
         '
         'grdRincian
@@ -721,20 +754,21 @@ Partial Class frmIncbgList
         Me.grdRincian.MainView = Me.grvRincian
         Me.grdRincian.Name = "grdRincian"
         Me.grdRincian.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemGridLookUpEdit5, Me.RepositoryItemGridLookUpEdit6, Me.RepositoryItemMemoExEdit3})
-        Me.grdRincian.Size = New System.Drawing.Size(475, 573)
+        Me.grdRincian.Size = New System.Drawing.Size(711, 836)
         Me.grdRincian.TabIndex = 21
         Me.grdRincian.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvRincian})
         '
         'ContextMenuStrip1
         '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddItemToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(173, 26)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(235, 34)
         '
         'AddItemToolStripMenuItem
         '
         Me.AddItemToolStripMenuItem.Name = "AddItemToolStripMenuItem"
-        Me.AddItemToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.AddItemToolStripMenuItem.Size = New System.Drawing.Size(234, 30)
         Me.AddItemToolStripMenuItem.Text = "Add / Update Item"
         '
         'grvRincian
@@ -832,7 +866,7 @@ Partial Class frmIncbgList
         '
         Me.XtraTabPage2.Controls.Add(Me.LayoutControl1)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(475, 573)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(497, 519)
         Me.XtraTabPage2.Text = "Pdf"
         '
         'LayoutControl1
@@ -842,15 +876,15 @@ Partial Class frmIncbgList
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(475, 573)
+        Me.LayoutControl1.Size = New System.Drawing.Size(497, 519)
         Me.LayoutControl1.TabIndex = 1
         Me.LayoutControl1.Text = "LayoutControl1"
         '
         'PdfViewer1
         '
-        Me.PdfViewer1.Location = New System.Drawing.Point(2, 2)
+        Me.PdfViewer1.Location = New System.Drawing.Point(3, 3)
         Me.PdfViewer1.Name = "PdfViewer1"
-        Me.PdfViewer1.Size = New System.Drawing.Size(471, 569)
+        Me.PdfViewer1.Size = New System.Drawing.Size(491, 513)
         Me.PdfViewer1.TabIndex = 0
         '
         'LayoutControlGroup1
@@ -861,7 +895,7 @@ Partial Class frmIncbgList
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
         Me.LayoutControlGroup1.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(475, 573)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(497, 519)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'LayoutControlItem1
@@ -869,7 +903,7 @@ Partial Class frmIncbgList
         Me.LayoutControlItem1.Control = Me.PdfViewer1
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(475, 573)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(497, 519)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
@@ -877,7 +911,7 @@ Partial Class frmIncbgList
         '
         Me.XtraTabPage3.Controls.Add(Me.PdfViewerCPPTRawatJalan)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(475, 573)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(497, 519)
         Me.XtraTabPage3.Text = "CPPT"
         '
         'PdfViewerCPPTRawatJalan
@@ -885,16 +919,16 @@ Partial Class frmIncbgList
         Me.PdfViewerCPPTRawatJalan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PdfViewerCPPTRawatJalan.Location = New System.Drawing.Point(0, 0)
         Me.PdfViewerCPPTRawatJalan.Name = "PdfViewerCPPTRawatJalan"
-        Me.PdfViewerCPPTRawatJalan.Size = New System.Drawing.Size(475, 573)
+        Me.PdfViewerCPPTRawatJalan.Size = New System.Drawing.Size(497, 519)
         Me.PdfViewerCPPTRawatJalan.TabIndex = 35
         Me.PdfViewerCPPTRawatJalan.ZoomFactor = 50.0!
         Me.PdfViewerCPPTRawatJalan.ZoomMode = DevExpress.XtraPdfViewer.PdfZoomMode.Custom
         '
         'btnCariPDFRincian
         '
-        Me.btnCariPDFRincian.Location = New System.Drawing.Point(434, 2)
+        Me.btnCariPDFRincian.Location = New System.Drawing.Point(651, 3)
         Me.btnCariPDFRincian.Name = "btnCariPDFRincian"
-        Me.btnCariPDFRincian.Size = New System.Drawing.Size(49, 22)
+        Me.btnCariPDFRincian.Size = New System.Drawing.Size(73, 32)
         Me.btnCariPDFRincian.StyleController = Me.LayoutControl2
         Me.btnCariPDFRincian.TabIndex = 6
         Me.btnCariPDFRincian.Text = "Refresh"
@@ -907,24 +941,24 @@ Partial Class frmIncbgList
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup2.Name = "Root"
         Me.LayoutControlGroup2.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(485, 631)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(727, 922)
         Me.LayoutControlGroup2.TextVisible = False
         '
         'LayoutControlItem4
         '
         Me.LayoutControlItem4.Control = Me.XtraTabControl1
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 26)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 38)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(485, 605)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(727, 884)
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem4.TextVisible = False
         '
         'LayoutControlItem3
         '
         Me.LayoutControlItem3.Control = Me.btnCariPDFRincian
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(432, 0)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(648, 0)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(53, 26)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(79, 38)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
@@ -933,35 +967,36 @@ Partial Class frmIncbgList
         Me.LayoutControlItem5.Control = Me.chkCPPTDokter
         Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(132, 26)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(198, 38)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
         '
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.chkCek
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(132, 0)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(198, 0)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(171, 26)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(256, 38)
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem6.TextVisible = False
         '
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(303, 0)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(454, 0)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(129, 26)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(194, 38)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'frmIncbgList
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1019, 631)
+        Me.ClientSize = New System.Drawing.Size(1528, 922)
         Me.Controls.Add(Me.SplitContainerControl2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmIncbgList"

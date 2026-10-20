@@ -117,10 +117,11 @@ Partial Class frmPendaftaranGabung
         Me.layoutControl.Controls.Add(Me.txtKDPENDAFTARAN)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(774, 238, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(590, 401)
+        Me.layoutControl.Size = New System.Drawing.Size(885, 582)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
@@ -128,14 +129,14 @@ Partial Class frmPendaftaranGabung
         '
         Me.grdNoRegisterGabung.EditValue = ""
         Me.grdNoRegisterGabung.EnterMoveNextControl = True
-        Me.grdNoRegisterGabung.Location = New System.Drawing.Point(197, 72)
+        Me.grdNoRegisterGabung.Location = New System.Drawing.Point(219, 101)
         Me.grdNoRegisterGabung.MenuManager = Me.barManager
         Me.grdNoRegisterGabung.Name = "grdNoRegisterGabung"
         Me.grdNoRegisterGabung.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdNoRegisterGabung.Properties.NullText = ""
         Me.grdNoRegisterGabung.Properties.PopupFormMinSize = New System.Drawing.Size(810, 300)
         Me.grdNoRegisterGabung.Properties.View = Me.GridView2
-        Me.grdNoRegisterGabung.Size = New System.Drawing.Size(369, 20)
+        Me.grdNoRegisterGabung.Size = New System.Drawing.Size(629, 26)
         Me.grdNoRegisterGabung.StyleController = Me.layoutControl
         Me.grdNoRegisterGabung.TabIndex = 27
         '
@@ -188,28 +189,32 @@ Partial Class frmPendaftaranGabung
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(590, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(885, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 401)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(590, 22)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 582)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(885, 36)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 401)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 582)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(590, 0)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 401)
+        Me.barDockControlRight.Location = New System.Drawing.Point(885, 0)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 582)
         '
         'progressBarSave
         '
@@ -290,54 +295,54 @@ Partial Class frmPendaftaranGabung
         '
         'txtCARIUTAMA
         '
-        Me.txtCARIUTAMA.Location = New System.Drawing.Point(197, 48)
+        Me.txtCARIUTAMA.Location = New System.Drawing.Point(219, 69)
         Me.txtCARIUTAMA.MenuManager = Me.barManager
         Me.txtCARIUTAMA.Name = "txtCARIUTAMA"
-        Me.txtCARIUTAMA.Size = New System.Drawing.Size(369, 20)
+        Me.txtCARIUTAMA.Size = New System.Drawing.Size(629, 26)
         Me.txtCARIUTAMA.StyleController = Me.layoutControl
         Me.txtCARIUTAMA.TabIndex = 52
         '
         'cboTypeGabung
         '
         Me.cboTypeGabung.EditValue = "REKAM MEDIS"
-        Me.cboTypeGabung.Location = New System.Drawing.Point(197, 24)
+        Me.cboTypeGabung.Location = New System.Drawing.Point(219, 37)
         Me.cboTypeGabung.MenuManager = Me.barManager
         Me.cboTypeGabung.Name = "cboTypeGabung"
         Me.cboTypeGabung.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboTypeGabung.Properties.Items.AddRange(New Object() {"REKAM MEDIS", "NAMA PASIEN", "NOMOR PENDAFTARAN", "KODE"})
         Me.cboTypeGabung.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboTypeGabung.Size = New System.Drawing.Size(369, 20)
+        Me.cboTypeGabung.Size = New System.Drawing.Size(629, 26)
         Me.cboTypeGabung.StyleController = Me.layoutControl
         Me.cboTypeGabung.TabIndex = 51
         '
         'txtCARI
         '
-        Me.txtCARI.Location = New System.Drawing.Point(197, 192)
+        Me.txtCARI.Location = New System.Drawing.Point(219, 267)
         Me.txtCARI.MenuManager = Me.barManager
         Me.txtCARI.Name = "txtCARI"
-        Me.txtCARI.Size = New System.Drawing.Size(369, 20)
+        Me.txtCARI.Size = New System.Drawing.Size(629, 26)
         Me.txtCARI.StyleController = Me.layoutControl
         Me.txtCARI.TabIndex = 50
         '
         'txtSEQ
         '
-        Me.txtSEQ.Location = New System.Drawing.Point(197, 240)
+        Me.txtSEQ.Location = New System.Drawing.Point(219, 331)
         Me.txtSEQ.MenuManager = Me.barManager
         Me.txtSEQ.Name = "txtSEQ"
-        Me.txtSEQ.Size = New System.Drawing.Size(369, 20)
+        Me.txtSEQ.Size = New System.Drawing.Size(629, 26)
         Me.txtSEQ.StyleController = Me.layoutControl
         Me.txtSEQ.TabIndex = 27
         '
         'cboCARI
         '
         Me.cboCARI.EditValue = "REKAM MEDIS"
-        Me.cboCARI.Location = New System.Drawing.Point(197, 168)
+        Me.cboCARI.Location = New System.Drawing.Point(219, 235)
         Me.cboCARI.MenuManager = Me.barManager
         Me.cboCARI.Name = "cboCARI"
         Me.cboCARI.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboCARI.Properties.Items.AddRange(New Object() {"REKAM MEDIS", "NAMA PASIEN", "NOMOR PENDAFTARAN", "KODE"})
         Me.cboCARI.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboCARI.Size = New System.Drawing.Size(369, 20)
+        Me.cboCARI.Size = New System.Drawing.Size(629, 26)
         Me.cboCARI.StyleController = Me.layoutControl
         Me.cboCARI.TabIndex = 49
         '
@@ -345,14 +350,14 @@ Partial Class frmPendaftaranGabung
         '
         Me.grdSEQ.EditValue = ""
         Me.grdSEQ.EnterMoveNextControl = True
-        Me.grdSEQ.Location = New System.Drawing.Point(197, 216)
+        Me.grdSEQ.Location = New System.Drawing.Point(219, 299)
         Me.grdSEQ.MenuManager = Me.barManager
         Me.grdSEQ.Name = "grdSEQ"
         Me.grdSEQ.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdSEQ.Properties.NullText = ""
         Me.grdSEQ.Properties.PopupFormMinSize = New System.Drawing.Size(810, 300)
         Me.grdSEQ.Properties.View = Me.GridView1
-        Me.grdSEQ.Size = New System.Drawing.Size(369, 20)
+        Me.grdSEQ.Size = New System.Drawing.Size(629, 26)
         Me.grdSEQ.StyleController = Me.layoutControl
         Me.grdSEQ.TabIndex = 26
         '
@@ -425,28 +430,28 @@ Partial Class frmPendaftaranGabung
         '
         'txtMEMO
         '
-        Me.txtMEMO.Location = New System.Drawing.Point(167, 276)
+        Me.txtMEMO.Location = New System.Drawing.Point(173, 382)
         Me.txtMEMO.MenuManager = Me.barManager
         Me.txtMEMO.Name = "txtMEMO"
-        Me.txtMEMO.Size = New System.Drawing.Size(411, 113)
+        Me.txtMEMO.Size = New System.Drawing.Size(694, 182)
         Me.txtMEMO.StyleController = Me.layoutControl
         Me.txtMEMO.TabIndex = 6
         '
         'txtNOMORSEP
         '
-        Me.txtNOMORSEP.Location = New System.Drawing.Point(197, 120)
+        Me.txtNOMORSEP.Location = New System.Drawing.Point(219, 165)
         Me.txtNOMORSEP.MenuManager = Me.barManager
         Me.txtNOMORSEP.Name = "txtNOMORSEP"
-        Me.txtNOMORSEP.Size = New System.Drawing.Size(369, 20)
+        Me.txtNOMORSEP.Size = New System.Drawing.Size(629, 26)
         Me.txtNOMORSEP.StyleController = Me.layoutControl
         Me.txtNOMORSEP.TabIndex = 5
         '
         'txtKDPENDAFTARAN
         '
-        Me.txtKDPENDAFTARAN.Location = New System.Drawing.Point(197, 96)
+        Me.txtKDPENDAFTARAN.Location = New System.Drawing.Point(219, 133)
         Me.txtKDPENDAFTARAN.MenuManager = Me.barManager
         Me.txtKDPENDAFTARAN.Name = "txtKDPENDAFTARAN"
-        Me.txtKDPENDAFTARAN.Size = New System.Drawing.Size(369, 20)
+        Me.txtKDPENDAFTARAN.Size = New System.Drawing.Size(629, 26)
         Me.txtKDPENDAFTARAN.StyleController = Me.layoutControl
         Me.txtKDPENDAFTARAN.TabIndex = 4
         '
@@ -458,7 +463,7 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem3, Me.LayoutControlGroup2, Me.LayoutControlGroup3})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(590, 401)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(885, 582)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'LayoutControlItem3
@@ -467,9 +472,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem3.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem3.AppearanceItemCaption.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top
         Me.LayoutControlItem3.Control = Me.txtMEMO
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 264)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 364)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(570, 117)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(855, 188)
         Me.LayoutControlItem3.Text = "Catatan :"
         Me.LayoutControlItem3.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(150, 20)
@@ -478,9 +483,9 @@ Partial Class frmPendaftaranGabung
         'LayoutControlGroup2
         '
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem6, Me.LayoutControlItem7, Me.LayoutControlItem4, Me.LayoutControlItem5})
-        Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 144)
+        Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 198)
         Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(570, 120)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(855, 166)
         Me.LayoutControlGroup2.Text = "Gabung"
         Me.LayoutControlGroup2.TextLocation = DevExpress.Utils.Locations.Left
         '
@@ -491,7 +496,7 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem6.Control = Me.cboCARI
         Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem6.Text = "Type Cari :"
         Me.LayoutControlItem6.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(150, 20)
@@ -502,9 +507,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem7.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem7.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem7.Control = Me.txtCARI
-        Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 24)
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 32)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem7.Text = " "
         Me.LayoutControlItem7.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(150, 20)
@@ -515,9 +520,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem4.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem4.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem4.Control = Me.grdSEQ
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 48)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 64)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem4.Text = "No Register Gabung :"
         Me.LayoutControlItem4.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(150, 20)
@@ -528,9 +533,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem5.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem5.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem5.Control = Me.txtSEQ
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 72)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 96)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem5.Text = "Seq * :"
         Me.LayoutControlItem5.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(150, 20)
@@ -541,7 +546,7 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlItem2, Me.LayoutControlItem8, Me.LayoutControlItem9, Me.LayoutControlItem10})
         Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(570, 144)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(855, 198)
         Me.LayoutControlGroup3.Text = "Utama"
         Me.LayoutControlGroup3.TextLocation = DevExpress.Utils.Locations.Left
         '
@@ -550,9 +555,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem1.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem1.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem1.Control = Me.txtKDPENDAFTARAN
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 72)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 96)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem1.Text = "No Register * :"
         Me.LayoutControlItem1.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(150, 20)
@@ -563,9 +568,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem2.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem2.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem2.Control = Me.txtNOMORSEP
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 96)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 128)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem2.Text = "Nomor SEP :"
         Me.LayoutControlItem2.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(150, 20)
@@ -578,7 +583,7 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem8.Control = Me.cboTypeGabung
         Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem8.Text = "Type Cari :"
         Me.LayoutControlItem8.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(150, 20)
@@ -589,9 +594,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem9.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem9.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem9.Control = Me.txtCARIUTAMA
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 24)
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 32)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem9.Text = " "
         Me.LayoutControlItem9.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem9.TextSize = New System.Drawing.Size(150, 20)
@@ -602,9 +607,9 @@ Partial Class frmPendaftaranGabung
         Me.LayoutControlItem10.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem10.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem10.Control = Me.grdNoRegisterGabung
-        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 48)
+        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 64)
         Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(528, 24)
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(790, 32)
         Me.LayoutControlItem10.Text = "No Register Utama :"
         Me.LayoutControlItem10.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem10.TextSize = New System.Drawing.Size(150, 20)
@@ -614,9 +619,9 @@ Partial Class frmPendaftaranGabung
         '
         Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
         Me.Appearance.Options.UseBackColor = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(590, 423)
+        Me.ClientSize = New System.Drawing.Size(885, 618)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
@@ -624,6 +629,7 @@ Partial Class frmPendaftaranGabung
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmPendaftaranGabung"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

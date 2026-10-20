@@ -337,10 +337,11 @@ Partial Class frmCustomer
         Me.layoutControl.Controls.Add(Me.txtNAME_DISPLAY)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(983, 195, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(757, 524)
+        Me.layoutControl.Size = New System.Drawing.Size(1136, 762)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
@@ -350,22 +351,22 @@ Partial Class frmCustomer
         Me.lblIDSATUSEHAT.Appearance.ForeColor = System.Drawing.Color.Blue
         Me.lblIDSATUSEHAT.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblIDSATUSEHAT.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.lblIDSATUSEHAT.Location = New System.Drawing.Point(535, 36)
+        Me.lblIDSATUSEHAT.Location = New System.Drawing.Point(740, 50)
         Me.lblIDSATUSEHAT.Name = "lblIDSATUSEHAT"
-        Me.lblIDSATUSEHAT.Size = New System.Drawing.Size(210, 20)
+        Me.lblIDSATUSEHAT.Size = New System.Drawing.Size(378, 29)
         Me.lblIDSATUSEHAT.StyleController = Me.layoutControl
         Me.lblIDSATUSEHAT.TabIndex = 32
         Me.lblIDSATUSEHAT.Text = "-"
         '
         'cboJENISKELAMIN
         '
-        Me.cboJENISKELAMIN.Location = New System.Drawing.Point(535, 185)
+        Me.cboJENISKELAMIN.Location = New System.Drawing.Point(740, 252)
         Me.cboJENISKELAMIN.MenuManager = Me.barManager
         Me.cboJENISKELAMIN.Name = "cboJENISKELAMIN"
         Me.cboJENISKELAMIN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboJENISKELAMIN.Properties.Items.AddRange(New Object() {"Perempuan", "Laki-laki", "Tidak diketahui", "Tidak dapat ditentukan", "Tidak mengisi"})
         Me.cboJENISKELAMIN.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboJENISKELAMIN.Size = New System.Drawing.Size(210, 20)
+        Me.cboJENISKELAMIN.Size = New System.Drawing.Size(378, 26)
         Me.cboJENISKELAMIN.StyleController = Me.layoutControl
         Me.cboJENISKELAMIN.TabIndex = 31
         '
@@ -449,28 +450,32 @@ Partial Class frmCustomer
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(757, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1136, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 524)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(757, 22)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 762)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1136, 36)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 524)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 762)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(757, 0)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 524)
+        Me.barDockControlRight.Location = New System.Drawing.Point(1136, 0)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 762)
         '
         'progressBarSave
         '
@@ -485,18 +490,18 @@ Partial Class frmCustomer
         'txtBILL_COUNTRY
         '
         Me.txtBILL_COUNTRY.EnterMoveNextControl = True
-        Me.txtBILL_COUNTRY.Location = New System.Drawing.Point(535, 209)
+        Me.txtBILL_COUNTRY.Location = New System.Drawing.Point(740, 284)
         Me.txtBILL_COUNTRY.Name = "txtBILL_COUNTRY"
-        Me.txtBILL_COUNTRY.Size = New System.Drawing.Size(210, 20)
+        Me.txtBILL_COUNTRY.Size = New System.Drawing.Size(378, 26)
         Me.txtBILL_COUNTRY.StyleController = Me.layoutControl
         Me.txtBILL_COUNTRY.TabIndex = 10
         '
         'txtJENISPESERTA
         '
         Me.txtJENISPESERTA.EnterMoveNextControl = True
-        Me.txtJENISPESERTA.Location = New System.Drawing.Point(137, 60)
+        Me.txtJENISPESERTA.Location = New System.Drawing.Point(143, 82)
         Me.txtJENISPESERTA.Name = "txtJENISPESERTA"
-        Me.txtJENISPESERTA.Size = New System.Drawing.Size(259, 20)
+        Me.txtJENISPESERTA.Size = New System.Drawing.Size(451, 26)
         Me.txtJENISPESERTA.StyleController = Me.layoutControl
         Me.txtJENISPESERTA.TabIndex = 9
         '
@@ -504,26 +509,26 @@ Partial Class frmCustomer
         '
         Me.txtKDCUSTOMERLAMA.EditValue = ""
         Me.txtKDCUSTOMERLAMA.EnterMoveNextControl = True
-        Me.txtKDCUSTOMERLAMA.Location = New System.Drawing.Point(257, 12)
+        Me.txtKDCUSTOMERLAMA.Location = New System.Drawing.Point(386, 18)
         Me.txtKDCUSTOMERLAMA.Name = "txtKDCUSTOMERLAMA"
-        Me.txtKDCUSTOMERLAMA.Size = New System.Drawing.Size(139, 20)
+        Me.txtKDCUSTOMERLAMA.Size = New System.Drawing.Size(208, 26)
         Me.txtKDCUSTOMERLAMA.StyleController = Me.layoutControl
         Me.txtKDCUSTOMERLAMA.TabIndex = 11
         '
         'btnAddPerusahaan
         '
-        Me.btnAddPerusahaan.Location = New System.Drawing.Point(344, 188)
+        Me.btnAddPerusahaan.Location = New System.Drawing.Point(516, 266)
         Me.btnAddPerusahaan.Name = "btnAddPerusahaan"
-        Me.btnAddPerusahaan.Size = New System.Drawing.Size(52, 22)
+        Me.btnAddPerusahaan.Size = New System.Drawing.Size(78, 32)
         Me.btnAddPerusahaan.StyleController = Me.layoutControl
         Me.btnAddPerusahaan.TabIndex = 30
         Me.btnAddPerusahaan.Text = "+"
         '
         'btnAddKesatuan
         '
-        Me.btnAddKesatuan.Location = New System.Drawing.Point(344, 110)
+        Me.btnAddKesatuan.Location = New System.Drawing.Point(516, 152)
         Me.btnAddKesatuan.Name = "btnAddKesatuan"
-        Me.btnAddKesatuan.Size = New System.Drawing.Size(52, 22)
+        Me.btnAddKesatuan.Size = New System.Drawing.Size(78, 32)
         Me.btnAddKesatuan.StyleController = Me.layoutControl
         Me.btnAddKesatuan.TabIndex = 30
         Me.btnAddKesatuan.Text = "+"
@@ -532,9 +537,9 @@ Partial Class frmCustomer
         '
         Me.btnAddPenjamin.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddPenjamin.Appearance.Options.UseFont = True
-        Me.btnAddPenjamin.Location = New System.Drawing.Point(344, 84)
+        Me.btnAddPenjamin.Location = New System.Drawing.Point(516, 114)
         Me.btnAddPenjamin.Name = "btnAddPenjamin"
-        Me.btnAddPenjamin.Size = New System.Drawing.Size(52, 22)
+        Me.btnAddPenjamin.Size = New System.Drawing.Size(78, 32)
         Me.btnAddPenjamin.StyleController = Me.layoutControl
         Me.btnAddPenjamin.TabIndex = 30
         Me.btnAddPenjamin.Text = "+"
@@ -543,14 +548,14 @@ Partial Class frmCustomer
         '
         Me.grdKDPENJAMIN.EditValue = ""
         Me.grdKDPENJAMIN.EnterMoveNextControl = True
-        Me.grdKDPENJAMIN.Location = New System.Drawing.Point(137, 84)
+        Me.grdKDPENJAMIN.Location = New System.Drawing.Point(143, 114)
         Me.grdKDPENJAMIN.MenuManager = Me.barManager
         Me.grdKDPENJAMIN.Name = "grdKDPENJAMIN"
         Me.grdKDPENJAMIN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDPENJAMIN.Properties.NullText = ""
         Me.grdKDPENJAMIN.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDPENJAMIN.Properties.View = Me.GridView10
-        Me.grdKDPENJAMIN.Size = New System.Drawing.Size(203, 20)
+        Me.grdKDPENJAMIN.Size = New System.Drawing.Size(367, 26)
         Me.grdKDPENJAMIN.StyleController = Me.layoutControl
         Me.grdKDPENJAMIN.TabIndex = 24
         '
@@ -575,14 +580,14 @@ Partial Class frmCustomer
         '
         Me.grdKDPERUSAHAAN.EditValue = ""
         Me.grdKDPERUSAHAAN.EnterMoveNextControl = True
-        Me.grdKDPERUSAHAAN.Location = New System.Drawing.Point(137, 188)
+        Me.grdKDPERUSAHAAN.Location = New System.Drawing.Point(143, 266)
         Me.grdKDPERUSAHAAN.MenuManager = Me.barManager
         Me.grdKDPERUSAHAAN.Name = "grdKDPERUSAHAAN"
         Me.grdKDPERUSAHAAN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDPERUSAHAAN.Properties.NullText = ""
         Me.grdKDPERUSAHAAN.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDPERUSAHAAN.Properties.View = Me.GridView9
-        Me.grdKDPERUSAHAAN.Size = New System.Drawing.Size(203, 20)
+        Me.grdKDPERUSAHAAN.Size = New System.Drawing.Size(367, 26)
         Me.grdKDPERUSAHAAN.StyleController = Me.layoutControl
         Me.grdKDPERUSAHAAN.TabIndex = 25
         '
@@ -607,14 +612,14 @@ Partial Class frmCustomer
         '
         Me.grdKDKESATUAN.EditValue = ""
         Me.grdKDKESATUAN.EnterMoveNextControl = True
-        Me.grdKDKESATUAN.Location = New System.Drawing.Point(137, 110)
+        Me.grdKDKESATUAN.Location = New System.Drawing.Point(143, 152)
         Me.grdKDKESATUAN.MenuManager = Me.barManager
         Me.grdKDKESATUAN.Name = "grdKDKESATUAN"
         Me.grdKDKESATUAN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDKESATUAN.Properties.NullText = ""
         Me.grdKDKESATUAN.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDKESATUAN.Properties.View = Me.GridView5
-        Me.grdKDKESATUAN.Size = New System.Drawing.Size(203, 20)
+        Me.grdKDKESATUAN.Size = New System.Drawing.Size(367, 26)
         Me.grdKDKESATUAN.StyleController = Me.layoutControl
         Me.grdKDKESATUAN.TabIndex = 24
         '
@@ -645,36 +650,36 @@ Partial Class frmCustomer
         '
         'btnAddPangkat
         '
-        Me.btnAddPangkat.Location = New System.Drawing.Point(344, 136)
+        Me.btnAddPangkat.Location = New System.Drawing.Point(516, 190)
         Me.btnAddPangkat.Name = "btnAddPangkat"
-        Me.btnAddPangkat.Size = New System.Drawing.Size(52, 22)
+        Me.btnAddPangkat.Size = New System.Drawing.Size(78, 32)
         Me.btnAddPangkat.StyleController = Me.layoutControl
         Me.btnAddPangkat.TabIndex = 29
         Me.btnAddPangkat.Text = "+"
         '
         'btnAddStatusKeluarga
         '
-        Me.btnAddStatusKeluarga.Location = New System.Drawing.Point(344, 240)
+        Me.btnAddStatusKeluarga.Location = New System.Drawing.Point(516, 342)
         Me.btnAddStatusKeluarga.Name = "btnAddStatusKeluarga"
-        Me.btnAddStatusKeluarga.Size = New System.Drawing.Size(52, 22)
+        Me.btnAddStatusKeluarga.Size = New System.Drawing.Size(78, 32)
         Me.btnAddStatusKeluarga.StyleController = Me.layoutControl
         Me.btnAddStatusKeluarga.TabIndex = 28
         Me.btnAddStatusKeluarga.Text = "+"
         '
         'btnAddPekerjaan
         '
-        Me.btnAddPekerjaan.Location = New System.Drawing.Point(344, 162)
+        Me.btnAddPekerjaan.Location = New System.Drawing.Point(516, 228)
         Me.btnAddPekerjaan.Name = "btnAddPekerjaan"
-        Me.btnAddPekerjaan.Size = New System.Drawing.Size(52, 22)
+        Me.btnAddPekerjaan.Size = New System.Drawing.Size(78, 32)
         Me.btnAddPekerjaan.StyleController = Me.layoutControl
         Me.btnAddPekerjaan.TabIndex = 29
         Me.btnAddPekerjaan.Text = "+"
         '
         'btnAddSuku
         '
-        Me.btnAddSuku.Location = New System.Drawing.Point(344, 214)
+        Me.btnAddSuku.Location = New System.Drawing.Point(516, 304)
         Me.btnAddSuku.Name = "btnAddSuku"
-        Me.btnAddSuku.Size = New System.Drawing.Size(52, 22)
+        Me.btnAddSuku.Size = New System.Drawing.Size(78, 32)
         Me.btnAddSuku.StyleController = Me.layoutControl
         Me.btnAddSuku.TabIndex = 28
         Me.btnAddSuku.Text = "+"
@@ -683,9 +688,9 @@ Partial Class frmCustomer
         '
         Me.txtKARTUBPJS.EditValue = ""
         Me.txtKARTUBPJS.EnterMoveNextControl = True
-        Me.txtKARTUBPJS.Location = New System.Drawing.Point(535, 60)
+        Me.txtKARTUBPJS.Location = New System.Drawing.Point(740, 85)
         Me.txtKARTUBPJS.Name = "txtKARTUBPJS"
-        Me.txtKARTUBPJS.Size = New System.Drawing.Size(115, 20)
+        Me.txtKARTUBPJS.Size = New System.Drawing.Size(235, 26)
         Me.txtKARTUBPJS.StyleController = Me.layoutControl
         Me.txtKARTUBPJS.TabIndex = 10
         '
@@ -693,9 +698,9 @@ Partial Class frmCustomer
         '
         Me.txtNAMAKELUARGA.EditValue = ""
         Me.txtNAMAKELUARGA.EnterMoveNextControl = True
-        Me.txtNAMAKELUARGA.Location = New System.Drawing.Point(137, 266)
+        Me.txtNAMAKELUARGA.Location = New System.Drawing.Point(143, 380)
         Me.txtNAMAKELUARGA.Name = "txtNAMAKELUARGA"
-        Me.txtNAMAKELUARGA.Size = New System.Drawing.Size(259, 20)
+        Me.txtNAMAKELUARGA.Size = New System.Drawing.Size(451, 26)
         Me.txtNAMAKELUARGA.StyleController = Me.layoutControl
         Me.txtNAMAKELUARGA.TabIndex = 11
         '
@@ -703,14 +708,14 @@ Partial Class frmCustomer
         '
         Me.grdKDSTATUSKELUARGA.EditValue = ""
         Me.grdKDSTATUSKELUARGA.EnterMoveNextControl = True
-        Me.grdKDSTATUSKELUARGA.Location = New System.Drawing.Point(137, 240)
+        Me.grdKDSTATUSKELUARGA.Location = New System.Drawing.Point(143, 342)
         Me.grdKDSTATUSKELUARGA.MenuManager = Me.barManager
         Me.grdKDSTATUSKELUARGA.Name = "grdKDSTATUSKELUARGA"
         Me.grdKDSTATUSKELUARGA.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDSTATUSKELUARGA.Properties.NullText = ""
         Me.grdKDSTATUSKELUARGA.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDSTATUSKELUARGA.Properties.View = Me.GridView7
-        Me.grdKDSTATUSKELUARGA.Size = New System.Drawing.Size(203, 20)
+        Me.grdKDSTATUSKELUARGA.Size = New System.Drawing.Size(367, 26)
         Me.grdKDSTATUSKELUARGA.StyleController = Me.layoutControl
         Me.grdKDSTATUSKELUARGA.TabIndex = 24
         '
@@ -733,12 +738,12 @@ Partial Class frmCustomer
         '
         'chkSTATUSHIDUP
         '
-        Me.chkSTATUSHIDUP.Location = New System.Drawing.Point(654, 60)
+        Me.chkSTATUSHIDUP.Location = New System.Drawing.Point(981, 85)
         Me.chkSTATUSHIDUP.MenuManager = Me.barManager
         Me.chkSTATUSHIDUP.Name = "chkSTATUSHIDUP"
         Me.chkSTATUSHIDUP.Properties.Caption = "Status Hidup?"
         Me.chkSTATUSHIDUP.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.chkSTATUSHIDUP.Size = New System.Drawing.Size(91, 19)
+        Me.chkSTATUSHIDUP.Size = New System.Drawing.Size(137, 23)
         Me.chkSTATUSHIDUP.StyleController = Me.layoutControl
         Me.chkSTATUSHIDUP.TabIndex = 15
         Me.chkSTATUSHIDUP.TabStop = False
@@ -747,13 +752,13 @@ Partial Class frmCustomer
         '
         Me.deTANGGLLAHIR.EditValue = Nothing
         Me.deTANGGLLAHIR.EnterMoveNextControl = True
-        Me.deTANGGLLAHIR.Location = New System.Drawing.Point(535, 132)
+        Me.deTANGGLLAHIR.Location = New System.Drawing.Point(740, 181)
         Me.deTANGGLLAHIR.Name = "deTANGGLLAHIR"
         Me.deTANGGLLAHIR.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deTANGGLLAHIR.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deTANGGLLAHIR.Properties.Mask.EditMask = "dd/MM/yyyy HH:mm"
         Me.deTANGGLLAHIR.Properties.Mask.UseMaskAsDisplayFormat = True
-        Me.deTANGGLLAHIR.Size = New System.Drawing.Size(210, 20)
+        Me.deTANGGLLAHIR.Size = New System.Drawing.Size(378, 26)
         Me.deTANGGLLAHIR.StyleController = Me.layoutControl
         Me.deTANGGLLAHIR.TabIndex = 5
         '
@@ -761,9 +766,9 @@ Partial Class frmCustomer
         '
         Me.txtTEMPATLAHIR.EditValue = ""
         Me.txtTEMPATLAHIR.EnterMoveNextControl = True
-        Me.txtTEMPATLAHIR.Location = New System.Drawing.Point(535, 108)
+        Me.txtTEMPATLAHIR.Location = New System.Drawing.Point(740, 149)
         Me.txtTEMPATLAHIR.Name = "txtTEMPATLAHIR"
-        Me.txtTEMPATLAHIR.Size = New System.Drawing.Size(210, 20)
+        Me.txtTEMPATLAHIR.Size = New System.Drawing.Size(378, 26)
         Me.txtTEMPATLAHIR.StyleController = Me.layoutControl
         Me.txtTEMPATLAHIR.TabIndex = 10
         '
@@ -771,14 +776,14 @@ Partial Class frmCustomer
         '
         Me.grdKDSUKU.EditValue = ""
         Me.grdKDSUKU.EnterMoveNextControl = True
-        Me.grdKDSUKU.Location = New System.Drawing.Point(137, 214)
+        Me.grdKDSUKU.Location = New System.Drawing.Point(143, 304)
         Me.grdKDSUKU.MenuManager = Me.barManager
         Me.grdKDSUKU.Name = "grdKDSUKU"
         Me.grdKDSUKU.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDSUKU.Properties.NullText = ""
         Me.grdKDSUKU.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDSUKU.Properties.View = Me.GridView8
-        Me.grdKDSUKU.Size = New System.Drawing.Size(203, 20)
+        Me.grdKDSUKU.Size = New System.Drawing.Size(367, 26)
         Me.grdKDSUKU.StyleController = Me.layoutControl
         Me.grdKDSUKU.TabIndex = 24
         '
@@ -803,41 +808,41 @@ Partial Class frmCustomer
         '
         Me.txtNRP.EditValue = ""
         Me.txtNRP.EnterMoveNextControl = True
-        Me.txtNRP.Location = New System.Drawing.Point(535, 84)
+        Me.txtNRP.Location = New System.Drawing.Point(740, 117)
         Me.txtNRP.Name = "txtNRP"
-        Me.txtNRP.Size = New System.Drawing.Size(210, 20)
+        Me.txtNRP.Size = New System.Drawing.Size(378, 26)
         Me.txtNRP.StyleController = Me.layoutControl
         Me.txtNRP.TabIndex = 11
         '
         'rbWNI
         '
-        Me.rbWNI.Location = New System.Drawing.Point(535, 156)
+        Me.rbWNI.Location = New System.Drawing.Point(740, 213)
         Me.rbWNI.MenuManager = Me.barManager
         Me.rbWNI.Name = "rbWNI"
         Me.rbWNI.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(Nothing, "Ya"), New DevExpress.XtraEditors.Controls.RadioGroupItem(Nothing, "Bukan")})
-        Me.rbWNI.Size = New System.Drawing.Size(210, 25)
+        Me.rbWNI.Size = New System.Drawing.Size(378, 33)
         Me.rbWNI.StyleController = Me.layoutControl
         Me.rbWNI.TabIndex = 25
         '
         'cboKDSTATUSKAWIN
         '
-        Me.cboKDSTATUSKAWIN.Location = New System.Drawing.Point(535, 257)
+        Me.cboKDSTATUSKAWIN.Location = New System.Drawing.Point(740, 348)
         Me.cboKDSTATUSKAWIN.Name = "cboKDSTATUSKAWIN"
         Me.cboKDSTATUSKAWIN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboKDSTATUSKAWIN.Properties.Items.AddRange(New Object() {"BELUM MENIKAH", "MENIKAH", "JANDA", "DUDA", "-"})
         Me.cboKDSTATUSKAWIN.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboKDSTATUSKAWIN.Size = New System.Drawing.Size(210, 20)
+        Me.cboKDSTATUSKAWIN.Size = New System.Drawing.Size(378, 26)
         Me.cboKDSTATUSKAWIN.StyleController = Me.layoutControl
         Me.cboKDSTATUSKAWIN.TabIndex = 7
         '
         'cboKDGOLONGANDARAH
         '
-        Me.cboKDGOLONGANDARAH.Location = New System.Drawing.Point(535, 233)
+        Me.cboKDGOLONGANDARAH.Location = New System.Drawing.Point(740, 316)
         Me.cboKDGOLONGANDARAH.Name = "cboKDGOLONGANDARAH"
         Me.cboKDGOLONGANDARAH.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboKDGOLONGANDARAH.Properties.Items.AddRange(New Object() {"A", "B", "AB", "O", "-"})
         Me.cboKDGOLONGANDARAH.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.cboKDGOLONGANDARAH.Size = New System.Drawing.Size(210, 20)
+        Me.cboKDGOLONGANDARAH.Size = New System.Drawing.Size(378, 26)
         Me.cboKDGOLONGANDARAH.StyleController = Me.layoutControl
         Me.cboKDGOLONGANDARAH.TabIndex = 6
         '
@@ -845,14 +850,14 @@ Partial Class frmCustomer
         '
         Me.grdKDAGAMA.EditValue = ""
         Me.grdKDAGAMA.EnterMoveNextControl = True
-        Me.grdKDAGAMA.Location = New System.Drawing.Point(535, 305)
+        Me.grdKDAGAMA.Location = New System.Drawing.Point(740, 412)
         Me.grdKDAGAMA.MenuManager = Me.barManager
         Me.grdKDAGAMA.Name = "grdKDAGAMA"
         Me.grdKDAGAMA.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDAGAMA.Properties.NullText = ""
         Me.grdKDAGAMA.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDAGAMA.Properties.View = Me.GridView6
-        Me.grdKDAGAMA.Size = New System.Drawing.Size(210, 20)
+        Me.grdKDAGAMA.Size = New System.Drawing.Size(378, 26)
         Me.grdKDAGAMA.StyleController = Me.layoutControl
         Me.grdKDAGAMA.TabIndex = 23
         '
@@ -877,14 +882,14 @@ Partial Class frmCustomer
         '
         Me.grdKDPEKERJAAN.EditValue = ""
         Me.grdKDPEKERJAAN.EnterMoveNextControl = True
-        Me.grdKDPEKERJAAN.Location = New System.Drawing.Point(137, 162)
+        Me.grdKDPEKERJAAN.Location = New System.Drawing.Point(143, 228)
         Me.grdKDPEKERJAAN.MenuManager = Me.barManager
         Me.grdKDPEKERJAAN.Name = "grdKDPEKERJAAN"
         Me.grdKDPEKERJAAN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDPEKERJAAN.Properties.NullText = ""
         Me.grdKDPEKERJAAN.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDPEKERJAAN.Properties.View = Me.GridView4
-        Me.grdKDPEKERJAAN.Size = New System.Drawing.Size(203, 20)
+        Me.grdKDPEKERJAAN.Size = New System.Drawing.Size(367, 26)
         Me.grdKDPEKERJAAN.StyleController = Me.layoutControl
         Me.grdKDPEKERJAAN.TabIndex = 23
         '
@@ -909,14 +914,14 @@ Partial Class frmCustomer
         '
         Me.grdKDPENDIDIKAN.EditValue = ""
         Me.grdKDPENDIDIKAN.EnterMoveNextControl = True
-        Me.grdKDPENDIDIKAN.Location = New System.Drawing.Point(137, 290)
+        Me.grdKDPENDIDIKAN.Location = New System.Drawing.Point(143, 412)
         Me.grdKDPENDIDIKAN.MenuManager = Me.barManager
         Me.grdKDPENDIDIKAN.Name = "grdKDPENDIDIKAN"
         Me.grdKDPENDIDIKAN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDPENDIDIKAN.Properties.NullText = ""
         Me.grdKDPENDIDIKAN.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDPENDIDIKAN.Properties.View = Me.GridView3
-        Me.grdKDPENDIDIKAN.Size = New System.Drawing.Size(259, 20)
+        Me.grdKDPENDIDIKAN.Size = New System.Drawing.Size(451, 26)
         Me.grdKDPENDIDIKAN.StyleController = Me.layoutControl
         Me.grdKDPENDIDIKAN.TabIndex = 23
         '
@@ -941,14 +946,14 @@ Partial Class frmCustomer
         '
         Me.grdKDGOLONGAN.EditValue = ""
         Me.grdKDGOLONGAN.EnterMoveNextControl = True
-        Me.grdKDGOLONGAN.Location = New System.Drawing.Point(535, 281)
+        Me.grdKDGOLONGAN.Location = New System.Drawing.Point(740, 380)
         Me.grdKDGOLONGAN.MenuManager = Me.barManager
         Me.grdKDGOLONGAN.Name = "grdKDGOLONGAN"
         Me.grdKDGOLONGAN.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDGOLONGAN.Properties.NullText = ""
         Me.grdKDGOLONGAN.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDGOLONGAN.Properties.View = Me.GridView2
-        Me.grdKDGOLONGAN.Size = New System.Drawing.Size(210, 20)
+        Me.grdKDGOLONGAN.Size = New System.Drawing.Size(378, 26)
         Me.grdKDGOLONGAN.StyleController = Me.layoutControl
         Me.grdKDGOLONGAN.TabIndex = 23
         '
@@ -973,14 +978,14 @@ Partial Class frmCustomer
         '
         Me.grdKDPANGKAT.EditValue = ""
         Me.grdKDPANGKAT.EnterMoveNextControl = True
-        Me.grdKDPANGKAT.Location = New System.Drawing.Point(137, 136)
+        Me.grdKDPANGKAT.Location = New System.Drawing.Point(143, 190)
         Me.grdKDPANGKAT.MenuManager = Me.barManager
         Me.grdKDPANGKAT.Name = "grdKDPANGKAT"
         Me.grdKDPANGKAT.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdKDPANGKAT.Properties.NullText = ""
         Me.grdKDPANGKAT.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdKDPANGKAT.Properties.View = Me.GridView1
-        Me.grdKDPANGKAT.Size = New System.Drawing.Size(203, 20)
+        Me.grdKDPANGKAT.Size = New System.Drawing.Size(367, 26)
         Me.grdKDPANGKAT.StyleController = Me.layoutControl
         Me.grdKDPANGKAT.TabIndex = 23
         '
@@ -1005,9 +1010,9 @@ Partial Class frmCustomer
         '
         Me.txtKTP.EditValue = ""
         Me.txtKTP.EnterMoveNextControl = True
-        Me.txtKTP.Location = New System.Drawing.Point(535, 12)
+        Me.txtKTP.Location = New System.Drawing.Point(740, 18)
         Me.txtKTP.Name = "txtKTP"
-        Me.txtKTP.Size = New System.Drawing.Size(149, 20)
+        Me.txtKTP.Size = New System.Drawing.Size(286, 26)
         Me.txtKTP.StyleController = Me.layoutControl
         Me.txtKTP.TabIndex = 10
         '
@@ -1015,20 +1020,20 @@ Partial Class frmCustomer
         '
         Me.txtKDCUSTOMER.EditValue = ""
         Me.txtKDCUSTOMER.EnterMoveNextControl = True
-        Me.txtKDCUSTOMER.Location = New System.Drawing.Point(137, 12)
+        Me.txtKDCUSTOMER.Location = New System.Drawing.Point(143, 18)
         Me.txtKDCUSTOMER.Name = "txtKDCUSTOMER"
-        Me.txtKDCUSTOMER.Size = New System.Drawing.Size(116, 20)
+        Me.txtKDCUSTOMER.Size = New System.Drawing.Size(237, 26)
         Me.txtKDCUSTOMER.StyleController = Me.layoutControl
         Me.txtKDCUSTOMER.TabIndex = 10
         '
         'chkISACTIVE
         '
-        Me.chkISACTIVE.Location = New System.Drawing.Point(688, 12)
+        Me.chkISACTIVE.Location = New System.Drawing.Point(1032, 18)
         Me.chkISACTIVE.MenuManager = Me.barManager
         Me.chkISACTIVE.Name = "chkISACTIVE"
         Me.chkISACTIVE.Properties.Caption = "Active?"
         Me.chkISACTIVE.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.chkISACTIVE.Size = New System.Drawing.Size(57, 19)
+        Me.chkISACTIVE.Size = New System.Drawing.Size(86, 23)
         Me.chkISACTIVE.StyleController = Me.layoutControl
         Me.chkISACTIVE.TabIndex = 14
         Me.chkISACTIVE.TabStop = False
@@ -1037,10 +1042,10 @@ Partial Class frmCustomer
         '
         Me.tabControl.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
         Me.tabControl.Appearance.Options.UseBackColor = True
-        Me.tabControl.Location = New System.Drawing.Point(12, 329)
+        Me.tabControl.Location = New System.Drawing.Point(18, 444)
         Me.tabControl.Name = "tabControl"
         Me.tabControl.SelectedTabPage = Me.tab1
-        Me.tabControl.Size = New System.Drawing.Size(733, 183)
+        Me.tabControl.Size = New System.Drawing.Size(1100, 300)
         Me.tabControl.TabIndex = 12
         Me.tabControl.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.tab1, Me.tab2, Me.tab3})
         '
@@ -1048,7 +1053,7 @@ Partial Class frmCustomer
         '
         Me.tab1.Controls.Add(Me.LayoutControl2)
         Me.tab1.Name = "tab1"
-        Me.tab1.Size = New System.Drawing.Size(727, 155)
+        Me.tab1.Size = New System.Drawing.Size(1090, 258)
         Me.tab1.Text = "Contact"
         '
         'LayoutControl2
@@ -1063,61 +1068,61 @@ Partial Class frmCustomer
         Me.LayoutControl2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControl2.Name = "LayoutControl2"
         Me.LayoutControl2.Root = Me.LayoutControlGroup2
-        Me.LayoutControl2.Size = New System.Drawing.Size(727, 155)
+        Me.LayoutControl2.Size = New System.Drawing.Size(1090, 258)
         Me.LayoutControl2.TabIndex = 0
         Me.LayoutControl2.Text = "LayoutControl2"
         '
         'txtFAX
         '
         Me.txtFAX.EnterMoveNextControl = True
-        Me.txtFAX.Location = New System.Drawing.Point(117, 132)
+        Me.txtFAX.Location = New System.Drawing.Point(123, 178)
         Me.txtFAX.Name = "txtFAX"
-        Me.txtFAX.Size = New System.Drawing.Size(581, 20)
+        Me.txtFAX.Size = New System.Drawing.Size(949, 26)
         Me.txtFAX.StyleController = Me.LayoutControl2
         Me.txtFAX.TabIndex = 5
         '
         'txtEMAIL
         '
         Me.txtEMAIL.EnterMoveNextControl = True
-        Me.txtEMAIL.Location = New System.Drawing.Point(117, 60)
+        Me.txtEMAIL.Location = New System.Drawing.Point(123, 82)
         Me.txtEMAIL.Name = "txtEMAIL"
-        Me.txtEMAIL.Size = New System.Drawing.Size(581, 20)
+        Me.txtEMAIL.Size = New System.Drawing.Size(949, 26)
         Me.txtEMAIL.StyleController = Me.LayoutControl2
         Me.txtEMAIL.TabIndex = 7
         '
         'txtWEBSITE
         '
         Me.txtWEBSITE.EnterMoveNextControl = True
-        Me.txtWEBSITE.Location = New System.Drawing.Point(117, 108)
+        Me.txtWEBSITE.Location = New System.Drawing.Point(123, 146)
         Me.txtWEBSITE.Name = "txtWEBSITE"
-        Me.txtWEBSITE.Size = New System.Drawing.Size(581, 20)
+        Me.txtWEBSITE.Size = New System.Drawing.Size(949, 26)
         Me.txtWEBSITE.StyleController = Me.LayoutControl2
         Me.txtWEBSITE.TabIndex = 9
         '
         'txtMOBILE
         '
         Me.txtMOBILE.EnterMoveNextControl = True
-        Me.txtMOBILE.Location = New System.Drawing.Point(117, 36)
+        Me.txtMOBILE.Location = New System.Drawing.Point(123, 50)
         Me.txtMOBILE.Name = "txtMOBILE"
-        Me.txtMOBILE.Size = New System.Drawing.Size(581, 20)
+        Me.txtMOBILE.Size = New System.Drawing.Size(949, 26)
         Me.txtMOBILE.StyleController = Me.LayoutControl2
         Me.txtMOBILE.TabIndex = 6
         '
         'txtPHONE
         '
         Me.txtPHONE.EnterMoveNextControl = True
-        Me.txtPHONE.Location = New System.Drawing.Point(117, 12)
+        Me.txtPHONE.Location = New System.Drawing.Point(123, 18)
         Me.txtPHONE.Name = "txtPHONE"
-        Me.txtPHONE.Size = New System.Drawing.Size(581, 20)
+        Me.txtPHONE.Size = New System.Drawing.Size(949, 26)
         Me.txtPHONE.StyleController = Me.LayoutControl2
         Me.txtPHONE.TabIndex = 4
         '
         'txtOTHER
         '
         Me.txtOTHER.EnterMoveNextControl = True
-        Me.txtOTHER.Location = New System.Drawing.Point(117, 84)
+        Me.txtOTHER.Location = New System.Drawing.Point(123, 114)
         Me.txtOTHER.Name = "txtOTHER"
-        Me.txtOTHER.Size = New System.Drawing.Size(581, 20)
+        Me.txtOTHER.Size = New System.Drawing.Size(949, 26)
         Me.txtOTHER.StyleController = Me.LayoutControl2
         Me.txtOTHER.TabIndex = 8
         '
@@ -1129,7 +1134,7 @@ Partial Class frmCustomer
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lPHONE, Me.lMOBILE, Me.lEMAIL, Me.lWEBSITE, Me.lFAX, Me.lOTHER})
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(710, 164)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(1090, 258)
         Me.LayoutControlGroup2.TextVisible = False
         '
         'lPHONE
@@ -1140,7 +1145,7 @@ Partial Class frmCustomer
         Me.lPHONE.CustomizationFormText = "Phone :"
         Me.lPHONE.Location = New System.Drawing.Point(0, 0)
         Me.lPHONE.Name = "lPHONE"
-        Me.lPHONE.Size = New System.Drawing.Size(690, 24)
+        Me.lPHONE.Size = New System.Drawing.Size(1060, 32)
         Me.lPHONE.Text = "Phone :"
         Me.lPHONE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPHONE.TextSize = New System.Drawing.Size(100, 20)
@@ -1152,9 +1157,9 @@ Partial Class frmCustomer
         Me.lMOBILE.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lMOBILE.Control = Me.txtMOBILE
         Me.lMOBILE.CustomizationFormText = "Mobile :"
-        Me.lMOBILE.Location = New System.Drawing.Point(0, 24)
+        Me.lMOBILE.Location = New System.Drawing.Point(0, 32)
         Me.lMOBILE.Name = "lMOBILE"
-        Me.lMOBILE.Size = New System.Drawing.Size(690, 24)
+        Me.lMOBILE.Size = New System.Drawing.Size(1060, 32)
         Me.lMOBILE.Text = "Mobile :"
         Me.lMOBILE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lMOBILE.TextSize = New System.Drawing.Size(100, 20)
@@ -1166,9 +1171,9 @@ Partial Class frmCustomer
         Me.lEMAIL.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lEMAIL.Control = Me.txtEMAIL
         Me.lEMAIL.CustomizationFormText = "Email :"
-        Me.lEMAIL.Location = New System.Drawing.Point(0, 48)
+        Me.lEMAIL.Location = New System.Drawing.Point(0, 64)
         Me.lEMAIL.Name = "lEMAIL"
-        Me.lEMAIL.Size = New System.Drawing.Size(690, 24)
+        Me.lEMAIL.Size = New System.Drawing.Size(1060, 32)
         Me.lEMAIL.Text = "Email :"
         Me.lEMAIL.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lEMAIL.TextSize = New System.Drawing.Size(100, 20)
@@ -1179,9 +1184,9 @@ Partial Class frmCustomer
         Me.lWEBSITE.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lWEBSITE.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lWEBSITE.Control = Me.txtWEBSITE
-        Me.lWEBSITE.Location = New System.Drawing.Point(0, 96)
+        Me.lWEBSITE.Location = New System.Drawing.Point(0, 128)
         Me.lWEBSITE.Name = "lWEBSITE"
-        Me.lWEBSITE.Size = New System.Drawing.Size(690, 24)
+        Me.lWEBSITE.Size = New System.Drawing.Size(1060, 32)
         Me.lWEBSITE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lWEBSITE.TextSize = New System.Drawing.Size(100, 20)
         Me.lWEBSITE.TextToControlDistance = 5
@@ -1191,9 +1196,9 @@ Partial Class frmCustomer
         Me.lFAX.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lFAX.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lFAX.Control = Me.txtFAX
-        Me.lFAX.Location = New System.Drawing.Point(0, 120)
+        Me.lFAX.Location = New System.Drawing.Point(0, 160)
         Me.lFAX.Name = "lFAX"
-        Me.lFAX.Size = New System.Drawing.Size(690, 24)
+        Me.lFAX.Size = New System.Drawing.Size(1060, 68)
         Me.lFAX.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lFAX.TextSize = New System.Drawing.Size(100, 20)
         Me.lFAX.TextToControlDistance = 5
@@ -1203,9 +1208,9 @@ Partial Class frmCustomer
         Me.lOTHER.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lOTHER.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lOTHER.Control = Me.txtOTHER
-        Me.lOTHER.Location = New System.Drawing.Point(0, 72)
+        Me.lOTHER.Location = New System.Drawing.Point(0, 96)
         Me.lOTHER.Name = "lOTHER"
-        Me.lOTHER.Size = New System.Drawing.Size(690, 24)
+        Me.lOTHER.Size = New System.Drawing.Size(1060, 32)
         Me.lOTHER.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lOTHER.TextSize = New System.Drawing.Size(100, 20)
         Me.lOTHER.TextToControlDistance = 5
@@ -1214,7 +1219,7 @@ Partial Class frmCustomer
         '
         Me.tab2.Controls.Add(Me.LayoutControl3)
         Me.tab2.Name = "tab2"
-        Me.tab2.Size = New System.Drawing.Size(727, 155)
+        Me.tab2.Size = New System.Drawing.Size(711, 20)
         Me.tab2.Text = "Address"
         '
         'LayoutControl3
@@ -1231,24 +1236,24 @@ Partial Class frmCustomer
         Me.LayoutControl3.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControl3.Name = "LayoutControl3"
         Me.LayoutControl3.Root = Me.LayoutControlGroup3
-        Me.LayoutControl3.Size = New System.Drawing.Size(727, 155)
+        Me.LayoutControl3.Size = New System.Drawing.Size(711, 20)
         Me.LayoutControl3.TabIndex = 0
         Me.LayoutControl3.Text = "LayoutControl3"
         '
         'txtKELURAHAN
         '
         Me.txtKELURAHAN.EnterMoveNextControl = True
-        Me.txtKELURAHAN.Location = New System.Drawing.Point(137, 99)
+        Me.txtKELURAHAN.Location = New System.Drawing.Point(143, 142)
         Me.txtKELURAHAN.Name = "txtKELURAHAN"
-        Me.txtKELURAHAN.Size = New System.Drawing.Size(473, 20)
+        Me.txtKELURAHAN.Size = New System.Drawing.Size(443, 26)
         Me.txtKELURAHAN.StyleController = Me.LayoutControl3
         Me.txtKELURAHAN.TabIndex = 9
         '
         'btnCariWilayah
         '
-        Me.btnCariWilayah.Location = New System.Drawing.Point(614, 27)
+        Me.btnCariWilayah.Location = New System.Drawing.Point(592, 46)
         Me.btnCariWilayah.Name = "btnCariWilayah"
-        Me.btnCariWilayah.Size = New System.Drawing.Size(84, 22)
+        Me.btnCariWilayah.Size = New System.Drawing.Size(101, 32)
         Me.btnCariWilayah.StyleController = Me.LayoutControl3
         Me.btnCariWilayah.TabIndex = 10
         Me.btnCariWilayah.Text = "Cari Wilayah"
@@ -1256,54 +1261,54 @@ Partial Class frmCustomer
         'txtKDKELURAHAN
         '
         Me.txtKDKELURAHAN.EnterMoveNextControl = True
-        Me.txtKDKELURAHAN.Location = New System.Drawing.Point(614, 99)
+        Me.txtKDKELURAHAN.Location = New System.Drawing.Point(592, 142)
         Me.txtKDKELURAHAN.Name = "txtKDKELURAHAN"
-        Me.txtKDKELURAHAN.Size = New System.Drawing.Size(84, 20)
+        Me.txtKDKELURAHAN.Size = New System.Drawing.Size(101, 26)
         Me.txtKDKELURAHAN.StyleController = Me.LayoutControl3
         Me.txtKDKELURAHAN.TabIndex = 9
         '
         'txtPROPINSI
         '
         Me.txtPROPINSI.EnterMoveNextControl = True
-        Me.txtPROPINSI.Location = New System.Drawing.Point(137, 27)
+        Me.txtPROPINSI.Location = New System.Drawing.Point(143, 46)
         Me.txtPROPINSI.Name = "txtPROPINSI"
-        Me.txtPROPINSI.Size = New System.Drawing.Size(473, 20)
+        Me.txtPROPINSI.Size = New System.Drawing.Size(443, 26)
         Me.txtPROPINSI.StyleController = Me.LayoutControl3
         Me.txtPROPINSI.TabIndex = 8
         '
         'txtKABUPATEN
         '
         Me.txtKABUPATEN.EnterMoveNextControl = True
-        Me.txtKABUPATEN.Location = New System.Drawing.Point(137, 51)
+        Me.txtKABUPATEN.Location = New System.Drawing.Point(143, 78)
         Me.txtKABUPATEN.Name = "txtKABUPATEN"
-        Me.txtKABUPATEN.Size = New System.Drawing.Size(473, 20)
+        Me.txtKABUPATEN.Size = New System.Drawing.Size(443, 26)
         Me.txtKABUPATEN.StyleController = Me.LayoutControl3
         Me.txtKABUPATEN.TabIndex = 8
         '
         'txtKECAMATAN
         '
         Me.txtKECAMATAN.EnterMoveNextControl = True
-        Me.txtKECAMATAN.Location = New System.Drawing.Point(137, 75)
+        Me.txtKECAMATAN.Location = New System.Drawing.Point(143, 110)
         Me.txtKECAMATAN.Name = "txtKECAMATAN"
-        Me.txtKECAMATAN.Size = New System.Drawing.Size(473, 20)
+        Me.txtKECAMATAN.Size = New System.Drawing.Size(443, 26)
         Me.txtKECAMATAN.StyleController = Me.LayoutControl3
         Me.txtKECAMATAN.TabIndex = 8
         '
         'txtBILL_STREET
         '
         Me.txtBILL_STREET.EnterMoveNextControl = True
-        Me.txtBILL_STREET.Location = New System.Drawing.Point(137, 3)
+        Me.txtBILL_STREET.Location = New System.Drawing.Point(143, 18)
         Me.txtBILL_STREET.Name = "txtBILL_STREET"
-        Me.txtBILL_STREET.Size = New System.Drawing.Size(561, 20)
+        Me.txtBILL_STREET.Size = New System.Drawing.Size(550, 22)
         Me.txtBILL_STREET.StyleController = Me.LayoutControl3
         Me.txtBILL_STREET.TabIndex = 4
         '
         'txtBILL_ZIP
         '
         Me.txtBILL_ZIP.EnterMoveNextControl = True
-        Me.txtBILL_ZIP.Location = New System.Drawing.Point(137, 123)
+        Me.txtBILL_ZIP.Location = New System.Drawing.Point(143, 174)
         Me.txtBILL_ZIP.Name = "txtBILL_ZIP"
-        Me.txtBILL_ZIP.Size = New System.Drawing.Size(561, 20)
+        Me.txtBILL_ZIP.Size = New System.Drawing.Size(550, 26)
         Me.txtBILL_ZIP.StyleController = Me.LayoutControl3
         Me.txtBILL_ZIP.TabIndex = 7
         '
@@ -1313,9 +1318,9 @@ Partial Class frmCustomer
         Me.LayoutControlGroup3.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup3.GroupBordersVisible = False
         Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lBILL_STREET, Me.lPROPINSI, Me.LayoutControlItem12, Me.lBILL_ZIP, Me.lKABUPATEN, Me.lKECAMATAN, Me.lKELURAHAN, Me.LayoutControlItem13})
-        Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, -9)
+        Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(710, 164)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(711, 218)
         Me.LayoutControlGroup3.TextVisible = False
         '
         'lBILL_STREET
@@ -1328,7 +1333,7 @@ Partial Class frmCustomer
         Me.lBILL_STREET.CustomizationFormText = "Street :"
         Me.lBILL_STREET.Location = New System.Drawing.Point(0, 0)
         Me.lBILL_STREET.Name = "lBILL_STREET"
-        Me.lBILL_STREET.Size = New System.Drawing.Size(690, 24)
+        Me.lBILL_STREET.Size = New System.Drawing.Size(681, 28)
         Me.lBILL_STREET.Text = "Street :"
         Me.lBILL_STREET.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lBILL_STREET.TextSize = New System.Drawing.Size(120, 20)
@@ -1339,9 +1344,9 @@ Partial Class frmCustomer
         Me.lPROPINSI.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lPROPINSI.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPROPINSI.Control = Me.txtPROPINSI
-        Me.lPROPINSI.Location = New System.Drawing.Point(0, 24)
+        Me.lPROPINSI.Location = New System.Drawing.Point(0, 28)
         Me.lPROPINSI.Name = "lPROPINSI"
-        Me.lPROPINSI.Size = New System.Drawing.Size(602, 24)
+        Me.lPROPINSI.Size = New System.Drawing.Size(574, 32)
         Me.lPROPINSI.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPROPINSI.TextSize = New System.Drawing.Size(120, 20)
         Me.lPROPINSI.TextToControlDistance = 5
@@ -1349,9 +1354,9 @@ Partial Class frmCustomer
         'LayoutControlItem12
         '
         Me.LayoutControlItem12.Control = Me.btnCariWilayah
-        Me.LayoutControlItem12.Location = New System.Drawing.Point(602, 24)
+        Me.LayoutControlItem12.Location = New System.Drawing.Point(574, 28)
         Me.LayoutControlItem12.Name = "LayoutControlItem12"
-        Me.LayoutControlItem12.Size = New System.Drawing.Size(88, 72)
+        Me.LayoutControlItem12.Size = New System.Drawing.Size(107, 96)
         Me.LayoutControlItem12.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem12.TextVisible = False
         '
@@ -1362,9 +1367,9 @@ Partial Class frmCustomer
         Me.lBILL_ZIP.AppearanceItemCaption.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap
         Me.lBILL_ZIP.Control = Me.txtBILL_ZIP
         Me.lBILL_ZIP.CustomizationFormText = "Zip Code :"
-        Me.lBILL_ZIP.Location = New System.Drawing.Point(0, 120)
+        Me.lBILL_ZIP.Location = New System.Drawing.Point(0, 156)
         Me.lBILL_ZIP.Name = "lBILL_ZIP"
-        Me.lBILL_ZIP.Size = New System.Drawing.Size(690, 24)
+        Me.lBILL_ZIP.Size = New System.Drawing.Size(681, 32)
         Me.lBILL_ZIP.Text = "Zip Code :"
         Me.lBILL_ZIP.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lBILL_ZIP.TextSize = New System.Drawing.Size(120, 20)
@@ -1375,9 +1380,9 @@ Partial Class frmCustomer
         Me.lKABUPATEN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKABUPATEN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKABUPATEN.Control = Me.txtKABUPATEN
-        Me.lKABUPATEN.Location = New System.Drawing.Point(0, 48)
+        Me.lKABUPATEN.Location = New System.Drawing.Point(0, 60)
         Me.lKABUPATEN.Name = "lKABUPATEN"
-        Me.lKABUPATEN.Size = New System.Drawing.Size(602, 24)
+        Me.lKABUPATEN.Size = New System.Drawing.Size(574, 32)
         Me.lKABUPATEN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKABUPATEN.TextSize = New System.Drawing.Size(120, 20)
         Me.lKABUPATEN.TextToControlDistance = 5
@@ -1387,9 +1392,9 @@ Partial Class frmCustomer
         Me.lKECAMATAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKECAMATAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKECAMATAN.Control = Me.txtKECAMATAN
-        Me.lKECAMATAN.Location = New System.Drawing.Point(0, 72)
+        Me.lKECAMATAN.Location = New System.Drawing.Point(0, 92)
         Me.lKECAMATAN.Name = "lKECAMATAN"
-        Me.lKECAMATAN.Size = New System.Drawing.Size(602, 24)
+        Me.lKECAMATAN.Size = New System.Drawing.Size(574, 32)
         Me.lKECAMATAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKECAMATAN.TextSize = New System.Drawing.Size(120, 20)
         Me.lKECAMATAN.TextToControlDistance = 5
@@ -1399,9 +1404,9 @@ Partial Class frmCustomer
         Me.lKELURAHAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKELURAHAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKELURAHAN.Control = Me.txtKELURAHAN
-        Me.lKELURAHAN.Location = New System.Drawing.Point(0, 96)
+        Me.lKELURAHAN.Location = New System.Drawing.Point(0, 124)
         Me.lKELURAHAN.Name = "lKELURAHAN"
-        Me.lKELURAHAN.Size = New System.Drawing.Size(602, 24)
+        Me.lKELURAHAN.Size = New System.Drawing.Size(574, 32)
         Me.lKELURAHAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKELURAHAN.TextSize = New System.Drawing.Size(120, 20)
         Me.lKELURAHAN.TextToControlDistance = 5
@@ -1411,9 +1416,9 @@ Partial Class frmCustomer
         Me.LayoutControlItem13.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem13.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem13.Control = Me.txtKDKELURAHAN
-        Me.LayoutControlItem13.Location = New System.Drawing.Point(602, 96)
+        Me.LayoutControlItem13.Location = New System.Drawing.Point(574, 124)
         Me.LayoutControlItem13.Name = "LayoutControlItem13"
-        Me.LayoutControlItem13.Size = New System.Drawing.Size(88, 24)
+        Me.LayoutControlItem13.Size = New System.Drawing.Size(107, 32)
         Me.LayoutControlItem13.Text = "Kode Kelurahan * :"
         Me.LayoutControlItem13.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem13.TextSize = New System.Drawing.Size(0, 0)
@@ -1424,7 +1429,7 @@ Partial Class frmCustomer
         '
         Me.tab3.Controls.Add(Me.LayoutControl8)
         Me.tab3.Name = "tab3"
-        Me.tab3.Size = New System.Drawing.Size(727, 155)
+        Me.tab3.Size = New System.Drawing.Size(711, 20)
         Me.tab3.Text = "Other"
         '
         'LayoutControl8
@@ -1434,16 +1439,16 @@ Partial Class frmCustomer
         Me.LayoutControl8.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControl8.Name = "LayoutControl8"
         Me.LayoutControl8.Root = Me.LayoutControlGroup8
-        Me.LayoutControl8.Size = New System.Drawing.Size(727, 155)
+        Me.LayoutControl8.Size = New System.Drawing.Size(711, 20)
         Me.LayoutControl8.TabIndex = 0
         Me.LayoutControl8.Text = "LayoutControl8"
         '
         'txtMEMO
         '
         Me.txtMEMO.EnterMoveNextControl = True
-        Me.txtMEMO.Location = New System.Drawing.Point(12, 12)
+        Me.txtMEMO.Location = New System.Drawing.Point(18, 18)
         Me.txtMEMO.Name = "txtMEMO"
-        Me.txtMEMO.Size = New System.Drawing.Size(703, 131)
+        Me.txtMEMO.Size = New System.Drawing.Size(675, 22)
         Me.txtMEMO.StyleController = Me.LayoutControl8
         Me.txtMEMO.TabIndex = 4
         '
@@ -1455,7 +1460,7 @@ Partial Class frmCustomer
         Me.LayoutControlGroup8.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem33})
         Me.LayoutControlGroup8.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup8.Name = "LayoutControlGroup8"
-        Me.LayoutControlGroup8.Size = New System.Drawing.Size(727, 155)
+        Me.LayoutControlGroup8.Size = New System.Drawing.Size(711, 58)
         Me.LayoutControlGroup8.TextVisible = False
         '
         'LayoutControlItem33
@@ -1467,7 +1472,7 @@ Partial Class frmCustomer
         Me.LayoutControlItem33.CustomizationFormText = "Catatan :"
         Me.LayoutControlItem33.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem33.Name = "LayoutControlItem33"
-        Me.LayoutControlItem33.Size = New System.Drawing.Size(707, 135)
+        Me.LayoutControlItem33.Size = New System.Drawing.Size(681, 28)
         Me.LayoutControlItem33.Text = "Catatan :"
         Me.LayoutControlItem33.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem33.TextSize = New System.Drawing.Size(0, 0)
@@ -1478,9 +1483,9 @@ Partial Class frmCustomer
         '
         Me.txtNAME_DISPLAY.EditValue = ""
         Me.txtNAME_DISPLAY.EnterMoveNextControl = True
-        Me.txtNAME_DISPLAY.Location = New System.Drawing.Point(137, 36)
+        Me.txtNAME_DISPLAY.Location = New System.Drawing.Point(143, 50)
         Me.txtNAME_DISPLAY.Name = "txtNAME_DISPLAY"
-        Me.txtNAME_DISPLAY.Size = New System.Drawing.Size(259, 20)
+        Me.txtNAME_DISPLAY.Size = New System.Drawing.Size(451, 26)
         Me.txtNAME_DISPLAY.StyleController = Me.layoutControl
         Me.txtNAME_DISPLAY.TabIndex = 9
         '
@@ -1492,7 +1497,7 @@ Partial Class frmCustomer
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lNAME_DISPLAY, Me.LayoutControlItem9, Me.lRM, Me.lGOLONGAN, Me.lPEKERJAAN, Me.lSTATUSKAWIN, Me.lKTP, Me.lNRP, Me.LayoutControlItem5, Me.lKESATUAN, Me.lPERUSAHAAN, Me.lPENJAMIN, Me.LayoutControlItem2, Me.LayoutControlItem3, Me.LayoutControlItem8, Me.lKDSTATUSKELUARGA, Me.LayoutControlItem6, Me.lPANGKAT, Me.LayoutControlItem7, Me.lGOLONGANDARAH, Me.lAGAMA, Me.lSUKU, Me.LayoutControlItem4, Me.lWNI, Me.lNAMAKELUARGA, Me.lTANGGALLAHIR, Me.lTEMPATLAHIR, Me.lPENDIDIKAN, Me.LayoutControlItem10, Me.EmptySpaceItem1, Me.LayoutControlItem11, Me.lBILL_COUNTRY, Me.LayoutControlItem1, Me.lJENISKELAMIN, Me.lKARTUBPJS, Me.lSTATUSHIDUP, Me.LayoutControlItem17})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(757, 524)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1136, 762)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'lNAME_DISPLAY
@@ -1501,9 +1506,9 @@ Partial Class frmCustomer
         Me.lNAME_DISPLAY.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lNAME_DISPLAY.Control = Me.txtNAME_DISPLAY
         Me.lNAME_DISPLAY.CustomizationFormText = "Display Name * :"
-        Me.lNAME_DISPLAY.Location = New System.Drawing.Point(0, 24)
+        Me.lNAME_DISPLAY.Location = New System.Drawing.Point(0, 32)
         Me.lNAME_DISPLAY.Name = "lNAME_DISPLAY"
-        Me.lNAME_DISPLAY.Size = New System.Drawing.Size(388, 24)
+        Me.lNAME_DISPLAY.Size = New System.Drawing.Size(582, 32)
         Me.lNAME_DISPLAY.Text = "Display Name * :"
         Me.lNAME_DISPLAY.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lNAME_DISPLAY.TextSize = New System.Drawing.Size(120, 20)
@@ -1513,9 +1518,9 @@ Partial Class frmCustomer
         '
         Me.LayoutControlItem9.Control = Me.tabControl
         Me.LayoutControlItem9.CustomizationFormText = "LayoutControlItem9"
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 317)
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 426)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(737, 187)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(1106, 306)
         Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem9.TextVisible = False
         '
@@ -1526,7 +1531,7 @@ Partial Class frmCustomer
         Me.lRM.Control = Me.txtKDCUSTOMER
         Me.lRM.Location = New System.Drawing.Point(0, 0)
         Me.lRM.Name = "lRM"
-        Me.lRM.Size = New System.Drawing.Size(245, 24)
+        Me.lRM.Size = New System.Drawing.Size(368, 32)
         Me.lRM.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lRM.TextSize = New System.Drawing.Size(120, 20)
         Me.lRM.TextToControlDistance = 5
@@ -1536,9 +1541,9 @@ Partial Class frmCustomer
         Me.lGOLONGAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lGOLONGAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lGOLONGAN.Control = Me.grdKDGOLONGAN
-        Me.lGOLONGAN.Location = New System.Drawing.Point(398, 269)
+        Me.lGOLONGAN.Location = New System.Drawing.Point(597, 362)
         Me.lGOLONGAN.Name = "lGOLONGAN"
-        Me.lGOLONGAN.Size = New System.Drawing.Size(339, 24)
+        Me.lGOLONGAN.Size = New System.Drawing.Size(509, 32)
         Me.lGOLONGAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lGOLONGAN.TextSize = New System.Drawing.Size(120, 20)
         Me.lGOLONGAN.TextToControlDistance = 5
@@ -1548,9 +1553,9 @@ Partial Class frmCustomer
         Me.lPEKERJAAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lPEKERJAAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPEKERJAAN.Control = Me.grdKDPEKERJAAN
-        Me.lPEKERJAAN.Location = New System.Drawing.Point(0, 150)
+        Me.lPEKERJAAN.Location = New System.Drawing.Point(0, 210)
         Me.lPEKERJAAN.Name = "lPEKERJAAN"
-        Me.lPEKERJAAN.Size = New System.Drawing.Size(332, 26)
+        Me.lPEKERJAAN.Size = New System.Drawing.Size(498, 38)
         Me.lPEKERJAAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPEKERJAAN.TextSize = New System.Drawing.Size(120, 20)
         Me.lPEKERJAAN.TextToControlDistance = 5
@@ -1560,9 +1565,9 @@ Partial Class frmCustomer
         Me.lSTATUSKAWIN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lSTATUSKAWIN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lSTATUSKAWIN.Control = Me.cboKDSTATUSKAWIN
-        Me.lSTATUSKAWIN.Location = New System.Drawing.Point(398, 245)
+        Me.lSTATUSKAWIN.Location = New System.Drawing.Point(597, 330)
         Me.lSTATUSKAWIN.Name = "lSTATUSKAWIN"
-        Me.lSTATUSKAWIN.Size = New System.Drawing.Size(339, 24)
+        Me.lSTATUSKAWIN.Size = New System.Drawing.Size(509, 32)
         Me.lSTATUSKAWIN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lSTATUSKAWIN.TextSize = New System.Drawing.Size(120, 20)
         Me.lSTATUSKAWIN.TextToControlDistance = 5
@@ -1572,9 +1577,9 @@ Partial Class frmCustomer
         Me.lKTP.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKTP.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKTP.Control = Me.txtKTP
-        Me.lKTP.Location = New System.Drawing.Point(398, 0)
+        Me.lKTP.Location = New System.Drawing.Point(597, 0)
         Me.lKTP.Name = "lKTP"
-        Me.lKTP.Size = New System.Drawing.Size(278, 24)
+        Me.lKTP.Size = New System.Drawing.Size(417, 32)
         Me.lKTP.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKTP.TextSize = New System.Drawing.Size(120, 20)
         Me.lKTP.TextToControlDistance = 5
@@ -1584,9 +1589,9 @@ Partial Class frmCustomer
         Me.lNRP.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lNRP.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lNRP.Control = Me.txtNRP
-        Me.lNRP.Location = New System.Drawing.Point(398, 72)
+        Me.lNRP.Location = New System.Drawing.Point(597, 99)
         Me.lNRP.Name = "lNRP"
-        Me.lNRP.Size = New System.Drawing.Size(339, 24)
+        Me.lNRP.Size = New System.Drawing.Size(509, 32)
         Me.lNRP.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lNRP.TextSize = New System.Drawing.Size(120, 20)
         Me.lNRP.TextToControlDistance = 5
@@ -1594,9 +1599,9 @@ Partial Class frmCustomer
         'LayoutControlItem5
         '
         Me.LayoutControlItem5.Control = Me.btnAddPekerjaan
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(332, 150)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(498, 210)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(56, 26)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(84, 38)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
         '
@@ -1605,9 +1610,9 @@ Partial Class frmCustomer
         Me.lKESATUAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKESATUAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKESATUAN.Control = Me.grdKDKESATUAN
-        Me.lKESATUAN.Location = New System.Drawing.Point(0, 98)
+        Me.lKESATUAN.Location = New System.Drawing.Point(0, 134)
         Me.lKESATUAN.Name = "lKESATUAN"
-        Me.lKESATUAN.Size = New System.Drawing.Size(332, 26)
+        Me.lKESATUAN.Size = New System.Drawing.Size(498, 38)
         Me.lKESATUAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKESATUAN.TextSize = New System.Drawing.Size(120, 20)
         Me.lKESATUAN.TextToControlDistance = 5
@@ -1617,9 +1622,9 @@ Partial Class frmCustomer
         Me.lPERUSAHAAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lPERUSAHAAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPERUSAHAAN.Control = Me.grdKDPERUSAHAAN
-        Me.lPERUSAHAAN.Location = New System.Drawing.Point(0, 176)
+        Me.lPERUSAHAAN.Location = New System.Drawing.Point(0, 248)
         Me.lPERUSAHAAN.Name = "lPERUSAHAAN"
-        Me.lPERUSAHAAN.Size = New System.Drawing.Size(332, 26)
+        Me.lPERUSAHAAN.Size = New System.Drawing.Size(498, 38)
         Me.lPERUSAHAAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPERUSAHAAN.TextSize = New System.Drawing.Size(120, 20)
         Me.lPERUSAHAAN.TextToControlDistance = 5
@@ -1629,9 +1634,9 @@ Partial Class frmCustomer
         Me.lPENJAMIN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lPENJAMIN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPENJAMIN.Control = Me.grdKDPENJAMIN
-        Me.lPENJAMIN.Location = New System.Drawing.Point(0, 72)
+        Me.lPENJAMIN.Location = New System.Drawing.Point(0, 96)
         Me.lPENJAMIN.Name = "lPENJAMIN"
-        Me.lPENJAMIN.Size = New System.Drawing.Size(332, 26)
+        Me.lPENJAMIN.Size = New System.Drawing.Size(498, 38)
         Me.lPENJAMIN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPENJAMIN.TextSize = New System.Drawing.Size(120, 20)
         Me.lPENJAMIN.TextToControlDistance = 5
@@ -1639,27 +1644,27 @@ Partial Class frmCustomer
         'LayoutControlItem2
         '
         Me.LayoutControlItem2.Control = Me.btnAddPenjamin
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(332, 72)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(498, 96)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(56, 26)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(84, 38)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
         'LayoutControlItem3
         '
         Me.LayoutControlItem3.Control = Me.btnAddKesatuan
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(332, 98)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(498, 134)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(56, 26)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(84, 38)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
         'LayoutControlItem8
         '
         Me.LayoutControlItem8.Control = Me.btnAddPerusahaan
-        Me.LayoutControlItem8.Location = New System.Drawing.Point(332, 176)
+        Me.LayoutControlItem8.Location = New System.Drawing.Point(498, 248)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(56, 26)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(84, 38)
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem8.TextVisible = False
         '
@@ -1668,9 +1673,9 @@ Partial Class frmCustomer
         Me.lKDSTATUSKELUARGA.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKDSTATUSKELUARGA.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKDSTATUSKELUARGA.Control = Me.grdKDSTATUSKELUARGA
-        Me.lKDSTATUSKELUARGA.Location = New System.Drawing.Point(0, 228)
+        Me.lKDSTATUSKELUARGA.Location = New System.Drawing.Point(0, 324)
         Me.lKDSTATUSKELUARGA.Name = "lKDSTATUSKELUARGA"
-        Me.lKDSTATUSKELUARGA.Size = New System.Drawing.Size(332, 26)
+        Me.lKDSTATUSKELUARGA.Size = New System.Drawing.Size(498, 38)
         Me.lKDSTATUSKELUARGA.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDSTATUSKELUARGA.TextSize = New System.Drawing.Size(120, 20)
         Me.lKDSTATUSKELUARGA.TextToControlDistance = 5
@@ -1678,9 +1683,9 @@ Partial Class frmCustomer
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.btnAddStatusKeluarga
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(332, 228)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(498, 324)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(56, 26)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(84, 38)
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem6.TextVisible = False
         '
@@ -1689,9 +1694,9 @@ Partial Class frmCustomer
         Me.lPANGKAT.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lPANGKAT.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPANGKAT.Control = Me.grdKDPANGKAT
-        Me.lPANGKAT.Location = New System.Drawing.Point(0, 124)
+        Me.lPANGKAT.Location = New System.Drawing.Point(0, 172)
         Me.lPANGKAT.Name = "lPANGKAT"
-        Me.lPANGKAT.Size = New System.Drawing.Size(332, 26)
+        Me.lPANGKAT.Size = New System.Drawing.Size(498, 38)
         Me.lPANGKAT.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPANGKAT.TextSize = New System.Drawing.Size(120, 20)
         Me.lPANGKAT.TextToControlDistance = 5
@@ -1699,9 +1704,9 @@ Partial Class frmCustomer
         'LayoutControlItem7
         '
         Me.LayoutControlItem7.Control = Me.btnAddPangkat
-        Me.LayoutControlItem7.Location = New System.Drawing.Point(332, 124)
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(498, 172)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(56, 26)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(84, 38)
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem7.TextVisible = False
         '
@@ -1710,9 +1715,9 @@ Partial Class frmCustomer
         Me.lGOLONGANDARAH.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lGOLONGANDARAH.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lGOLONGANDARAH.Control = Me.cboKDGOLONGANDARAH
-        Me.lGOLONGANDARAH.Location = New System.Drawing.Point(398, 221)
+        Me.lGOLONGANDARAH.Location = New System.Drawing.Point(597, 298)
         Me.lGOLONGANDARAH.Name = "lGOLONGANDARAH"
-        Me.lGOLONGANDARAH.Size = New System.Drawing.Size(339, 24)
+        Me.lGOLONGANDARAH.Size = New System.Drawing.Size(509, 32)
         Me.lGOLONGANDARAH.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lGOLONGANDARAH.TextSize = New System.Drawing.Size(120, 20)
         Me.lGOLONGANDARAH.TextToControlDistance = 5
@@ -1722,9 +1727,9 @@ Partial Class frmCustomer
         Me.lAGAMA.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lAGAMA.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lAGAMA.Control = Me.grdKDAGAMA
-        Me.lAGAMA.Location = New System.Drawing.Point(398, 293)
+        Me.lAGAMA.Location = New System.Drawing.Point(597, 394)
         Me.lAGAMA.Name = "lAGAMA"
-        Me.lAGAMA.Size = New System.Drawing.Size(339, 24)
+        Me.lAGAMA.Size = New System.Drawing.Size(509, 32)
         Me.lAGAMA.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lAGAMA.TextSize = New System.Drawing.Size(120, 20)
         Me.lAGAMA.TextToControlDistance = 5
@@ -1734,9 +1739,9 @@ Partial Class frmCustomer
         Me.lSUKU.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lSUKU.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lSUKU.Control = Me.grdKDSUKU
-        Me.lSUKU.Location = New System.Drawing.Point(0, 202)
+        Me.lSUKU.Location = New System.Drawing.Point(0, 286)
         Me.lSUKU.Name = "lSUKU"
-        Me.lSUKU.Size = New System.Drawing.Size(332, 26)
+        Me.lSUKU.Size = New System.Drawing.Size(498, 38)
         Me.lSUKU.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lSUKU.TextSize = New System.Drawing.Size(120, 20)
         Me.lSUKU.TextToControlDistance = 5
@@ -1744,9 +1749,9 @@ Partial Class frmCustomer
         'LayoutControlItem4
         '
         Me.LayoutControlItem4.Control = Me.btnAddSuku
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(332, 202)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(498, 286)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(56, 26)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(84, 38)
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem4.TextVisible = False
         '
@@ -1755,9 +1760,9 @@ Partial Class frmCustomer
         Me.lWNI.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lWNI.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lWNI.Control = Me.rbWNI
-        Me.lWNI.Location = New System.Drawing.Point(398, 144)
+        Me.lWNI.Location = New System.Drawing.Point(597, 195)
         Me.lWNI.Name = "lWNI"
-        Me.lWNI.Size = New System.Drawing.Size(339, 29)
+        Me.lWNI.Size = New System.Drawing.Size(509, 39)
         Me.lWNI.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lWNI.TextSize = New System.Drawing.Size(120, 20)
         Me.lWNI.TextToControlDistance = 5
@@ -1767,9 +1772,9 @@ Partial Class frmCustomer
         Me.lNAMAKELUARGA.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lNAMAKELUARGA.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lNAMAKELUARGA.Control = Me.txtNAMAKELUARGA
-        Me.lNAMAKELUARGA.Location = New System.Drawing.Point(0, 254)
+        Me.lNAMAKELUARGA.Location = New System.Drawing.Point(0, 362)
         Me.lNAMAKELUARGA.Name = "lNAMAKELUARGA"
-        Me.lNAMAKELUARGA.Size = New System.Drawing.Size(388, 24)
+        Me.lNAMAKELUARGA.Size = New System.Drawing.Size(582, 32)
         Me.lNAMAKELUARGA.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lNAMAKELUARGA.TextSize = New System.Drawing.Size(120, 20)
         Me.lNAMAKELUARGA.TextToControlDistance = 5
@@ -1779,9 +1784,9 @@ Partial Class frmCustomer
         Me.lTANGGALLAHIR.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lTANGGALLAHIR.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lTANGGALLAHIR.Control = Me.deTANGGLLAHIR
-        Me.lTANGGALLAHIR.Location = New System.Drawing.Point(398, 120)
+        Me.lTANGGALLAHIR.Location = New System.Drawing.Point(597, 163)
         Me.lTANGGALLAHIR.Name = "lTANGGALLAHIR"
-        Me.lTANGGALLAHIR.Size = New System.Drawing.Size(339, 24)
+        Me.lTANGGALLAHIR.Size = New System.Drawing.Size(509, 32)
         Me.lTANGGALLAHIR.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lTANGGALLAHIR.TextSize = New System.Drawing.Size(120, 20)
         Me.lTANGGALLAHIR.TextToControlDistance = 5
@@ -1791,9 +1796,9 @@ Partial Class frmCustomer
         Me.lTEMPATLAHIR.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lTEMPATLAHIR.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lTEMPATLAHIR.Control = Me.txtTEMPATLAHIR
-        Me.lTEMPATLAHIR.Location = New System.Drawing.Point(398, 96)
+        Me.lTEMPATLAHIR.Location = New System.Drawing.Point(597, 131)
         Me.lTEMPATLAHIR.Name = "lTEMPATLAHIR"
-        Me.lTEMPATLAHIR.Size = New System.Drawing.Size(339, 24)
+        Me.lTEMPATLAHIR.Size = New System.Drawing.Size(509, 32)
         Me.lTEMPATLAHIR.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lTEMPATLAHIR.TextSize = New System.Drawing.Size(120, 20)
         Me.lTEMPATLAHIR.TextToControlDistance = 5
@@ -1803,9 +1808,9 @@ Partial Class frmCustomer
         Me.lPENDIDIKAN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lPENDIDIKAN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lPENDIDIKAN.Control = Me.grdKDPENDIDIKAN
-        Me.lPENDIDIKAN.Location = New System.Drawing.Point(0, 278)
+        Me.lPENDIDIKAN.Location = New System.Drawing.Point(0, 394)
         Me.lPENDIDIKAN.Name = "lPENDIDIKAN"
-        Me.lPENDIDIKAN.Size = New System.Drawing.Size(388, 39)
+        Me.lPENDIDIKAN.Size = New System.Drawing.Size(582, 32)
         Me.lPENDIDIKAN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lPENDIDIKAN.TextSize = New System.Drawing.Size(120, 20)
         Me.lPENDIDIKAN.TextToControlDistance = 5
@@ -1813,18 +1818,18 @@ Partial Class frmCustomer
         'LayoutControlItem10
         '
         Me.LayoutControlItem10.Control = Me.txtKDCUSTOMERLAMA
-        Me.LayoutControlItem10.Location = New System.Drawing.Point(245, 0)
+        Me.LayoutControlItem10.Location = New System.Drawing.Point(368, 0)
         Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(214, 32)
         Me.LayoutControlItem10.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem10.TextVisible = False
         '
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(388, 0)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(582, 0)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(10, 317)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(15, 426)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem11
@@ -1832,9 +1837,9 @@ Partial Class frmCustomer
         Me.LayoutControlItem11.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem11.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem11.Control = Me.txtJENISPESERTA
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(0, 48)
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(0, 64)
         Me.LayoutControlItem11.Name = "LayoutControlItem11"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(388, 24)
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(582, 32)
         Me.LayoutControlItem11.Text = "Jenis Peserta :"
         Me.LayoutControlItem11.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem11.TextSize = New System.Drawing.Size(120, 20)
@@ -1845,9 +1850,9 @@ Partial Class frmCustomer
         Me.lBILL_COUNTRY.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lBILL_COUNTRY.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lBILL_COUNTRY.Control = Me.txtBILL_COUNTRY
-        Me.lBILL_COUNTRY.Location = New System.Drawing.Point(398, 197)
+        Me.lBILL_COUNTRY.Location = New System.Drawing.Point(597, 266)
         Me.lBILL_COUNTRY.Name = "lBILL_COUNTRY"
-        Me.lBILL_COUNTRY.Size = New System.Drawing.Size(339, 24)
+        Me.lBILL_COUNTRY.Size = New System.Drawing.Size(509, 32)
         Me.lBILL_COUNTRY.Text = "Negara :"
         Me.lBILL_COUNTRY.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lBILL_COUNTRY.TextSize = New System.Drawing.Size(120, 20)
@@ -1857,9 +1862,9 @@ Partial Class frmCustomer
         '
         Me.LayoutControlItem1.Control = Me.chkISACTIVE
         Me.LayoutControlItem1.CustomizationFormText = "LayoutControlItem1"
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(676, 0)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(1014, 0)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(61, 24)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(92, 32)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
@@ -1868,9 +1873,9 @@ Partial Class frmCustomer
         Me.lJENISKELAMIN.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lJENISKELAMIN.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lJENISKELAMIN.Control = Me.cboJENISKELAMIN
-        Me.lJENISKELAMIN.Location = New System.Drawing.Point(398, 173)
+        Me.lJENISKELAMIN.Location = New System.Drawing.Point(597, 234)
         Me.lJENISKELAMIN.Name = "lJENISKELAMIN"
-        Me.lJENISKELAMIN.Size = New System.Drawing.Size(339, 24)
+        Me.lJENISKELAMIN.Size = New System.Drawing.Size(509, 32)
         Me.lJENISKELAMIN.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lJENISKELAMIN.TextSize = New System.Drawing.Size(120, 20)
         Me.lJENISKELAMIN.TextToControlDistance = 5
@@ -1880,9 +1885,9 @@ Partial Class frmCustomer
         Me.lKARTUBPJS.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKARTUBPJS.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKARTUBPJS.Control = Me.txtKARTUBPJS
-        Me.lKARTUBPJS.Location = New System.Drawing.Point(398, 48)
+        Me.lKARTUBPJS.Location = New System.Drawing.Point(597, 67)
         Me.lKARTUBPJS.Name = "lKARTUBPJS"
-        Me.lKARTUBPJS.Size = New System.Drawing.Size(244, 24)
+        Me.lKARTUBPJS.Size = New System.Drawing.Size(366, 32)
         Me.lKARTUBPJS.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKARTUBPJS.TextSize = New System.Drawing.Size(120, 20)
         Me.lKARTUBPJS.TextToControlDistance = 5
@@ -1890,9 +1895,9 @@ Partial Class frmCustomer
         'lSTATUSHIDUP
         '
         Me.lSTATUSHIDUP.Control = Me.chkSTATUSHIDUP
-        Me.lSTATUSHIDUP.Location = New System.Drawing.Point(642, 48)
+        Me.lSTATUSHIDUP.Location = New System.Drawing.Point(963, 67)
         Me.lSTATUSHIDUP.Name = "lSTATUSHIDUP"
-        Me.lSTATUSHIDUP.Size = New System.Drawing.Size(95, 24)
+        Me.lSTATUSHIDUP.Size = New System.Drawing.Size(143, 32)
         Me.lSTATUSHIDUP.TextSize = New System.Drawing.Size(0, 0)
         Me.lSTATUSHIDUP.TextVisible = False
         '
@@ -1901,9 +1906,9 @@ Partial Class frmCustomer
         Me.LayoutControlItem17.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem17.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem17.Control = Me.lblIDSATUSEHAT
-        Me.LayoutControlItem17.Location = New System.Drawing.Point(398, 24)
+        Me.LayoutControlItem17.Location = New System.Drawing.Point(597, 32)
         Me.LayoutControlItem17.Name = "LayoutControlItem17"
-        Me.LayoutControlItem17.Size = New System.Drawing.Size(339, 24)
+        Me.LayoutControlItem17.Size = New System.Drawing.Size(509, 35)
         Me.LayoutControlItem17.Text = "IHS :"
         Me.LayoutControlItem17.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem17.TextSize = New System.Drawing.Size(120, 20)
@@ -1913,9 +1918,9 @@ Partial Class frmCustomer
         '
         Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
         Me.Appearance.Options.UseBackColor = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(757, 546)
+        Me.ClientSize = New System.Drawing.Size(1136, 798)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
@@ -1923,6 +1928,7 @@ Partial Class frmCustomer
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmCustomer"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

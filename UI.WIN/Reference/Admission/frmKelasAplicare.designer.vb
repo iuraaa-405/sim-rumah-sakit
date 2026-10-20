@@ -122,28 +122,29 @@ Partial Class frmKelasAplicare
         Me.layoutControl.Controls.Add(Me.txtMEMO)
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
+        Me.layoutControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.layoutControl.Name = "layoutControl"
         Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(774, 238, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(832, 568)
+        Me.layoutControl.Size = New System.Drawing.Size(1248, 826)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
         'btnHapusAplicare
         '
-        Me.btnHapusAplicare.Location = New System.Drawing.Point(238, 84)
+        Me.btnHapusAplicare.Location = New System.Drawing.Point(357, 110)
         Me.btnHapusAplicare.Name = "btnHapusAplicare"
-        Me.btnHapusAplicare.Size = New System.Drawing.Size(137, 22)
+        Me.btnHapusAplicare.Size = New System.Drawing.Size(205, 32)
         Me.btnHapusAplicare.StyleController = Me.layoutControl
         Me.btnHapusAplicare.TabIndex = 27
         Me.btnHapusAplicare.Text = "Hapus data ke aplicare"
         '
         'txtKODELAIN
         '
-        Me.txtKODELAIN.Location = New System.Drawing.Point(147, 84)
+        Me.txtKODELAIN.Location = New System.Drawing.Point(153, 110)
         Me.txtKODELAIN.MenuManager = Me.barManager
         Me.txtKODELAIN.Name = "txtKODELAIN"
-        Me.txtKODELAIN.Size = New System.Drawing.Size(87, 20)
+        Me.txtKODELAIN.Size = New System.Drawing.Size(198, 26)
         Me.txtKODELAIN.StyleController = Me.layoutControl
         Me.txtKODELAIN.TabIndex = 26
         '
@@ -202,28 +203,32 @@ Partial Class frmKelasAplicare
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(832, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1248, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 568)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(832, 22)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 826)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1248, 36)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 568)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 826)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(832, 0)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 568)
+        Me.barDockControlRight.Location = New System.Drawing.Point(1248, 0)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 826)
         '
         'progressBarSave
         '
@@ -237,10 +242,10 @@ Partial Class frmKelasAplicare
         '
         'tabControl
         '
-        Me.tabControl.Location = New System.Drawing.Point(12, 110)
+        Me.tabControl.Location = New System.Drawing.Point(18, 148)
         Me.tabControl.Name = "tabControl"
         Me.tabControl.SelectedTabPage = Me.tab1
-        Me.tabControl.Size = New System.Drawing.Size(808, 446)
+        Me.tabControl.Size = New System.Drawing.Size(1212, 660)
         Me.tabControl.TabIndex = 19
         Me.tabControl.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.tab1})
         '
@@ -248,7 +253,7 @@ Partial Class frmKelasAplicare
         '
         Me.tab1.Controls.Add(Me.grdDetail_UOM)
         Me.tab1.Name = "tab1"
-        Me.tab1.Size = New System.Drawing.Size(802, 418)
+        Me.tab1.Size = New System.Drawing.Size(1202, 618)
         Me.tab1.Text = "Informasi Satuan"
         '
         'grdDetail_UOM
@@ -261,7 +266,7 @@ Partial Class frmKelasAplicare
         Me.grdDetail_UOM.MenuManager = Me.barManager
         Me.grdDetail_UOM.Name = "grdDetail_UOM"
         Me.grdDetail_UOM.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.grdUOM, Me.chkISAPLICARE, Me.RepositoryItemButtonEdit1})
-        Me.grdDetail_UOM.Size = New System.Drawing.Size(802, 418)
+        Me.grdDetail_UOM.Size = New System.Drawing.Size(1202, 618)
         Me.grdDetail_UOM.TabIndex = 18
         Me.grdDetail_UOM.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvDetail_UOM})
         '
@@ -270,37 +275,37 @@ Partial Class frmKelasAplicare
         Me.mnuStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.mnuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteToolStripMenuItem, Me.AplicareToolStripMenuItem, Me.BedToolStripMenuItem})
         Me.mnuStrip.Name = "mnuStrip"
-        Me.mnuStrip.Size = New System.Drawing.Size(118, 70)
+        Me.mnuStrip.Size = New System.Drawing.Size(148, 94)
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(117, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(147, 30)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'AplicareToolStripMenuItem
         '
         Me.AplicareToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RuanganBaruToolStripMenuItem, Me.HapusRuanganToolStripMenuItem})
         Me.AplicareToolStripMenuItem.Name = "AplicareToolStripMenuItem"
-        Me.AplicareToolStripMenuItem.Size = New System.Drawing.Size(117, 22)
+        Me.AplicareToolStripMenuItem.Size = New System.Drawing.Size(147, 30)
         Me.AplicareToolStripMenuItem.Text = "Aplicare"
         '
         'RuanganBaruToolStripMenuItem
         '
         Me.RuanganBaruToolStripMenuItem.Name = "RuanganBaruToolStripMenuItem"
-        Me.RuanganBaruToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.RuanganBaruToolStripMenuItem.Size = New System.Drawing.Size(222, 30)
         Me.RuanganBaruToolStripMenuItem.Text = "Ruangan Baru"
         '
         'HapusRuanganToolStripMenuItem
         '
         Me.HapusRuanganToolStripMenuItem.Name = "HapusRuanganToolStripMenuItem"
-        Me.HapusRuanganToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.HapusRuanganToolStripMenuItem.Size = New System.Drawing.Size(222, 30)
         Me.HapusRuanganToolStripMenuItem.Text = "Hapus Ruangan"
         '
         'BedToolStripMenuItem
         '
         Me.BedToolStripMenuItem.Name = "BedToolStripMenuItem"
-        Me.BedToolStripMenuItem.Size = New System.Drawing.Size(117, 22)
+        Me.BedToolStripMenuItem.Size = New System.Drawing.Size(147, 30)
         Me.BedToolStripMenuItem.Text = "Bed"
         '
         'BindingSource
@@ -454,14 +459,14 @@ Partial Class frmKelasAplicare
         '
         Me.grdCARI.EditValue = ""
         Me.grdCARI.EnterMoveNextControl = True
-        Me.grdCARI.Location = New System.Drawing.Point(147, 12)
+        Me.grdCARI.Location = New System.Drawing.Point(153, 18)
         Me.grdCARI.MenuManager = Me.barManager
         Me.grdCARI.Name = "grdCARI"
         Me.grdCARI.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdCARI.Properties.NullText = ""
         Me.grdCARI.Properties.PopupFormMinSize = New System.Drawing.Size(600, 300)
         Me.grdCARI.Properties.View = Me.grvCARI
-        Me.grdCARI.Size = New System.Drawing.Size(228, 20)
+        Me.grdCARI.Size = New System.Drawing.Size(409, 26)
         Me.grdCARI.StyleController = Me.layoutControl
         Me.grdCARI.TabIndex = 25
         '
@@ -475,21 +480,21 @@ Partial Class frmKelasAplicare
         '
         'txtKDKELASAPLICARE
         '
-        Me.txtKDKELASAPLICARE.Location = New System.Drawing.Point(147, 36)
+        Me.txtKDKELASAPLICARE.Location = New System.Drawing.Point(153, 50)
         Me.txtKDKELASAPLICARE.MenuManager = Me.barManager
         Me.txtKDKELASAPLICARE.Name = "txtKDKELASAPLICARE"
-        Me.txtKDKELASAPLICARE.Size = New System.Drawing.Size(228, 20)
+        Me.txtKDKELASAPLICARE.Size = New System.Drawing.Size(409, 26)
         Me.txtKDKELASAPLICARE.StyleController = Me.layoutControl
         Me.txtKDKELASAPLICARE.TabIndex = 16
         '
         'chkISDEFAULT
         '
         Me.chkISDEFAULT.EnterMoveNextControl = True
-        Me.chkISDEFAULT.Location = New System.Drawing.Point(379, 35)
+        Me.chkISDEFAULT.Location = New System.Drawing.Point(568, 47)
         Me.chkISDEFAULT.MenuManager = Me.barManager
         Me.chkISDEFAULT.Name = "chkISDEFAULT"
         Me.chkISDEFAULT.Properties.Caption = "Default?"
-        Me.chkISDEFAULT.Size = New System.Drawing.Size(441, 19)
+        Me.chkISDEFAULT.Size = New System.Drawing.Size(662, 23)
         Me.chkISDEFAULT.StyleController = Me.layoutControl
         Me.chkISDEFAULT.TabIndex = 15
         Me.chkISDEFAULT.TabStop = False
@@ -497,12 +502,12 @@ Partial Class frmKelasAplicare
         'chkISACTIVE
         '
         Me.chkISACTIVE.EnterMoveNextControl = True
-        Me.chkISACTIVE.Location = New System.Drawing.Point(379, 12)
+        Me.chkISACTIVE.Location = New System.Drawing.Point(568, 18)
         Me.chkISACTIVE.MenuManager = Me.barManager
         Me.chkISACTIVE.Name = "chkISACTIVE"
         Me.chkISACTIVE.Properties.Caption = "Active?"
         Me.chkISACTIVE.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.chkISACTIVE.Size = New System.Drawing.Size(441, 19)
+        Me.chkISACTIVE.Size = New System.Drawing.Size(662, 23)
         Me.chkISACTIVE.StyleController = Me.layoutControl
         Me.chkISACTIVE.TabIndex = 14
         Me.chkISACTIVE.TabStop = False
@@ -510,9 +515,9 @@ Partial Class frmKelasAplicare
         'txtMEMO
         '
         Me.txtMEMO.EditValue = ""
-        Me.txtMEMO.Location = New System.Drawing.Point(147, 60)
+        Me.txtMEMO.Location = New System.Drawing.Point(153, 82)
         Me.txtMEMO.Name = "txtMEMO"
-        Me.txtMEMO.Size = New System.Drawing.Size(228, 20)
+        Me.txtMEMO.Size = New System.Drawing.Size(409, 22)
         Me.txtMEMO.StyleController = Me.layoutControl
         Me.txtMEMO.TabIndex = 9
         '
@@ -524,7 +529,7 @@ Partial Class frmKelasAplicare
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lMEMO, Me.LayoutControlItem1, Me.LayoutControlItem2, Me.lKDKELASAPLICARE, Me.LayoutControlItem4, Me.LayoutControlItem5, Me.LayoutControlItem6, Me.LayoutControlItem3})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(832, 568)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1248, 826)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'lMEMO
@@ -534,9 +539,9 @@ Partial Class frmKelasAplicare
         Me.lMEMO.AppearanceItemCaption.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top
         Me.lMEMO.Control = Me.txtMEMO
         Me.lMEMO.CustomizationFormText = "Display Name * :"
-        Me.lMEMO.Location = New System.Drawing.Point(0, 48)
+        Me.lMEMO.Location = New System.Drawing.Point(0, 64)
         Me.lMEMO.Name = "lMEMO"
-        Me.lMEMO.Size = New System.Drawing.Size(367, 24)
+        Me.lMEMO.Size = New System.Drawing.Size(550, 28)
         Me.lMEMO.Text = "Description * :"
         Me.lMEMO.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lMEMO.TextSize = New System.Drawing.Size(130, 20)
@@ -546,9 +551,9 @@ Partial Class frmKelasAplicare
         '
         Me.LayoutControlItem1.Control = Me.chkISACTIVE
         Me.LayoutControlItem1.CustomizationFormText = "LayoutControlItem1"
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(367, 0)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(550, 0)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(445, 23)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(668, 29)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
@@ -556,9 +561,9 @@ Partial Class frmKelasAplicare
         '
         Me.LayoutControlItem2.Control = Me.chkISDEFAULT
         Me.LayoutControlItem2.CustomizationFormText = "LayoutControlItem2"
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(367, 23)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(550, 29)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(445, 75)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(668, 101)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
@@ -567,9 +572,9 @@ Partial Class frmKelasAplicare
         Me.lKDKELASAPLICARE.AppearanceItemCaption.Options.UseTextOptions = True
         Me.lKDKELASAPLICARE.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lKDKELASAPLICARE.Control = Me.txtKDKELASAPLICARE
-        Me.lKDKELASAPLICARE.Location = New System.Drawing.Point(0, 24)
+        Me.lKDKELASAPLICARE.Location = New System.Drawing.Point(0, 32)
         Me.lKDKELASAPLICARE.Name = "lKDKELASAPLICARE"
-        Me.lKDKELASAPLICARE.Size = New System.Drawing.Size(367, 24)
+        Me.lKDKELASAPLICARE.Size = New System.Drawing.Size(550, 32)
         Me.lKDKELASAPLICARE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lKDKELASAPLICARE.TextSize = New System.Drawing.Size(130, 20)
         Me.lKDKELASAPLICARE.TextToControlDistance = 5
@@ -581,7 +586,7 @@ Partial Class frmKelasAplicare
         Me.LayoutControlItem4.Control = Me.grdCARI
         Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(367, 24)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(550, 32)
         Me.LayoutControlItem4.Text = "Cari :"
         Me.LayoutControlItem4.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(130, 20)
@@ -592,9 +597,9 @@ Partial Class frmKelasAplicare
         Me.LayoutControlItem5.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem5.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem5.Control = Me.txtKODELAIN
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 72)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 92)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(226, 26)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(339, 38)
         Me.LayoutControlItem5.Text = "Hapus Kode Lain :"
         Me.LayoutControlItem5.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(130, 20)
@@ -603,35 +608,36 @@ Partial Class frmKelasAplicare
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.btnHapusAplicare
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(226, 72)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(339, 92)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(141, 26)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(211, 38)
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem6.TextVisible = False
         '
         'LayoutControlItem3
         '
         Me.LayoutControlItem3.Control = Me.tabControl
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 98)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 130)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(812, 450)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(1218, 666)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
         'frmKelasAplicare
         '
-        Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235,Byte),Integer), CType(CType(236,Byte),Integer), CType(CType(239,Byte),Integer))
-        Me.Appearance.Options.UseBackColor = true
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(239, Byte), Integer))
+        Me.Appearance.Options.UseBackColor = True
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(832, 590)
+        Me.ClientSize = New System.Drawing.Size(1248, 862)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
         Me.Controls.Add(Me.barDockControlBottom)
         Me.Controls.Add(Me.barDockControlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
-        Me.KeyPreview = true
+        Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmKelasAplicare"
         Me.ShowIcon = false
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
